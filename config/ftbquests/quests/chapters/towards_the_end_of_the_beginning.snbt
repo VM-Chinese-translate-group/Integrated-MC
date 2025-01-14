@@ -1,0 +1,613 @@
+{
+	default_hide_dependency_lines: true
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "towards_the_end_of_the_beginning"
+	group: "223D9B8AFF17C8FD"
+	icon: "minecraft:end_portal_frame"
+	id: "39FA816C9D8E9F58"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{ftbquests.chapter.towards_the_end_of_the_beginning.quest1.description1}"]
+			disable_toast: true
+			icon: "minecraft:ender_eye"
+			id: "38E9931BC4307F61"
+			rewards: [{
+				id: "3169C159E5EF8552"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "2B28313EDF8B54F6"
+				title: "{ftbquests.chapter.towards_the_end_of_the_beginning.quest1.task.title1}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38E9931BC4307F61"]
+			description: [
+				"{ftbquests.chapter.towards_the_end_of_the_beginning.quest2.description1}"
+				""
+				"{ftbquests.chapter.towards_the_end_of_the_beginning.quest2.description2}"
+				""
+				"{ftbquests.chapter.towards_the_end_of_the_beginning.quest2.description3}"
+			]
+			id: "57C70BD9DC5205C4"
+			rewards: [
+				{
+					id: "32ECB263E8D048B8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7433604EEFAEECCB"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.towards_the_end_of_the_beginning.quest2.subtitle}"
+			tasks: [{
+				id: "262C616C2C108419"
+				item: {
+					Count: 1
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["38E9931BC4307F61"]
+			description: [
+				"{ftbquests.chapter.towards_the_end_of_the_beginning.quest3.description1}"
+				""
+				"{ftbquests.chapter.towards_the_end_of_the_beginning.quest3.description2}"
+			]
+			id: "12F23460A83BE2E6"
+			rewards: [
+				{
+					id: "73572BA595AC648A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "685C0DFAECC6039C"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.towards_the_end_of_the_beginning.quest3.subtitle}"
+			tasks: [{
+				id: "4613A54417D0C310"
+				item: {
+					Count: 1
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["38E9931BC4307F61"]
+			description: [
+				"{ftbquests.chapter.towards_the_end_of_the_beginning.quest4.description1}"
+				""
+				"{ftbquests.chapter.towards_the_end_of_the_beginning.quest4.description2}"
+			]
+			id: "1ADC6CA35D35A4E9"
+			rewards: [
+				{
+					id: "686A9A72A6714CA0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "096A1FE839E54C34"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.towards_the_end_of_the_beginning.quest4.subtitle}"
+			tasks: [{
+				id: "271ECCB98E8B0C0D"
+				item: {
+					Count: 1
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["38E9931BC4307F61"]
+			description: [
+				"{ftbquests.chapter.towards_the_end_of_the_beginning.quest5.description1}"
+				""
+				"{ftbquests.chapter.towards_the_end_of_the_beginning.quest5.description2}"
+			]
+			id: "694706F0E768993C"
+			rewards: [
+				{
+					id: "67D8B01532631B3C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A92C223749C10A6"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.towards_the_end_of_the_beginning.quest5.subtitle}"
+			tasks: [{
+				id: "514AA899670AB22C"
+				item: {
+					Count: 1
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["38E9931BC4307F61"]
+			description: [
+				"{ftbquests.chapter.towards_the_end_of_the_beginning.quest6.description1}"
+				""
+				"{ftbquests.chapter.towards_the_end_of_the_beginning.quest6.description2}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.towards_the_end_of_the_beginning.quest6.description3}"
+				""
+				"{ftbquests.chapter.towards_the_end_of_the_beginning.quest6.description4}"
+			]
+			hide_dependency_lines: true
+			id: "07E54C1FB967CBF0"
+			rewards: [
+				{
+					id: "012187F7EA0DBF7A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A0C6A9C39D85F9C"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.towards_the_end_of_the_beginning.quest6.subtitle}"
+			tasks: [{
+				id: "0D3CD226490EDCE4"
+				item: {
+					Count: 1
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["38E9931BC4307F61"]
+			description: [
+				"{ftbquests.chapter.towards_the_end_of_the_beginning.quest7.description1}"
+				""
+				"{ftbquests.chapter.towards_the_end_of_the_beginning.quest7.description2}"
+				""
+				"{ftbquests.chapter.towards_the_end_of_the_beginning.quest7.description3}"
+			]
+			id: "5250E3D2EE1DE794"
+			rewards: [
+				{
+					id: "6AD118B8F0FB2205"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "567AE69EDAE03039"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.towards_the_end_of_the_beginning.quest7.subtitle}"
+			tasks: [{
+				id: "012629DCA79F361F"
+				item: {
+					Count: 1
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38E9931BC4307F61"]
+			description: ["{ftbquests.chapter.towards_the_end_of_the_beginning.quest8.description1}"]
+			hide_dependency_lines: true
+			id: "1E18A77B4B8174BA"
+			rewards: [
+				{
+					id: "080E35EECF1A8D63"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "627FC1E0E8130DA8"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.towards_the_end_of_the_beginning.quest8.subtitle}"
+			tasks: [{
+				id: "7F348AE3688054AE"
+				item: {
+					Count: 1
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["38E9931BC4307F61"]
+			description: ["{ftbquests.chapter.towards_the_end_of_the_beginning.quest9.description1}"]
+			hide_dependency_lines: true
+			id: "460E2F310507A17F"
+			rewards: [
+				{
+					id: "7CC091BE2FA43917"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41112D80B38B0778"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.towards_the_end_of_the_beginning.quest9.subtitle}"
+			tasks: [{
+				id: "315D655882D31338"
+				item: {
+					Count: 1
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["38E9931BC4307F61"]
+			description: [
+				"{ftbquests.chapter.towards_the_end_of_the_beginning.quest10.description1}"
+				""
+				"{ftbquests.chapter.towards_the_end_of_the_beginning.quest10.description2}"
+			]
+			id: "73F858344B4A39FF"
+			rewards: [
+				{
+					id: "55022F6D52508DEC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33BD972B1C3E152E"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.towards_the_end_of_the_beginning.quest10.subtitle}"
+			tasks: [{
+				id: "044AE1083FBE8B1B"
+				item: {
+					Count: 1
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["38E9931BC4307F61"]
+			description: [
+				"{ftbquests.chapter.towards_the_end_of_the_beginning.quest11.description1}"
+				""
+				"{ftbquests.chapter.towards_the_end_of_the_beginning.quest11.description2}"
+			]
+			id: "6498AEED17F07B33"
+			rewards: [
+				{
+					id: "61BDBD06A30EF370"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E22356282B92668"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.towards_the_end_of_the_beginning.quest11.subtitle}"
+			tasks: [{
+				id: "3C683584ABACD3E6"
+				item: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["38E9931BC4307F61"]
+			description: [
+				"{ftbquests.chapter.towards_the_end_of_the_beginning.quest12.description1}"
+				""
+				"{ftbquests.chapter.towards_the_end_of_the_beginning.quest12.description2}"
+			]
+			id: "0DEB4C96E26A317A"
+			rewards: [
+				{
+					id: "6C8B69A67474F25B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4EBF64293526FCD1"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.towards_the_end_of_the_beginning.quest12.subtitle}"
+			tasks: [{
+				id: "543F93E3E5697EDB"
+				item: {
+					Count: 1
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["38E9931BC4307F61"]
+			description: [
+				"{ftbquests.chapter.towards_the_end_of_the_beginning.quest13.description1}"
+				""
+				"{ftbquests.chapter.towards_the_end_of_the_beginning.quest13.description2}"
+			]
+			id: "4D72253029FC6F22"
+			rewards: [
+				{
+					id: "76A42D260D35F55A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C611691393449C2"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.towards_the_end_of_the_beginning.quest13.subtitle}"
+			tasks: [{
+				id: "4D6ABC55B032783F"
+				item: {
+					Count: 1
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["38E9931BC4307F61"]
+			description: [
+				"{ftbquests.chapter.towards_the_end_of_the_beginning.quest14.description1}"
+				""
+				"{ftbquests.chapter.towards_the_end_of_the_beginning.quest14.description2}"
+				""
+				"{ftbquests.chapter.towards_the_end_of_the_beginning.quest14.description3}"
+			]
+			id: "3ACF72A3235361FA"
+			rewards: [
+				{
+					id: "474042429F7A8FE2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77B7A9F2372F140A"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.towards_the_end_of_the_beginning.quest14.subtitle}"
+			tasks: [{
+				id: "42E85E081600E37A"
+				item: {
+					Count: 1
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["38E9931BC4307F61"]
+			description: [
+				"{ftbquests.chapter.towards_the_end_of_the_beginning.quest15.description1}"
+				""
+				"{ftbquests.chapter.towards_the_end_of_the_beginning.quest15.description2}"
+			]
+			id: "7D84E41526BDDD94"
+			rewards: [
+				{
+					id: "5DD0E89404F43DD4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C8C48D19329DDEB"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.towards_the_end_of_the_beginning.quest15.subtitle}"
+			tasks: [{
+				id: "731EE21E85404A70"
+				item: {
+					Count: 1
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["38E9931BC4307F61"]
+			description: [
+				"{ftbquests.chapter.towards_the_end_of_the_beginning.quest16.description1}"
+				""
+				"{ftbquests.chapter.towards_the_end_of_the_beginning.quest16.description2}"
+			]
+			id: "6B17330480CD9698"
+			rewards: [
+				{
+					id: "4CD8559E25BD0188"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4DF3E7C4EC19FDEF"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.towards_the_end_of_the_beginning.quest16.subtitle}"
+			tasks: [{
+				id: "5B4AF9AC5BDFDDCC"
+				item: {
+					Count: 1
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38E9931BC4307F61"]
+			description: ["{ftbquests.chapter.towards_the_end_of_the_beginning.quest17.description1}"]
+			id: "6A3D26E733E636E7"
+			rewards: [
+				{
+					id: "1B9D63039E3DC3F2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F069770C10FF1A3"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.towards_the_end_of_the_beginning.quest17.subtitle}"
+			tasks: [{
+				id: "4A9F07B0D070E74E"
+				item: {
+					Count: 1
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+	]
+	title: "{ftbquests.chapter.towards_the_end_of_the_beginning.title}"
+}

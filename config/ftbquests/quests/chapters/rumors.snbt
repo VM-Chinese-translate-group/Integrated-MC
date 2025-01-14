@@ -1,0 +1,1787 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "rumors"
+	group: "523BD734ACA98B4C"
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:map"
+	id: "578FDAE23052383C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3A9E2ECAB0556728"]
+			hide_until_deps_visible: true
+			icon: "biomemakeover:enchanted_totem"
+			id: "0A790BB8EC5EFE41"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DC0E8AFCB3D6755"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2CD4E7462908CBDE"
+					item: {
+						Count: 1
+						id: "simplyswords:waxweaver"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "{ftbquests.chapter.rumors.quest1.task.title1}"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "mowziesmobs:spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4B5C9A346875E44B"
+					item: {
+						Count: 1
+						id: "simplyswords:wickpiercer"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "{ftbquests.chapter.rumors.quest1.task.title2}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rumors.quest1.title}"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.rumors.quest2.description1}"
+				""
+				"{ftbquests.chapter.rumors.quest2.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7867DEB7C916F9D2"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "53A46D02CE74905F"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.rumors.quest2.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6972903259DED12D"]
+			description: [
+				"{ftbquests.chapter.rumors.quest3.description1}"
+				""
+				"{ftbquests.chapter.rumors.quest3.description2}"
+				""
+				"{ftbquests.chapter.rumors.quest3.description3}"
+				""
+				"{ftbquests.chapter.rumors.quest3.description4}"
+			]
+			id: "4C62EC461F0340AC"
+			rewards: [{
+				id: "615D31B4A8863618"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						decoration: "target_x"
+						display: {
+							Name: "{\"text\":\"Apothecary Abode Explorer Map\"}"
+						}
+						maxSearchRadius: 100
+						skinKnown: 1b
+						targetStructure: "idas:apothecary_abode"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rumors.quest3.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					id: "7006A1AA3F2932F6"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_invisibility"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "76D5BCF620CF853C"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "alexsmobs:speed_iii"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3062EA5F0D933E1C"
+					item: {
+						Count: 1
+						id: "ars_nouveau:potion_flask"
+						tag: {
+							Damage: 8
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "60E69B556164F3BE"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3265A4DD3ADB681A"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "biomemakeover:actidote_pot"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rumors.quest3.title}"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6022A98A371D1F22"]
+			description: [
+				"{ftbquests.chapter.rumors.quest4.description1}"
+				""
+				"{ftbquests.chapter.rumors.quest4.description2}"
+				""
+				"{ftbquests.chapter.rumors.quest4.description3}"
+				""
+				"{ftbquests.chapter.rumors.quest4.description4}"
+			]
+			hide_text_until_complete: true
+			id: "6972903259DED12D"
+			optional: true
+			subtitle: "{ftbquests.chapter.rumors.quest4.subtitle}"
+			tasks: [{
+				advancement: "biomemakeover:biomemakeover/witch_quest"
+				criterion: ""
+				icon: "minecraft:brewing_stand"
+				id: "228EFDB4FDBF6A12"
+				title: "{ftbquests.chapter.rumors.quest4.task.title1}"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.rumors.quest4.title}"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.rumors.quest5.description1}"
+				""
+				"{ftbquests.chapter.rumors.quest5.description2}"
+				""
+				"{ftbquests.chapter.rumors.quest5.description3}"
+				""
+				"{ftbquests.chapter.rumors.quest5.description4}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.rumors.quest5.description5}"
+			]
+			icon: {
+				Count: 1
+				id: "hexerei:witch_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6022A98A371D1F22"
+			invisible: true
+			subtitle: "{ftbquests.chapter.rumors.quest5.subtitle}"
+			tasks: [{
+				entity: "minecraft:witch"
+				id: "0EA0F0E792857CE7"
+				type: "kill"
+				value: 5L
+			}]
+			title: "{ftbquests.chapter.rumors.quest5.title}"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.rumors.quest6.description1}"
+				""
+				"{ftbquests.chapter.rumors.quest6.description2}"
+				""
+				"{ftbquests.chapter.rumors.quest6.description3}"
+			]
+			id: "6646184B9F25B523"
+			invisible: true
+			subtitle: "{ftbquests.chapter.rumors.quest6.subtitle}"
+			tasks: [{
+				consume_items: false
+				icon: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "CraisinLord"
+						pages: [
+							"{\"text\":\"Journal Day 153\\n~~~~~~~~~~~\\nThe Evokers sent us on a scouting mission, to find the 'Labyrinth of Mysteries'\\nThey think some secret treasure is hidden there. I think they have no idea what they're talking about. We could really use some new leadership among the\"}"
+							"{\"text\":\"illagers.\"}"
+						]
+						resolved: 1b
+						title: "Evoker's Orders"
+					}
+				}
+				id: "18029A99B8DCC763"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "nbt(fuzzy:{author:\"CraisinLord\",title:\"Evoker's Orders\"})"
+					}
+				}
+				match_nbt: true
+				only_from_crafting: false
+				title: "{ftbquests.chapter.rumors.quest6.task.title1}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rumors.quest6.title}"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: ["{ftbquests.chapter.rumors.quest7.description1}"]
+			icon: "create:clipboard"
+			id: "61752469D4924F85"
+			invisible: true
+			rewards: [{
+				id: "4B3BAE543C6839D0"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Redhorn Guild Explorer Map\"}"
+						}
+						maxSearchRadius: 100
+						skinKnown: 1b
+						targetStructure: "idas:redhorn_guild"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rumors.quest7.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						AntiqueInk: 1b
+						author: "Hisakid"
+						display: { }
+						pages: [
+							"[\r\n                {\"text\":\"§r§4§lGuildmaster's Summons\n\"},\r\n                {\"text\":\"~~~~~~~~~\n\"},\r\n                {\"text\":\"To the Adventurer who has been completing many of our quests.\n\"}\r\n              ]"
+							"[\r\n                {\"text\":\"Please come to the Redhorn Guild House. We would like to meet you in-person to reward your efforts.\"}\r\n              ]"
+							"[\r\n                {\"text\":\"We also have more tasks for you to complete, if you're up to it. Of course, we will reward you well.\n\"},\r\n\t\t\t\t{\"text\":\"§5- Craisin, the Redhorn Guildmaster\"}\r\n              ]"
+						]
+						title: "Note"
+					}
+				}
+				id: "41C75E7F0865DCC5"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "nbt(fuzzy:{AntiqueInk:1b,author:\"Hisakid\",title:\"Note\"})"
+					}
+				}
+				match_nbt: true
+				title: "{ftbquests.chapter.rumors.quest7.task.title1}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rumors.quest7.title}"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6646184B9F25B523"]
+			description: ["{ftbquests.chapter.rumors.quest8.description1}"]
+			hide_text_until_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "702108079F637B75"
+			incompatible: ["3239F6FAEB0D15C2"]
+			rewards: [{
+				id: "682DEDD1936CF1F5"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						decoration: "target_x"
+						display: {
+							Name: "{\"text\":\"Pillager Fortress Explorer Map\"}"
+						}
+						maxSearchRadius: 100
+						skinKnown: 1b
+						targetStructure: "idas:pillager_fortress"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rumors.quest8.subtitle}"
+			tasks: [{
+				id: "475E59625F9F9825"
+				title: "{ftbquests.chapter.rumors.quest8.task.title1}"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6646184B9F25B523"]
+			dependency_requirement: "one_completed"
+			description: [
+				"{ftbquests.chapter.rumors.quest9.description1}"
+				""
+				"{ftbquests.chapter.rumors.quest9.description2}"
+				""
+				"{ftbquests.chapter.rumors.quest9.description3}"
+			]
+			hide_text_until_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "shieldexp:iron_shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3239F6FAEB0D15C2"
+			incompatible: ["702108079F637B75"]
+			rewards: [{
+				id: "472AF3C75F261262"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						decoration: "target_x"
+						display: {
+							Name: "{\"text\":\"Castle Explorer Map\"}"
+						}
+						maxSearchRadius: 100
+						skinKnown: 1b
+						targetStructure: "idas:castle"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rumors.quest9.subtitle}"
+			tasks: [{
+				id: "3DACCE2FA82A3A72"
+				title: "{ftbquests.chapter.rumors.quest9.task.title1}"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["61752469D4924F85"]
+			description: [
+				"{ftbquests.chapter.rumors.quest10.description1}"
+				""
+				"{ftbquests.chapter.rumors.quest10.description2}"
+				""
+				"{ftbquests.chapter.rumors.quest10.description3}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.rumors.quest10.description4}"
+				""
+				"{ftbquests.chapter.rumors.quest10.description5}"
+				""
+				"{ftbquests.chapter.rumors.quest10.description6}"
+				""
+				"{ftbquests.chapter.rumors.quest10.description7}"
+			]
+			hide_text_until_complete: true
+			icon: "bountiful:bountyboard"
+			id: "0E21C7219714B8A7"
+			subtitle: "{ftbquests.chapter.rumors.quest10.subtitle}"
+			tasks: [{
+				id: "4E4D7756B3298D53"
+				structure: "idas:redhorn_guild"
+				title: "{ftbquests.chapter.rumors.quest10.task.title1}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.rumors.quest10.title}"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0E21C7219714B8A7"]
+			id: "415C59D15E8186EB"
+			optional: true
+			rewards: [{
+				count: 10
+				id: "7CEDBC281D991EF1"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "quark:forgotten"
+				icon: {
+					Count: 1
+					id: "quark:forgotten_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6A88C1F37A93C264"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			id: "445F34F5990BBEFE"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [{
+				id: "67B7828A69F5A49D"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Umvuthana Grove Explorer Map\"}"
+						}
+						maxSearchRadius: 100
+						skinKnown: 1b
+						targetStructure: "mowziesmobs:umvuthana_grove"
+						zoomLevel: 2
+					}
+				}
+				title: "{ftbquests.chapter.rumors.quest12.reward.title1}"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rumors.quest12.subtitle}"
+			tasks: [
+				{
+					id: "0C2B346ECE10905F"
+					item: {
+						Count: 1
+						id: "mowziesmobs:umvuthana_mask_fury"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D2D268C40A6E182"
+					item: {
+						Count: 1
+						id: "mowziesmobs:umvuthana_mask_fear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6FBD7B9CBD962595"
+					item: {
+						Count: 1
+						id: "mowziesmobs:umvuthana_mask_rage"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2323FEED874B924A"
+					item: {
+						Count: 1
+						id: "mowziesmobs:umvuthana_mask_bliss"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "406313803D24CB8E"
+					item: {
+						Count: 1
+						id: "mowziesmobs:umvuthana_mask_misery"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "774254AADAB9E68E"
+					item: {
+						Count: 1
+						id: "mowziesmobs:umvuthana_mask_faith"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rumors.quest12.title}"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0E21C7219714B8A7"]
+			id: "148D831D7A059B4B"
+			optional: true
+			rewards: [{
+				count: 10
+				id: "2382468107FDE061"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "alexsmobs:murmur"
+				icon: {
+					Count: 1
+					id: "alexsmobs:unsettling_kimono"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "708DDEFEDC86EBA7"
+				type: "kill"
+				value: 5L
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0E21C7219714B8A7"]
+			id: "2C3CA9500F86A111"
+			optional: true
+			rewards: [{
+				count: 10
+				id: "2E7B6FF1BE759110"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "alexsmobs:centipede_head"
+				icon: "alexsmobs:centipede_leg"
+				id: "6D220B32CE4DF318"
+				type: "kill"
+				value: 5L
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"4C62EC461F0340AC"
+				"11DD6830A649154A"
+			]
+			description: [
+				"{ftbquests.chapter.rumors.quest15.description1}"
+				""
+				"{ftbquests.chapter.rumors.quest15.description2}"
+			]
+			hide_text_until_complete: true
+			id: "535D6158419D6F4A"
+			rewards: [{
+				id: "23ECA67EF1A4B37E"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						decoration: "target_x"
+						display: {
+							Name: "{\"text\":\"Pillager Fortress Explorer Map\"}"
+						}
+						maxSearchRadius: 100
+						skinKnown: 1b
+						targetStructure: "idas:pillager_fortress"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rumors.quest15.subtitle}"
+			tasks: [
+				{
+					id: "3FE6102892F9E53B"
+					structure: "idas:apothecary_abode"
+					title: "{ftbquests.chapter.rumors.quest15.task.title1}"
+					type: "structure"
+				}
+				{
+					id: "6511BDBE8F7B2B89"
+					item: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							AntiqueInk: 1b
+							author: "Hisakid"
+							display: {
+								Name: "{\"text\":\"To be Sent: Mansion\"}"
+							}
+							pages: [
+								"[\r\n                {\"text\":\"§r§4§lPer Your Orders\n\"},\r\n                {\"text\":\"~~~~~~~~~\n\"},\r\n                {\"text\":\"To our glorious leader. We hope this note has reached your Manor safely.\n\"}\r\n              ]"
+								"[\r\n                {\"text\":\"We've finally done it. You will be very, very pleased with these results. Our research into §5enhancing the regenerative properties of the golden apples and our Totems has been successful.§r\"}\r\n              ]"
+								"[\r\n                {\"text\":\"All that needs to be done in to §5mix a Golden Apple or a Totem with extremely concentrated EXP and two Hallowed Gems in a heated basin.§r\"}\r\n              ]"
+								"[\r\n                {\"text\":\"We hope these findings will serve us well. \n\"},\r\n                {\"text\":\"Your Loyal Retainers, \n\"},\r\n                {\"text\":\"The Illusionary Apothecary\"}\r\n              ]"
+							]
+							title: "Journal"
+						}
+					}
+					title: "{ftbquests.chapter.rumors.quest15.task.title2}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rumors.quest15.title}"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4C62EC461F0340AC"]
+			description: [
+				"{ftbquests.chapter.rumors.quest16.description1}"
+				""
+				"{ftbquests.chapter.rumors.quest16.description2}"
+			]
+			id: "77667929B0FE5B92"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3B4C7EA4FE68DDD5"
+					table_id: 7764861743028037075L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23F563F546FCCCA9"
+					table_id: 7764861743028037075L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.rumors.quest16.subtitle}"
+			tasks: [
+				{
+					id: "7E23205E192E5BD7"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "biomemakeover:miner"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "787FDE9C48193905"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "biomemakeover:adrenaline"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F0F1DF5C2190E2F"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "biomemakeover:assassin"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23266451E9E41BA4"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "biomemakeover:darkness"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79E4C61C9409CCE0"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "biomemakeover:dolphin_master"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DB15900CB41A954"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "biomemakeover:liquid_bread"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13E11693E2E0102B"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "biomemakeover:phantom_spirit"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12EC273F27DCAF2C"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "biomemakeover:light_footed"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rumors.quest16.title}"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			description: ["{ftbquests.chapter.rumors.quest17.description1}"]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "alexsmobs:ghostly_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5D53829701892FC7"
+			invisible: true
+			rewards: [{
+				id: "4093C17A3B7832EC"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Ancient Mines Explorer Map\"}"
+						}
+						maxSearchRadius: 100
+						skinKnown: 1b
+						targetStructure: "idas:ancient_mines"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rumors.quest17.subtitle}"
+			tasks: [{
+				consume_items: false
+				icon: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						AntiqueInk: 1b
+						author: "Hisakid"
+						display: {
+							Name: "{\"text\":\"Summons\"}"
+						}
+						pages: ["{\"extra\":[{\"text\":\"~~~~~~~~~\\n\"},{\"text\":\"Our citadel is under siege by the Pigkin. \"},{\"text\":\"Please return as soon as possible with as many mineral as you've gathered. Do not use the portals. They are no longer safe. \\n\"},{\"text\":\"The 51st King of Dwargonia, \\n\"},{\"text\":\"§5Karl of the Last Stone\"}],\"text\":\"§r§4§lSummons\\n\"}"]
+						resolved: 1b
+						title: "Journal"
+					}
+				}
+				id: "2F6CEC92354AF5B3"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "nbt(fuzzy:{AntiqueInk:1b,author:\"Hisakid\",display:{Name:'{\"text\":\"Summons\"}'}})"
+					}
+				}
+				match_nbt: true
+				only_from_crafting: false
+				title: "{ftbquests.chapter.rumors.quest17.task.title1}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rumors.quest17.title}"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3239F6FAEB0D15C2"]
+			id: "5D622FEF57894F1F"
+			rewards: [
+				{
+					count: 48
+					id: "5176804DC0C3021F"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "618FC38E42566A79"
+					item: "farmersdelight:steak_and_potatoes"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A041515B2C721F2"
+				structure: "idas:castle"
+				title: "{ftbquests.chapter.rumors.quest18.task.title1}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.rumors.quest18.title}"
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.rumors.quest19.description1}"
+				""
+				"{ftbquests.chapter.rumors.quest19.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:lingering_potion"
+				tag: {
+					Potion: "minecraft:water"
+				}
+			}
+			id: "50F6FA24B2FDB42E"
+			invisible: true
+			rewards: [{
+				id: "32215AA7D001ECA4"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						decoration: "target_x"
+						display: {
+							Name: "{\"text\":\"Fishermans Lodge Explorer Map\"}"
+						}
+						maxSearchRadius: 100
+						skinKnown: 1b
+						targetStructure: "idas:fishermans_lodge"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rumors.quest19.subtitle}"
+			tasks: [{
+				icon: "minecraft:tropical_fish"
+				id: "7F263A816CB9A11A"
+				stat: "minecraft:fish_caught"
+				type: "stat"
+				value: 10
+			}]
+			title: "{ftbquests.chapter.rumors.quest19.title}"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["50F6FA24B2FDB42E"]
+			description: [
+				"{ftbquests.chapter.rumors.quest20.description1}"
+				""
+				"{ftbquests.chapter.rumors.quest20.description2}"
+				""
+				"{ftbquests.chapter.rumors.quest20.description3}"
+			]
+			hide_text_until_complete: true
+			id: "11EB9691A5A1E0C0"
+			rewards: [
+				{
+					id: "53C71A6A6E1DD0AA"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "5BA2D3875038E480"
+					item: "farmersdelight:fish_stew"
+					type: "item"
+				}
+				{
+					id: "0812AB6BE8460C4F"
+					item: "apotheosis:fishing_tome"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.rumors.quest20.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "13642B589F603E67"
+				structure: "idas:fishermans_lodge"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.rumors.quest20.title}"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["11EB9691A5A1E0C0"]
+			description: [
+				"{ftbquests.chapter.rumors.quest21.description1}"
+				""
+				"{ftbquests.chapter.rumors.quest21.description2}"
+				""
+				"{ftbquests.chapter.rumors.quest21.description3}"
+				""
+				"{ftbquests.chapter.rumors.quest21.description4}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.rumors.quest21.description5}"
+			]
+			icon: "minecraft:tropical_fish"
+			id: "10AFE0DCD77A8E66"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "2A98CC372F25FE75"
+					item: "farmersdelight:rice_roll_medley_block"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BC68BC9841EF3CE"
+					table_id: 6165247227385826095L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F5DA7B61E9EA22B"
+					table_id: 7764861743028037075L
+					type: "random"
+				}
+				{
+					id: "0FD201978EF4C282"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.rumors.quest21.subtitle}"
+			tasks: [
+				{
+					advancement: "alexsmobs:alexsmobs/strange_fish_finder"
+					criterion: ""
+					icon: "minecraft:compass"
+					id: "60F1A247DEC0AD35"
+					title: "{ftbquests.chapter.rumors.quest21.task.title1}"
+					type: "advancement"
+				}
+				{
+					advancement: "alexsmobs:alexsmobs/devils_hole_pupfish_bucket"
+					criterion: ""
+					icon: "minecraft:cod"
+					id: "2A939EEB9BC0D5C4"
+					title: "{ftbquests.chapter.rumors.quest21.task.title2}"
+					type: "advancement"
+				}
+			]
+			title: "{ftbquests.chapter.rumors.quest21.title}"
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			id: "3A9E2ECAB0556728"
+			invisible: true
+			subtitle: "{ftbquests.chapter.rumors.quest22.subtitle}"
+			tasks: [{
+				id: "3405F39BD264F8F5"
+				structure: "idas:labyrinth"
+				title: "{ftbquests.chapter.rumors.quest22.task.title1}"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3405F39BD264F8F5"
+				"3A9E2ECAB0556728"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "09D608A8B2A53E54"
+			rewards: [{
+				id: "2D29269BCE4A912A"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						decoration: "target_x"
+						display: {
+							Name: "{\"text\":\"Dread Citadel Explorer Map\"}"
+						}
+						maxSearchRadius: 100
+						skinKnown: 1b
+						targetStructure: "idas:iceandfire/dread_citadel"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rumors.quest23.subtitle}"
+			tasks: [{
+				id: "4CDDF36E8F8F8A01"
+				item: "iceandfire:dread_key"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0E21C7219714B8A7"]
+			description: [
+				"{ftbquests.chapter.rumors.quest24.description1}"
+				""
+				"{ftbquests.chapter.rumors.quest24.description2}"
+				""
+				"{ftbquests.chapter.rumors.quest24.description3}"
+				"{ftbquests.chapter.rumors.quest24.description4}"
+				"{ftbquests.chapter.rumors.quest24.description5}"
+				"{ftbquests.chapter.rumors.quest24.description6}"
+				"{ftbquests.chapter.rumors.quest24.description7}"
+				"{ftbquests.chapter.rumors.quest24.description8}"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:written_book"
+				tag: {
+					AntiqueInk: 1b
+					author: "Hisakid"
+					display: { }
+					pages: [
+						"[\r\n                {\"text\":\"§r§4§lGuildmaster's Summons\n\"},\r\n                {\"text\":\"~~~~~~~~~\n\"},\r\n                {\"text\":\"To the Adventurer who has been completing many of our quests.\n\"}\r\n              ]"
+						"[\r\n                {\"text\":\"Please come to the Redhorn Guild House. We would like to meet you in-person to reward your efforts.\"}\r\n              ]"
+						"[\r\n                {\"text\":\"We also have more tasks for you to complete, if you're up to it. Of course, we will reward you well.\n\"},\r\n\t\t\t\t{\"text\":\"§5- Craisin, the Redhorn Guildmaster\"}\r\n              ]"
+					]
+					title: "Note"
+				}
+			}
+			id: "3E07D228EA16C682"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46B6FBADDFC7AEBB"
+				table_id: 1092558172471642120L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.rumors.quest24.subtitle}"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				icon: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						AntiqueInk: 1b
+						author: "Hisakid"
+						display: { }
+						pages: [
+							"[\r\n                {\"text\":\"§r§4§lGuildmaster's Summons\n\"},\r\n                {\"text\":\"~~~~~~~~~\n\"},\r\n                {\"text\":\"To the Adventurer who has been completing many of our quests.\n\"}\r\n              ]"
+							"[\r\n                {\"text\":\"Please come to the Redhorn Guild House. We would like to meet you in-person to reward your efforts.\"}\r\n              ]"
+							"[\r\n                {\"text\":\"We also have more tasks for you to complete, if you're up to it. Of course, we will reward you well.\n\"},\r\n\t\t\t\t{\"text\":\"§5- Craisin, the Redhorn Guildmaster\"}\r\n              ]"
+						]
+						title: "Note"
+					}
+				}
+				id: "54FBCC11E76ACBF4"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "nbt(fuzzy:{AntiqueInk:1b,author:\"Hisakid\",title:\"Note\"})"
+					}
+				}
+				match_nbt: true
+				title: "{ftbquests.chapter.rumors.quest24.task.title1}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rumors.quest24.title}"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.rumors.quest25.description1}"
+				""
+				"{ftbquests.chapter.rumors.quest25.description2}"
+				""
+				"{ftbquests.chapter.rumors.quest25.description3}"
+			]
+			id: "36A8614BD37BFB4E"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [
+				{
+					count: 10
+					id: "17092A9FBAFDCB59"
+					item: "ars_nouveau:frostaya_pod"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "5B312749AF88FF0C"
+					item: "ars_nouveau:bombegranate_pod"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "591B791B31164A70"
+					item: "ars_nouveau:bastion_pod"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "6676E3D21DB0B453"
+					item: "ars_nouveau:mendosteen_pod"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.rumors.quest25.subtitle}"
+			tasks: [
+				{
+					id: "6A0EE11CF0CAF0A6"
+					item: "ars_nouveau:blue_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "71307983FCB87663"
+					item: "ars_nouveau:red_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "27672C823BF5F88C"
+					item: "ars_nouveau:purple_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "52C9105154DE0575"
+					item: "ars_nouveau:green_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "4DDF8D8A1B39609F"
+					item: "ars_nouveau:frostaya_pod"
+					type: "item"
+				}
+				{
+					id: "2EF86B7CC1FD8D8B"
+					item: "ars_nouveau:bombegranate_pod"
+					type: "item"
+				}
+				{
+					id: "2436CA3033B40D64"
+					item: "ars_nouveau:bastion_pod"
+					type: "item"
+				}
+				{
+					id: "06E8D4E05DB0F6A0"
+					item: "ars_nouveau:mendosteen_pod"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rumors.quest25.title}"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["36A8614BD37BFB4E"]
+			description: [
+				"{ftbquests.chapter.rumors.quest26.description1}"
+				"{ftbquests.chapter.rumors.quest26.description2}"
+				"{ftbquests.chapter.rumors.quest26.description3}"
+			]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: "ars_nouveau:stripped_green_archwood_log"
+			id: "66EBDFD2C7EF8780"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46CD4B7BE33A1E9E"
+				table_id: 5257971251591278842L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "3A797F30FDE2C364"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rumors.quest26.title}"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["36A8614BD37BFB4E"]
+			description: [
+				"{ftbquests.chapter.rumors.quest27.description1}"
+				""
+				"{ftbquests.chapter.rumors.quest27.description2}"
+				"{ftbquests.chapter.rumors.quest27.description3}"
+				"{ftbquests.chapter.rumors.quest27.description4}"
+				"{ftbquests.chapter.rumors.quest27.description5}"
+				"{ftbquests.chapter.rumors.quest27.description6}"
+				"{ftbquests.chapter.rumors.quest27.description7}"
+				""
+				"{ftbquests.chapter.rumors.quest27.description8}"
+				"{ftbquests.chapter.rumors.quest27.description9}"
+				"{ftbquests.chapter.rumors.quest27.description10}"
+			]
+			id: "6D38610803F34744"
+			rewards: [{
+				id: "777C656874B2E3EB"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						decoration: "target_x"
+						display: {
+							Name: "{\"text\":\"Tree of Wisdom Explorer Map\"}"
+						}
+						maxSearchRadius: 100
+						skinKnown: 1b
+						targetStructure: "idas:tree_of_wisdom"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					entity: "ars_nouveau:wilden_guardian"
+					icon: "ars_nouveau:wilden_spike"
+					id: "7C38BE0A95FF3919"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "ars_nouveau:wilden_hunter"
+					icon: "ars_nouveau:wilden_horn"
+					id: "5A76C9CD13220038"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "ars_nouveau:wilden_stalker"
+					icon: "ars_nouveau:wilden_wing"
+					id: "259BD5D4EE908F51"
+					type: "kill"
+					value: 3L
+				}
+			]
+			title: "{ftbquests.chapter.rumors.quest27.title}"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6D38610803F34744"]
+			description: [
+				"{ftbquests.chapter.rumors.quest28.description1}"
+				""
+				"{ftbquests.chapter.rumors.quest28.description2}"
+				""
+				"{ftbquests.chapter.rumors.quest28.description3}"
+				""
+				"{ftbquests.chapter.rumors.quest28.description4}"
+			]
+			icon: {
+				Count: 1
+				id: "ars_additions:wayfinder"
+				tag: { }
+			}
+			id: "1F2D334C5600519A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "047CEF9CD7D8BC88"
+					table_id: 1887718904363554025L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6222A101FBA7C020"
+					table_id: 1887718904363554025L
+					type: "random"
+				}
+				{
+					id: "50CA5933FFE4230A"
+					item: "ars_additions:codex_entry"
+					type: "item"
+				}
+				{
+					id: "318C3BC897A4FEFA"
+					item: "ars_additions:lost_codex_entry"
+					type: "item"
+				}
+				{
+					id: "3C174DE0BFF6C019"
+					item: "ars_additions:ancient_codex_entry"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7E4A232A9DFCD130"
+				structure: "idas:tree_of_wisdom"
+				title: "{ftbquests.chapter.rumors.quest28.task.title1}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.rumors.quest28.title}"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1F2D334C5600519A"]
+			description: [
+				"{ftbquests.chapter.rumors.quest29.description1}"
+				""
+				"{ftbquests.chapter.rumors.quest29.description2}"
+			]
+			id: "23C0F5DDA0FF977A"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						AntiqueInk: 1b
+						author: "CraisinLord"
+						display: {
+							Name: "{\"text\":\"Bramblethorn\"}"
+						}
+						pages: [
+							"[\r\n                {\"text\":\"§r§4§lBramblethorn\n\"},\r\n                {\"text\":\"~~~~~~~~~\n\"},\r\n                {\"text\":\"Hello. This book was written by me, the tree. I will tell you the meaning of life.\"}\r\n              ]"
+							"[\r\n                {\"text\":\"Just kidding! I'll tell you how to make a stick hit real hard. And posion things!\"}\r\n              ]"
+							"[\r\n                {\"text\":\"To create this super stick, infuse a stick with 2 spore spewing flowers, 2 roots from the caves, 2 bottles of poison, and 2 essence of the earth.\"}\r\n              ]"
+							"[\r\n                {\"text\":\"Bye.\n\"},\r\n                {\"text\":\"-The Tree\"}\r\n              ]"
+						]
+						title: "Journal"
+					}
+				}
+				id: "40F8ED9CE1EDE3DF"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "nbt(fuzzy:{AntiqueInk:1b,author:\"CraisinLord\",display:{Name:'{\"text\":\"Bramblethorn\"}'}})"
+					}
+				}
+				match_nbt: true
+				title: "{ftbquests.chapter.rumors.quest29.task.title1}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rumors.quest29.title}"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6D38610803F34744"]
+			description: [
+				"{ftbquests.chapter.rumors.quest30.description1}"
+				""
+				"{ftbquests.chapter.rumors.quest30.description2}"
+				""
+				"{ftbquests.chapter.rumors.quest30.description3}"
+				"{ftbquests.chapter.rumors.quest30.description4}"
+				"{ftbquests.chapter.rumors.quest30.description5}"
+				"{ftbquests.chapter.rumors.quest30.description6}"
+			]
+			icon: "ars_nouveau:ritual_wilden_summon"
+			id: "2483EC1E147FBD1E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1900175A1826F0F1"
+					table_id: 1887718904363554025L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "538FB83364A97900"
+					table_id: 1887718904363554025L
+					type: "random"
+				}
+				{
+					id: "28864D6392BC354A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "{ftbquests.chapter.rumors.quest30.subtitle}"
+			tasks: [
+				{
+					id: "45FD15936A610544"
+					item: "ars_nouveau:ritual_wilden_summon"
+					type: "item"
+				}
+				{
+					id: "360C2931332A8D1E"
+					item: "ars_nouveau:wilden_horn"
+					type: "item"
+				}
+				{
+					id: "5070CA895A7976A4"
+					item: "ars_nouveau:wilden_spike"
+					type: "item"
+				}
+				{
+					id: "737A7E5626089877"
+					item: "ars_nouveau:wilden_wing"
+					type: "item"
+				}
+				{
+					id: "0383A82982BC5D80"
+					item: "ars_nouveau:ritual_brazier"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rumors.quest30.title}"
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2483EC1E147FBD1E"]
+			description: [
+				"{ftbquests.chapter.rumors.quest31.description1}"
+				""
+				"{ftbquests.chapter.rumors.quest31.description2}"
+				"{ftbquests.chapter.rumors.quest31.description3}"
+				"{ftbquests.chapter.rumors.quest31.description4}"
+				"{ftbquests.chapter.rumors.quest31.description5}"
+				"{ftbquests.chapter.rumors.quest31.description6}"
+				"{ftbquests.chapter.rumors.quest31.description7}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.rumors.quest31.description8}"
+				"{ftbquests.chapter.rumors.quest31.description9}"
+				"{ftbquests.chapter.rumors.quest31.description10}"
+				"{ftbquests.chapter.rumors.quest31.description11}"
+				"{ftbquests.chapter.rumors.quest31.description12}"
+			]
+			icon: "ars_nouveau:wilden_tribute"
+			id: "2F6BCEE3BBBE7ECE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "17CBF6644DC0CDAF"
+					table_id: 1887718904363554025L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59E0F52A5EA8636A"
+					table_id: 7764861743028037075L
+					type: "random"
+				}
+				{
+					id: "292B1BB71A60E1C8"
+					item: {
+						Count: 1
+						id: "supplementaries:cartographers_quill"
+						tag: {
+							decoration: "target_x"
+							display: {
+								Name: "{\"text\":\"Archmages Tower Explorer Map\"}"
+							}
+							maxSearchRadius: 100
+							skinKnown: 1b
+							targetStructure: "idas:ars_nouveau/archmages_tower"
+							zoomLevel: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_boss"
+				icon: "ars_nouveau:wilden_tribute"
+				id: "72B1F9EAA4075220"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.rumors.quest31.title}"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.rumors.quest32.description1}"
+				""
+				"{ftbquests.chapter.rumors.quest32.description2}"
+				""
+				"{ftbquests.chapter.rumors.quest32.description3}"
+				""
+				"{ftbquests.chapter.rumors.quest32.description4}"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:brush"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "461A0A84153977E9"
+			invisible: true
+			subtitle: "{ftbquests.chapter.rumors.quest32.subtitle}"
+			tasks: [
+				{
+					icon: "betterarcheology:suspicious_dirt"
+					id: "1F00DA1BDE36BB35"
+					structure: "betterarcheology:archeologist_camp_grassy"
+					title: "{ftbquests.chapter.rumors.quest32.task.title1}"
+					type: "structure"
+				}
+				{
+					icon: "biomemakeover:suspicious_red_sand"
+					id: "453F8A917AB29200"
+					structure: "betterarcheology:archeologist_camp_redsand"
+					title: "{ftbquests.chapter.rumors.quest32.task.title2}"
+					type: "structure"
+				}
+				{
+					icon: "minecraft:suspicious_sand"
+					id: "7BBA6D982B491A2F"
+					structure: "betterarcheology:archeologist_camp_sand"
+					title: "{ftbquests.chapter.rumors.quest32.task.title3}"
+					type: "structure"
+				}
+			]
+			title: "{ftbquests.chapter.rumors.quest32.title}"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["461A0A84153977E9"]
+			description: ["{ftbquests.chapter.rumors.quest33.description1}"]
+			hide_until_deps_complete: true
+			icon: "betterarcheology:archeology_table"
+			id: "2E0E5EAE4EA8EF64"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F84942FF5978BD1"
+				table_id: 3827754708155786673L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.rumors.quest33.subtitle}"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "44EDECD76804E4FD"
+				item: { Count: 10, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rumors.quest33.title}"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			id: "770531739B2BC9AB"
+			invisible: true
+			min_required_tasks: 1
+			tasks: [
+				{
+					icon: "minecraft:snort_pottery_sherd"
+					id: "1FBBCD723DF6C437"
+					structure: "idas:dig_site/dig_site"
+					title: "{ftbquests.chapter.rumors.quest34.task.title1}"
+					type: "structure"
+				}
+				{
+					icon: "biomemakeover:worker_pottery_sherd"
+					id: "3101F636ADDC0398"
+					structure: "idas:dig_site/dig_site_desert"
+					title: "{ftbquests.chapter.rumors.quest34.task.title2}"
+					type: "structure"
+				}
+			]
+			title: "{ftbquests.chapter.rumors.quest34.title}"
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.rumors.quest35.description1}"
+				""
+				"{ftbquests.chapter.rumors.quest35.description2}"
+				""
+				"{ftbquests.chapter.rumors.quest35.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:brown_banner"
+				tag: {
+					BlockEntityTag: {
+						Patterns: [{
+							Color: 1
+							Pattern: "bear"
+						}]
+						id: "minecraft:banner"
+					}
+				}
+			}
+			id: "4EDB4DAF0FA995ED"
+			invisible: true
+			secret: true
+			subtitle: "{ftbquests.chapter.rumors.quest35.subtitle}"
+			tasks: [{
+				consume_items: false
+				icon: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "CraisinLord"
+						pages: [
+							"{\"text\":\"Journal Day 153\\n~~~~~~~~~~~\\nThe Evokers sent us on a scouting mission, to find the 'Labyrinth of Mysteries'\\nThey think some secret treasure is hidden there. I think they have no idea what they're talking about. We could really use some new leadership among the\"}"
+							"{\"text\":\"illagers.\"}"
+						]
+						resolved: 1b
+						title: "Evoker's Orders"
+					}
+				}
+				id: "5BF94D06322E5BFB"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "nbt(fuzzy:{author:\"CraisinLord\",title:\"The Bear Hunt\"})"
+					}
+				}
+				match_nbt: true
+				only_from_crafting: false
+				title: "{ftbquests.chapter.rumors.quest35.task.title1}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rumors.quest35.title}"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4EDB4DAF0FA995ED"]
+			description: [
+				"{ftbquests.chapter.rumors.quest36.description1}"
+				""
+				"{ftbquests.chapter.rumors.quest36.description2}"
+			]
+			icon: "born_in_chaos_v1:hound_trap"
+			id: "272D8DF7632F5525"
+			invisible: true
+			rewards: [
+				{
+					count: 32
+					id: "6BED2C008E0FDDA1"
+					item: "create:honeyed_apple"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A2B2A9D08D424EB"
+					table_id: 1030506019370660012L
+					type: "random"
+				}
+			]
+			secret: true
+			subtitle: "{ftbquests.chapter.rumors.quest36.subtitle}"
+			tasks: [{
+				consume_items: true
+				id: "0FC720D26C7A5F92"
+				item: "born_in_chaos_v1:hound_trap"
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rumors.quest36.title}"
+			x: -3.0d
+			y: -2.0d
+		}
+	]
+	title: "{ftbquests.chapter.rumors.title}"
+}

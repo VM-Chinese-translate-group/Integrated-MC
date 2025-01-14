@@ -1,0 +1,403 @@
+{
+	autofocus_id: "6B97A19C77466821"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "create"
+	group: "223D9B8AFF17C8FD"
+	hide_quest_until_deps_complete: true
+	icon: "create:goggles"
+	id: "70DBA3E40F775191"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.create.quest1.description1}"
+				""
+				"{ftbquests.chapter.create.quest1.description2}"
+			]
+			id: "65E19F723BD34AAA"
+			rewards: [{
+				count: 5
+				id: "4BE9A958566DAEDC"
+				item: "minecraft:stripped_oak_log"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.create.quest1.subtitle}"
+			tasks: [{
+				count: 5L
+				id: "7442B82F8C1559AB"
+				item: { Count: 5, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.create.quest1.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CF708F431435C96"]
+			description: ["{ftbquests.chapter.create.quest2.description1}"]
+			hide_until_deps_complete: false
+			id: "4B93EB8A6D910789"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "74EF26039B99DC7D"
+					table_id: 1030506019370660012L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "5AE6CC56A127DCBF"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.create.quest2.subtitle}"
+			tasks: [{
+				id: "4552DE414519269C"
+				item: "create:goggles"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.create.quest2.title}"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6CF708F431435C96"]
+			description: ["{ftbquests.chapter.create.quest3.description1}"]
+			hide_until_deps_complete: false
+			id: "5D9ED43F74DD50FC"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6C7222EADD9659F7"
+					table_id: 1030506019370660012L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "4BCBD9FA0370B6F5"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.create.quest3.subtitle}"
+			tasks: [{
+				id: "0BAB515D89A56C83"
+				item: "create:wrench"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.create.quest3.title}"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["65E19F723BD34AAA"]
+			description: [
+				"{ftbquests.chapter.create.quest4.description1}"
+				""
+				"{ftbquests.chapter.create.quest4.description2}"
+				""
+				"{ftbquests.chapter.create.quest4.description3}"
+			]
+			hide_until_deps_complete: false
+			icon: "create:mechanical_press"
+			id: "6CF708F431435C96"
+			rewards: [
+				{
+					id: "2B9E6229DBE03428"
+					item: "create:depot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "376B2A207F71A03B"
+					table_id: 1833917657588604180L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7BE921EFA60864FC"
+					table_id: 1030506019370660012L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.create.quest4.subtitle}"
+			tasks: [
+				{
+					id: "103EB5F0AD318C0A"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "5B3427F4AA9C60A8"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.create.quest4.title}"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["66F4AD1F9716761B"]
+			description: [
+				"{ftbquests.chapter.create.quest5.description1}"
+				""
+				"{ftbquests.chapter.create.quest5.description2}"
+			]
+			hide_until_deps_complete: false
+			id: "081835FA317516BC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "58423CB70E82293B"
+					table_id: 1833917657588604180L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47AA0DC4F6D08B07"
+					table_id: 1030506019370660012L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.create.quest5.subtitle}"
+			tasks: [
+				{
+					id: "3ACBF935ADEF170A"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "0167A50E4F2E9F29"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.create.quest5.title}"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["66F4AD1F9716761B"]
+			description: [
+				"{ftbquests.chapter.create.quest6.description1}"
+				""
+				"{ftbquests.chapter.create.quest6.description2}"
+			]
+			hide_until_deps_complete: false
+			id: "71168B4B119F9843"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "250FE891988EA0E0"
+					table_id: 1833917657588604180L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02C43D6A1FA1FDEF"
+					table_id: 1030506019370660012L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.create.quest6.subtitle}"
+			tasks: [
+				{
+					count: 8L
+					id: "6F4E87237F08B56B"
+					item: { Count: 8, id: "create:white_sail" }
+					type: "item"
+				}
+				{
+					id: "366A71067562D434"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.create.quest6.title}"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["66F4AD1F9716761B"]
+			description: ["{ftbquests.chapter.create.quest7.description1}"]
+			hide_until_deps_complete: false
+			id: "6075B46CE7E486B5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B541F0205147136"
+				table_id: 1030506019370660012L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.create.quest7.subtitle}"
+			tasks: [{
+				id: "4B93E2EAD3A459C5"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.create.quest7.title}"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6CF708F431435C96"]
+			description: [
+				"{ftbquests.chapter.create.quest8.description1}"
+				""
+				"{ftbquests.chapter.create.quest8.description2}"
+			]
+			hide_until_deps_complete: false
+			id: "151BB86819A757E9"
+			subtitle: "{ftbquests.chapter.create.quest8.subtitle}"
+			tasks: [{
+				count: 9L
+				id: "13BB893D8CC7FD62"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.create.quest8.title}"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["151BB86819A757E9"]
+			description: ["{ftbquests.chapter.create.quest9.description1}"]
+			hide_until_deps_complete: false
+			id: "1DD05057AF8784F6"
+			subtitle: "{ftbquests.chapter.create.quest9.subtitle}"
+			tasks: [{
+				id: "0923CE670D6216F6"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.create.quest9.title}"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6CF708F431435C96"]
+			description: ["{ftbquests.chapter.create.quest10.description1}"]
+			hide_until_deps_complete: false
+			id: "513D063DC17E2FBF"
+			subtitle: "{ftbquests.chapter.create.quest10.subtitle}"
+			tasks: [{
+				id: "7B7EE6A8BB0BD721"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.create.quest10.title}"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6CF708F431435C96"]
+			description: ["{ftbquests.chapter.create.quest11.description1}"]
+			hide_until_deps_complete: false
+			id: "2F0267EB62501FD4"
+			subtitle: "{ftbquests.chapter.create.quest11.subtitle}"
+			tasks: [{
+				id: "21779EC1A54B480E"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.create.quest11.title}"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["65E19F723BD34AAA"]
+			description: [
+				"{ftbquests.chapter.create.quest12.description1}"
+				""
+				"{ftbquests.chapter.create.quest12.description2}"
+			]
+			hide_until_deps_complete: false
+			id: "2F12E45C55B83B93"
+			subtitle: "{ftbquests.chapter.create.quest12.subtitle}"
+			tasks: [{
+				id: "2F1AFE4EC0E9F1C7"
+				item: "create:mechanical_bearing"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.create.quest12.title}"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["65E19F723BD34AAA"]
+			description: ["{ftbquests.chapter.create.quest13.description1}"]
+			hide_until_deps_complete: false
+			id: "02823B945DD62920"
+			subtitle: "{ftbquests.chapter.create.quest13.subtitle}"
+			tasks: [
+				{
+					count: 4L
+					id: "314414ECA53087B9"
+					item: { Count: 4, id: "create:fluid_pipe" }
+					type: "item"
+				}
+				{
+					id: "4035197739B86D8D"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.create.quest13.title}"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["65E19F723BD34AAA"]
+			description: ["{ftbquests.chapter.create.quest14.description1}"]
+			hide_until_deps_complete: false
+			id: "66F4AD1F9716761B"
+			subtitle: "{ftbquests.chapter.create.quest14.subtitle}"
+			tasks: [{
+				id: "567C97152A86329A"
+				title: "{ftbquests.chapter.create.quest14.task.title1}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["151BB86819A757E9"]
+			description: [
+				"{ftbquests.chapter.create.quest15.description1}"
+				""
+				"{ftbquests.chapter.create.quest15.description2}"
+			]
+			hide_until_deps_complete: false
+			id: "7DA9102BE723E013"
+			subtitle: "{ftbquests.chapter.create.quest15.subtitle}"
+			tasks: [{
+				id: "0E7258033FFEB8D1"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.create.quest15.title}"
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			description: ["{ftbquests.chapter.create.quest16.description1}"]
+			id: "749D50A63B5C526E"
+			tasks: [{
+				id: "26D05F03D713A757"
+				title: "{ftbquests.chapter.create.quest16.task.title1}"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+	]
+	title: "{ftbquests.chapter.create.title}"
+}
