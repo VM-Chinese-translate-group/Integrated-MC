@@ -56,7 +56,7 @@ if __name__ == '__main__':
     file = get_filelist(os.environ["FILE_PATH"], Filelist)
     
     for a in file:
-        pathlist = a.split("Patch-Pack-CN")
+        pathlist = a.split("Source")
         print(pathlist)
         path = pathlist[1]
         path = path.replace('\\', '/')
