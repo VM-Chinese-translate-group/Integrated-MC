@@ -38,7 +38,7 @@ async def main() -> None:
     file_list: list[str] = get_file_list(os.environ["FILE_PATH"])
 
     for file_path in file_list:
-        relative_path: str = file_path.split("CNPack")[1]
+        relative_path: str = file_path.split("Source")[1]
         upload_path: str = relative_path.replace("\\", "/").replace(
             os.path.basename(file_path), ""
         )
