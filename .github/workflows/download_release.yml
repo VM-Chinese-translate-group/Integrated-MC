@@ -50,7 +50,7 @@ jobs:
     needs: paratranz-to-gitHub
     env:
       changed: ${{ needs.paratranz-to-gitHub.outputs.changed }}
-    if: ${{ env.changed == 'true' }}
+    if: ${{ env.changed }} == 'true'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
