@@ -1,7 +1,7 @@
 {
     "kubejs.ponder.ars_recipe.header":"新生魔艺配方",
     "kubejs.ponder.ars_recipe.text_1":"新生魔艺提供了一些使用魔法装置的魔法配方",
-    "kubejs.ponder.ars_recipe.text_2":"The enchanting apparatus requires a core underneathe it, while an imbuement chamber does not",
+    "kubejs.ponder.ars_recipe.text_2":"附魔装置需要在其下方有一个奥数核心，而灌注室则不需要。",
     "kubejs.ponder.ars_recipe.text_3":"将配方材料放置在距装置（在此情况下为附魔装置）一格远的基座上",
     "kubejs.ponder.ars_recipe.text_4":"将配方中间的材料放入装置中",
     "kubejs.ponder.ars_recipe.text_5":"配方将开始进行，但可能需要消耗附近的魔源",
