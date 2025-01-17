@@ -1,0 +1,20 @@
+{
+    "block.alexscaves.limestone":"Ancient Limestone",
+    "block.alexscaves.limestone_stairs":"Ancient Limestone Stairs",
+    "block.alexscaves.limestone_slab":"Ancient Limestone Slab",
+    "block.alexscaves.limestone_wall":"Ancient Limestone Wall",
+    "block.alexscaves.limestone_pillar":"Ancient Limestone Pillar",
+    "block.alexscaves.limestone_chiseled":"Chiseled Ancient Limestone",
+    "block.alexscaves.smooth_limestone":"Smooth Ancient Limestone",
+    "block.alexscaves.smooth_limestone_stairs":"Smooth Ancient Limestone Stairs",
+    "block.alexscaves.smooth_limestone_slab":"Smooth Ancient Limestone Slab",
+    "block.alexscaves.smooth_limestone_wall":"Smooth Ancient Limestone Wall",
+    "block.alexscaves.sulfur":"Block of Sulfur",
+    "item.alexscaves.limestone_spear":"Ancient Limestone Spear",
+    "item.alexscaves.limestone_spear_inventory":"Ancient Limestone Spear",
+    "entity.alexscaves.limestone_spear":"Ancient Limestone Spear",
+    "advancements.alexscaves.limestone.desc":"Obtain Ancient Limestone",
+    "advancements.alexscaves.cave_painting.desc":"Create a Cave Painting by using Charcoal on Smooth Ancient Limestone",
+    "alexscaves.sound.subtitle.limestone_spear_throw":"Ancient Limestone Spear chucked",
+    "alexscaves.sound.subtitle.limestone_spear_hit":"Ancient Limestone Spear stabs"
+}
