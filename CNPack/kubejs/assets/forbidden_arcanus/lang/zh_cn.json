@@ -1,0 +1,11 @@
+{
+    "block.forbidden_arcanus.arcane_chiseled_polished_darkstone":"Hephaestus Forge Conduit",
+    "block.forbidden_arcanus.chiseled_arcane_polished_darkstone":"Hephaestus Forge Core",
+    "item.forbidden_arcanus.enhancer.artisan_relic.clibano":"",
+    "item.forbidden_arcanus.enhancer.blood_sigil.hephaestus_forge":"Reduces the required blood dramatically.",
+    "item.forbidden_arcanus.enhancer.clibano_effect":"",
+    "item.forbidden_arcanus.enhancer.crimson_stone.clibano":"",
+    "item.forbidden_arcanus.enhancer.runic_tablet.hephaestus_forge":"Allows the creation of runic items.",
+    "item.forbidden_arcanus.enhancer.soul_crimson_stone.hephaestus_forge":"Completely removes the Aureal essence requirement for one ritual.",
+    "item.forbidden_arcanus.quantum_catcher":"Quantum Cage"
+}
