@@ -73,6 +73,8 @@ def save_translation(zh_cn_dict: dict[str, str], path: Path) -> None:
     dir_path = Path("CNPack") / path.parent
     dir_path.mkdir(parents=True, exist_ok=True)
     file_path = dir_path / "zh_cn.json"
+    if "rename" in file_path:
+        file_path = str(file_path).replace("rename/", "")
     source_path = str(file_path).replace("zh_cn.json", "en_us.json").replace("CNPack", "Source")
     with open(file_path, "w", encoding="UTF-8") as f:
         try:
@@ -116,8 +118,6 @@ def main() -> None:
     for file_id, path in zip(file_id_list, file_path_list):
         if "TM" in path:  # 跳过 TM 文件
             continue
-        if "rename" in path:
-            path = str(path).replace("rename/","")
         zh_cn_dict = process_translation(file_id, Path(path))
         zh_cn_list.append(zh_cn_dict)
 
