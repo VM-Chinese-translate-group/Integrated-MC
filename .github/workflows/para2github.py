@@ -116,7 +116,8 @@ def main() -> None:
     for file_id, path in zip(file_id_list, file_path_list):
         if "TM" in path:  # 跳过 TM 文件
             continue
-
+        if "rename" in path:
+            path = str(path).replace("rename/","")
         zh_cn_dict = process_translation(file_id, Path(path))
         zh_cn_list.append(zh_cn_dict)
 
