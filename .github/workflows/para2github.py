@@ -71,11 +71,11 @@ def save_translation(zh_cn_dict: dict[str, str], path: Path) -> None:
     :param path: 原始文件路径
     """
     dir_path = Path("CNPack") / path.parent
-    dir_path.mkdir(parents=True, exist_ok=True)
+    Path(str(dir_path).replace("rename\\", "")).mkdir(parents=True, exist_ok=True)
     file_path = dir_path / "zh_cn.json"
-    if "rename" in file_path:
-        file_path = str(file_path).replace("rename/", "")
     source_path = str(file_path).replace("zh_cn.json", "en_us.json").replace("CNPack", "Source")
+    if "rename" in str(file_path):
+        file_path = str(file_path).replace("rename\\", "")
     with open(file_path, "w", encoding="UTF-8") as f:
         try:
             with open(source_path, "r", encoding="UTF-8") as f1:
