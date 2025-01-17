@@ -71,11 +71,11 @@ def save_translation(zh_cn_dict: dict[str, str], path: Path) -> None:
     :param path: 原始文件路径
     """
     dir_path = Path("CNPack") / path.parent
-    Path(str(dir_path).replace("rename\\", "")).mkdir(parents=True, exist_ok=True)
+    Path(str(dir_path).replace("rename/", "")).mkdir(parents=True, exist_ok=True)
     file_path = dir_path / "zh_cn.json"
     source_path = str(file_path).replace("zh_cn.json", "en_us.json").replace("CNPack", "Source")
     if "rename" in str(file_path):
-        file_path = str(file_path).replace("rename\\", "")
+        file_path = str(file_path).replace("rename/", "")
     with open(file_path, "w", encoding="UTF-8") as f:
         try:
             with open(source_path, "r", encoding="UTF-8") as f1:
@@ -120,8 +120,10 @@ def main() -> None:
             continue
         zh_cn_dict = process_translation(file_id, Path(path))
         zh_cn_list.append(zh_cn_dict)
-
+    
         save_translation(zh_cn_dict, Path(path))
+        if "rename" in path:
+            path = str(path).replace("rename/","")
         print(f"已从Patatranz下载到仓库：{re.sub('en_us.json', 'zh_cn.json', path)}")
 
 
