@@ -13,7 +13,6 @@
     "block.biomemakeover.willow_door":"Swamp Willow Door",
     "block.biomemakeover.willow_fence":"Swamp Willow Fence",
     "block.biomemakeover.willow_fence_gate":"Swamp Willow Fence Gate",
-    "block.biomemakeover.willow_hanging_sign":"Swamp Willow Hanging Sign",
     "block.biomemakeover.willow_leaves":"Swamp Willow Leaves",
     "block.biomemakeover.willow_log":"Swamp Willow Log",
     "block.biomemakeover.willow_planks":"Swamp Willow Planks",
@@ -23,10 +22,11 @@
     "block.biomemakeover.willow_slab":"Swamp Willow Slab",
     "block.biomemakeover.willow_stairs":"Swamp Willow Stairs",
     "block.biomemakeover.willow_trapdoor":"Swamp Willow Trapdoor",
-    "block.biomemakeover.willow_wall_hanging_sign":"Swamp Willow Hanging Sign",
     "block.biomemakeover.willow_wall_sign":"Swamp Willow Wall Sign",
     "block.biomemakeover.willow_wood":"Swamp Willow Wood",
     "block.biomemakeover.willowing_branches":"Swamp Willowing Branches",
     "item.biomemakeover.willow_boat":"Swamp Willow Boat",
-    "item.biomemakeover.willow_chest_boat":"Swamp Willow Boat with Chest"
+    "item.biomemakeover.willow_chest_boat":"Swamp Willow Boat with Chest",
+    "block.biomemakeover.willow_hanging_sign":"Swamp Willow Hanging Sign",
+    "block.biomemakeover.willow_wall_hanging_sign":"Swamp Willow Hanging Sign"
 }

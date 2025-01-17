@@ -1,7 +1,7 @@
 {
-    "item.endrem.exotic_eye.description":"§7§oLegends say this Eye forms the land upon which many eyes would lay.",
-    "item.endrem.lost_eye.description":"§7§oThe mark of a great Adventurer.",
-    "item.endrem.magical_eye.description":"§7§oWithout this eye, the Magic has no power.",
     "item.endrem.old_eye.description":"§7§oLegends say this eye once belonged to one of the great Deathworms.",
-    "item.endrem.wither_eye.description":"§7§oWishes for the destruction of all. May one day witnessed that destruction."
+    "item.endrem.magical_eye.description":"§7§oWithout this eye, the Magic has no power.",
+    "item.endrem.lost_eye.description":"§7§oThe mark of a great Adventurer.",
+    "item.endrem.wither_eye.description":"§7§oWishes for the destruction of all. May one day witnessed that destruction.",
+    "item.endrem.exotic_eye.description":"§7§oLegends say this Eye forms the land upon which many eyes would lay."
 }
