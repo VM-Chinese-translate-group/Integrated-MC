@@ -1,22 +1,22 @@
 import json
 import os
 import re
-import sys
 from pathlib import Path
 from typing import Tuple
-
 import requests
 
-TOKEN = os.getenv("API_TOKEN", "")
-PROJECT_ID = os.getenv("PROJECT_ID", "")
-FILE_URL = f"https://paratranz.cn/api/projects/{PROJECT_ID}/files/"
+TOKEN: str = os.getenv("API_TOKEN", "")
+GH_TOKEN: str = os.getenv("GH_TOKEN", "")
+PROJECT_ID: str = os.getenv("PROJECT_ID", "")
+FILE_URL: str = f"https://paratranz.cn/api/projects/{PROJECT_ID}/files/"
 
-file_id_list = []
-file_path_list = []
-zh_cn_list = []
+if not TOKEN or not PROJECT_ID:
+    raise EnvironmentError("环境变量 API_TOKEN 或 PROJECT_ID 未设置。")
 
-if len(TOKEN) != 32 or not PROJECT_ID.isdigit():
-    raise EnvironmentError("未设置有效的 API_TOKEN 或 PROJECT_ID 环境变量")
+# 初始化列表和字典
+file_id_list: list[int] = []
+file_path_list: list[str] = []
+zh_cn_list: list[dict[str, str]] = []
 
 
 def fetch_json(url: str, headers: dict[str, str]) -> list[dict[str, str]]:
@@ -26,20 +26,23 @@ def fetch_json(url: str, headers: dict[str, str]) -> list[dict[str, str]]:
 
 
 def translate(file_id: int) -> Tuple[list[str], list[str]]:
-    """获取指定文件的翻译内容并返回键值对列表"""
+    """
+    获取指定文件的翻译内容并返回键值对列表
+    :param file_id: 文件ID
+    :return: 包含键和值的元组列表
+    """
     url = f"https://paratranz.cn/api/projects/{PROJECT_ID}/files/{file_id}/translation"
     headers = {"Authorization": TOKEN, "accept": "*/*"}
     translations = fetch_json(url, headers)
-
     keys, values = [], []
     for item in translations:
         keys.append(item["key"])
         translation = item.get("translation", "")
         original = item.get("original", "")
+        # 优先使用翻译内容，缺失时根据 stage 使用原文
         values.append(
             original if not translation and item["stage"] in [0, -1] else translation
         )
-
     return keys, values
 
 
@@ -57,7 +60,6 @@ def get_files() -> None:
 def save_translation(zh_cn_dict: dict[str, str], path: Path) -> None:
     """
     保存翻译内容到指定的 JSON 文件
-
     :param zh_cn_dict: 翻译内容的字典
     :param path: 原始文件路径
     """
@@ -111,8 +113,6 @@ def process_translation(file_id: int, path: Path) -> dict[str, str]:
 
 
 def main() -> None:
-    if sys.version_info < (3, 9):
-        raise EnvironmentError("请使用 Python 3.9 及更高版本")
     get_files()
     for file_id, path in zip(file_id_list, file_path_list):
         if "TM" in path:  # 跳过 TM 文件
