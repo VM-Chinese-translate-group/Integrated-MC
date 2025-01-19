@@ -73,7 +73,9 @@ def save_translation(zh_cn_dict: dict[str, str], path: Path) -> None:
     dir_path = Path("CNPack") / path.parent
     Path(str(dir_path).replace("rename/", "")).mkdir(parents=True, exist_ok=True)
     file_path = dir_path / "zh_cn.json"
-    source_path = str(file_path).replace("zh_cn.json", "en_us.json").replace("CNPack", "Source")
+    source_path = (
+        str(file_path).replace("zh_cn.json", "en_us.json").replace("CNPack", "Source")
+    )
     if "rename" in str(file_path):
         file_path = str(file_path).replace("rename/", "")
     with open(file_path, "w", encoding="UTF-8") as f:
@@ -83,10 +85,19 @@ def save_translation(zh_cn_dict: dict[str, str], path: Path) -> None:
             keys = source_json.keys()
             for key in keys:
                 source_json[key] = zh_cn_dict[key]
-            json.dump(source_json, f, ensure_ascii=False, indent=4, separators=(",", ":"))
+            json.dump(
+                source_json, f, ensure_ascii=False, indent=4, separators=(",", ":")
+            )
         except IOError:
             print(f"{source_path}路径不存在，文件按首字母排序！")
-            json.dump(zh_cn_dict, f, ensure_ascii=False, indent=4, separators=(",", ":"),sort_keys=True)
+            json.dump(
+                zh_cn_dict,
+                f,
+                ensure_ascii=False,
+                indent=4,
+                separators=(",", ":"),
+                sort_keys=True,
+            )
 
 
 def process_translation(file_id: int, path: Path) -> dict[str, str]:
@@ -116,14 +127,12 @@ def main() -> None:
     get_files()
 
     for file_id, path in zip(file_id_list, file_path_list):
-        if "TM" in path:  # 跳过 TM 文件
-            continue
         zh_cn_dict = process_translation(file_id, Path(path))
         zh_cn_list.append(zh_cn_dict)
-    
+
         save_translation(zh_cn_dict, Path(path))
         if "rename" in path:
-            path = str(path).replace("rename/","")
+            path = str(path).replace("rename/", "")
         print(f"已从Patatranz下载到仓库：{re.sub('en_us.json', 'zh_cn.json', path)}")
 
 
