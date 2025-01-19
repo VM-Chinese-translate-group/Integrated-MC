@@ -21,6 +21,13 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.13"
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/*.py') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
       - name: Install dependencies
         run: |
           pip install requests
@@ -28,46 +35,43 @@ jobs:
         run: |
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com" && \
           git config --global user.name "VM[BOT]"
-      - name: Checkout main branch
-        run: git checkout main
       - name: Paratranz To GitHub
         run: python .github/workflows/para2github.py
       - name: Commit changes
-        id: commit
         run: |
           if [[ -n $(git status -s) ]]; then
-            git add .
+            git add . 
             git commit -m '从Paratranz同步翻译'
             git push origin main
-            echo "changed=true" >> $GITHUB_ENV
-          else
-            echo "changed=false" >> $GITHUB_ENV
           fi
-    outputs:
-      changed: ${{ steps.commit.env.changed }}
+
   release:
     name: Create Release
     runs-on: ubuntu-latest
     needs: paratranz-to-gitHub
-    if: ${{ needs.paratranz-to-gitHub.outputs.changed == 'true' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Upload CNPack folder
         uses: actions/upload-artifact@v4
         with:
           name: CNPack
           path: ${{ github.workspace }}/CNPack
+
       - name: Get current datetime for tag
         id: datetime
-        run: echo "datetime=$(date +'%Y%m%d-%H%M%S')" >> $GITHUB_ENV
+        run: echo "datetime=$(date +'%Y%m%d-%H%M')" >> $GITHUB_ENV
+
       - name: Zip CNPack folder
         run: zip -r "${{ env.datetime }}.zip" ./CNPack
+
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: "${{ env.datetime }}.zip"
           path: "${{ env.datetime }}.zip"
+
       - name: Create Release
         uses: ncipollo/release-action@v1
         with:
