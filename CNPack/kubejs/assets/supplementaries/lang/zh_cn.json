@@ -1,0 +1,21 @@
+{
+    "block.supplementaries.pedestal":"Stone Pedestal",
+    "block.supplementaries.awning":"Canopy",
+    "block.supplementaries.awning_white":"White Canopy",
+    "block.supplementaries.awning_black":"Black Canopy",
+    "block.supplementaries.awning_blue":"Blue Canopy",
+    "block.supplementaries.awning_brown":"Brown Canopy",
+    "block.supplementaries.awning_cyan":"Cyan Canopy",
+    "block.supplementaries.awning_gray":"Gray Canopy",
+    "block.supplementaries.awning_green":"Green Canopy",
+    "block.supplementaries.awning_light_blue":"Light Blue Canopy",
+    "block.supplementaries.awning_light_gray":"Light Gray Canopy",
+    "block.supplementaries.awning_lime":"Lime Canopy",
+    "block.supplementaries.awning_magenta":"Magenta Canopy",
+    "block.supplementaries.awning_orange":"Orange Canopy",
+    "block.supplementaries.awning_pink":"Pink Canopy",
+    "block.supplementaries.awning_purple":"Purple Canopy",
+    "block.supplementaries.awning_red":"Red Canopy",
+    "block.supplementaries.awning_yellow":"Yellow Canopy",
+    "gui.supplementaries.pedestal":"Stone Pedestal"
+}
