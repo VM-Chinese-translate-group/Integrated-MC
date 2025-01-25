@@ -1,7 +1,7 @@
 {
 	id: "466A095B8D600168"
 	loot_size: 1
-	order_index: 6
+	order_index: 7
 	rewards: [
 		{
 			item: {
@@ -199,5 +199,5 @@
 			title: "Extra Health I"
 		}
 	]
-	title: "{ftbquests.loot_table.title7}"
+	title: "{ftbquests.loot_table_5073878219004838248.title}"
 }

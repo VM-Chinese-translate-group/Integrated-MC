@@ -4,7 +4,7 @@ from pathlib import Path
 
 # 文件路径
 js_file_path = Path("D:/mc/mod/Integrated-MC/CNPack/kubejs/client_scripts/jei_info.js")
-lang_file_path = Path("D:/mc/mod/Integrated-MC/CNPack/kubejs/assets/lang/en_us.json")
+lang_file_path = Path("D:/mc/mod/Integrated-MC/CNPack/kubejs/client_scripts/en_us.json")
 
 # 读取 js 文件内容
 with open(js_file_path, "r", encoding="UTF-8") as js_file:

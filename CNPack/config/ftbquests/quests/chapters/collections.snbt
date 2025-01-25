@@ -3,10 +3,10 @@
 	default_quest_shape: ""
 	disable_toast: true
 	filename: "collections"
-	group: ""
+	group: "4CEB1A39D55B2802"
 	icon: "idas:music_disc_slither"
 	id: "7C47C9158627CBF8"
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -511,24 +511,236 @@
 					type: "item"
 				}
 				{
-					id: "15B885BCDAB5991C"
+					id: "01ADC3655B409BFD"
 					item: {
 						Count: 1
-						id: "born_in_chaos_v1:soulbane"
+						id: "traveloptics:infernal_devastator"
 						tag: {
 							Damage: 0
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:gyro_slash"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 1b
+							}
 						}
 					}
 					type: "item"
 				}
 				{
-					id: "5E355CE7728E64FA"
+					id: "6721A5644AEA3DCC"
 					item: {
 						Count: 1
-						id: "born_in_chaos_v1:pumpkinhandgun"
+						id: "traveloptics:abyssal_tidecaller"
 						tag: {
 							Damage: 0
-							geckoAnim: ""
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:shadowed_miasma"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23371816F7BE4945"
+					item: {
+						Count: 1
+						id: "traveloptics:scourge_of_the_sands"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:stele_cascade"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66D1EC3396FCFA69"
+					item: {
+						Count: 1
+						id: "traveloptics:voidstrike_reaper"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:vortex_punch"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CABD26F38C45012"
+					item: {
+						Count: 1
+						id: "traveloptics:flames_of_eldritch"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:burning_judgment"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B7A842E4D4F074A"
+					item: {
+						Count: 1
+						id: "traveloptics:harbingers_wrath"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:em_pulse"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5EFDEC7A4DEA5896"
+					item: "cataclysm:the_incinerator"
+					type: "item"
+				}
+				{
+					id: "1823BD07731BDF2A"
+					item: "cataclysm:meat_shredder"
+					type: "item"
+				}
+				{
+					id: "6698FD4EACBB3909"
+					item: {
+						Count: 1
+						id: "traveloptics:mechanized_wraithblade"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:rapid_laser"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07D56641331A7235"
+					item: {
+						Count: 1
+						id: "traveloptics:the_obliterator"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:shadowed_miasma"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F31CFE64079BE7C"
+					item: {
+						Count: 1
+						id: "traveloptics:thorns_of_oblivion"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:blight"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67A145AD3E5797E6"
+					item: "traveloptics:titanlord_scepter_tectonic"
+					type: "item"
+				}
+				{
+					id: "43D4ACDB5E4DCB98"
+					item: {
+						Count: 1
+						id: "traveloptics:gauntlet_of_extinction"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [{
+									id: "traveloptics:extinction"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 1b
+							}
 						}
 					}
 					type: "item"
@@ -982,12 +1194,6 @@
 				}
 				{
 					disable_toast: true
-					id: "0DBC034FDFAD5871"
-					item: "snifferplus:stone_pine_sapling"
-					type: "item"
-				}
-				{
-					disable_toast: true
 					id: "315750B79CC2D266"
 					item: "ars_nouveau:blue_archwood_sapling"
 					type: "item"
@@ -1038,11 +1244,6 @@
 				{
 					id: "5D6BB635D0BAA595"
 					item: "autumnity:maple_sapling"
-					type: "item"
-				}
-				{
-					id: "7D8DACBE857A29E4"
-					item: "wilderwild:cypress_sapling"
 					type: "item"
 				}
 				{
@@ -1128,6 +1329,96 @@
 				{
 					id: "268AAF74E2935AD4"
 					item: "fruitsdelight:fig_sapling"
+					type: "item"
+				}
+				{
+					id: "3D216C0DB9EF7B33"
+					item: "atmospheric:rosewood_sapling"
+					type: "item"
+				}
+				{
+					id: "675F6D6AA992828F"
+					item: "atmospheric:morado_sapling"
+					type: "item"
+				}
+				{
+					id: "380F15AE9D4C5CAF"
+					item: "atmospheric:yucca_sapling"
+					type: "item"
+				}
+				{
+					id: "2E8CA0CAB5E23562"
+					item: "atmospheric:laurel_sapling"
+					type: "item"
+				}
+				{
+					id: "4F7672D2BA358908"
+					item: "atmospheric:dry_laurel_sapling"
+					type: "item"
+				}
+				{
+					id: "17DD9C5B56BDDE1B"
+					item: "atmospheric:aspen_sapling"
+					type: "item"
+				}
+				{
+					id: "1CDA4926A06D9BA9"
+					item: "atmospheric:green_aspen_sapling"
+					type: "item"
+				}
+				{
+					id: "5C0B671020C7E975"
+					item: "atmospheric:kousa_sapling"
+					type: "item"
+				}
+				{
+					id: "110B950498F52BCD"
+					item: "atmospheric:grimwood_sapling"
+					type: "item"
+				}
+				{
+					id: "4BCE85F255D4533D"
+					item: "environmental:willow_sapling"
+					type: "item"
+				}
+				{
+					id: "593AFB50284B34D4"
+					item: "environmental:pine_sapling"
+					type: "item"
+				}
+				{
+					id: "34F66ABEEE3DE6C9"
+					item: "environmental:cheerful_plum_sapling"
+					type: "item"
+				}
+				{
+					id: "3B346CC653CF0CC0"
+					item: "environmental:plum_sapling"
+					type: "item"
+				}
+				{
+					id: "3C78AB70FBF104AC"
+					item: "environmental:moody_plum_sapling"
+					type: "item"
+				}
+				{
+					id: "1B4958FC2023A965"
+					item: "environmental:pink_wisteria_sapling"
+					type: "item"
+				}
+				{
+					id: "0DCA25E21D6BB028"
+					item: "environmental:purple_wisteria_sapling"
+					type: "item"
+				}
+				{
+					id: "5052A373386039AE"
+					item: "environmental:blue_wisteria_sapling"
+					type: "item"
+				}
+				{
+					id: "6A4CE752D7AAB455"
+					item: "environmental:white_wisteria_sapling"
 					type: "item"
 				}
 			]
@@ -1224,252 +1515,6 @@
 				}
 			]
 			title: "{ftbquests.chapter.collections.quest4.title}"
-			x: 0.5d
-			y: -2.5d
-		}
-		{
-			id: "3E78CA428816CFFA"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0E0C4EAC4D6361A9"
-					table_id: 1787598695114971302L
-					type: "choice"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0FC3F86124B670DE"
-					table_id: 1787598695114971302L
-					type: "random"
-				}
-			]
-			shape: "diamond"
-			subtitle: "{ftbquests.chapter.collections.quest5.subtitle}"
-			tasks: [
-				{
-					id: "6F5D5F96875649FB"
-					item: {
-						Count: 1
-						id: "iceandfire:dragonsteel_fire_sword"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4ECCC5643075DC87"
-					item: {
-						Count: 1
-						id: "iceandfire:dragonsteel_ice_sword"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "483A1845DA6B9AC4"
-					item: {
-						Count: 1
-						id: "iceandfire:dragonsteel_lightning_sword"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.collections.quest5.title}"
-			x: -1.0d
-			y: -1.0d
-		}
-		{
-			id: "02F5DA0DCD70544D"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "6280D0C133827C10"
-					table_id: 1787598695114971302L
-					type: "choice"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "67807E25D3878866"
-					table_id: 1787598695114971302L
-					type: "random"
-				}
-			]
-			shape: "diamond"
-			subtitle: "{ftbquests.chapter.collections.quest6.subtitle}"
-			tasks: [
-				{
-					id: "1EC948E21E978B96"
-					item: {
-						Count: 1
-						id: "knavesneeds:betterend/aeternium/scythe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "03082991CACD2971"
-					item: {
-						Count: 1
-						id: "knavesneeds:betterend/aeternium/halberd"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "245B534C65E15D72"
-					item: {
-						Count: 1
-						id: "knavesneeds:betterend/aeternium/greataxe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0578FCA17FC67CD5"
-					item: {
-						Count: 1
-						id: "knavesneeds:betterend/aeternium/greathammer"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2558D173C0472DDE"
-					item: {
-						Count: 1
-						id: "knavesneeds:betterend/aeternium/claymore"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7A3BBBDAE499000D"
-					item: {
-						Count: 1
-						id: "knavesneeds:betterend/aeternium/cutlass"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "05759CF81A6DC397"
-					item: {
-						Count: 1
-						id: "knavesneeds:betterend/aeternium/warglaive"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "532620A7DFBD0117"
-					item: {
-						Count: 1
-						id: "knavesneeds:betterend/aeternium/glaive"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3330E3AAB80EF175"
-					item: {
-						Count: 1
-						id: "knavesneeds:betterend/aeternium/spear"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0CF4A40077C84D96"
-					item: {
-						Count: 1
-						id: "knavesneeds:betterend/aeternium/sai"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "23F422328A1E4DB9"
-					item: {
-						Count: 1
-						id: "knavesneeds:betterend/aeternium/katana"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "19941F7CD44B0287"
-					item: {
-						Count: 1
-						id: "knavesneeds:betterend/aeternium/rapier"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2EDEE76412170AE0"
-					item: {
-						Count: 1
-						id: "knavesneeds:betterend/aeternium/twinblade"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "66BD57286892D2BE"
-					item: {
-						Count: 1
-						id: "knavesneeds:betterend/aeternium/longsword"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2CFA85202BC1B422"
-					item: {
-						Count: 1
-						id: "knavesneeds:betterend/aeternium/chakram"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.collections.quest6.title}"
 			x: 2.5d
 			y: -2.0d
 		}
@@ -1489,7 +1534,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.collections.quest7.subtitle}"
+			subtitle: "{ftbquests.chapter.collections.quest5.subtitle}"
 			tasks: [
 				{
 					id: "15671FF6D37F2EA6"
@@ -2057,7 +2102,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.collections.quest7.title}"
+			title: "{ftbquests.chapter.collections.quest5.title}"
 			x: 1.5d
 			y: 0.0d
 		}
@@ -2078,7 +2123,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.collections.quest8.subtitle}"
+			subtitle: "{ftbquests.chapter.collections.quest6.subtitle}"
 			tasks: [
 				{
 					id: "6EFD620822707513"
@@ -2271,56 +2316,6 @@
 					type: "item"
 				}
 				{
-					id: "1E0F06A6AE3A28BE"
-					item: "quark:music_disc_chatter"
-					type: "item"
-				}
-				{
-					id: "219BFD4F71BBBE06"
-					item: "quark:music_disc_crickets"
-					type: "item"
-				}
-				{
-					id: "091015E6719EEF1B"
-					item: "quark:music_disc_clock"
-					type: "item"
-				}
-				{
-					id: "7035CDEA7A0224BC"
-					item: "quark:music_disc_fire"
-					type: "item"
-				}
-				{
-					id: "7358B8E4359A6496"
-					item: "quark:music_disc_wind"
-					type: "item"
-				}
-				{
-					id: "5C6DD5D8B9C05020"
-					item: "quark:music_disc_rain"
-					type: "item"
-				}
-				{
-					id: "080F5357CF4D22A7"
-					item: "quark:music_disc_ocean"
-					type: "item"
-				}
-				{
-					id: "559F162B6AB39415"
-					item: "quark:music_disc_drips"
-					type: "item"
-				}
-				{
-					id: "680259DB9149BB61"
-					item: "doom_and_gloom:music_disc_afterlife"
-					type: "item"
-				}
-				{
-					id: "4B8F164A64C0524B"
-					item: "oreganized:music_disc_structure"
-					type: "item"
-				}
-				{
 					id: "25ECC4F613FB0594"
 					item: "netherexp:music_disc_buckshot_wonderland"
 					type: "item"
@@ -2336,18 +2331,8 @@
 					type: "item"
 				}
 				{
-					id: "57B75DADF3E3B15B"
-					item: "wilderwild:music_disc_back"
-					type: "item"
-				}
-				{
 					id: "50F1FC7440AF599F"
 					item: "oreganized:music_disc_structure"
-					type: "item"
-				}
-				{
-					id: "529DE4D9491D990A"
-					item: "wilderwild:music_disc_goathorn_symphony"
 					type: "item"
 				}
 				{
@@ -2380,8 +2365,63 @@
 					item: "supplementaries:pancake"
 					type: "item"
 				}
+				{
+					id: "02E546F4416F1463"
+					item: "cataclysm:music_disc_netherite_monstrosity"
+					type: "item"
+				}
+				{
+					id: "6335F1944EABB24C"
+					item: "cataclysm:music_disc_ender_guardian"
+					type: "item"
+				}
+				{
+					id: "2A4F77F54CD5993F"
+					item: "cataclysm:music_disc_ignis"
+					type: "item"
+				}
+				{
+					id: "27AC074409C1FFBD"
+					item: "cataclysm:music_disc_the_harbinger"
+					type: "item"
+				}
+				{
+					id: "67A64FB431D874F3"
+					item: "cataclysm:music_disc_the_leviathan"
+					type: "item"
+				}
+				{
+					id: "7225AB706BF1F39F"
+					item: "cataclysm:music_disc_ancient_remnant"
+					type: "item"
+				}
+				{
+					id: "69A69672F61A947C"
+					item: "cataclysm:music_disc_maledictus"
+					type: "item"
+				}
+				{
+					id: "3D12D0AAE99BE1F6"
+					item: "aquamirae:music_disc_forsaken_drownage"
+					type: "item"
+				}
+				{
+					id: "17EED7FB36EEBC76"
+					item: "aquamirae:music_disc_horizon"
+					type: "item"
+				}
+				{
+					id: "7579721A8EE3AF2F"
+					item: "traveloptics:music_disc_169"
+					type: "item"
+				}
+				{
+					id: "681D5B08514D88B0"
+					item: "caverns_and_chasms:music_disc_epilogue"
+					type: "item"
+				}
 			]
-			title: "{ftbquests.chapter.collections.quest8.title}"
+			title: "{ftbquests.chapter.collections.quest6.title}"
 			x: -0.5d
 			y: 0.0d
 		}
@@ -2402,7 +2442,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.collections.quest9.subtitle}"
+			subtitle: "{ftbquests.chapter.collections.quest7.subtitle}"
 			tasks: [
 				{
 					id: "027D13B51BDF3B4B"
@@ -2495,7 +2535,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.collections.quest9.title}"
+			title: "{ftbquests.chapter.collections.quest7.title}"
 			x: -1.5d
 			y: 0.0d
 		}
@@ -2516,7 +2556,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.collections.quest10.subtitle}"
+			subtitle: "{ftbquests.chapter.collections.quest8.subtitle}"
 			tasks: [
 				{
 					id: "6206DA386D6E4BFE"
@@ -2635,7 +2675,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.collections.quest10.title}"
+			title: "{ftbquests.chapter.collections.quest8.title}"
 			x: 2.0d
 			y: -1.0d
 		}
@@ -2662,7 +2702,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.collections.quest11.subtitle}"
+			subtitle: "{ftbquests.chapter.collections.quest9.subtitle}"
 			tasks: [
 				{
 					id: "5B9AA81CAD20EFEC"
@@ -3384,8 +3424,13 @@
 					item: "fruitsdelight:lemon_cookie"
 					type: "item"
 				}
+				{
+					id: "4A7378B140FE3E8C"
+					item: "aquamirae:poseidons_breakfast"
+					type: "item"
+				}
 			]
-			title: "{ftbquests.chapter.collections.quest11.title}"
+			title: "{ftbquests.chapter.collections.quest9.title}"
 			x: 1.5d
 			y: -2.0d
 		}
@@ -3406,7 +3451,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.collections.quest12.subtitle}"
+			subtitle: "{ftbquests.chapter.collections.quest10.subtitle}"
 			tasks: [
 				{
 					id: "390BE38B05E541F1"
@@ -3416,17 +3461,6 @@
 				{
 					id: "32989F03FCA34465"
 					item: "forbidden_arcanus:quantum_catcher"
-					type: "item"
-				}
-				{
-					id: "07A2697841C77CCA"
-					item: {
-						Count: 1
-						id: "dragonseeker:legendary_dragonseeker"
-						tag: {
-							Damage: 0
-						}
-					}
 					type: "item"
 				}
 				{
@@ -3513,8 +3547,34 @@
 					item: "born_in_chaos_v1:dark_atrium"
 					type: "item"
 				}
+				{
+					id: "5B67CD31EB837FFC"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:hither_thither_wand"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:portal"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F03861B0E22DC49"
+					item: "bosses_of_mass_destruction:mob_ward"
+					type: "item"
+				}
 			]
-			title: "{ftbquests.chapter.collections.quest12.title}"
+			title: "{ftbquests.chapter.collections.quest10.title}"
 			x: 0.5d
 			y: 0.5d
 		}
@@ -3526,7 +3586,7 @@
 				table_id: 1787598695114971302L
 				type: "choice"
 			}]
-			subtitle: "{ftbquests.chapter.collections.quest13.subtitle}"
+			subtitle: "{ftbquests.chapter.collections.quest11.subtitle}"
 			tasks: [
 				{
 					id: "6118F4178FC2A622"
@@ -3582,8 +3642,13 @@
 					item: "born_in_chaos_v1:intoxicatind_bomb"
 					type: "item"
 				}
+				{
+					id: "5468893F7D36FC4E"
+					item: "supplementaries:bomb_blue"
+					type: "item"
+				}
 			]
-			title: "{ftbquests.chapter.collections.quest13.title}"
+			title: "{ftbquests.chapter.collections.quest11.title}"
 			x: -2.0d
 			y: -1.0d
 		}
@@ -3595,7 +3660,7 @@
 				table_id: 1787598695114971302L
 				type: "choice"
 			}]
-			subtitle: "{ftbquests.chapter.collections.quest14.subtitle}"
+			subtitle: "{ftbquests.chapter.collections.quest12.subtitle}"
 			tasks: [
 				{
 					id: "63F1F35218336704"
@@ -3735,8 +3800,103 @@
 					item: "ars_technica:spy_monocle"
 					type: "item"
 				}
+				{
+					id: "41DE446ECD6F9C17"
+					item: "irons_spellbooks:mana_ring"
+					type: "item"
+				}
+				{
+					id: "57F7F14C48080CF2"
+					item: "irons_spellbooks:silver_ring"
+					type: "item"
+				}
+				{
+					id: "5AA8E33B66D4B3CC"
+					item: "irons_spellbooks:cooldown_ring"
+					type: "item"
+				}
+				{
+					id: "618555D3A27F6911"
+					item: "irons_spellbooks:cast_time_ring"
+					type: "item"
+				}
+				{
+					id: "23FBB47D0AD05F62"
+					item: "irons_spellbooks:emerald_stoneplate_ring"
+					type: "item"
+				}
+				{
+					id: "1CFB4E2CFC5B4A2E"
+					item: "irons_spellbooks:fireward_ring"
+					type: "item"
+				}
+				{
+					id: "24398FC114BEFAA1"
+					item: "irons_spellbooks:frostward_ring"
+					type: "item"
+				}
+				{
+					id: "1E9ECC85BD1CDCF9"
+					item: "irons_spellbooks:poisonward_ring"
+					type: "item"
+				}
+				{
+					id: "4CB00BBD29FD08AA"
+					item: "irons_spellbooks:affinity_ring"
+					type: "item"
+				}
+				{
+					id: "33142C1A3B4B56E2"
+					item: "irons_spellbooks:invisibility_ring"
+					type: "item"
+				}
+				{
+					id: "0D70232605BDF5D9"
+					item: "irons_spellbooks:concentration_amulet"
+					type: "item"
+				}
+				{
+					id: "58BD46F020222D4C"
+					item: "irons_spellbooks:amethyst_resonance_charm"
+					type: "item"
+				}
+				{
+					id: "62AA793DA837B6C6"
+					item: "irons_spellbooks:heavy_chain_necklace"
+					type: "item"
+				}
+				{
+					id: "1747C79923AAE327"
+					item: "traveloptics:nightstalkers_band"
+					type: "item"
+				}
+				{
+					id: "671DCFDC7741BD85"
+					item: "traveloptics:amulet_of_spectral_shift"
+					type: "item"
+				}
+				{
+					id: "29C5A015434798F6"
+					item: "traveloptics:energy_unbound_necklace"
+					type: "item"
+				}
+				{
+					id: "0E6E02626B42C987"
+					item: "traveloptics:azure_ignition_bracelet"
+					type: "item"
+				}
+				{
+					id: "6B7ECAE47D0EEBE2"
+					item: "traveloptics:aetherial_despair_ring"
+					type: "item"
+				}
+				{
+					id: "0329D00022CF9BA3"
+					item: "crittersandcompanions:pearl_necklace_3"
+					type: "item"
+				}
 			]
-			title: "{ftbquests.chapter.collections.quest14.title}"
+			title: "{ftbquests.chapter.collections.quest12.title}"
 			x: 3.0d
 			y: -1.0d
 		}
@@ -3749,7 +3909,7 @@
 				type: "choice"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.collections.quest15.subtitle}"
+			subtitle: "{ftbquests.chapter.collections.quest13.subtitle}"
 			tasks: [
 				{
 					id: "11E6A2913B0DCEB1"
@@ -3853,199 +4013,98 @@
 					item: "create:goggles"
 					type: "item"
 				}
+				{
+					id: "5404F041FE66ACCF"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A624A68762524B9"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:electromancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F45E2DADD825592"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5044C531ACF38F57"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cultist_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D3C48310453E6A3"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "109106D8923498FA"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shadowwalker_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C9F1430454AF662"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D89D44379CF7A25"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:plagued_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
 			]
-			title: "{ftbquests.chapter.collections.quest15.title}"
+			title: "{ftbquests.chapter.collections.quest13.title}"
 			x: -0.5d
 			y: 1.0d
-		}
-		{
-			id: "06032BE36F764EEE"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0CCDFF86220AD627"
-					table_id: 1787598695114971302L
-					type: "choice"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7F11ACD769E21998"
-					table_id: 1787598695114971302L
-					type: "choice"
-				}
-			]
-			shape: "diamond"
-			subtitle: "{ftbquests.chapter.collections.quest16.subtitle}"
-			tasks: [
-				{
-					id: "0FD83D31FDBFC1C6"
-					item: {
-						Count: 1
-						id: "knavesneeds:forbidden_arcanus/reinforced_deorum/halberd"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "56CF28E6EC533579"
-					item: {
-						Count: 1
-						id: "knavesneeds:forbidden_arcanus/reinforced_deorum/scythe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "44A4855FFE062A11"
-					item: {
-						Count: 1
-						id: "knavesneeds:forbidden_arcanus/reinforced_deorum/chakram"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3CEFFCC161EC577D"
-					item: {
-						Count: 1
-						id: "knavesneeds:forbidden_arcanus/reinforced_deorum/greataxe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7EB955CB36A83815"
-					item: {
-						Count: 1
-						id: "knavesneeds:forbidden_arcanus/reinforced_deorum/greathammer"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "10A020B2772CF0AC"
-					item: {
-						Count: 1
-						id: "knavesneeds:forbidden_arcanus/reinforced_deorum/sai"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "23DBC0A83BE63BE0"
-					item: {
-						Count: 1
-						id: "knavesneeds:forbidden_arcanus/reinforced_deorum/claymore"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "44395AFD804FC05A"
-					item: {
-						Count: 1
-						id: "knavesneeds:forbidden_arcanus/reinforced_deorum/katana"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6A77AD41A112229E"
-					item: {
-						Count: 1
-						id: "knavesneeds:forbidden_arcanus/reinforced_deorum/longsword"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "68635ABEC87FFA6B"
-					item: {
-						Count: 1
-						id: "knavesneeds:forbidden_arcanus/reinforced_deorum/spear"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3BE1F879A73CC0EB"
-					item: {
-						Count: 1
-						id: "knavesneeds:forbidden_arcanus/reinforced_deorum/glaive"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "179F4FB37E10B433"
-					item: {
-						Count: 1
-						id: "knavesneeds:forbidden_arcanus/reinforced_deorum/warglaive"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "27DC6415162EAC8B"
-					item: {
-						Count: 1
-						id: "knavesneeds:forbidden_arcanus/reinforced_deorum/cutlass"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "35A749C8BECBD640"
-					item: {
-						Count: 1
-						id: "knavesneeds:forbidden_arcanus/reinforced_deorum/rapier"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7F48C94F9E2595AF"
-					item: {
-						Count: 1
-						id: "knavesneeds:forbidden_arcanus/reinforced_deorum/twinblade"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.collections.quest16.title}"
-			x: -1.5d
-			y: -2.0d
 		}
 		{
 			id: "6BED9713846D601C"
@@ -4056,7 +4115,7 @@
 				type: "choice"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.collections.quest17.subtitle}"
+			subtitle: "{ftbquests.chapter.collections.quest14.subtitle}"
 			tasks: [
 				{
 					id: "6FA1027B71FDCF5C"
@@ -4153,8 +4212,13 @@
 					item: "minecraft:sentry_armor_trim_smithing_template"
 					type: "item"
 				}
+				{
+					id: "7DC97A18B5DDC945"
+					item: "caverns_and_chasms:exile_armor_trim_smithing_template"
+					type: "item"
+				}
 			]
-			title: "{ftbquests.chapter.collections.quest17.title}"
+			title: "{ftbquests.chapter.collections.quest14.title}"
 			x: 1.5d
 			y: 1.0d
 		}
@@ -4167,7 +4231,7 @@
 				type: "choice"
 			}]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.collections.quest18.subtitle}"
+			subtitle: "{ftbquests.chapter.collections.quest15.subtitle}"
 			tasks: [
 				{
 					id: "1D6571C29E5B9CB1"
@@ -4255,61 +4319,142 @@
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "7961958050C2A10A"
 					item: "oreganized:silver_ingot"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "57F34B0B62A04CC7"
 					item: "minecraft:gold_ingot"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "53B7872E34DF08E8"
 					item: "oreganized:lead_ingot"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "76BAC6ACE71798E1"
 					item: "minecraft:copper_ingot"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "2F58F9A6709B3016"
 					item: "minecraft:iron_ingot"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "6C57523C41ACF431"
 					item: "betterend:thallasium_ingot"
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "3933DC16DCFD3AAC"
 					item: "oreganized:electrum_ingot"
 					type: "item"
 				}
+				{
+					disable_toast: true
+					id: "214D54F9F86BF61A"
+					item: "caverns_and_chasms:necromium_ingot"
+					type: "item"
+				}
+				{
+					id: "79382598E59A20AF"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+				{
+					id: "5C21DA96B71F4DBB"
+					item: "cataclysm:cursium_ingot"
+					type: "item"
+				}
+				{
+					id: "4444E7B9A39DE20B"
+					item: "cataclysm:witherite_ingot"
+					type: "item"
+				}
+				{
+					id: "2D3171C92F488873"
+					item: "cataclysm:ancient_metal_ingot"
+					type: "item"
+				}
+				{
+					id: "20F8BA328472E8E8"
+					item: "traveloptics:pyro_spellweave_ingot"
+					type: "item"
+				}
+				{
+					id: "1F664AD7A12AF020"
+					item: "traveloptics:verdant_spellweave_ingot"
+					type: "item"
+				}
+				{
+					id: "2759F71B6A52F37C"
+					item: "traveloptics:void_spellweave_ingot"
+					type: "item"
+				}
+				{
+					id: "4AEBD5548CFFE6E5"
+					item: "traveloptics:tectonic_ingot"
+					type: "item"
+				}
+				{
+					id: "34C786DBBFBF65AF"
+					item: "traveloptics:abyssal_spellweave_ingot"
+					type: "item"
+				}
+				{
+					id: "7408626C4F91E2B0"
+					item: "irons_spellbooks:arcane_ingot"
+					type: "item"
+				}
 			]
-			title: "{ftbquests.chapter.collections.quest18.title}"
-			x: -0.5d
-			y: -3.0d
+			title: "{ftbquests.chapter.collections.quest15.title}"
+			x: -1.5d
+			y: -2.0d
 		}
 		{
-			id: "329C02B4F31E297B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "52F11E979B9F12C9"
-				table_id: 1787598695114971302L
-				type: "choice"
-			}]
+			id: "20794B49D851EF19"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "261FE877282EEBB4"
+					table_id: 7764861743028037075L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7AF53D5BE27FC9EF"
+					table_id: 7764861743028037075L
+					type: "random"
+				}
+			]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.collections.quest19.subtitle}"
+			subtitle: "{ftbquests.chapter.collections.quest16.subtitle}"
 			tasks: [
 				{
-					id: "4EDF7BADCEED206B"
+					id: "42AD2D2068585F1E"
+					item: "alexscaves:raygun"
+					type: "item"
+				}
+				{
+					id: "68109D7BCB3A13A8"
+					item: "alexscaves:shot_gum"
+					type: "item"
+				}
+				{
+					id: "0FC4B8DE474E15EC"
 					item: {
 						Count: 1
-						id: "ars_technica:technomancer_chestplate"
+						id: "alexsmobs:stink_ray"
 						tag: {
 							Damage: 0
 						}
@@ -4317,10 +4462,10 @@
 					type: "item"
 				}
 				{
-					id: "1A2BE34FBAC0A2F1"
+					id: "51BD86F468944293"
 					item: {
 						Count: 1
-						id: "ars_nouveau:sorcerer_robes"
+						id: "alexsmobs:blood_sprayer"
 						tag: {
 							Damage: 0
 						}
@@ -4328,10 +4473,10 @@
 					type: "item"
 				}
 				{
-					id: "4FDFD5FBD36C25C1"
+					id: "61BB5EED243332C6"
 					item: {
 						Count: 1
-						id: "ars_nouveau:arcanist_robes"
+						id: "alexsmobs:hemolymph_blaster"
 						tag: {
 							Damage: 0
 						}
@@ -4339,10 +4484,10 @@
 					type: "item"
 				}
 				{
-					id: "72F71D40B2E573F3"
+					id: "4F087E3852E54192"
 					item: {
 						Count: 1
-						id: "ars_nouveau:battlemage_robes"
+						id: "born_in_chaos_v1:pumpkinhandgun"
 						tag: {
 							Damage: 0
 						}
@@ -4350,10 +4495,10 @@
 					type: "item"
 				}
 				{
-					id: "64B9F59B8C1D3413"
+					id: "2516EC2EBC64BFEA"
 					item: {
 						Count: 1
-						id: "ars_elemental:aqua_robes"
+						id: "create:potato_cannon"
 						tag: {
 							Damage: 0
 						}
@@ -4361,10 +4506,10 @@
 					type: "item"
 				}
 				{
-					id: "0E78458D46BC5FAA"
+					id: "72540DC48BF918BC"
 					item: {
 						Count: 1
-						id: "ars_elemental:fire_robes"
+						id: "netherexp:shotgun_fist"
 						tag: {
 							Damage: 0
 						}
@@ -4372,10 +4517,10 @@
 					type: "item"
 				}
 				{
-					id: "0FD280C8160535B0"
+					id: "516A5A88544C4A6B"
 					item: {
 						Count: 1
-						id: "ars_elemental:air_robes"
+						id: "netherexp:pump_charge_shotgun"
 						tag: {
 							Damage: 0
 						}
@@ -4383,10 +4528,10 @@
 					type: "item"
 				}
 				{
-					id: "488752CD622FE4B3"
+					id: "0C11AFA5A72B117E"
 					item: {
 						Count: 1
-						id: "ars_elemental:earth_robes"
+						id: "cataclysm:laser_gatling"
 						tag: {
 							Damage: 0
 						}
@@ -4394,10 +4539,38 @@
 					type: "item"
 				}
 				{
-					id: "1D38D274ED3CECF4"
+					id: "0DE9AC2D6D0D8CE3"
+					item: "cataclysm:wither_assault_shoulder_weapon"
+					type: "item"
+				}
+				{
+					id: "50134931F63A1C29"
+					item: "cataclysm:void_assault_shoulder_weapon"
+					type: "item"
+				}
+				{
+					id: "6895E55C295798FF"
 					item: {
 						Count: 1
-						id: "hexerei:witch_chestplate"
+						id: "ars_nouveau:splash_flask_cannon"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6F856B6F89528B63"
+					item: {
+						Count: 1
+						id: "ars_nouveau:lingering_flask_cannon"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "58645E02D4537B2E"
+					item: {
+						Count: 1
+						id: "mowziesmobs:blowgun"
 						tag: {
 							Damage: 0
 						}
@@ -4405,10 +4578,15 @@
 					type: "item"
 				}
 				{
-					id: "26778175384A48D9"
+					id: "4F1984174B81FB87"
+					item: "supplementaries:cannon"
+					type: "item"
+				}
+				{
+					id: "25DA799F2C33BE46"
 					item: {
 						Count: 1
-						id: "eidolon:warlock_cloak"
+						id: "supplementaries:slingshot"
 						tag: {
 							Damage: 0
 						}
@@ -4416,10 +4594,10 @@
 					type: "item"
 				}
 				{
-					id: "3039C45F8F23ADAE"
+					id: "4FECCC47C7C4E36C"
 					item: {
 						Count: 1
-						id: "born_in_chaos_v1:nightmare_mantleofthe_night_chestplate"
+						id: "supplementaries:bubble_blower"
 						tag: {
 							Damage: 0
 						}
@@ -4427,9 +4605,9 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.collections.quest19.title}"
-			x: 1.5d
-			y: -3.0d
+			title: "{ftbquests.chapter.collections.quest16.title}"
+			x: -1.0d
+			y: -1.0d
 		}
 	]
 	title: "{ftbquests.chapter.collections.title}"

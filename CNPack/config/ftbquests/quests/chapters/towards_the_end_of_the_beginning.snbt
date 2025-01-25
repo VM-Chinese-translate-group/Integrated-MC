@@ -3,7 +3,7 @@
 	default_min_width: 250
 	default_quest_shape: ""
 	filename: "towards_the_end_of_the_beginning"
-	group: "223D9B8AFF17C8FD"
+	group: "523BD734ACA98B4C"
 	icon: "minecraft:end_portal_frame"
 	id: "39FA816C9D8E9F58"
 	order_index: 2
@@ -23,7 +23,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "2B28313EDF8B54F6"
-				title: "{ftbquests.chapter.towards_the_end_of_the_beginning.quest1.task.title1}"
+				title: "{ftbquests.chapter.towards_the_end_of_the_beginning.quest1.task_+3109789688807511286.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d

@@ -3,7 +3,7 @@
 	default_min_width: 250
 	default_quest_shape: ""
 	filename: "tracking"
-	group: "223D9B8AFF17C8FD"
+	group: "1D344E867FA1E0AF"
 	icon: "minecraft:clock"
 	id: "3F43F8C8962D3A93"
 	order_index: 0
@@ -37,7 +37,7 @@
 				icon: "betterarcheology:radiance_totem"
 				id: "74783BBBA7AD867A"
 				stat: "minecraft:time_since_death"
-				title: "{ftbquests.chapter.tracking.quest1.task.title1}"
+				title: "{ftbquests.chapter.tracking.quest1.task_+8392523582763009658.title}"
 				type: "stat"
 				value: 200000
 			}]
@@ -77,7 +77,7 @@
 				icon: "gravestone:gravestone"
 				id: "05E12D6B5AF234FF"
 				stat: "minecraft:deaths"
-				title: "{ftbquests.chapter.tracking.quest2.task.title1}"
+				title: "{ftbquests.chapter.tracking.quest2.task_+423669779060110591.title}"
 				type: "stat"
 				value: 1
 			}]
@@ -113,7 +113,7 @@
 				icon: "minecraft:totem_of_undying"
 				id: "38589B34BB20C4BD"
 				stat: "minecraft:time_since_death"
-				title: "{ftbquests.chapter.tracking.quest3.task.title1}"
+				title: "{ftbquests.chapter.tracking.quest3.task_+4060165714854593725.title}"
 				type: "stat"
 				value: 1000000
 			}]
@@ -161,7 +161,7 @@
 				}
 				id: "26AC421F832AAAD8"
 				stat: "minecraft:time_since_death"
-				title: "{ftbquests.chapter.tracking.quest4.task.title1}"
+				title: "{ftbquests.chapter.tracking.quest4.task_+2786674972547525336.title}"
 				type: "stat"
 				value: 5000000
 			}]
@@ -173,109 +173,6 @@
 				"{ftbquests.chapter.tracking.quest5.description1}"
 				""
 				"{ftbquests.chapter.tracking.quest5.description2}"
-			]
-			id: "74C9CEDF11E17902"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "51373D3FEBAC502E"
-					table_id: 1030506019370660012L
-					type: "random"
-				}
-				{
-					id: "43B696266B515A9D"
-					item: "domesticationinnovation:collar_tag"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.tracking.quest5.subtitle}"
-			tasks: [{
-				advancement: "minecraft:husbandry/tame_an_animal"
-				criterion: ""
-				id: "4701BE18D621C89E"
-				type: "advancement"
-			}]
-			title: "{ftbquests.chapter.tracking.quest5.title}"
-			x: 0.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["74C9CEDF11E17902"]
-			description: [
-				"{ftbquests.chapter.tracking.quest6.description1}"
-				""
-				"{ftbquests.chapter.tracking.quest6.description2}"
-				"{ftbquests.chapter.tracking.quest6.description3}"
-				"{ftbquests.chapter.tracking.quest6.description4}"
-				"{ftbquests.chapter.tracking.quest6.description5}"
-				"{ftbquests.chapter.tracking.quest6.description6}"
-				""
-				"{ftbquests.chapter.tracking.quest6.description7}"
-			]
-			id: "177C33B067FFACDF"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "408ABD0AFAD80986"
-					table_id: 5073878219004838248L
-					type: "choice"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6449E0A11D29EF28"
-					table_id: 1030506019370660012L
-					type: "random"
-				}
-			]
-			subtitle: "{ftbquests.chapter.tracking.quest6.subtitle}"
-			tasks: [
-				{
-					id: "1357EFEC5E6271BC"
-					item: "domesticationinnovation:pet_bed_white"
-					type: "item"
-				}
-				{
-					id: "648AFF9C4EB78939"
-					item: {
-						Count: 1
-						id: "domesticationinnovation:feather_on_a_stick"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0827FFD56E2C3636"
-					item: "domesticationinnovation:drum"
-					type: "item"
-				}
-				{
-					id: "3C264E2AD6092332"
-					item: "domesticationinnovation:wayward_lantern"
-					type: "item"
-				}
-				{
-					id: "30A955E971E66476"
-					item: {
-						Count: 1
-						id: "supplementaries:flute"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.tracking.quest6.title}"
-			x: 0.5d
-			y: 2.5d
-		}
-		{
-			description: [
-				"{ftbquests.chapter.tracking.quest7.description1}"
-				""
-				"{ftbquests.chapter.tracking.quest7.description2}"
 			]
 			id: "20AE576398750BBD"
 			rewards: [
@@ -292,7 +189,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.tracking.quest7.subtitle}"
+			subtitle: "{ftbquests.chapter.tracking.quest5.subtitle}"
 			tasks: [{
 				icon: "spelunkery:emerald_shard"
 				id: "1E165A98161B33C4"
@@ -300,16 +197,16 @@
 				type: "stat"
 				value: 50
 			}]
-			title: "{ftbquests.chapter.tracking.quest7.title}"
+			title: "{ftbquests.chapter.tracking.quest5.title}"
 			x: -1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["20AE576398750BBD"]
 			description: [
-				"{ftbquests.chapter.tracking.quest8.description1}"
+				"{ftbquests.chapter.tracking.quest6.description1}"
 				""
-				"{ftbquests.chapter.tracking.quest8.description2}"
+				"{ftbquests.chapter.tracking.quest6.description2}"
 			]
 			hide_details_until_startable: true
 			icon: "minecraft:emerald"
@@ -340,7 +237,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.tracking.quest8.subtitle}"
+			subtitle: "{ftbquests.chapter.tracking.quest6.subtitle}"
 			tasks: [{
 				icon: "minecraft:emerald"
 				id: "17A2499D16277D69"
@@ -348,13 +245,13 @@
 				type: "stat"
 				value: 100
 			}]
-			title: "{ftbquests.chapter.tracking.quest8.title}"
+			title: "{ftbquests.chapter.tracking.quest6.title}"
 			x: -1.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["2DB09CD887C7E864"]
-			description: ["{ftbquests.chapter.tracking.quest9.description1}"]
+			description: ["{ftbquests.chapter.tracking.quest7.description1}"]
 			icon: "minecraft:emerald_block"
 			id: "3CFA567B98856D6F"
 			rewards: [
@@ -371,7 +268,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.tracking.quest9.subtitle}"
+			subtitle: "{ftbquests.chapter.tracking.quest7.subtitle}"
 			tasks: [{
 				icon: "minecraft:emerald_block"
 				id: "5E176A1A4CEDF69C"
@@ -379,28 +276,9 @@
 				type: "stat"
 				value: 300
 			}]
-			title: "{ftbquests.chapter.tracking.quest9.title}"
+			title: "{ftbquests.chapter.tracking.quest7.title}"
 			x: -2.5d
 			y: -1.0d
-		}
-		{
-			dependencies: ["74C9CEDF11E17902"]
-			description: ["{ftbquests.chapter.tracking.quest10.description1}"]
-			id: "29F722E8E67DABB7"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7B4998BBF74A5A6B"
-				table_id: 5073878219004838248L
-				type: "choice"
-			}]
-			subtitle: "{ftbquests.chapter.tracking.quest10.subtitle}"
-			tasks: [{
-				id: "4D5958E8B6DD64EE"
-				item: "domesticationinnovation:deed_of_ownership"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 2.5d
 		}
 		{
 			id: "69D290333BD596B0"
@@ -418,11 +296,11 @@
 					type: "choice"
 				}
 			]
-			subtitle: "{ftbquests.chapter.tracking.quest11.subtitle}"
+			subtitle: "{ftbquests.chapter.tracking.quest8.subtitle}"
 			tasks: [{
 				days: 100
 				id: "32C80E176C877007"
-				title: "{ftbquests.chapter.tracking.quest11.task.title1}"
+				title: "{ftbquests.chapter.tracking.quest8.task_+3659190191006380039.title}"
 				type: "questsadditions:days"
 			}]
 			x: 0.5d
@@ -446,7 +324,7 @@
 					type: "choice"
 				}
 			]
-			subtitle: "{ftbquests.chapter.tracking.quest12.subtitle}"
+			subtitle: "{ftbquests.chapter.tracking.quest9.subtitle}"
 			tasks: [{
 				days: 1000
 				id: "421866E0D9FC3D3D"

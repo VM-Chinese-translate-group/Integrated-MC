@@ -1,7 +1,7 @@
 {
 	id: "18CED38AC74798A6"
 	loot_size: 1
-	order_index: 13
+	order_index: 14
 	rewards: [
 		{ item: "simplyswords:empowered_remnant" }
 		{ count: 8, item: "minecraft:netherite_scrap" }
@@ -16,5 +16,5 @@
 		{ count: 32, item: "forbidden_arcanus:deorum_ingot" }
 		{ count: 16, item: "alexsmobs:blood_sac" }
 	]
-	title: "{ftbquests.loot_table.title14}"
+	title: "{ftbquests.loot_table_1787598695114971302.title}"
 }

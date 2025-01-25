@@ -1,7 +1,7 @@
 {
 	id: "0F298BDE869F4808"
 	loot_size: 1
-	order_index: 10
+	order_index: 11
 	rewards: [
 		{ count: 32, item: "minecraft:emerald" }
 		{ count: 64, item: "apotheosis:obsidian_arrow" }
@@ -20,5 +20,5 @@
 		{ count: 10, item: "create_enchantment_industry:hyper_experience_bottle" }
 		{ item: "iceandfire:sapphire_gem" }
 	]
-	title: "{ftbquests.loot_table.title11}"
+	title: "{ftbquests.loot_table_1092558172471642120.title}"
 }

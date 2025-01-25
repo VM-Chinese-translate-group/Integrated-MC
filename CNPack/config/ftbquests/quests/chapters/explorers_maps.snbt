@@ -4,9 +4,9 @@
 	default_quest_shape: ""
 	disable_toast: true
 	filename: "explorers_maps"
-	group: "223D9B8AFF17C8FD"
+	group: "79E58030D94D590D"
 	id: "58BB2C8D50270BA7"
-	order_index: 6
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -27,6 +27,7 @@
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["09600EADF4F3DC69"]
 			icon: "biomemakeover:illunite_cluster"
 			id: "2A704F47861FA750"
@@ -59,35 +60,22 @@
 		{
 			dependencies: ["6D43D69EEEBE2D79"]
 			hide_dependency_lines: true
-			icon: "minecraft:sand"
+			icon: "quark:cactus_block"
 			id: "72375066092E95D3"
 			optional: true
-			rewards: [{
-				id: "5ACB22F176F163F7"
-				item: {
-					Count: 1
-					id: "quark:pathfinders_quill"
-					tag: {
-						targetBiome: "minecraft:desert"
-						targetBiomeColor: 13416782
-						targetBiomeUnderground: 0b
-					}
-				}
-				type: "item"
-			}]
+			shape: "square"
 			tasks: [{
-				count: 5L
-				id: "259383706EECC791"
-				item: { Count: 10, id: "ars_nouveau:source_gem" }
-				type: "item"
+				id: "542A31A2E4E42911"
+				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest3.title}"
-			x: -4.5d
+			x: -5.5d
 			y: -1.5d
 		}
 		{
-			dependencies: ["6D43D69EEEBE2D79"]
-			hide_dependency_lines: true
+			can_repeat: true
+			dependencies: ["3071D0C26DB4F18F"]
+			hide_dependency_lines: false
 			icon: "biomemakeover:willow_boat"
 			id: "3B42FA3380FA1610"
 			optional: true
@@ -107,7 +95,7 @@
 			tasks: [{
 				count: 5L
 				id: "0B781AF234F9A087"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest4.title}"
@@ -115,8 +103,9 @@
 			y: 5.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["72375066092E95D3"]
-			icon: "mowziesmobs:sol_visage"
+			icon: "minecraft:acacia_sapling"
 			id: "06591F1286818EE3"
 			optional: true
 			rewards: [{
@@ -135,7 +124,7 @@
 			tasks: [{
 				count: 5L
 				id: "1F447B2A36D7D5B8"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest5.title}"
@@ -143,6 +132,7 @@
 			y: -0.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["0D47283F9CB3D318"]
 			icon: "upgrade_aquatic:flowering_rush"
 			id: "52A04EC4A470E01D"
@@ -163,7 +153,7 @@
 			tasks: [{
 				count: 5L
 				id: "0EC6744587CF409A"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest6.title}"
@@ -173,7 +163,7 @@
 		{
 			dependencies: ["6D43D69EEEBE2D79"]
 			hide_dependency_lines: true
-			icon: "supplementaries:wind_vane"
+			icon: "caverns_and_chasms:rocky_dirt"
 			id: "677A9F1FFA392B64"
 			optional: true
 			rewards: [{
@@ -189,17 +179,19 @@
 				}
 				type: "item"
 			}]
+			shape: "square"
 			tasks: [{
 				count: 5L
 				id: "00507160466F8396"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest7.title}"
-			x: 3.5d
+			x: 4.0d
 			y: -3.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["2DF0C8FC6724145A"]
 			icon: "minecraft:bamboo"
 			id: "3B2DA52A95E1B730"
@@ -220,44 +212,31 @@
 			tasks: [{
 				count: 5L
 				id: "0334A91B1F66E6B4"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest8.title}"
-			x: -2.0d
-			y: 0.0d
+			x: -3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6D43D69EEEBE2D79"]
-			hide_dependency_lines: true
-			icon: "minecraft:spruce_log"
+			hide_dependency_lines: false
+			icon: "minecraft:sweet_berries"
 			id: "09600EADF4F3DC69"
 			optional: true
-			rewards: [{
-				id: "69074F9AB1338B75"
-				item: {
-					Count: 1
-					id: "quark:pathfinders_quill"
-					tag: {
-						targetBiome: "minecraft:old_growth_pine_taiga"
-						targetBiomeColor: 5980703
-						targetBiomeUnderground: 0b
-					}
-				}
-				type: "item"
-			}]
+			shape: "square"
 			tasks: [{
-				count: 5L
-				id: "070C62C39F0D7F2E"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
-				type: "item"
+				id: "00B79A2F79B09178"
+				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest9.title}"
 			x: 1.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["3B42FA3380FA1610"]
+			can_repeat: true
+			dependencies: ["3071D0C26DB4F18F"]
 			icon: "minecraft:mangrove_log"
 			id: "51D9307FA7FEDA46"
 			optional: true
@@ -277,14 +256,15 @@
 			tasks: [{
 				count: 15L
 				id: "753BB75B66CB1039"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest10.title}"
-			x: 3.5d
-			y: 4.0d
+			x: 4.0d
+			y: 6.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["72375066092E95D3"]
 			icon: {
 				Count: 1
@@ -311,21 +291,19 @@
 			tasks: [{
 				count: 5L
 				id: "7590A9A29C30D38A"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest11.title}"
-			x: -5.0d
-			y: -2.5d
+			x: -5.5d
+			y: -3.0d
 		}
 		{
-			dependencies: [
-				"6D43D69EEEBE2D79"
-				"0B418D4D8B6E48A1"
-			]
-			hide_dependency_lines: true
+			can_repeat: true
+			dependencies: ["0123F0DD2DB7A203"]
+			hide_dependency_lines: false
 			hide_details_until_startable: true
-			hide_until_deps_visible: true
+			hide_until_deps_visible: false
 			icon: "biomemakeover:tall_red_mushroom"
 			id: "79DB41984ACBE7BC"
 			min_required_dependencies: 2
@@ -346,14 +324,15 @@
 			tasks: [{
 				count: 5L
 				id: "4E090DB662533AC3"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest12.title}"
-			x: 1.5d
-			y: -0.5d
+			x: 6.5d
+			y: 3.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["2F9EECF98AF13434"]
 			icon: "minecraft:blue_ice"
 			id: "24EFE0DCEE54E844"
@@ -374,14 +353,15 @@
 			tasks: [{
 				count: 5L
 				id: "658C7C02F9459FDF"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest13.title}"
-			x: -3.0d
-			y: -3.5d
+			x: -2.0d
+			y: -2.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["677A9F1FFA392B64"]
 			icon: "quark:cherry_hedge"
 			id: "611E0A75AEB395BB"
@@ -402,7 +382,7 @@
 			tasks: [{
 				count: 5L
 				id: "7E78DBD8B95EED4E"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest14.title}"
@@ -410,7 +390,8 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["5605EBE2FAD407B0"]
+			can_repeat: true
+			dependencies: ["72375066092E95D3"]
 			icon: "minecraft:terracotta"
 			id: "01F10BC751835B7C"
 			optional: true
@@ -430,14 +411,15 @@
 			tasks: [{
 				count: 5L
 				id: "56150232FCBACFB0"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest15.title}"
-			x: -6.0d
+			x: -6.5d
 			y: -2.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["5AB9F625410298AE"]
 			icon: "regions_unexplored:ashen_log"
 			id: "1689677166235C89"
@@ -466,6 +448,7 @@
 			y: 4.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["5AB9F625410298AE"]
 			icon: "regions_unexplored:red_maple_leaf_pile"
 			id: "131B6DE8B6402E75"
@@ -486,15 +469,16 @@
 			tasks: [{
 				count: 5L
 				id: "21A895BE16365FDE"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest17.title}"
-			x: -7.5d
+			x: -8.5d
 			y: 4.0d
 		}
 		{
-			dependencies: ["3B2DA52A95E1B730"]
+			can_repeat: true
+			dependencies: ["2DF0C8FC6724145A"]
 			icon: "regions_unexplored:bamboo_log"
 			id: "62C13CF152B69B24"
 			optional: true
@@ -514,43 +498,30 @@
 			tasks: [{
 				count: 10L
 				id: "26D9B603BE3084BF"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest18.title}"
 			x: -2.0d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6D43D69EEEBE2D79"]
 			hide_dependency_lines: true
-			icon: "alexsmobs:banana"
+			icon: "minecraft:jungle_sapling"
 			id: "2DF0C8FC6724145A"
 			optional: true
-			rewards: [{
-				id: "0F4404BBA201DC7E"
-				item: {
-					Count: 1
-					id: "quark:pathfinders_quill"
-					tag: {
-						targetBiome: "minecraft:jungle"
-						targetBiomeColor: 2274816
-						targetBiomeUnderground: 0b
-					}
-				}
-				type: "item"
-			}]
+			shape: "square"
 			tasks: [{
-				count: 5L
-				id: "2475CF1DD8B7E291"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
-				type: "item"
+				id: "1CA3BA825691F48D"
+				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest19.title}"
 			x: -2.0d
 			y: 1.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["677A9F1FFA392B64"]
 			icon: "minecraft:powder_snow_bucket"
 			id: "0E920B47FE1D61F2"
@@ -571,7 +542,7 @@
 			tasks: [{
 				count: 5L
 				id: "7EC6B0E32D81F019"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest20.title}"
@@ -579,6 +550,7 @@
 			y: -2.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["677A9F1FFA392B64"]
 			icon: "minecraft:stone"
 			id: "493AC092DA35B1E1"
@@ -599,11 +571,11 @@
 			tasks: [{
 				count: 5L
 				id: "742DF215F2059B4C"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest21.title}"
-			x: 4.5d
+			x: 5.5d
 			y: -3.0d
 		}
 		{
@@ -612,30 +584,17 @@
 			icon: "minecraft:water_bucket"
 			id: "6038D2D0A54E29DF"
 			optional: true
-			rewards: [{
-				id: "1C0406D909294F29"
-				item: {
-					Count: 1
-					id: "quark:pathfinders_quill"
-					tag: {
-						targetBiome: "minecraft:deep_frozen_ocean"
-						targetBiomeColor: 732860
-						targetBiomeUnderground: 0b
-					}
-				}
-				type: "item"
-			}]
+			shape: "square"
 			tasks: [{
-				count: 5L
-				id: "48B3818210F0E1C5"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
-				type: "item"
+				id: "382C1823D1E10A28"
+				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest22.title}"
 			x: 0.0d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["6038D2D0A54E29DF"]
 			icon: "minecraft:fire_coral"
 			id: "2BB6A49989FA23DF"
@@ -656,14 +615,15 @@
 			tasks: [{
 				count: 5L
 				id: "21309EAC77BC7C9D"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest23.title}"
 			x: -1.0d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
+			can_repeat: true
 			dependencies: [
 				"292F660FC67B85FC"
 				"3AF8B4EBCE54E817"
@@ -672,7 +632,6 @@
 				"131B6DE8B6402E75"
 				"62C13CF152B69B24"
 				"3B2DA52A95E1B730"
-				"09454D264E20BDBE"
 				"10EC9FF38EB45AC1"
 				"7474E81497ACE677"
 				"2987F83C7A21D8DD"
@@ -736,15 +695,16 @@
 			tasks: [{
 				count: 5L
 				id: "24DB534803D576E7"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest24.title}"
-			x: 0.0d
-			y: -1.5d
+			x: 2.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["45C94A869977DDC6"]
+			can_repeat: true
+			dependencies: ["0123F0DD2DB7A203"]
 			icon: "regions_unexplored:dropleaf"
 			id: "292F660FC67B85FC"
 			optional: true
@@ -764,42 +724,15 @@
 			tasks: [{
 				count: 5L
 				id: "55B2C270C5E44BBE"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest25.title}"
-			x: 2.5d
+			x: 3.0d
 			y: 0.5d
 		}
 		{
-			dependencies: ["06591F1286818EE3"]
-			icon: "wilderwild:baobab_log"
-			id: "09454D264E20BDBE"
-			optional: true
-			rewards: [{
-				id: "39897CFBB22094BC"
-				item: {
-					Count: 1
-					id: "quark:pathfinders_quill"
-					tag: {
-						targetBiome: "regions_unexplored:baobab_savanna"
-						targetBiomeColor: 14527542
-						targetBiomeUnderground: 0b
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				count: 5L
-				id: "4E61151A1B5861E2"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.explorers_maps.quest26.title}"
-			x: -6.0d
-			y: -0.5d
-		}
-		{
+			can_repeat: true
 			dependencies: ["0D47283F9CB3D318"]
 			icon: "regions_unexplored:barley"
 			id: "10EC9FF38EB45AC1"
@@ -820,15 +753,16 @@
 			tasks: [{
 				count: 5L
 				id: "2C5C5D1C4F2B30A6"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest27.title}"
-			x: -2.5d
+			title: "{ftbquests.chapter.explorers_maps.quest26.title}"
+			x: -3.0d
 			y: 5.0d
 		}
 		{
-			dependencies: ["3B42FA3380FA1610"]
+			can_repeat: true
+			dependencies: ["3071D0C26DB4F18F"]
 			icon: "regions_unexplored:cypress_log"
 			id: "7474E81497ACE677"
 			optional: true
@@ -848,18 +782,20 @@
 			tasks: [{
 				count: 5L
 				id: "3B03F1FD71940FB2"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest28.title}"
+			title: "{ftbquests.chapter.explorers_maps.quest27.title}"
 			x: 2.0d
-			y: 5.0d
+			y: 5.5d
 		}
 		{
-			dependencies: ["1924733E33E5CA71"]
+			can_repeat: true
+			dependencies: ["0123F0DD2DB7A203"]
 			icon: "regions_unexplored:tall_green_bioshroom"
 			id: "0B418D4D8B6E48A1"
 			optional: true
+			progression_mode: "linear"
 			rewards: [{
 				id: "01254286D55E4593"
 				item: {
@@ -876,14 +812,15 @@
 			tasks: [{
 				count: 5L
 				id: "5660332142B634F1"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest29.title}"
-			x: 6.5d
-			y: 0.5d
+			title: "{ftbquests.chapter.explorers_maps.quest28.title}"
+			x: 7.5d
+			y: -0.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["09600EADF4F3DC69"]
 			icon: "regions_unexplored:larch_log"
 			id: "744273A33517A998"
@@ -904,14 +841,15 @@
 			tasks: [{
 				count: 5L
 				id: "0C8ABAE597D0C551"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest30.title}"
+			title: "{ftbquests.chapter.explorers_maps.quest29.title}"
 			x: 0.5d
 			y: 4.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["5AB9F625410298AE"]
 			icon: "everycomp:q/regions_unexplored/red_maple_hedge"
 			id: "1A1DBEF38340AD10"
@@ -932,14 +870,15 @@
 			tasks: [{
 				count: 5L
 				id: "54608CACB80FEEAC"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest31.title}"
+			title: "{ftbquests.chapter.explorers_maps.quest30.title}"
 			x: -4.5d
 			y: 2.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["72375066092E95D3"]
 			icon: "regions_unexplored:socotra_log"
 			id: "4A4C7DC41D551FED"
@@ -960,14 +899,15 @@
 			tasks: [{
 				count: 5L
 				id: "30A3A0AC02A63E55"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest32.title}"
-			x: -5.5d
-			y: -1.5d
+			title: "{ftbquests.chapter.explorers_maps.quest31.title}"
+			x: -7.5d
+			y: -2.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["5AB9F625410298AE"]
 			icon: "regions_unexplored:eucalyptus_log"
 			id: "0E3EF6B800C9AD0D"
@@ -988,14 +928,15 @@
 			tasks: [{
 				count: 5L
 				id: "5B4999D64150F98B"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest33.title}"
+			title: "{ftbquests.chapter.explorers_maps.quest32.title}"
 			x: -6.5d
 			y: 4.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["09600EADF4F3DC69"]
 			icon: "regions_unexplored:blackwood_log"
 			id: "2987F83C7A21D8DD"
@@ -1016,14 +957,15 @@
 			tasks: [{
 				count: 5L
 				id: "7F4814F4ABAEA0E9"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest34.title}"
-			x: 1.0d
+			title: "{ftbquests.chapter.explorers_maps.quest33.title}"
+			x: 1.5d
 			y: 2.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["0D47283F9CB3D318"]
 			icon: "regions_unexplored:red_lupine"
 			id: "694B82A6E6A653FA"
@@ -1044,14 +986,15 @@
 			tasks: [{
 				count: 5L
 				id: "2C8AEB79F918D82A"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest35.title}"
+			title: "{ftbquests.chapter.explorers_maps.quest34.title}"
 			x: -1.5d
 			y: 3.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["0D47283F9CB3D318"]
 			icon: "regions_unexplored:bleeding_heart"
 			id: "35CEE121B754C216"
@@ -1072,14 +1015,15 @@
 			tasks: [{
 				count: 5L
 				id: "3EAB14C8EDA49931"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest36.title}"
+			title: "{ftbquests.chapter.explorers_maps.quest35.title}"
 			x: -2.5d
 			y: 3.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["72375066092E95D3"]
 			icon: "regions_unexplored:barrel_cactus"
 			id: "291C13A11D53BF38"
@@ -1100,15 +1044,16 @@
 			tasks: [{
 				count: 5L
 				id: "65F61A0BF8994FAC"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest37.title}"
+			title: "{ftbquests.chapter.explorers_maps.quest36.title}"
 			x: -3.5d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["3B42FA3380FA1610"]
+			can_repeat: true
+			dependencies: ["3071D0C26DB4F18F"]
 			icon: "regions_unexplored:flowering_lily_pad"
 			id: "1F825B81E177885F"
 			optional: true
@@ -1128,14 +1073,15 @@
 			tasks: [{
 				count: 5L
 				id: "6284098C7943E7B6"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest38.title}"
+			title: "{ftbquests.chapter.explorers_maps.quest37.title}"
 			x: 4.0d
 			y: 5.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["5AB9F625410298AE"]
 			icon: "regions_unexplored:small_oak_log"
 			id: "103AA360532E952F"
@@ -1156,14 +1102,15 @@
 			tasks: [{
 				count: 5L
 				id: "11C3796C50D34ECB"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest39.title}"
+			title: "{ftbquests.chapter.explorers_maps.quest38.title}"
 			x: -5.5d
 			y: 4.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["677A9F1FFA392B64"]
 			icon: "regions_unexplored:chalk"
 			id: "37B379FF4834D89D"
@@ -1184,15 +1131,16 @@
 			tasks: [{
 				count: 5L
 				id: "1CDA078AC2B30F49"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest40.title}"
+			title: "{ftbquests.chapter.explorers_maps.quest39.title}"
 			x: 3.5d
 			y: -4.0d
 		}
 		{
-			dependencies: ["79DB41984ACBE7BC"]
+			can_repeat: true
+			dependencies: ["0123F0DD2DB7A203"]
 			icon: "regions_unexplored:tall_pink_bioshroom"
 			id: "4F4C049182694CC7"
 			optional: true
@@ -1212,43 +1160,30 @@
 			tasks: [{
 				count: 5L
 				id: "60CD56F792BD16C3"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest41.title}"
-			x: 1.5d
+			title: "{ftbquests.chapter.explorers_maps.quest40.title}"
+			x: 8.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["6D43D69EEEBE2D79"]
 			hide_dependency_lines: true
-			icon: "minecraft:snow"
+			icon: "rubinated_nether:frosted_ice"
 			id: "2F9EECF98AF13434"
 			optional: true
-			rewards: [{
-				id: "5E74A8F558EB6755"
-				item: {
-					Count: 1
-					id: "quark:pathfinders_quill"
-					tag: {
-						targetBiome: "regions_unexplored:frozen_tundra"
-						targetBiomeColor: 16052469
-						targetBiomeUnderground: 0b
-					}
-				}
-				type: "item"
-			}]
+			shape: "square"
 			tasks: [{
-				count: 5L
-				id: "1FCB213C1DED7141"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
-				type: "item"
+				id: "49CFD6A597B5191E"
+				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest42.title}"
+			title: "{ftbquests.chapter.explorers_maps.quest41.title}"
 			x: -2.5d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["09600EADF4F3DC69"]
 			icon: "regions_unexplored:golden_larch_shrub"
 			id: "01A6680616E9F6D4"
@@ -1269,14 +1204,15 @@
 			tasks: [{
 				count: 5L
 				id: "64C4E43856799875"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest43.title}"
+			title: "{ftbquests.chapter.explorers_maps.quest42.title}"
 			x: 0.0d
 			y: 3.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["677A9F1FFA392B64"]
 			icon: "regions_unexplored:stripped_pine_log"
 			id: "512E3BB9064CEEC3"
@@ -1297,14 +1233,15 @@
 			tasks: [{
 				count: 5L
 				id: "71A4ABA08481D59A"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest44.title}"
+			title: "{ftbquests.chapter.explorers_maps.quest43.title}"
 			x: 4.5d
 			y: -2.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["5AB9F625410298AE"]
 			icon: "minecraft:apple"
 			id: "63CC3B3344CD89CC"
@@ -1325,14 +1262,15 @@
 			tasks: [{
 				count: 5L
 				id: "65FD1D093F1238B1"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest45.title}"
+			title: "{ftbquests.chapter.explorers_maps.quest44.title}"
 			x: -4.5d
 			y: 1.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["5AB9F625410298AE"]
 			icon: "regions_unexplored:maple_leaf_pile"
 			id: "075DAF257F0A374A"
@@ -1353,14 +1291,15 @@
 			tasks: [{
 				count: 5L
 				id: "7CC8A685AC65451D"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest46.title}"
-			x: -7.5d
+			title: "{ftbquests.chapter.explorers_maps.quest45.title}"
+			x: -8.5d
 			y: 1.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["5AB9F625410298AE"]
 			icon: "everycomp:q/regions_unexplored/pink_magnolia_hedge"
 			id: "2F933AD3B96685AE"
@@ -1381,14 +1320,15 @@
 			tasks: [{
 				count: 5L
 				id: "0371525C10C9EDB9"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest47.title}"
-			x: -6.5d
-			y: 1.0d
+			title: "{ftbquests.chapter.explorers_maps.quest46.title}"
+			x: -7.5d
+			y: 4.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["6038D2D0A54E29DF"]
 			icon: "regions_unexplored:hyacinth_lamp"
 			id: "34EFE70E1BC98D60"
@@ -1409,14 +1349,15 @@
 			tasks: [{
 				count: 5L
 				id: "309BE4904C158487"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest48.title}"
+			title: "{ftbquests.chapter.explorers_maps.quest47.title}"
 			x: 0.0d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["677A9F1FFA392B64"]
 			icon: "regions_unexplored:felicia_daisy"
 			id: "3D8BCCFCEFEA77BE"
@@ -1437,14 +1378,15 @@
 			tasks: [{
 				count: 5L
 				id: "7BC4FCB06A824170"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest49.title}"
+			title: "{ftbquests.chapter.explorers_maps.quest48.title}"
 			x: 2.5d
 			y: -2.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["72375066092E95D3"]
 			icon: "minecraft:red_sand"
 			id: "5419A340445822E5"
@@ -1465,15 +1407,16 @@
 			tasks: [{
 				count: 5L
 				id: "7622A33684033DDB"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest50.title}"
+			title: "{ftbquests.chapter.explorers_maps.quest49.title}"
 			x: -4.0d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["36C7A4A0B57146D6"]
+			can_repeat: true
+			dependencies: ["677A9F1FFA392B64"]
 			icon: "regions_unexplored:pine_branch"
 			id: "120118A64B3F7444"
 			optional: true
@@ -1493,15 +1436,16 @@
 			tasks: [{
 				count: 5L
 				id: "715AFABFEEE21D66"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest51.title}"
+			title: "{ftbquests.chapter.explorers_maps.quest50.title}"
 			x: 5.5d
-			y: -4.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["7474E81497ACE677"]
+			can_repeat: true
+			dependencies: ["3071D0C26DB4F18F"]
 			icon: "regions_unexplored:willow_shrub"
 			id: "247F87052050822D"
 			optional: true
@@ -1521,14 +1465,15 @@
 			tasks: [{
 				count: 5L
 				id: "085B5B2EBFDF70A7"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest52.title}"
-			x: 1.5d
-			y: 6.0d
+			title: "{ftbquests.chapter.explorers_maps.quest51.title}"
+			x: 2.0d
+			y: 6.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["677A9F1FFA392B64"]
 			icon: "regions_unexplored:hyssop"
 			id: "1B40A0C4AE03DE92"
@@ -1549,14 +1494,15 @@
 			tasks: [{
 				count: 5L
 				id: "0FA8E6CA4B0B75BB"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest53.title}"
+			title: "{ftbquests.chapter.explorers_maps.quest52.title}"
 			x: 2.5d
 			y: -4.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["2DF0C8FC6724145A"]
 			icon: "regions_unexplored:palm_log"
 			id: "3FED14D4D8B8C5DE"
@@ -1577,15 +1523,16 @@
 			tasks: [{
 				count: 5L
 				id: "73A2F5EC70C9283C"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest54.title}"
+			title: "{ftbquests.chapter.explorers_maps.quest53.title}"
 			x: -3.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["65E170B1002FD845"]
+			can_repeat: true
+			dependencies: ["0123F0DD2DB7A203"]
 			icon: "regions_unexplored:large_prismarite_cluster"
 			id: "5695BF87B3EA0EDB"
 			optional: true
@@ -1608,11 +1555,12 @@
 				item: "ars_nouveau:source_gem_block"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest55.title}"
-			x: 4.5d
-			y: 3.5d
+			title: "{ftbquests.chapter.explorers_maps.quest54.title}"
+			x: 5.5d
+			y: 3.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["0D47283F9CB3D318"]
 			icon: "regions_unexplored:poppy_bush"
 			id: "18A1CBAD12A8DB2A"
@@ -1633,14 +1581,15 @@
 			tasks: [{
 				count: 5L
 				id: "72A010BB00350078"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest56.title}"
-			x: -1.5d
+			title: "{ftbquests.chapter.explorers_maps.quest55.title}"
+			x: -2.0d
 			y: 5.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["5AB9F625410298AE"]
 			icon: "regions_unexplored:mauve_sapling"
 			id: "11D09E5F4AB40491"
@@ -1661,14 +1610,15 @@
 			tasks: [{
 				count: 5L
 				id: "534411BC4668E38D"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest57.title}"
+			title: "{ftbquests.chapter.explorers_maps.quest56.title}"
 			x: -4.5d
 			y: 3.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["677A9F1FFA392B64"]
 			icon: "regions_unexplored:pine_sapling"
 			id: "36C7A4A0B57146D6"
@@ -1689,17 +1639,18 @@
 			tasks: [{
 				count: 5L
 				id: "6284DBB449E9674A"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest58.title}"
+			title: "{ftbquests.chapter.explorers_maps.quest57.title}"
 			x: 4.5d
 			y: -4.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["6D43D69EEEBE2D79"]
 			hide_dependency_lines: true
-			icon: "minecraft:pointed_dripstone"
+			icon: "minecraft:glow_lichen"
 			id: "0123F0DD2DB7A203"
 			optional: true
 			rewards: [{
@@ -1715,17 +1666,19 @@
 				}
 				type: "item"
 			}]
+			shape: "square"
 			tasks: [{
 				count: 5L
 				id: "25587E0E6F556B20"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest59.title}"
-			x: 4.5d
+			title: "{ftbquests.chapter.explorers_maps.quest58.title}"
+			x: 5.5d
 			y: 1.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["09600EADF4F3DC69"]
 			icon: "regions_unexplored:redwood_sapling"
 			id: "072F8E3FEF871419"
@@ -1746,14 +1699,15 @@
 			tasks: [{
 				count: 5L
 				id: "67EAA72A212FF36B"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest60.title}"
+			title: "{ftbquests.chapter.explorers_maps.quest59.title}"
 			x: 2.0d
 			y: 3.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["0123F0DD2DB7A203"]
 			icon: "regions_unexplored:redstone_bud"
 			id: "541CBFA78CCA3C1D"
@@ -1774,14 +1728,15 @@
 			tasks: [{
 				count: 5L
 				id: "0632BB17D6707BE9"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest61.title}"
+			title: "{ftbquests.chapter.explorers_maps.quest60.title}"
 			x: 3.5d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["0D47283F9CB3D318"]
 			icon: "minecraft:carved_pumpkin"
 			id: "2B39CEA553B62683"
@@ -1802,42 +1757,15 @@
 			tasks: [{
 				count: 5L
 				id: "4FD77210E7AA70AF"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest62.title}"
+			title: "{ftbquests.chapter.explorers_maps.quest61.title}"
 			x: -1.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["0123F0DD2DB7A203"]
-			icon: "wilderwild:jellyfish_bucket"
-			id: "0B6F2A973636A439"
-			optional: true
-			rewards: [{
-				id: "18C89AD60E3A9B19"
-				item: {
-					Count: 1
-					id: "quark:pathfinders_quill"
-					tag: {
-						targetBiome: "wilderwild:jellyfish_caves"
-						targetBiomeColor: 12511478
-						targetBiomeUnderground: 0b
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				count: 5L
-				id: "0F1B7092619D96E2"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.explorers_maps.quest63.title}"
-			x: 5.5d
-			y: 2.0d
-		}
-		{
+			can_repeat: true
 			dependencies: ["2F9EECF98AF13434"]
 			icon: "iceandfire:dragon_ice_spikes"
 			id: "44EF89410D2E3E0A"
@@ -1858,14 +1786,15 @@
 			tasks: [{
 				count: 5L
 				id: "63FAD082B5D61DC1"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest64.title}"
-			x: -2.0d
+			title: "{ftbquests.chapter.explorers_maps.quest62.title}"
+			x: -3.5d
 			y: -3.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["6038D2D0A54E29DF"]
 			icon: "regions_unexplored:palm_sapling"
 			id: "48221B55DE4C5D0F"
@@ -1886,14 +1815,15 @@
 			tasks: [{
 				count: 5L
 				id: "1FE2C49FD6EF22A8"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest65.title}"
+			title: "{ftbquests.chapter.explorers_maps.quest63.title}"
 			x: 1.0d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["5AB9F625410298AE"]
 			icon: "regions_unexplored:blue_magnolia_sapling"
 			id: "67F5637BB5847EBB"
@@ -1915,14 +1845,15 @@
 			tasks: [{
 				count: 5L
 				id: "2002BEB5437BCC40"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest66.title}"
-			x: -7.5d
+			title: "{ftbquests.chapter.explorers_maps.quest64.title}"
+			x: -8.5d
 			y: 2.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["0123F0DD2DB7A203"]
 			icon: "galosphere:glinted_allurite_cluster"
 			id: "65E170B1002FD845"
@@ -1943,14 +1874,15 @@
 			tasks: [{
 				count: 5L
 				id: "1AD9131B7D88839F"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest67.title}"
+			title: "{ftbquests.chapter.explorers_maps.quest65.title}"
 			x: 4.5d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["2DF0C8FC6724145A"]
 			icon: "regions_unexplored:hibiscus"
 			id: "706E41199B308C92"
@@ -1971,43 +1903,30 @@
 			tasks: [{
 				count: 5L
 				id: "060396DD93314F02"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest68.title}"
+			title: "{ftbquests.chapter.explorers_maps.quest66.title}"
 			x: -1.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["6D43D69EEEBE2D79"]
 			hide_dependency_lines: true
-			icon: "regions_unexplored:purple_coneflower"
+			icon: "regions_unexplored:dark_oak_shrub"
 			id: "5AB9F625410298AE"
 			optional: true
-			rewards: [{
-				id: "2F76463ADBB92317"
-				item: {
-					Count: 1
-					id: "quark:pathfinders_quill"
-					tag: {
-						targetBiome: "regions_unexplored:temperate_grove"
-						targetBiomeColor: 166400
-						targetBiomeUnderground: 0b
-					}
-				}
-				type: "item"
-			}]
+			shape: "square"
 			tasks: [{
-				count: 5L
-				id: "3755CEDFF0DEE570"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
-				type: "item"
+				id: "02B348C91C317C8E"
+				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest69.title}"
-			x: -6.0d
+			title: "{ftbquests.chapter.explorers_maps.quest67.title}"
+			x: -6.5d
 			y: 2.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["5AB9F625410298AE"]
 			icon: "regions_unexplored:silver_birch_sapling"
 			id: "3B439C9F17E93522"
@@ -2028,43 +1947,30 @@
 			tasks: [{
 				count: 5L
 				id: "03FA91BC49C81FBB"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest70.title}"
-			x: -5.5d
+			title: "{ftbquests.chapter.explorers_maps.quest68.title}"
+			x: -7.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["6D43D69EEEBE2D79"]
 			hide_dependency_lines: true
-			icon: "minecraft:grass_block"
+			icon: "environmental:giant_tall_grass"
 			id: "0D47283F9CB3D318"
 			optional: true
-			rewards: [{
-				id: "6D50C0A5D99FBBF5"
-				item: {
-					Count: 1
-					id: "quark:pathfinders_quill"
-					tag: {
-						targetBiome: "regions_unexplored:shrubland"
-						targetBiomeColor: 1008647
-						targetBiomeUnderground: 0b
-					}
-				}
-				type: "item"
-			}]
+			shape: "square"
 			tasks: [{
-				count: 5L
-				id: "7D00412D7B664019"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
-				type: "item"
+				id: "28A32B6E39DEB9A8"
+				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest71.title}"
+			title: "{ftbquests.chapter.explorers_maps.quest69.title}"
 			x: -2.0d
 			y: 4.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["72375066092E95D3"]
 			icon: "biomemakeover:saguaro_cactus"
 			id: "08B8DDE2C20C994B"
@@ -2085,14 +1991,15 @@
 			tasks: [{
 				count: 5L
 				id: "5724B5B0E82D9EF2"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest72.title}"
-			x: -4.0d
+			title: "{ftbquests.chapter.explorers_maps.quest70.title}"
+			x: -4.5d
 			y: -2.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["0123F0DD2DB7A203"]
 			icon: "minecraft:sculk_catalyst"
 			id: "327C2F098771B7C3"
@@ -2116,12 +2023,13 @@
 				item: "ars_nouveau:source_gem_block"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest73.title}"
+			title: "{ftbquests.chapter.explorers_maps.quest71.title}"
 			x: 4.5d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["1924733E33E5CA71"]
+			can_repeat: true
+			dependencies: ["0123F0DD2DB7A203"]
 			hide_dependency_lines: false
 			icon: "quark:glow_shroom"
 			id: "21F5D97FD6D0B24E"
@@ -2142,42 +2050,15 @@
 			tasks: [{
 				count: 5L
 				id: "1C3C103B30A1CE52"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest74.title}"
-			x: 6.5d
+			title: "{ftbquests.chapter.explorers_maps.quest72.title}"
+			x: 8.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["45C94A869977DDC6"]
-			icon: "minecraft:torchflower"
-			id: "000BDD63D59112E4"
-			optional: true
-			rewards: [{
-				id: "0E55E03AF9F0AF1C"
-				item: {
-					Count: 1
-					id: "quark:pathfinders_quill"
-					tag: {
-						targetBiome: "snifferplus:timeless_grotto"
-						targetBiomeColor: 1461016
-						targetBiomeUnderground: 0b
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				count: 5L
-				id: "5271A7D980F3D160"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.explorers_maps.quest75.title}"
-			x: 2.5d
-			y: 1.5d
-		}
-		{
+			can_repeat: true
 			dependencies: ["5AB9F625410298AE"]
 			icon: "ars_nouveau:red_archwood_log"
 			id: "3AF8B4EBCE54E817"
@@ -2198,14 +2079,15 @@
 			tasks: [{
 				count: 5L
 				id: "689CB4069A9CCD72"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest76.title}"
-			x: -7.5d
+			title: "{ftbquests.chapter.explorers_maps.quest73.title}"
+			x: -8.5d
 			y: 3.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["0123F0DD2DB7A203"]
 			icon: "galosphere:lichen_roots"
 			id: "1924733E33E5CA71"
@@ -2226,14 +2108,15 @@
 			tasks: [{
 				count: 5L
 				id: "137D0840A234BE6B"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest77.title}"
-			x: 5.5d
-			y: 1.0d
+			title: "{ftbquests.chapter.explorers_maps.quest74.title}"
+			x: 7.5d
+			y: 2.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["0123F0DD2DB7A203"]
 			icon: "quark:flowering_azalea_hedge"
 			id: "45C94A869977DDC6"
@@ -2254,14 +2137,15 @@
 			tasks: [{
 				count: 5L
 				id: "69252AE9BFAE0006"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest78.title}"
-			x: 3.5d
-			y: 1.0d
+			title: "{ftbquests.chapter.explorers_maps.quest75.title}"
+			x: 3.0d
+			y: 1.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["0123F0DD2DB7A203"]
 			icon: "galosphere:pink_salt_chamber"
 			id: "1A28D62D184FA8B7"
@@ -2282,14 +2166,15 @@
 			tasks: [{
 				count: 5L
 				id: "4EBE98262B1AFC6A"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.explorers_maps.quest79.title}"
+			title: "{ftbquests.chapter.explorers_maps.quest76.title}"
 			x: 3.5d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["0123F0DD2DB7A203"]
 			icon: "regions_unexplored:ash_vent"
 			id: "0453A988C2445741"
@@ -2310,12 +2195,358 @@
 			tasks: [{
 				count: 5L
 				id: "5DCDD01C757E3715"
-				item: { Count: 5, id: "ars_nouveau:source_gem" }
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.explorers_maps.quest77.title}"
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5AB9F625410298AE"]
+			hide_dependency_lines: false
+			icon: "regions_unexplored:purple_coneflower"
+			id: "2D58F257908A4162"
+			optional: true
+			rewards: [{
+				id: "527BCC252054FF44"
+				item: {
+					Count: 1
+					id: "quark:pathfinders_quill"
+					tag: {
+						targetBiome: "regions_unexplored:temperate_grove"
+						targetBiomeColor: 166400
+						targetBiomeUnderground: 0b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "6615843255365287"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.explorers_maps.quest78.title}"
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5AB9F625410298AE"]
+			hide_dependency_lines: false
+			icon: "atmospheric:dry_laurel_sapling"
+			id: "58CC87ADBE0B75C8"
+			optional: true
+			rewards: [{
+				id: "231C21B93B0FB8E9"
+				item: {
+					Count: 1
+					id: "quark:pathfinders_quill"
+					tag: {
+						targetBiome: "atmospheric:laurel_forest"
+						targetBiomeColor: 166400
+						targetBiomeUnderground: 0b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "0FFD3C17182F0D18"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.explorers_maps.quest79.title}"
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["72375066092E95D3"]
+			hide_dependency_lines: false
+			icon: "minecraft:sand"
+			id: "4EF2E6568A268915"
+			optional: true
+			rewards: [{
+				id: "420385EB5C88C989"
+				item: {
+					Count: 1
+					id: "quark:pathfinders_quill"
+					tag: {
+						targetBiome: "minecraft:desert"
+						targetBiomeColor: 13416782
+						targetBiomeUnderground: 0b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "715B1FBB96471C46"
+				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest80.title}"
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["72375066092E95D3"]
+			hide_dependency_lines: false
+			icon: "atmospheric:barrel_cactus_batch"
+			id: "54FF59942B85CC4D"
+			optional: true
+			rewards: [{
+				id: "45E0984FCADDDF21"
+				item: {
+					Count: 1
+					id: "quark:pathfinders_quill"
+					tag: {
+						targetBiome: "atmospheric:dunes"
+						targetBiomeColor: 13416782
+						targetBiomeUnderground: 0b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "2FFF6D2EBF20D251"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.explorers_maps.quest81.title}"
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6038D2D0A54E29DF"]
+			hide_dependency_lines: false
+			icon: "minecraft:kelp"
+			id: "4ACE2658F05CBDE7"
+			optional: true
+			rewards: [{
+				id: "1B255C6328AA9441"
+				item: {
+					Count: 1
+					id: "quark:pathfinders_quill"
+					tag: {
+						targetBiome: "minecraft:deep_frozen_ocean"
+						targetBiomeColor: 732860
+						targetBiomeUnderground: 0b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "0A6D12627616827E"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.explorers_maps.quest82.title}"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2F9EECF98AF13434"]
+			hide_dependency_lines: false
+			icon: "minecraft:snow"
+			id: "1907BED0AC5F6B2E"
+			optional: true
+			rewards: [{
+				id: "24E916879623F94A"
+				item: {
+					Count: 1
+					id: "quark:pathfinders_quill"
+					tag: {
+						targetBiome: "regions_unexplored:frozen_tundra"
+						targetBiomeColor: 16052469
+						targetBiomeUnderground: 0b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "05DE706105CDB562"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.explorers_maps.quest83.title}"
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0123F0DD2DB7A203"]
+			hide_dependency_lines: false
+			icon: "minecraft:pointed_dripstone"
+			id: "314D5EACC3B4FF01"
+			optional: true
+			rewards: [{
+				id: "21185C761A6AAC62"
+				item: {
+					Count: 1
+					id: "quark:pathfinders_quill"
+					tag: {
+						targetBiome: "minecraft:dripstone_caves"
+						targetBiomeColor: 1639942
+						targetBiomeUnderground: 0b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "6BB6B29AFEA62FF9"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.explorers_maps.quest84.title}"
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0D47283F9CB3D318"]
+			hide_dependency_lines: false
+			icon: "minecraft:grass_block"
+			id: "54CA93112FAAE662"
+			optional: true
+			rewards: [{
+				id: "594ADAB2B8BB1187"
+				item: {
+					Count: 1
+					id: "quark:pathfinders_quill"
+					tag: {
+						targetBiome: "regions_unexplored:shrubland"
+						targetBiomeColor: 1008647
+						targetBiomeUnderground: 0b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "1F9517D8AC5D565F"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.explorers_maps.quest85.title}"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2DF0C8FC6724145A"]
+			hide_dependency_lines: false
+			icon: "alexsmobs:banana"
+			id: "2EC6AD9C95609D1B"
+			optional: true
+			rewards: [{
+				id: "21CCD55B72392828"
+				item: {
+					Count: 1
+					id: "quark:pathfinders_quill"
+					tag: {
+						targetBiome: "minecraft:jungle"
+						targetBiomeColor: 2274816
+						targetBiomeUnderground: 0b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "5A4B99D1FE820CE7"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.explorers_maps.quest86.title}"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D43D69EEEBE2D79"]
+			hide_dependency_lines: true
+			icon: "minecraft:lily_pad"
+			id: "3071D0C26DB4F18F"
+			optional: true
+			progression_mode: "linear"
+			shape: "square"
+			tasks: [{
+				id: "0CBA75372C34C44E"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.explorers_maps.quest87.title}"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["09600EADF4F3DC69"]
+			hide_dependency_lines: false
+			icon: "minecraft:spruce_log"
+			id: "27A81597CCF281E0"
+			optional: true
+			rewards: [{
+				id: "6B739EEE595E1428"
+				item: {
+					Count: 1
+					id: "quark:pathfinders_quill"
+					tag: {
+						targetBiome: "minecraft:old_growth_pine_taiga"
+						targetBiomeColor: 5980703
+						targetBiomeUnderground: 0b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "35C45613C21DD895"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.explorers_maps.quest88.title}"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["677A9F1FFA392B64"]
+			hide_dependency_lines: false
+			icon: "supplementaries:wind_vane"
+			id: "442B3A81C8E4329E"
+			optional: true
+			rewards: [{
+				id: "2493E087C61B60EA"
+				item: {
+					Count: 1
+					id: "quark:pathfinders_quill"
+					tag: {
+						targetBiome: "minecraft:windswept_hills"
+						targetBiomeColor: 9079434
+						targetBiomeUnderground: 0b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "44BE9075F1AFBFFC"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.explorers_maps.quest89.title}"
 			x: 5.5d
-			y: 0.0d
+			y: -2.0d
 		}
 	]
 	title: "{ftbquests.chapter.explorers_maps.title}"

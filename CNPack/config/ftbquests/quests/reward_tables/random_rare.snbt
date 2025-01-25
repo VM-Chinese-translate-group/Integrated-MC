@@ -1,7 +1,7 @@
 {
 	id: "6BC2549D8334E5D3"
 	loot_size: 1
-	order_index: 7
+	order_index: 8
 	rewards: [
 		{ count: 5, item: "minecraft:diamond", random_bonus: 5 }
 		{ count: 15, item: "minecraft:iron_ingot", random_bonus: 10 }
@@ -36,7 +36,6 @@
 		{ count: 5, item: "rubinated_nether:ruby", random_bonus: 5 }
 		{ item: "minecraft:totem_of_undying" }
 		{ item: "iceandfire:sapphire_gem", random_bonus: 4 }
-		{ item: "oreganized:electrum_upgrade_smithing_template" }
 	]
-	title: "{ftbquests.loot_table.title8}"
+	title: "{ftbquests.loot_table_7764861743028037075.title}"
 }

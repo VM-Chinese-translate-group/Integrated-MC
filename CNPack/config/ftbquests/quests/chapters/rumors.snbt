@@ -39,7 +39,7 @@
 							Damage: 0
 						}
 					}
-					title: "{ftbquests.chapter.rumors.quest1.task.title1}"
+					title: "{ftbquests.chapter.rumors.quest1.task_+3230461121253657566.title}"
 					type: "item"
 				}
 				{
@@ -58,7 +58,7 @@
 							Damage: 0
 						}
 					}
-					title: "{ftbquests.chapter.rumors.quest1.task.title2}"
+					title: "{ftbquests.chapter.rumors.quest1.task_+5430384800583509067.title}"
 					type: "item"
 				}
 			]
@@ -203,7 +203,7 @@
 				criterion: ""
 				icon: "minecraft:brewing_stand"
 				id: "228EFDB4FDBF6A12"
-				title: "{ftbquests.chapter.rumors.quest4.task.title1}"
+				title: "{ftbquests.chapter.rumors.quest4.task_+2490206597775583762.title}"
 				type: "advancement"
 			}]
 			title: "{ftbquests.chapter.rumors.quest4.title}"
@@ -278,7 +278,7 @@
 				}
 				match_nbt: true
 				only_from_crafting: false
-				title: "{ftbquests.chapter.rumors.quest6.task.title1}"
+				title: "{ftbquests.chapter.rumors.quest6.task_+1730115191885842275.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.rumors.quest6.title}"
@@ -333,7 +333,7 @@
 					}
 				}
 				match_nbt: true
-				title: "{ftbquests.chapter.rumors.quest7.task.title1}"
+				title: "{ftbquests.chapter.rumors.quest7.task_+4739861032525487301.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.rumors.quest7.title}"
@@ -375,7 +375,7 @@
 			subtitle: "{ftbquests.chapter.rumors.quest8.subtitle}"
 			tasks: [{
 				id: "475E59625F9F9825"
-				title: "{ftbquests.chapter.rumors.quest8.task.title1}"
+				title: "{ftbquests.chapter.rumors.quest8.task_+5142646103549646885.title}"
 				type: "checkmark"
 			}]
 			x: -2.5d
@@ -423,7 +423,7 @@
 			subtitle: "{ftbquests.chapter.rumors.quest9.subtitle}"
 			tasks: [{
 				id: "3DACCE2FA82A3A72"
-				title: "{ftbquests.chapter.rumors.quest9.task.title1}"
+				title: "{ftbquests.chapter.rumors.quest9.task_+4444153636387961458.title}"
 				type: "checkmark"
 			}]
 			x: -2.5d
@@ -453,7 +453,7 @@
 			tasks: [{
 				id: "4E4D7756B3298D53"
 				structure: "idas:redhorn_guild"
-				title: "{ftbquests.chapter.rumors.quest10.task.title1}"
+				title: "{ftbquests.chapter.rumors.quest10.task_+5642297122421837139.title}"
 				type: "structure"
 			}]
 			title: "{ftbquests.chapter.rumors.quest10.title}"
@@ -507,7 +507,7 @@
 						zoomLevel: 2
 					}
 				}
-				title: "{ftbquests.chapter.rumors.quest12.reward.title1}"
+				title: "{ftbquests.chapter.rumors.quest12.reward_7473585637639431325.title}"
 				type: "item"
 			}]
 			subtitle: "{ftbquests.chapter.rumors.quest12.subtitle}"
@@ -668,7 +668,7 @@
 				{
 					id: "3FE6102892F9E53B"
 					structure: "idas:apothecary_abode"
-					title: "{ftbquests.chapter.rumors.quest15.task.title1}"
+					title: "{ftbquests.chapter.rumors.quest15.task_+4604385435483497787.title}"
 					type: "structure"
 				}
 				{
@@ -691,7 +691,7 @@
 							title: "Journal"
 						}
 					}
-					title: "{ftbquests.chapter.rumors.quest15.task.title2}"
+					title: "{ftbquests.chapter.rumors.quest15.task_+7282810698583452553.title}"
 					type: "item"
 				}
 			]
@@ -874,7 +874,7 @@
 				}
 				match_nbt: true
 				only_from_crafting: false
-				title: "{ftbquests.chapter.rumors.quest17.task.title1}"
+				title: "{ftbquests.chapter.rumors.quest17.task_+3417366329970849203.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.rumors.quest17.title}"
@@ -901,7 +901,7 @@
 			tasks: [{
 				id: "5A041515B2C721F2"
 				structure: "idas:castle"
-				title: "{ftbquests.chapter.rumors.quest18.task.title1}"
+				title: "{ftbquests.chapter.rumors.quest18.task_+6486332546258248178.title}"
 				type: "structure"
 			}]
 			title: "{ftbquests.chapter.rumors.quest18.title}"
@@ -1048,7 +1048,7 @@
 					criterion: ""
 					icon: "minecraft:compass"
 					id: "60F1A247DEC0AD35"
-					title: "{ftbquests.chapter.rumors.quest21.task.title1}"
+					title: "{ftbquests.chapter.rumors.quest21.task_+6985542926591896885.title}"
 					type: "advancement"
 				}
 				{
@@ -1056,7 +1056,7 @@
 					criterion: ""
 					icon: "minecraft:cod"
 					id: "2A939EEB9BC0D5C4"
-					title: "{ftbquests.chapter.rumors.quest21.task.title2}"
+					title: "{ftbquests.chapter.rumors.quest21.task_+3067970505937049028.title}"
 					type: "advancement"
 				}
 			]
@@ -1071,7 +1071,7 @@
 			tasks: [{
 				id: "3405F39BD264F8F5"
 				structure: "idas:labyrinth"
-				title: "{ftbquests.chapter.rumors.quest22.task.title1}"
+				title: "{ftbquests.chapter.rumors.quest22.task_+3748670115431119093.title}"
 				type: "structure"
 			}]
 			x: 0.0d
@@ -1179,7 +1179,7 @@
 					}
 				}
 				match_nbt: true
-				title: "{ftbquests.chapter.rumors.quest24.task.title1}"
+				title: "{ftbquests.chapter.rumors.quest24.task_+6123712495609367540.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.rumors.quest24.title}"
@@ -1412,7 +1412,7 @@
 			tasks: [{
 				id: "7E4A232A9DFCD130"
 				structure: "idas:tree_of_wisdom"
-				title: "{ftbquests.chapter.rumors.quest28.task.title1}"
+				title: "{ftbquests.chapter.rumors.quest28.task_+9100124663001698608.title}"
 				type: "structure"
 			}]
 			title: "{ftbquests.chapter.rumors.quest28.title}"
@@ -1455,7 +1455,7 @@
 					}
 				}
 				match_nbt: true
-				title: "{ftbquests.chapter.rumors.quest29.task.title1}"
+				title: "{ftbquests.chapter.rumors.quest29.task_+4681753070712775647.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.rumors.quest29.title}"
@@ -1609,27 +1609,28 @@
 			}
 			id: "461A0A84153977E9"
 			invisible: true
+			min_required_tasks: 1
 			subtitle: "{ftbquests.chapter.rumors.quest32.subtitle}"
 			tasks: [
 				{
 					icon: "betterarcheology:suspicious_dirt"
 					id: "1F00DA1BDE36BB35"
 					structure: "betterarcheology:archeologist_camp_grassy"
-					title: "{ftbquests.chapter.rumors.quest32.task.title1}"
+					title: "{ftbquests.chapter.rumors.quest32.task_+2234025228402866997.title}"
 					type: "structure"
 				}
 				{
 					icon: "biomemakeover:suspicious_red_sand"
 					id: "453F8A917AB29200"
 					structure: "betterarcheology:archeologist_camp_redsand"
-					title: "{ftbquests.chapter.rumors.quest32.task.title2}"
+					title: "{ftbquests.chapter.rumors.quest32.task_+4989859269583213056.title}"
 					type: "structure"
 				}
 				{
 					icon: "minecraft:suspicious_sand"
 					id: "7BBA6D982B491A2F"
 					structure: "betterarcheology:archeologist_camp_sand"
-					title: "{ftbquests.chapter.rumors.quest32.task.title3}"
+					title: "{ftbquests.chapter.rumors.quest32.task_+8915558912661985839.title}"
 					type: "structure"
 				}
 			]
@@ -1657,7 +1658,7 @@
 				consume_items: true
 				count: 10L
 				id: "44EDECD76804E4FD"
-				item: { Count: 10, id: "minecraft:emerald" }
+				item: "minecraft:emerald"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.rumors.quest33.title}"
@@ -1673,14 +1674,14 @@
 					icon: "minecraft:snort_pottery_sherd"
 					id: "1FBBCD723DF6C437"
 					structure: "idas:dig_site/dig_site"
-					title: "{ftbquests.chapter.rumors.quest34.task.title1}"
+					title: "{ftbquests.chapter.rumors.quest34.task_+2286647126370206775.title}"
 					type: "structure"
 				}
 				{
 					icon: "biomemakeover:worker_pottery_sherd"
 					id: "3101F636ADDC0398"
 					structure: "idas:dig_site/dig_site_desert"
-					title: "{ftbquests.chapter.rumors.quest34.task.title2}"
+					title: "{ftbquests.chapter.rumors.quest34.task_+3531374297540723608.title}"
 					type: "structure"
 				}
 			]
@@ -1738,7 +1739,7 @@
 				}
 				match_nbt: true
 				only_from_crafting: false
-				title: "{ftbquests.chapter.rumors.quest35.task.title1}"
+				title: "{ftbquests.chapter.rumors.quest35.task_+6627413015659437051.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.rumors.quest35.title}"

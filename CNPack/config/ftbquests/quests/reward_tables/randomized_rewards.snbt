@@ -109,5 +109,5 @@
 		{ count: 5, item: "oreganized:raw_silver", random_bonus: 5 }
 		{ count: 5, item: "minecraft:raw_gold", random_bonus: 5 }
 	]
-	title: "{ftbquests.loot_table.title2}"
+	title: "{ftbquests.loot_table_9108404116502109620.title}"
 }

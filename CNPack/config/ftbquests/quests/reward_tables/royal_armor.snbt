@@ -1,7 +1,7 @@
 {
 	id: "1C9DF4A25A1E9A15"
 	loot_size: 1
-	order_index: 12
+	order_index: 13
 	rewards: [
 		{
 			item: {
@@ -168,5 +168,5 @@
 			}
 		}
 	]
-	title: "{ftbquests.loot_table.title13}"
+	title: "{ftbquests.loot_table_2062073182539389461.title}"
 }

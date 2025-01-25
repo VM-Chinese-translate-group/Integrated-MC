@@ -308,7 +308,7 @@ JEIEvents.information(e => {
   e.addItem('alexsmobs:enderiophage_rocket', [Component.translate('info.alexsmobs.enderiophage_rocket')]),
   e.addItem('alexsmobs:capsid', [Component.translate('info.alexsmobs.capsid')]),
   e.addItem('alexsmobs:falconry_glove', [Component.translate('info.alexsmobs.falconry_glove')]),
-  e.addItem('alexsmobs:falconry_hood', ['Used to control Bald Eagles while they are flying.'])
+  e.addItem('alexsmobs:falconry_hood', [Component.translate('info.alexsmobs.falconry_hood')])
   e.addItem('alexsmobs:mysterious_worm', [Component.translate('info.alexsmobs.mysterious_worm')]),
   e.addItem('alexsmobs:dimensional_carver', [Component.translate('info.alexsmobs.dimensional_carver')]),
   e.addItem('alexsmobs:shattered_dimensional_carver', [Component.translate('info.alexsmobs.shattered_dimensional_carver')]),
@@ -377,11 +377,6 @@ JEIEvents.information(e => {
   e.addItem('domesticationinnovation:drum', [Component.translate('info.domesticationinnovation.drum')]),
   e.addItem('domesticationinnovation:wayward_lantern', [Component.translate('info.domesticationinnovation.wayward_lantern')]),
 
-//Dragonseeker
-  e.addItem('dragonseeker:dragonseeker', [Component.translate('info.dragonseeker.dragonseeker')]),
-  e.addItem('dragonseeker:epic_dragonseeker', [Component.translate('info.dragonseeker.epic_dragonseeker')]),
-  e.addItem('dragonseeker:legendary_dragonseeker', [Component.translate('info.dragonseeker.legendary_dragonseeker')]),
-
 //Forbidden and Arcanus
   e.addItem('forbidden_arcanus:growing_edelwood', [Component.translate('info.forbidden_arcanus.growing_edelwood')]),
   e.addItem('forbidden_arcanus:spectral_eye_amulet', [Component.translate('info.forbidden_arcanus.spectral_eye_amulet')]),
@@ -416,7 +411,6 @@ JEIEvents.information(e => {
   e.addItem('forbidden_arcanus:draco_arcanus_arrow', [Component.translate('info.forbidden_arcanus.draco_arcanus_arrow')]),
   e.addItem('forbidden_arcanus:artisan_relic', [Component.translate('info.forbidden_arcanus.artisan_relic')]),
   e.addItem('forbidden_arcanus:crimson_stone', [Component.translate('info.forbidden_arcanus.crimson_stone')]),
-  e.addItem('forbidden_arcanus:elementarium', [Component.translate('info.forbidden_arcanus.elementarium')]),
   e.addItem('forbidden_arcanus:crescent_moon', [Component.translate('info.forbidden_arcanus.crescent_moon')]),
   e.addItem('iceandfire:ice_dragon_blood', [Component.translate('info.iceandfire.ice_dragon_blood')]),
   e.addItem('iceandfire:fire_dragon_blood', [Component.translate('info.iceandfire.fire_dragon_blood')]),
@@ -425,6 +419,7 @@ JEIEvents.information(e => {
   e.addItem('hexerei:blood_bottle', [Component.translate('info.hexerei.blood_bottle')]),
   e.addItem('hexerei:blood_bucket', [Component.translate('info.hexerei.blood_bucket')]),
   e.addItem('forbidden_arcanus:blood_test_tube', [Component.translate('info.forbidden_arcanus.blood_test_tube')]),
+  e.addItem('eidolon:zombie_heart', [Component.translate('info.eidolon.zombie_heart')]),
   e.addItem('forbidden_arcanus:soul', [Component.translate('info.forbidden_arcanus.soul')]),
   e.addItem('forbidden_arcanus:enchanted_soul', [Component.translate('info.forbidden_arcanus.enchanted_soul')]),
   e.addItem('forbidden_arcanus:corrupt_soul', [Component.translate('info.forbidden_arcanus.corrupt_soul')]),
@@ -446,22 +441,16 @@ JEIEvents.information(e => {
   e.addItem('minecraft:experience_bottle', [Component.translate('info.minecraft.experience_bottle')]),
   e.addItem('create_enchantment_industry:hyper_experience_bottle', [Component.translate('info.create_enchantment_industry.hyper_experience_bottle')]),
   e.addItem('forbidden_arcanus:arcane_crystal_dust', [Component.translate('info.forbidden_arcanus.arcane_crystal_dust')]),
+  e.addItem('caverns_and_chasms:spinel', [Component.translate('info.caverns_and_chasms.spinel')]),
   e.addItem('iceandfire:pixie_dust', [Component.translate('info.iceandfire.pixie_dust')]),
   e.addItem('waystones:warp_dust', [Component.translate('info.waystones.warp_dust')]),
   e.addItem('born_in_chaos_v1:spiritual_dust', [Component.translate('info.born_in_chaos_v1.spiritual_dust')]),
   e.addItem('illagerinvasion:illusionary_dust', [Component.translate('info.illagerinvasion.illusionary_dust')]),
-  e.addItem('illagerinvasion:unusual_dust', ['Adds Aureal to the Hephaestus Forge. You can automatically generate it with Arcane Crystal Obelisks.'])
-  e.addItem('betterend:crystal_shards', ['Adds Aureal to the Hephaestus Forge. You can automatically generate it with Arcane Crystal Obelisks.'])
-  e.addItem('betterend:eternal_crystal', ['Adds Aureal to the Hephaestus Forge. You can automatically generate it with Arcane Crystal Obelisks.'])
-
-//Friends and Foes
-  e.addItem('friendsandfoes:wildfire_crown', [Component.translate('info.friendsandfoes.wildfire_crown')]),
-  e.addItem('friendsandfoes:totem_of_freezing', [Component.translate('info.friendsandfoes.totem_of_freezing')]),
-  e.addItem('friendsandfoes:totem_of_illusion', [Component.translate('info.friendsandfoes.totem_of_illusion')]),
-  e.addItem('friendsandfoes:copper_golem_spawn_egg', [Component.translate('info.friendsandfoes.copper_golem_spawn_egg')]),
-  e.addItem('friendsandfoes:tuff_golem_spawn_egg', [Component.translate('info.friendsandfoes.tuff_golem_spawn_egg')]),
-  e.addItem('friendsandfoes:glare_spawn_egg', [Component.translate('info.friendsandfoes.glare_spawn_egg')]),
-  e.addItem('friendsandfoes:mauler_spawn_egg', [Component.translate('info.friendsandfoes.mauler_spawn_egg')]),
+  e.addItem('illagerinvasion:unusual_dust', [Component.translate('info.illagerinvasion.unusual_dust')]),
+  e.addItem('betterend:crystal_shards', [Component.translate('info.betterend.crystal_shards')]),
+  e.addItem('betterend:eternal_crystal', [Component.translate('info.betterend.eternal_crystal')]),
+  e.addItem('bosses_of_mass_destruction:ancient_anima', [Component.translate('info.bosses_of_mass_destruction.ancient_anima')]),
+  e.addItem('irons_spellbooks:arcane_ingot', [Component.translate('info.irons_spellbooks.arcane_ingot')]),
 
 //Galosphere
     e.addItem('galosphere:sterling_horse_armor', [Component.translate('info.galosphere.sterling_horse_armor')]),
@@ -594,12 +583,7 @@ JEIEvents.information(e => {
   e.addItem('oreganized:lead_bulb', [Component.translate('info.oreganized.lead_bulb')]),
   e.addItem('oreganized:lead_bolt', [Component.translate('info.oreganized.lead_bolt')]),
   e.addItem('oreganized:gargoyle', [Component.translate('info.oreganized.gargoyle')]),
-  e.addItem('oreganized:electrum_upgrade_smithing_template', [Component.translate('info.oreganized.electrum_upgrade_smithing_template')]),
   e.addItem('oreganized:scribe', [Component.translate('info.oreganized.scribe')]),
-
-//Doom and Gloom
-  e.addItem('doom_and_gloom:sepulcher', [Component.translate('info.doom_and_gloom.sepulcher')]),
-  e.addItem('doom_and_gloom:burial_dirt', [Component.translate('info.doom_and_gloom.burial_dirt')]),
 
 //Rubinated Nether
   e.addItem('rubinated_nether:ruby', [Component.translate('info.rubinated_nether.ruby')]),
@@ -711,13 +695,6 @@ e.addItem('storagedrawers:controller', [Component.translate('info.storagedrawers
   e.addItem('simplyswords:caelestis', [Component.translate('info.simplyswords.caelestis')]),
   e.addItem('simplyswords:decaying_relic', [Component.translate('info.simplyswords.decaying_relic')]),
 
-//Wilder Wild
-  e.addItem('wilderwild:stone_chest', [Component.translate('info.wilderwild.stone_chest')]),
-  e.addItem('wilderwild:termite_mound', [Component.translate('info.wilderwild.termite_mound')]),
-  e.addItem('wilderwild:ancient_horn', [Component.translate('info.wilderwild.ancient_horn')]),
-  e.addItem('wilderwild:prickly_pear', [Component.translate('info.wilderwild.prickly_pear')]),
-  e.addItem('wilderwild:echo_glass', [Component.translate('info.wilderwild.echo_glass')]),
-
   e.addItem('delightful:animal_fat', [Component.translate('info.delightful.animal_fat')]),
 
 //Hexerei
@@ -731,23 +708,23 @@ e.addItem('storagedrawers:controller', [Component.translate('info.storagedrawers
   e.addItem('iceandfire:ambrosia', [Component.translate('info.iceandfire.ambrosia')]),
 
 //Locator Eyes
-//  e.addItem('eyesoficeandfire:eye_of_fire_dragon', ['Points to nearby Fire Dragons.']),
-//  e.addItem('eyesoficeandfire:eye_of_ice_dragon', ['Points to nearby Ice Dragons.']),
-//  e.addItem('eyesoficeandfire:eye_of_lightning_dragon', ['Points to nearby Lightning Dragons.']),
-//  e.addItem('cataclysm:flame_eye', ['Points to the Burning Arena in the Nether.']),
-//  e.addItem('cataclysm:mech_eye', ['Points to the Ancient Factory.']),
-//  e.addItem('cataclysm:void_eye', ['Points to the Ruined Citadel in the End.']),
-//  e.addItem('cataclysm:monstrous_eye', ['Points to the Soul Blacksmith.']),
-//  e.addItem('cataclysm:abyss_eye', ['Points to the Sunken City.']),
-//  e.addItem('cataclysm:desert_eye', ['Points to the Cursed Pyramid.']),
-//  e.addItem('cataclysm:cursed_eye', ['Points to the Frosted Prison.']),
-//  e.addItem('mowzies_cataclysm:sun_eye', ['Points to the Umuvthana Grove.']),
-//  e.addItem('mowzies_cataclysm:frostmaw_eye', ['Points to the Frostmaw.']),
-//  e.addItem('mowzies_cataclysm:wrought_eye', ['Points to the Wrought Chamber.']),
+  e.addItem('eyesoficeandfire:eye_of_fire_dragon', [Component.translate('info.eyesoficeandfire.eye_of_fire_dragon')]),
+  e.addItem('eyesoficeandfire:eye_of_ice_dragon', [Component.translate('info.eyesoficeandfire.eye_of_ice_dragon')]),
+  e.addItem('eyesoficeandfire:eye_of_lightning_dragon', [Component.translate('info.eyesoficeandfire.eye_of_lightning_dragon')]),
+  e.addItem('cataclysm:flame_eye', [Component.translate('info.cataclysm.flame_eye')]),
+  e.addItem('cataclysm:mech_eye', [Component.translate('info.cataclysm.mech_eye')]),
+  e.addItem('cataclysm:void_eye', [Component.translate('info.cataclysm.void_eye')]),
+  e.addItem('cataclysm:monstrous_eye', [Component.translate('info.cataclysm.monstrous_eye')]),
+  e.addItem('cataclysm:abyss_eye', [Component.translate('info.cataclysm.abyss_eye')]),
+  e.addItem('cataclysm:desert_eye', [Component.translate('info.cataclysm.desert_eye')]),
+  e.addItem('cataclysm:cursed_eye', [Component.translate('info.cataclysm.cursed_eye')]),
+  e.addItem('mowzies_cataclysm:sun_eye', [Component.translate('info.mowzies_cataclysm.sun_eye')]),
+  e.addItem('mowzies_cataclysm:frostmaw_eye', [Component.translate('info.mowzies_cataclysm.frostmaw_eye')]),
+  e.addItem('mowzies_cataclysm:wrought_eye', [Component.translate('info.mowzies_cataclysm.wrought_eye')]),
 
 //Cataclysm
-//  e.addItem('cataclysm:abyssal_sacrifice', ['Use in the Sunken City to summon The Leviathan.']),
-//  e.addItem('cataclysm:burning_ashes', ['Used in the Burning Arena to summon the Ignis.']),
+  e.addItem('cataclysm:abyssal_sacrifice', [Component.translate('info.cataclysm.abyssal_sacrifice')]),
+  e.addItem('cataclysm:burning_ashes', [Component.translate('info.cataclysm.burning_ashes')]),
 
 //Born in Chaos
   e.addItem('born_in_chaos_v1:fel_lamp', [Component.translate('info.born_in_chaos_v1.fel_lamp')]),
@@ -766,10 +743,10 @@ e.addItem('storagedrawers:controller', [Component.translate('info.storagedrawers
   e.addItem('born_in_chaos_v1:darkwarblade', [Component.translate('info.born_in_chaos_v1.darkwarblade')]),
   e.addItem('born_in_chaos_v1:spider_bite_sword', [Component.translate('info.born_in_chaos_v1.spider_bite_sword')]),
 
-  e.addItem('ars_additions:enchanting_wixie_cauldron', ['Use a Wixie charm on an enchanting aparatus to create. Can be used to automate enchanting.'])
-  e.addItem('ars_nouveau:scribes_table', ['Used for creating Glyphs.'])
+  e.addItem('ars_additions:enchanting_wixie_cauldron', [Component.translate('info.ars_additions.enchanting_wixie_cauldron')])
+  e.addItem('ars_nouveau:scribes_table', [Component.translate('info.ars_nouveau.scribes_table')])
 
-//Eidolong
+//Eidolon
   e.addItem('eidolon:reaper_scythe', [Component.translate('info.eidolon.reaper_scythe')]),
   e.addItem('eidolon:soul_shard', [Component.translate('info.eidolon.soul_shard')]),
   e.addItem('eidolon:top_hat', [Component.translate('info.eidolon.top_hat')]),
@@ -803,5 +780,37 @@ e.addItem('storagedrawers:controller', [Component.translate('info.storagedrawers
   e.addItem('crittersandcompanions:dragonfly_spawn_egg', [Component.translate('info.crittersandcompanions.dragonfly_spawn_egg')]),
   e.addItem('crittersandcompanions:red_panda_spawn_egg', [Component.translate('info.crittersandcompanions.red_panda_spawn_egg')]),
   e.addItem('crittersandcompanions:shima_enaga_spawn_egg', [Component.translate('info.crittersandcompanions.shima_enaga_spawn_egg')]),
-  e.addItem('crittersandcompanions:jumping_spider_spawn_egg', [Component.translate('info.crittersandcompanions.jumping_spider_spawn_egg')])
+  e.addItem('crittersandcompanions:jumping_spider_spawn_egg', [Component.translate('info.crittersandcompanions.jumping_spider_spawn_egg')]),
+
+  //Irons Spellbooks
+     e.addItem('irons_spellbooks:inscription_table', [Component.translate('info.irons_spellbooks.inscription_table')]),
+     e.addItem('irons_spellbooks:scroll_forge', [Component.translate('info.irons_spellbooks.scroll_forge')]),
+     e.addItem('irons_spellbooks:arcane_anvil', [Component.translate('info.irons_spellbooks.arcane_anvil')]),
+     e.addItem('irons_spellbooks:evoker_spell_book', [Component.translate('info.irons_spellbooks.evoker_spell_book')]),
+     e.addItem('irons_spellbooks:rotten_spell_book', [Component.translate('info.irons_spellbooks.rotten_spell_book')]),
+     e.addItem('irons_spellbooks:blaze_spell_book', [Component.translate('info.irons_spellbooks.blaze_spell_book')]),
+     e.addItem('irons_spellbooks:villager_spell_book', [Component.translate('info.irons_spellbooks.villager_spell_book')]),
+     e.addItem('irons_spellbooks:keeper_flamberge', [Component.translate('info.irons_spellbooks.keeper_flamberge')]),
+     e.addItem('irons_spellbooks:wayward_compass', [Component.translate('info.irons_spellbooks.wayward_compass')]),
+     e.addItem('irons_spellbooks:tarnished_helmet', [Component.translate('info.irons_spellbooks.tarnished_helmet')]),
+     e.addItem('irons_spellbooks:ancient_knowledge_fragment', [Component.translate('info.irons_spellbooks.ancient_knowledge_fragment')]),
+     e.addItem('ice_and_fire_spellbooks:toornahkriin', [Component.translate('info.ice_and_fire_spellbooks.toornahkriin')]),
+     e.addItem('ice_and_fire_spellbooks:fodaan', [Component.translate('info.ice_and_fire_spellbooks.fodaan')]),
+     e.addItem('ice_and_fire_spellbooks:vulonqo', [Component.translate('info.ice_and_fire_spellbooks.vulonqo')]),
+     e.addItem('ice_and_fire_spellbooks:vulnilviir', [Component.translate('info.ice_and_fire_spellbooks.vulnilviir')]),
+     e.addItem('ice_and_fire_spellbooks:vulsilah', [Component.translate('info.ice_and_fire_spellbooks.vulsilah')]),
+
+   //Abnormals Suite
+     e.addItem('atmospheric:orange', [Component.translate('info.atmospheric.orange')]),
+     e.addItem('atmospheric:blood_orange', [Component.translate('info.atmospheric.blood_orange')]),
+     e.addItem('atmospheric:passion_fruit', [Component.translate('info.atmospheric.passion_fruit')]),
+     e.addItem('atmospheric:dragon_fruit', [Component.translate('info.atmospheric.dragon_fruit')]),
+     e.addItem('atmospheric:aloe_leaves', [Component.translate('info.atmospheric.aloe_leaves')]),
+     e.addItem('atmospheric:currant', [Component.translate('info.atmospheric.currant')]),
+     e.addItem('caverns_and_chasms:spinel', [Component.translate('info.caverns_and_chasms.spinel')]),
+     e.addItem('caverns_and_chasms:spinel_ore', [Component.translate('info.caverns_and_chasms.spinel_ore')]),
+     e.addItem('caverns_and_chasms:deepslate_spinel_ore', [Component.translate('info.caverns_and_chasms.deepslate_spinel_ore')]),
+     e.addItem('caverns_and_chasms:tuning_fork', [Component.translate('info.caverns_and_chasms.tuning_fork')]),
+     e.addItem('caverns_and_chasms:golden_bucket', [Component.translate('info.caverns_and_chasms.golden_bucket')]),
+     e.addItem('caverns_and_chasms:tmt', [Component.translate('info.caverns_and_chasms.tmt')])
 })

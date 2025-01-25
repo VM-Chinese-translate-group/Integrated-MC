@@ -1,7 +1,7 @@
 {
 	id: "4A6B3F609DD98B95"
 	loot_size: 1
-	order_index: 20
+	order_index: 21
 	rewards: [
 		{ count: 64, item: "minecraft:raw_copper" }
 		{ count: 32, item: "minecraft:raw_gold" }
@@ -51,5 +51,5 @@
 		{ count: 16, item: "supplementaries:flax_block" }
 		{ count: 25, item: "minecraft:hay_block" }
 	]
-	title: "{ftbquests.loot_table.title21}"
+	title: "{ftbquests.loot_table_5362449465512397717.title}"
 }

@@ -8,6 +8,72 @@
 	group: ""
 	icon: "minecraft:book"
 	id: "5768FFE8D633E233"
+	images: [
+		{
+			height: 3.598531211750306d
+			image: "imcquests:textures/misc/title.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			height: 1.45d
+			image: "imcquests:textures/misc/faq.png"
+			rotation: 0.0d
+			width: 2.5777777777777775d
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "imcquests:textures/misc/guides.png"
+			rotation: 0.0d
+			width: 3.5555555555555554d
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "imcquests:textures/misc/tips_n_tools.png"
+			rotation: 0.0d
+			width: 3.5555555555555554d
+			x: -9.0d
+			y: 2.25d
+		}
+		{
+			height: 2.0d
+			image: "imcquests:textures/misc/tweaks.png"
+			rotation: 0.0d
+			width: 3.5555555555555554d
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "storagedrawers:block/indicator/priority_p1_icon"
+			rotation: -90.0d
+			width: 2.0d
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			height: 3.0d
+			image: "imcquests:textures/misc/quests.png"
+			rotation: 0.0d
+			width: 5.333333333333333d
+			x: -11.5d
+			y: -0.5d
+		}
+		{
+			height: 3.0d
+			image: "imcquests:textures/misc/more.png"
+			rotation: 0.0d
+			width: 5.333333333333333d
+			x: -11.5d
+			y: -1.0d
+		}
+	]
 	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -17,6 +83,8 @@
 				"{ftbquests.chapter.pack_introduction.quest1.description1}"
 				""
 				"{ftbquests.chapter.pack_introduction.quest1.description2}"
+				""
+				"{ftbquests.chapter.pack_introduction.quest1.description3}"
 			]
 			disable_toast: true
 			icon: "supplementaries:regions_unexplored/sign_post_maple"
@@ -27,7 +95,7 @@
 				item: "minecraft:bread"
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "gear"
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.pack_introduction.quest1.subtitle}"
 			tasks: [{
@@ -35,18 +103,44 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.pack_introduction.quest1.title}"
-			x: 0.0d
-			y: 0.0d
+			x: -2.0d
+			y: 1.0d
 		}
 		{
 			can_repeat: false
-			dependencies: ["2713C8F59E5454D3"]
 			description: [
 				"{ftbquests.chapter.pack_introduction.quest2.description1}"
 				""
 				"{ftbquests.chapter.pack_introduction.quest2.description2}"
 				""
 				"{ftbquests.chapter.pack_introduction.quest2.description3}"
+				""
+				"{ftbquests.chapter.pack_introduction.quest2.description4}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.pack_introduction.quest2.description5}"
+				""
+				"{ftbquests.chapter.pack_introduction.quest2.description6}"
+				"{ftbquests.chapter.pack_introduction.quest2.description7}"
+				"{ftbquests.chapter.pack_introduction.quest2.description8}"
+				"{ftbquests.chapter.pack_introduction.quest2.description9}"
+				""
+				"{ftbquests.chapter.pack_introduction.quest2.description10}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.pack_introduction.quest2.description11}"
+				""
+				"{ftbquests.chapter.pack_introduction.quest2.description12}"
+				"{ftbquests.chapter.pack_introduction.quest2.description13}"
+				"{ftbquests.chapter.pack_introduction.quest2.description14}"
+				"{ftbquests.chapter.pack_introduction.quest2.description15}"
+				""
+				"{ftbquests.chapter.pack_introduction.quest2.description16}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.pack_introduction.quest2.description17}"
+				""
+				"{ftbquests.chapter.pack_introduction.quest2.description18}"
+				"{ftbquests.chapter.pack_introduction.quest2.description19}"
+				"{ftbquests.chapter.pack_introduction.quest2.description20}"
+				"{ftbquests.chapter.pack_introduction.quest2.description21}"
 			]
 			disable_toast: true
 			icon: "minecraft:spyglass"
@@ -58,50 +152,29 @@
 				item: "minecraft:torch"
 				type: "item"
 			}]
+			shape: "octagon"
 			subtitle: "{ftbquests.chapter.pack_introduction.quest2.subtitle}"
 			tasks: [{
 				disable_toast: true
 				id: "60B747D4B3CD889D"
-				title: "{ftbquests.chapter.pack_introduction.quest2.task.title1}"
+				title: "{ftbquests.chapter.pack_introduction.quest2.task_+6969117927254362269.title}"
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.pack_introduction.quest2.title}"
-			x: -1.5d
-			y: -1.5d
+			x: -8.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["2713C8F59E5454D3"]
-			description: ["{ftbquests.chapter.pack_introduction.quest3.description1}"]
-			disable_toast: true
-			icon: "minecraft:bread"
-			id: "0285EF791CB51CAF"
-			optional: true
-			rewards: [{
-				id: "38F1F935AD57490A"
-				item: "minecraft:bundle"
-				type: "item"
-			}]
-			tasks: [{
-				id: "60EB9F528E715B28"
-				title: "{ftbquests.chapter.pack_introduction.quest3.task.title1}"
-				type: "checkmark"
-			}]
-			title: "{ftbquests.chapter.pack_introduction.quest3.title}"
-			x: 2.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["0285EF791CB51CAF"]
 			description: [
-				"{ftbquests.chapter.pack_introduction.quest4.description1}"
+				"{ftbquests.chapter.pack_introduction.quest3.description1}"
 				""
-				"{ftbquests.chapter.pack_introduction.quest4.description2}"
+				"{ftbquests.chapter.pack_introduction.quest3.description2}"
 				""
-				"{ftbquests.chapter.pack_introduction.quest4.description3}"
+				"{ftbquests.chapter.pack_introduction.quest3.description3}"
 				""
-				"{ftbquests.chapter.pack_introduction.quest4.description4}"
+				"{ftbquests.chapter.pack_introduction.quest3.description4}"
 				""
-				"{ftbquests.chapter.pack_introduction.quest4.description5}"
+				"{ftbquests.chapter.pack_introduction.quest3.description5}"
 			]
 			disable_toast: true
 			icon: "minecraft:emerald"
@@ -113,22 +186,22 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
+			shape: "pentagon"
 			tasks: [{
 				id: "4C7BBD1F2762093C"
-				title: "{ftbquests.chapter.pack_introduction.quest4.task.title1}"
+				title: "{ftbquests.chapter.pack_introduction.quest3.task_+5511206510520305980.title}"
 				type: "checkmark"
 			}]
-			x: 0.5d
-			y: 2.5d
+			x: -4.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["0285EF791CB51CAF"]
 			description: [
-				"{ftbquests.chapter.pack_introduction.quest5.description1}"
+				"{ftbquests.chapter.pack_introduction.quest4.description1}"
 				""
-				"{ftbquests.chapter.pack_introduction.quest5.description2}"
+				"{ftbquests.chapter.pack_introduction.quest4.description2}"
 				""
-				"{ftbquests.chapter.pack_introduction.quest5.description3}"
+				"{ftbquests.chapter.pack_introduction.quest4.description3}"
 			]
 			disable_toast: true
 			icon: "minecraft:enchanting_table"
@@ -139,25 +212,25 @@
 				type: "xp"
 				xp: 30
 			}]
+			shape: "pentagon"
 			tasks: [{
 				id: "5E48274771E6C1FA"
-				title: "{ftbquests.chapter.pack_introduction.quest5.task.title1}"
+				title: "{ftbquests.chapter.pack_introduction.quest4.task_+6793723225695502842.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.pack_introduction.quest5.title}"
-			x: 1.0d
-			y: 3.5d
+			title: "{ftbquests.chapter.pack_introduction.quest4.title}"
+			x: -3.5d
+			y: 4.5d
 		}
 		{
-			dependencies: ["0285EF791CB51CAF"]
 			description: [
-				"{ftbquests.chapter.pack_introduction.quest6.description1}"
+				"{ftbquests.chapter.pack_introduction.quest5.description1}"
 				""
-				"{ftbquests.chapter.pack_introduction.quest6.description2}"
+				"{ftbquests.chapter.pack_introduction.quest5.description2}"
 				""
-				"{ftbquests.chapter.pack_introduction.quest6.description3}"
+				"{ftbquests.chapter.pack_introduction.quest5.description3}"
 				""
-				"{ftbquests.chapter.pack_introduction.quest6.description4}"
+				"{ftbquests.chapter.pack_introduction.quest5.description4}"
 			]
 			disable_toast: true
 			icon: "minecraft:anvil"
@@ -168,22 +241,22 @@
 				item: "minecraft:name_tag"
 				type: "item"
 			}]
+			shape: "pentagon"
 			tasks: [{
 				id: "69D2D7CC18437EAB"
-				title: "{ftbquests.chapter.pack_introduction.quest6.task.title1}"
+				title: "{ftbquests.chapter.pack_introduction.quest5.task_+7625394390672047787.title}"
 				type: "checkmark"
 			}]
-			x: 3.5d
-			y: 1.0d
+			x: -3.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["0285EF791CB51CAF"]
 			description: [
-				"{ftbquests.chapter.pack_introduction.quest7.description1}"
+				"{ftbquests.chapter.pack_introduction.quest6.description1}"
 				""
-				"{ftbquests.chapter.pack_introduction.quest7.description2}"
+				"{ftbquests.chapter.pack_introduction.quest6.description2}"
 				""
-				"{ftbquests.chapter.pack_introduction.quest7.description3}"
+				"{ftbquests.chapter.pack_introduction.quest6.description3}"
 			]
 			disable_toast: true
 			icon: {
@@ -214,39 +287,37 @@
 					type: "item"
 				}
 			]
+			shape: "pentagon"
 			tasks: [{
 				id: "5FE3D2092E9AA8BC"
-				title: "{ftbquests.chapter.pack_introduction.quest7.task.title1}"
+				title: "{ftbquests.chapter.pack_introduction.quest6.task_+6909597190194899132.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.pack_introduction.quest7.title}"
-			x: 3.5d
-			y: 2.5d
+			title: "{ftbquests.chapter.pack_introduction.quest6.title}"
+			x: -4.5d
+			y: 4.5d
 		}
 		{
-			dependencies: ["2713C8F59E5454D3"]
 			description: [
-				"{ftbquests.chapter.pack_introduction.quest8.description1}"
+				"{ftbquests.chapter.pack_introduction.quest7.description1}"
 				""
-				"{ftbquests.chapter.pack_introduction.quest8.description2}"
-				"{ftbquests.chapter.pack_introduction.quest8.description3}"
-				"{ftbquests.chapter.pack_introduction.quest8.description4}"
-				"{ftbquests.chapter.pack_introduction.quest8.description5}"
-				"{ftbquests.chapter.pack_introduction.quest8.description6}"
-				"{ftbquests.chapter.pack_introduction.quest8.description7}"
-				"{ftbquests.chapter.pack_introduction.quest8.description8}"
-				"{ftbquests.chapter.pack_introduction.quest8.description9}"
-				"{ftbquests.chapter.pack_introduction.quest8.description10}"
-				"{ftbquests.chapter.pack_introduction.quest8.description11}"
+				"{ftbquests.chapter.pack_introduction.quest7.description2}"
+				"{ftbquests.chapter.pack_introduction.quest7.description3}"
+				"{ftbquests.chapter.pack_introduction.quest7.description4}"
+				"{ftbquests.chapter.pack_introduction.quest7.description5}"
+				"{ftbquests.chapter.pack_introduction.quest7.description6}"
+				"{ftbquests.chapter.pack_introduction.quest7.description7}"
+				"{ftbquests.chapter.pack_introduction.quest7.description8}"
+				"{ftbquests.chapter.pack_introduction.quest7.description9}"
 				""
-				"{ftbquests.chapter.pack_introduction.quest8.description12}"
-				"{ftbquests.chapter.pack_introduction.quest8.description13}"
-				"{ftbquests.chapter.pack_introduction.quest8.description14}"
-				"{ftbquests.chapter.pack_introduction.quest8.description15}"
+				"{ftbquests.chapter.pack_introduction.quest7.description10}"
+				"{ftbquests.chapter.pack_introduction.quest7.description11}"
+				"{ftbquests.chapter.pack_introduction.quest7.description12}"
+				"{ftbquests.chapter.pack_introduction.quest7.description13}"
 				"{@pagebreak}"
-				"{ftbquests.chapter.pack_introduction.quest8.description16}"
+				"{ftbquests.chapter.pack_introduction.quest7.description14}"
 				""
-				"{ftbquests.chapter.pack_introduction.quest8.description17}"
+				"{ftbquests.chapter.pack_introduction.quest7.description15}"
 			]
 			icon: "supplementaries:key"
 			id: "7F0321F6C37A19B7"
@@ -257,182 +328,47 @@
 				item: "minecraft:bread"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.pack_introduction.quest8.subtitle}"
+			shape: "octagon"
+			subtitle: "{ftbquests.chapter.pack_introduction.quest7.subtitle}"
 			tasks: [{
 				id: "4976579F87754AC9"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.pack_introduction.quest8.title}"
-			x: 1.0d
-			y: -1.0d
+			title: "{ftbquests.chapter.pack_introduction.quest7.title}"
+			x: -9.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["6E5C712DA54999CB"]
-			description: [
-				"{ftbquests.chapter.pack_introduction.quest9.description1}"
-				""
-				"{ftbquests.chapter.pack_introduction.quest9.description2}"
-				"{ftbquests.chapter.pack_introduction.quest9.description3}"
-				"{ftbquests.chapter.pack_introduction.quest9.description4}"
-				"{ftbquests.chapter.pack_introduction.quest9.description5}"
-			]
-			disable_toast: true
-			icon: "minecraft:name_tag"
-			id: "5A997D5F5C8DAAFF"
-			optional: true
-			tasks: [{
-				id: "09AEAD5FEB932099"
-				title: "{ftbquests.chapter.pack_introduction.quest9.task.title1}"
-				type: "checkmark"
-			}]
-			x: -1.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["6E5C712DA54999CB"]
-			description: [
-				"{ftbquests.chapter.pack_introduction.quest10.description1}"
-				""
-				"{ftbquests.chapter.pack_introduction.quest10.description2}"
-				"{ftbquests.chapter.pack_introduction.quest10.description3}"
-				"{ftbquests.chapter.pack_introduction.quest10.description4}"
-				"{ftbquests.chapter.pack_introduction.quest10.description5}"
-			]
-			disable_toast: true
-			icon: "alexsmobs:spawn_egg_elephant"
-			id: "2050D770D867E9EC"
-			optional: true
-			tasks: [{
-				id: "7B6A71A89CCD075A"
-				title: "{ftbquests.chapter.pack_introduction.quest10.task.title1}"
-				type: "checkmark"
-			}]
-			x: -3.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["6E5C712DA54999CB"]
-			description: [
-				"{ftbquests.chapter.pack_introduction.quest11.description1}"
-				""
-				"{ftbquests.chapter.pack_introduction.quest11.description2}"
-				"{ftbquests.chapter.pack_introduction.quest11.description3}"
-				"{ftbquests.chapter.pack_introduction.quest11.description4}"
-				"{ftbquests.chapter.pack_introduction.quest11.description5}"
-			]
-			disable_toast: true
-			icon: "alexscaves:cave_book"
-			id: "208C8A71760FF56F"
-			optional: true
-			tasks: [{
-				id: "43C1A914D9AAFD14"
-				title: "{ftbquests.chapter.pack_introduction.quest11.task.title1}"
-				type: "checkmark"
-			}]
-			x: -2.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["0285EF791CB51CAF"]
-			description: ["{ftbquests.chapter.pack_introduction.quest12.description1}"]
+			description: ["{ftbquests.chapter.pack_introduction.quest8.description1}"]
 			disable_toast: true
 			icon: "minecraft:ender_eye"
 			id: "25503C678AAC68FA"
 			optional: true
+			shape: "pentagon"
 			tasks: [{
 				id: "11251FD718B56492"
-				title: "{ftbquests.chapter.pack_introduction.quest12.task.title1}"
+				title: "{ftbquests.chapter.pack_introduction.quest8.task_+1235428681476039826.title}"
 				type: "checkmark"
 			}]
-			x: 2.5d
-			y: 3.5d
+			x: -5.5d
+			y: 4.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.pack_introduction.quest13.description1}"
+				"{ftbquests.chapter.pack_introduction.quest9.description1}"
 				""
-				"{ftbquests.chapter.pack_introduction.quest13.description2}"
+				"{ftbquests.chapter.pack_introduction.quest9.description2}"
 				""
-				"{ftbquests.chapter.pack_introduction.quest13.description3}"
+				"{ftbquests.chapter.pack_introduction.quest9.description3}"
 				""
-				"{ftbquests.chapter.pack_introduction.quest13.description4}"
-				"{@pagebreak}"
-				"{ftbquests.chapter.pack_introduction.quest13.description5}"
+				"{ftbquests.chapter.pack_introduction.quest9.description4}"
 				""
-				"{ftbquests.chapter.pack_introduction.quest13.description6}"
+				"{ftbquests.chapter.pack_introduction.quest9.description5}"
 				""
-				"{ftbquests.chapter.pack_introduction.quest13.description7}"
+				"{ftbquests.chapter.pack_introduction.quest9.description6}"
 				""
-				"{ftbquests.chapter.pack_introduction.quest13.description8}"
-				"{@pagebreak}"
-				"{ftbquests.chapter.pack_introduction.quest13.description9}"
-				""
-				"{ftbquests.chapter.pack_introduction.quest13.description10}"
-				""
-				"{ftbquests.chapter.pack_introduction.quest13.description11}"
-			]
-			disable_toast: true
-			icon: "minecraft:writable_book"
-			id: "50399CF42C86945D"
-			optional: true
-			secret: true
-			subtitle: "{ftbquests.chapter.pack_introduction.quest13.subtitle}"
-			tasks: [{
-				id: "739E31F93BF39711"
-				title: "{ftbquests.chapter.pack_introduction.quest13.task.title1}"
-				type: "checkmark"
-			}]
-			title: "{ftbquests.chapter.pack_introduction.quest13.title}"
-			x: 4.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["50399CF42C86945D"]
-			disable_toast: true
-			hide_until_deps_visible: true
-			id: "3C21D8349B2D6E95"
-			incompatible: ["43E7C2556FB1A217"]
-			optional: true
-			subtitle: "{ftbquests.chapter.pack_introduction.quest14.subtitle}"
-			tasks: [{
-				id: "45E017592CF6B75F"
-				title: "{ftbquests.chapter.pack_introduction.quest14.task.title1}"
-				type: "checkmark"
-			}]
-			x: 3.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["50399CF42C86945D"]
-			disable_toast: true
-			hide_until_deps_visible: true
-			id: "43E7C2556FB1A217"
-			incompatible: ["3C21D8349B2D6E95"]
-			optional: true
-			tasks: [{
-				id: "5F1B9B93D9BED9F4"
-				title: "{ftbquests.chapter.pack_introduction.quest15.task.title1}"
-				type: "checkmark"
-			}]
-			x: 3.5d
-			y: -3.0d
-		}
-		{
-			description: [
-				"{ftbquests.chapter.pack_introduction.quest16.description1}"
-				""
-				"{ftbquests.chapter.pack_introduction.quest16.description2}"
-				""
-				"{ftbquests.chapter.pack_introduction.quest16.description3}"
-				""
-				"{ftbquests.chapter.pack_introduction.quest16.description4}"
-				""
-				"{ftbquests.chapter.pack_introduction.quest16.description5}"
-				""
-				"{ftbquests.chapter.pack_introduction.quest16.description6}"
-				""
-				"{ftbquests.chapter.pack_introduction.quest16.description7}"
-				"{ftbquests.chapter.pack_introduction.quest16.description8}"
+				"{ftbquests.chapter.pack_introduction.quest9.description7}"
+				"{ftbquests.chapter.pack_introduction.quest9.description8}"
 			]
 			disable_toast: true
 			id: "1746CBB538290039"
@@ -440,36 +376,36 @@
 			shape: "gear"
 			tasks: [{
 				id: "128BF2E48F7054BB"
-				title: "{ftbquests.chapter.pack_introduction.quest16.task.title1}"
+				title: "{ftbquests.chapter.pack_introduction.quest9.task_+1336428777918452923.title}"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: 3.5d
+			x: 0.5d
+			y: 1.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.pack_introduction.quest17.description1}"
+				"{ftbquests.chapter.pack_introduction.quest10.description1}"
 				""
-				"{ftbquests.chapter.pack_introduction.quest17.description2}"
+				"{ftbquests.chapter.pack_introduction.quest10.description2}"
 				""
-				"{ftbquests.chapter.pack_introduction.quest17.description3}"
+				"{ftbquests.chapter.pack_introduction.quest10.description3}"
 			]
 			disable_toast: true
 			id: "4C430AD8ACBEBF9E"
 			optional: true
 			shape: "gear"
-			subtitle: "{ftbquests.chapter.pack_introduction.quest17.subtitle}"
+			subtitle: "{ftbquests.chapter.pack_introduction.quest10.subtitle}"
 			tasks: [{
 				id: "7A63602EAFF57742"
-				title: "{ftbquests.chapter.pack_introduction.quest17.task.title1}"
+				title: "{ftbquests.chapter.pack_introduction.quest10.task_+8818998248958424898.title}"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: 2.5d
+			x: -4.5d
+			y: 1.0d
 		}
 		{
 			can_repeat: true
-			description: ["{ftbquests.chapter.pack_introduction.quest18.description1}"]
+			description: ["{ftbquests.chapter.pack_introduction.quest11.description1}"]
 			disable_toast: true
 			icon: "alexsmobs:animal_dictionary"
 			id: "0E27BB345555B163"
@@ -480,18 +416,18 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "{ftbquests.chapter.pack_introduction.quest18.subtitle}"
+			subtitle: "{ftbquests.chapter.pack_introduction.quest11.subtitle}"
 			tasks: [{
 				id: "33F3176AAFA4EED1"
-				title: "{ftbquests.chapter.pack_introduction.quest18.task.title1}"
+				title: "{ftbquests.chapter.pack_introduction.quest11.task_+3743361462255808209.title}"
 				type: "checkmark"
 			}]
-			x: 4.0d
-			y: -2.0d
+			x: 6.5d
+			y: 3.5d
 		}
 		{
 			can_repeat: true
-			description: ["{ftbquests.chapter.pack_introduction.quest19.description1}"]
+			description: ["{ftbquests.chapter.pack_introduction.quest12.description1}"]
 			icon: {
 				Count: 1
 				id: "patchouli:guide_book"
@@ -513,18 +449,18 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "{ftbquests.chapter.pack_introduction.quest19.subtitle}"
+			subtitle: "{ftbquests.chapter.pack_introduction.quest12.subtitle}"
 			tasks: [{
 				id: "65D135D53E6875DF"
-				title: "{ftbquests.chapter.pack_introduction.quest19.task.title1}"
+				title: "{ftbquests.chapter.pack_introduction.quest12.task_+7336704457954588127.title}"
 				type: "checkmark"
 			}]
-			x: 2.0d
-			y: -2.0d
+			x: 4.5d
+			y: 3.5d
 		}
 		{
 			can_repeat: true
-			description: ["{ftbquests.chapter.pack_introduction.quest20.description1}"]
+			description: ["{ftbquests.chapter.pack_introduction.quest13.description1}"]
 			disable_toast: true
 			icon: "ars_nouveau:worn_notebook"
 			id: "3D7EC35D193066EB"
@@ -535,27 +471,33 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "{ftbquests.chapter.pack_introduction.quest20.subtitle}"
+			subtitle: "{ftbquests.chapter.pack_introduction.quest13.subtitle}"
 			tasks: [{
 				id: "5214DFAE0B39DAC4"
-				title: "{ftbquests.chapter.pack_introduction.quest20.task.title1}"
+				title: "{ftbquests.chapter.pack_introduction.quest13.task_+5914598149249948356.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.pack_introduction.quest20.title}"
-			x: 3.0d
-			y: -2.0d
+			title: "{ftbquests.chapter.pack_introduction.quest13.title}"
+			x: 5.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["7DA7786CB94237E1"]
 			description: [
-				"{ftbquests.chapter.pack_introduction.quest21.description1}"
-				"{@pagebreak}"
-				"{ftbquests.chapter.pack_introduction.quest21.description2}"
-				"{ftbquests.chapter.pack_introduction.quest21.description3}"
-				"{ftbquests.chapter.pack_introduction.quest21.description4}"
-				"{ftbquests.chapter.pack_introduction.quest21.description5}"
+				"{ftbquests.chapter.pack_introduction.quest14.description1}"
 				""
-				"{ftbquests.chapter.pack_introduction.quest21.description6}"
+				"{ftbquests.chapter.pack_introduction.quest14.description2}"
+				""
+				"{ftbquests.chapter.pack_introduction.quest14.description3}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.pack_introduction.quest14.description4}"
+				""
+				"{ftbquests.chapter.pack_introduction.quest14.description5}"
+				""
+				"{ftbquests.chapter.pack_introduction.quest14.description6}"
+				""
+				"{ftbquests.chapter.pack_introduction.quest14.description7}"
+				""
+				"{ftbquests.chapter.pack_introduction.quest14.description8}"
 			]
 			icon: "minecraft:map"
 			id: "579E86961E6B04DC"
@@ -568,35 +510,23 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.pack_introduction.quest21.subtitle}"
+			shape: "octagon"
+			subtitle: "{ftbquests.chapter.pack_introduction.quest14.subtitle}"
 			tasks: [{
 				id: "27893B49168B3203"
-				title: "{ftbquests.chapter.pack_introduction.quest21.task.title1}"
+				title: "{ftbquests.chapter.pack_introduction.quest14.task_+2848873424385421827.title}"
 				type: "checkmark"
 			}]
-			x: -2.5d
-			y: 1.0d
+			x: -8.5d
+			y: 4.5d
 		}
 		{
-			dependencies: ["2713C8F59E5454D3"]
-			icon: "minecraft:name_tag"
-			id: "7DA7786CB94237E1"
-			tasks: [{
-				id: "269454E24768DB2A"
-				title: "{ftbquests.chapter.pack_introduction.quest22.task.title1}"
-				type: "checkmark"
-			}]
-			x: -1.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["7DA7786CB94237E1"]
 			description: [
-				"{ftbquests.chapter.pack_introduction.quest23.description1}"
+				"{ftbquests.chapter.pack_introduction.quest15.description1}"
 				""
-				"{ftbquests.chapter.pack_introduction.quest23.description2}"
+				"{ftbquests.chapter.pack_introduction.quest15.description2}"
 				""
-				"{ftbquests.chapter.pack_introduction.quest23.description3}"
+				"{ftbquests.chapter.pack_introduction.quest15.description3}"
 			]
 			icon: "minecraft:dirt"
 			id: "53BD475217957F3B"
@@ -620,56 +550,69 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.pack_introduction.quest23.subtitle}"
+			shape: "octagon"
+			subtitle: "{ftbquests.chapter.pack_introduction.quest15.subtitle}"
 			tasks: [{
 				id: "152E39AD8E2B215D"
-				title: "{ftbquests.chapter.pack_introduction.quest23.task.title1}"
+				title: "{ftbquests.chapter.pack_introduction.quest15.task_+1526220741302493533.title}"
 				type: "checkmark"
 			}]
-			x: -2.0d
-			y: 2.0d
+			x: -9.5d
+			y: 4.5d
 		}
 		{
-			dependencies: ["0285EF791CB51CAF"]
 			description: [
-				"{ftbquests.chapter.pack_introduction.quest24.description1}"
+				"{ftbquests.chapter.pack_introduction.quest16.description1}"
 				""
-				"{ftbquests.chapter.pack_introduction.quest24.description2}"
+				"{ftbquests.chapter.pack_introduction.quest16.description2}"
 				""
-				"{ftbquests.chapter.pack_introduction.quest24.description3}"
+				"{ftbquests.chapter.pack_introduction.quest16.description3}"
 				""
-				"{ftbquests.chapter.pack_introduction.quest24.description4}"
+				"{ftbquests.chapter.pack_introduction.quest16.description4}"
 				""
-				"{ftbquests.chapter.pack_introduction.quest24.description5}"
-				"{ftbquests.chapter.pack_introduction.quest24.description6}"
-				"{ftbquests.chapter.pack_introduction.quest24.description7}"
+				"{ftbquests.chapter.pack_introduction.quest16.description5}"
+				"{ftbquests.chapter.pack_introduction.quest16.description6}"
+				"{ftbquests.chapter.pack_introduction.quest16.description7}"
 			]
 			disable_toast: true
 			icon: "minecraft:bundle"
 			id: "19858426E2D2C636"
 			optional: true
-			rewards: [{
-				id: "1113A1A5171B14DA"
-				item: "toolbelt:belt"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1113A1A5171B14DA"
+					item: "toolbelt:belt"
+					type: "item"
+				}
+				{
+					id: "040EC6B639BD7935"
+					item: "minecraft:bundle"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
 			tasks: [{
 				id: "143B1CBA8DDB1F87"
-				title: "{ftbquests.chapter.pack_introduction.quest24.task.title1}"
+				title: "{ftbquests.chapter.pack_introduction.quest16.task_+1457790491953930119.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.pack_introduction.quest24.title}"
-			x: 2.5d
-			y: 0.5d
+			title: "{ftbquests.chapter.pack_introduction.quest16.title}"
+			x: -5.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["7DA7786CB94237E1"]
 			description: [
-				"{ftbquests.chapter.pack_introduction.quest25.description1}"
+				"{ftbquests.chapter.pack_introduction.quest17.description1}"
 				""
-				"{ftbquests.chapter.pack_introduction.quest25.description2}"
-				"{ftbquests.chapter.pack_introduction.quest25.description3}"
-				"{ftbquests.chapter.pack_introduction.quest25.description4}"
+				"{ftbquests.chapter.pack_introduction.quest17.description2}"
+				""
+				"{ftbquests.chapter.pack_introduction.quest17.description3}"
+				""
+				"{ftbquests.chapter.pack_introduction.quest17.description4}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.pack_introduction.quest17.description5}"
+				""
+				"{ftbquests.chapter.pack_introduction.quest17.description6}"
 			]
 			icon: "ftbquests:book"
 			id: "4C840076783D73B9"
@@ -688,45 +631,181 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.pack_introduction.quest25.subtitle}"
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.pack_introduction.quest17.subtitle}"
 			tasks: [{
 				id: "489D3DAC74C9AB66"
 				type: "checkmark"
 			}]
-			x: -1.0d
+			title: "{ftbquests.chapter.pack_introduction.quest17.title}"
+			x: -2.0d
 			y: 2.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.pack_introduction.quest26.description1}"
-				"{ftbquests.chapter.pack_introduction.quest26.description2}"
+				"{ftbquests.chapter.pack_introduction.quest18.description1}"
 				""
-				"{ftbquests.chapter.pack_introduction.quest26.description3}"
-				"{ftbquests.chapter.pack_introduction.quest26.description4}"
+				"{ftbquests.chapter.pack_introduction.quest18.description2}"
 				""
-				"{ftbquests.chapter.pack_introduction.quest26.description5}"
-				"{ftbquests.chapter.pack_introduction.quest26.description6}"
-				""
-				"{@pagebreak}"
-				"{ftbquests.chapter.pack_introduction.quest26.description7}"
-				"{ftbquests.chapter.pack_introduction.quest26.description8}"
-				""
-				""
-				"{ftbquests.chapter.pack_introduction.quest26.description9}"
+				"{ftbquests.chapter.pack_introduction.quest18.description3}"
 			]
-			disable_toast: true
-			id: "29298A43355481E1"
-			min_width: 400
-			optional: true
-			shape: "gear"
+			id: "007975FAB14150D8"
 			tasks: [{
-				id: "24388C2A89D5FEEB"
-				title: "{ftbquests.chapter.pack_introduction.quest26.task.title1}"
+				id: "0D2D116A6DE98B9E"
+				title: "{ftbquests.chapter.pack_introduction.quest18.task_+949434245253270430.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.pack_introduction.quest26.title}"
-			x: -3.0d
+			x: -1.0d
 			y: 3.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.pack_introduction.quest19.description1}"
+				""
+				"{ftbquests.chapter.pack_introduction.quest19.description2}"
+			]
+			id: "109C6AD5357E8B22"
+			tasks: [{
+				id: "25EC3E293196F29E"
+				title: "{ftbquests.chapter.pack_introduction.quest19.task_+2732627420553605790.title}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.pack_introduction.quest20.description1}"
+				""
+				"{ftbquests.chapter.pack_introduction.quest20.description2}"
+				""
+				"{ftbquests.chapter.pack_introduction.quest20.description3}"
+			]
+			id: "02FA2B11318F6A46"
+			tasks: [{
+				id: "36E586F2E2AD6E1B"
+				title: "{ftbquests.chapter.pack_introduction.quest20.task_+3955716225458073115.title}"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.pack_introduction.quest21.description1}"
+				""
+				"{ftbquests.chapter.pack_introduction.quest21.description2}"
+				""
+				"{ftbquests.chapter.pack_introduction.quest21.description3}"
+			]
+			id: "6F3E0DADC7E5D1B5"
+			tasks: [{
+				id: "7A59E053353442CA"
+				title: "{ftbquests.chapter.pack_introduction.quest21.task_+8816324393533981386.title}"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			description: ["{ftbquests.chapter.pack_introduction.quest22.description1}"]
+			id: "3E7C748B00FAB751"
+			tasks: [{
+				id: "219DDCE340FECEFA"
+				title: "{ftbquests.chapter.pack_introduction.quest22.task_+2422335043201322746.title}"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.pack_introduction.quest23.description1}"
+				""
+				"{ftbquests.chapter.pack_introduction.quest23.description2}"
+			]
+			id: "252BFDFCE0877B3C"
+			tasks: [{
+				id: "4562C7385F57B6D6"
+				title: "{ftbquests.chapter.pack_introduction.quest23.task_+4999777581266351830.title}"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			description: ["{ftbquests.chapter.pack_introduction.quest24.description1}"]
+			id: "516DF3AB5A9E93AC"
+			tasks: [{
+				id: "5FF94EF381E38CCB"
+				title: "{ftbquests.chapter.pack_introduction.quest24.task_+6915645510567300299.title}"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.pack_introduction.quest25.description1}"
+				""
+				"{ftbquests.chapter.pack_introduction.quest25.description2}"
+			]
+			id: "339FA351D4D2BDFD"
+			rewards: [{
+				id: "191A93469A860A65"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "158B79BC391255F0"
+					item: "alexscaves:cave_book"
+					type: "item"
+				}
+				{
+					id: "7F78B2ECEC591D41"
+					item: {
+						Count: 1
+						id: "hexerei:book_of_shadows"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.pack_introduction.quest25.title}"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			description: ["{ftbquests.chapter.pack_introduction.quest26.description1}"]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "irons_spellbooks:iss_guide_book"
+				}
+			}
+			id: "32BC483761E19582"
+			rewards: [{
+				id: "2A9FCB1CCD192408"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "irons_spellbooks:iss_guide_book"
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "797B31C6335BADDD"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 4.5d
 		}
 	]
 	title: "{ftbquests.chapter.pack_introduction.title}"

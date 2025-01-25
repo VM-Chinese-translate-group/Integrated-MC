@@ -1,0 +1,1369 @@
+{
+	autofocus_id: "1989A03204C26C0C"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "boss_codex"
+	group: "4CEB1A39D55B2802"
+	icon: "cataclysm:abyssal_sacrifice"
+	id: "2F69231010DE05DB"
+	images: [
+		{
+			height: 3.0d
+			image: "imcquests:textures/misc/tier1.png"
+			rotation: 0.0d
+			width: 5.333333333333333d
+			x: -1.0d
+			y: -10.5d
+		}
+		{
+			height: 3.0d
+			image: "imcquests:textures/misc/tier2.png"
+			rotation: 0.0d
+			width: 5.333333333333333d
+			x: 4.5d
+			y: -10.5d
+		}
+		{
+			height: 3.0d
+			image: "imcquests:textures/misc/tier3.png"
+			rotation: 0.0d
+			width: 5.333333333333333d
+			x: 10.0d
+			y: -10.5d
+		}
+		{
+			height: 3.0d
+			image: "imcquests:textures/misc/tier4.png"
+			rotation: 0.0d
+			width: 5.333333333333333d
+			x: 15.5d
+			y: -10.5d
+		}
+		{
+			height: 3.0d
+			image: "imcquests:textures/misc/tier5.png"
+			rotation: 0.0d
+			width: 5.333333333333333d
+			x: 21.0d
+			y: -10.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{ftbquests.chapter.boss_codex.quest1.description1}"]
+			icon: {
+				Count: 1
+				id: "endrem:guardian_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3231857C187C0EE1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C18C6837CE23938"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				icon: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "216AD6CB63EEA6F0"
+				title: "{ftbquests.chapter.boss_codex.quest1.task_+2407973119826241264.title}"
+				type: "kill"
+				value: 3L
+			}]
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			description: ["{ftbquests.chapter.boss_codex.quest2.description1}"]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "207657501BD4CDEB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FEA79E8A2155EDC"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "4624BAF598CDA8D2"
+				title: "{ftbquests.chapter.boss_codex.quest2.task_+5054370245809907922.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -8.5d
+		}
+		{
+			description: ["{ftbquests.chapter.boss_codex.quest3.description1}"]
+			id: "51DA55FEB55D644A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31583B95608AF7D1"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: "minecraft:sculk_sensor"
+				id: "1BE55548579924B5"
+				title: "{ftbquests.chapter.boss_codex.quest3.task_+2010106577886454965.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: -5.5d
+		}
+		{
+			description: ["{ftbquests.chapter.boss_codex.quest4.description1}"]
+			id: "0F3AF3760EEF1B76"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B090FC26023C73E"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "48F499CAE25EE0F2"
+				title: "{ftbquests.chapter.boss_codex.quest4.task_+5256995761708523762.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.5d
+			y: -8.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest5.description1}"
+				"{ftbquests.chapter.boss_codex.quest5.description2}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest5.description3}"
+			]
+			id: "748BA2DB0F36CC4C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F6B315ED35B9363"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "alexscaves:forsaken"
+				icon: "alexscaves:pure_darkness"
+				id: "61CF1C9B76C3C03A"
+				title: "{ftbquests.chapter.boss_codex.quest5.task_+7047883395896164410.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: -8.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest6.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest6.description2}"
+			]
+			id: "615884269AB07E86"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56DF38D4EEDBAE86"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "alexscaves:hullbreaker"
+				icon: "alexscaves:immortal_embryo"
+				id: "36C749220F63521A"
+				title: "{ftbquests.chapter.boss_codex.quest6.task_+3947204009049412122.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: -8.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest7.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest7.description2}"
+			]
+			id: "1B4599B19EBFD1D0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EDA76AD9E48A799"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "alexscaves:luxtructosaurus"
+				icon: "alexscaves:tectonic_shard"
+				id: "1381E7CFE3154663"
+				title: "{ftbquests.chapter.boss_codex.quest7.task_+1405659438770374243.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.5d
+			y: -8.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest8.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest8.description2}"
+			]
+			id: "174DA5B7870ACD56"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F63BF2B3C053A46"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "alexsmobs:void_worm"
+				icon: "alexsmobs:void_worm_eye"
+				id: "69749EFA28A2A8D9"
+				title: "{ftbquests.chapter.boss_codex.quest8.task_+7598873268541630681.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 17.0d
+			y: -8.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest9.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest9.description2}"
+			]
+			id: "51040727BD2ABC19"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38040506DB4AE194"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "alexsmobs:warped_mosco"
+				icon: "alexsmobs:hemolymph_sac"
+				id: "7DD75522BCBFA524"
+				title: "{ftbquests.chapter.boss_codex.quest9.task_+9067809982417708324.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest10.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest10.description2}"
+			]
+			id: "5C71BF671699BF37"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49611943B6185785"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: {
+					Count: 1
+					id: "aquamirae:three_bolt_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5D1C3285B39DD207"
+				title: "{ftbquests.chapter.boss_codex.quest10.task_+6709293094700700167.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest11.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest11.description2}"
+			]
+			id: "2AD640E46A4B5685"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0AFF897E61F191B2"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "aquamirae:maze_mother"
+				icon: "aquamirae:abyssal_amethyst"
+				id: "4E076420381EDCC0"
+				title: "{ftbquests.chapter.boss_codex.quest11.task_+5622572749338631360.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest12.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest12.description2}"
+				""
+				"{ftbquests.chapter.boss_codex.quest12.description3}"
+			]
+			id: "39E27D08343CC1EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07A3A34AEBB74DC4"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "ars_nouveau:wilden_boss"
+				icon: "ars_nouveau:wilden_tribute"
+				id: "033171D820948B40"
+				title: "{ftbquests.chapter.boss_codex.quest12.task_+230090229046086464.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 21.0d
+			y: -7.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest13.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest13.description2}"
+			]
+			id: "2BEC97498707196B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65F64844BE9A4592"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "biomemakeover:adjudicator"
+				icon: "biomemakeover:gray_tapestry"
+				id: "17F3E760FA8AE5A6"
+				title: "{ftbquests.chapter.boss_codex.quest13.task_+1725977485919315366.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest14.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest14.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "born_in_chaos_v1:item/lordpumpkinhead_icon"
+				}
+			}
+			id: "3DA151EFD73220F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62AE85CF7AFD7FAD"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "born_in_chaos_v1:lord_pumpkinhead_head"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "born_in_chaos_v1:item/lordpumpkinhead_icon"
+					}
+				}
+				id: "45683621B1043D00"
+				title: "{ftbquests.chapter.boss_codex.quest14.task_+5001306904526601472.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 19.5d
+			y: -5.5d
+		}
+		{
+			description: ["{ftbquests.chapter.boss_codex.quest15.description1}"]
+			id: "385D04475177DDE9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5EBC67092F1B41C4"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "born_in_chaos_v1:lifestealer"
+				icon: "born_in_chaos_v1:lifestealer_skull"
+				id: "2CE315F11767C0DD"
+				title: "{ftbquests.chapter.boss_codex.quest15.task_+3234453082606125277.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest16.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest16.description2}"
+			]
+			id: "5BB2644309CFB988"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "069873BEF26BD81A"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "traveloptics:enraged_dead_king"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "born_in_chaos_v1:textures/mob_effect/magic_depletion.png"
+					}
+				}
+				id: "30917F6CEEEED7B7"
+				title: "{ftbquests.chapter.boss_codex.quest16.task_+3499718491285411767.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 19.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest17.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest17.description2}"
+			]
+			id: "482E14A0544D2722"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A97AA4FFFF683FB"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:keeper_flamberge"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "70A3100DC3F5969D"
+				title: "{ftbquests.chapter.boss_codex.quest17.task_+8116348604760037021.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest18.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest18.description2}"
+			]
+			icon: "mowzies_cataclysm:wrought_eye"
+			id: "544CD36D12C92902"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B783B97772874EE"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "mowzies_cataclysm:item/wrought_eye"
+					}
+				}
+				id: "238D699CC335F1E1"
+				title: "{ftbquests.chapter.boss_codex.quest18.task_+2561819885054587361.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest19.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest19.description2}"
+			]
+			id: "17D8D6C09A6BB039"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C2CA8F891A6BAAC"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				icon: "mowziesmobs:sol_visage"
+				id: "321DAAAD83D6A5D6"
+				title: "{ftbquests.chapter.boss_codex.quest19.task_+3611230138438952406.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest20.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest20.description2}"
+			]
+			id: "4A18B3B814D57B69"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2378A68614AE7AD4"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "03F820C7EA902BC5"
+				title: "{ftbquests.chapter.boss_codex.quest20.task_+286014619343924165.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest21.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest21.description2}"
+			]
+			id: "7018999749A4E9FC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "382AB8D0814135FD"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "cataclysm:textures/mob_effect/monstrous.png"
+					}
+				}
+				id: "412A42CEDF650F6A"
+				title: "{ftbquests.chapter.boss_codex.quest21.task_+4695639017765801834.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest22.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest22.description2}"
+			]
+			icon: "cataclysm:void_eye"
+			id: "7245C47C3CCC10F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C961E356D24814B"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					entity: "cataclysm:ender_guardian"
+					icon: "cataclysm:void_eye"
+					id: "0B733F2A42152E7E"
+					title: "{ftbquests.chapter.boss_codex.quest22.task_+825072607468793470.title}"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:ender_golem"
+					icon: "cataclysm:void_core"
+					id: "6B09B94A27582A13"
+					title: "{ftbquests.chapter.boss_codex.quest22.task_+7712899564987492883.title}"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 17.0d
+			y: -7.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest23.description1}"
+				""
+				"{ftbquests.chapter.boss_codex.quest23.description2}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest23.description3}"
+			]
+			icon: "cataclysm:abyssal_sacrifice"
+			id: "3B2840F80C601A0F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D4BE259A4D1AED7"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					entity: "cataclysm:the_leviathan"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "cataclysm:item/abyssal_sacrifice"
+						}
+					}
+					id: "509C899A9D350F52"
+					title: "{ftbquests.chapter.boss_codex.quest23.task_+5808668916556566354.title}"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:coral_golem"
+					icon: "cataclysm:crystallized_coral"
+					id: "0E0FF072ED4F3EB6"
+					title: "{ftbquests.chapter.boss_codex.quest23.task_+1013292817579982518.title}"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:coralssus"
+					icon: "cataclysm:coral_chunk"
+					id: "6313660024EE6AE0"
+					title: "{ftbquests.chapter.boss_codex.quest23.task_+7139161985118005984.title}"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 21.0d
+			y: -8.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest24.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest24.description2}"
+			]
+			icon: "cataclysm:witherite_ingot"
+			id: "66C6A9EFF154999E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C6140F03BFCDD31"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					entity: "cataclysm:the_harbinger"
+					icon: "cataclysm:witherite_ingot"
+					id: "61B627F8F61700DB"
+					title: "{ftbquests.chapter.boss_codex.quest24.task_+7040859017674424539.title}"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:the_prowler"
+					icon: "cataclysm:emp"
+					id: "085EF666527E3288"
+					title: "{ftbquests.chapter.boss_codex.quest24.task_+603190319445324424.title}"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 19.5d
+			y: -8.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest25.description1}"
+				""
+				"{ftbquests.chapter.boss_codex.quest25.description2}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest25.description3}"
+			]
+			icon: "cataclysm:remnant_skull"
+			id: "52C9EED9E31E0821"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72F2B13772D2A6F9"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					entity: "cataclysm:ancient_remnant"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "cataclysm:item/remnant_skull"
+						}
+					}
+					id: "67AECE3E0E742657"
+					title: "{ftbquests.chapter.boss_codex.quest25.task_+7471135597780018775.title}"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:kobolediator"
+					icon: "cataclysm:kobolediator_skull"
+					id: "04BB2C627D2BFDD4"
+					title: "{ftbquests.chapter.boss_codex.quest25.task_+340914998315056596.title}"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:wadjet"
+					icon: "cataclysm:necklace_of_the_desert"
+					id: "1E490DF2124846E9"
+					title: "{ftbquests.chapter.boss_codex.quest25.task_+2182290827777689321.title}"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 22.5d
+			y: -8.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest26.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest26.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "cataclysm:textures/mob_effect/blazing_brand.png"
+				}
+			}
+			id: "70D116BC58038638"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F550B61763BAD0B"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					entity: "cataclysm:ignis"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "cataclysm:textures/mob_effect/blazing_brand.png"
+						}
+					}
+					id: "053089FCAE07797B"
+					title: "{ftbquests.chapter.boss_codex.quest26.task_+373950487416240507.title}"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:ignited_revenant"
+					icon: "cataclysm:burning_ashes"
+					id: "5DE00ED4136019FE"
+					title: "{ftbquests.chapter.boss_codex.quest26.task_+6764422944331405822.title}"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 22.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest27.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest27.description2}"
+			]
+			icon: "cataclysm:cursed_eye"
+			id: "2B5C13373769BEC0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FAC8A7DBF42B8CB"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					entity: "cataclysm:maledictus"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "cataclysm:item/cursed_eye"
+						}
+					}
+					id: "7ACD50895C5797F7"
+					title: "{ftbquests.chapter.boss_codex.quest27.task_+8848817393742878711.title}"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:aptrgangr"
+					icon: "cataclysm:aptrgangr_head"
+					id: "29D351F1C9B4A160"
+					title: "{ftbquests.chapter.boss_codex.quest27.task_+3013842674554020192.title}"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 14.0d
+			y: -7.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest28.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest28.description2}"
+			]
+			id: "340AEA7194551724"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "560E554861948893"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "illagerinvasion:invoker"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "illagerinvasion:item/primal_essence"
+					}
+				}
+				id: "58B5B5AAF1DA074D"
+				title: "{ftbquests.chapter.boss_codex.quest28.task_+6392214991928952653.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.5d
+			y: -5.5d
+		}
+		{
+			description: ["{ftbquests.chapter.boss_codex.quest29.description1}"]
+			id: "103D3820A6270DC2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75FFD4E3237CE3D0"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: "bosses_of_mass_destruction:ancient_anima"
+				id: "2FE16D5755F41D92"
+				title: "{ftbquests.chapter.boss_codex.quest29.task_+3450159011414154642.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 21.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest30.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest30.description2}"
+			]
+			id: "564D225B5F8DB57B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27B84A43BB1CC4CE"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "bosses_of_mass_destruction:block/void_lily"
+					}
+				}
+				id: "4BD380CB7832A455"
+				title: "{ftbquests.chapter.boss_codex.quest30.task_+5463852384313844821.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -8.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest31.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest31.description2}"
+			]
+			id: "5F3B80A9E670FCEA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77D118D29895FFA2"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "bosses_of_mass_destruction:item/blazing_eye"
+					}
+				}
+				id: "610299615703415A"
+				title: "{ftbquests.chapter.boss_codex.quest31.task_+6990318214983139674.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: -8.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest32.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest32.description2}"
+			]
+			id: "14BA1AFBE5DA8D59"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42722162EE01B270"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "bosses_of_mass_destruction:item/obsidian_heart"
+					}
+				}
+				id: "1B17EF3F278CDE6B"
+				title: "{ftbquests.chapter.boss_codex.quest32.task_+1952292018013920875.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.5d
+			y: -8.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest33.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest33.description2}"
+			]
+			id: "614FBA80C927D14C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7170FC62CF746F7E"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "galosphere:berserker"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "galosphere:item/saltbound_tablet"
+					}
+				}
+				id: "2005B6DB95DF05FE"
+				title: "{ftbquests.chapter.boss_codex.quest33.task_+2307451438325761534.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest34.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest34.description2}"
+			]
+			id: "36026009639E7142"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35A65C883448DFB5"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "friendsandfoes:wildfire"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "mynethersdelight:item/blazefire"
+					}
+				}
+				id: "42D1E8D878B1CBD2"
+				title: "{ftbquests.chapter.boss_codex.quest34.task_+4814885493071268818.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest35.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest35.description2}"
+			]
+			id: "0DE14E15D9A336F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "123C7A9F59CA844D"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "iceandfire:hydra"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "iceandfire:item/hydra_venom"
+					}
+				}
+				id: "75103D0098FD5FF4"
+				title: "{ftbquests.chapter.boss_codex.quest35.task_+8435309174840975348.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest36.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest36.description2}"
+			]
+			id: "6AC6B49A1006475A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BFB7420FAB5A45E"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "iceandfire:gorgon"
+				icon: {
+					Count: 1
+					id: "iceandfire:gorgon_head"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "59B812BAB0279E25"
+				title: "{ftbquests.chapter.boss_codex.quest36.task_+6464937858118950437.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest37.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest37.description2}"
+			]
+			id: "0BBFE3A82C1D7086"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "185423D16E32EFF1"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "iceandfire:fire_dragon"
+				icon: "iceandfire:fire_dragon_heart"
+				id: "35338B12CA6C4AF3"
+				title: "{ftbquests.chapter.boss_codex.quest37.task_+3833560620644190963.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest38.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest38.description2}"
+			]
+			id: "48A8BDBA503F6840"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0EF9F0E450D30461"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "iceandfire:ice_dragon"
+				icon: "iceandfire:ice_dragon_heart"
+				id: "5E394E70C0D121D1"
+				title: "{ftbquests.chapter.boss_codex.quest38.task_+6789544159415968209.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: -7.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest39.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest39.description2}"
+			]
+			id: "65B65FE2A989ADC8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59B2E56DA8359D0A"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "iceandfire:lightning_dragon"
+				icon: "iceandfire:lightning_dragon_heart"
+				id: "1DC1B9423F817374"
+				title: "{ftbquests.chapter.boss_codex.quest39.task_+2144198591789495156.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest40.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest40.description2}"
+			]
+			id: "0F9318C32E0B74F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38CF798FD106AE97"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "iceandfire:cyclops"
+				icon: {
+					Count: 1
+					id: "iceandfire:cyclops_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4F5C7EFF9FE3FEEA"
+				title: "{ftbquests.chapter.boss_codex.quest40.task_+5718585263217966826.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -8.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest41.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest41.description2}"
+			]
+			id: "07238D6DC2A5D89D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2195EC00207D143B"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "aquamirae:eel"
+				icon: "aquamirae:rune_of_the_storm"
+				id: "22469F61152B1181"
+				title: "{ftbquests.chapter.boss_codex.quest41.task_+2469836684975083905.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			description: ["{ftbquests.chapter.boss_codex.quest42.description1}"]
+			id: "4C0BA7F1453A9EA8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "632D17F07C568C16"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:mother_spider"
+				icon: "born_in_chaos_v1:spider_mandible"
+				id: "44988B19BDEA6263"
+				title: "{ftbquests.chapter.boss_codex.quest42.task_+4942853533715817059.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			description: ["{ftbquests.chapter.boss_codex.quest43.description1}"]
+			id: "5D245128F6649E1C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61829C868D4514AE"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:missioner"
+				icon: {
+					Count: 1
+					id: "born_in_chaos_v1:missionary_hat_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "423B52E6D36585C1"
+				title: "{ftbquests.chapter.boss_codex.quest43.task_+4772499381471774145.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+	]
+	title: "{ftbquests.chapter.boss_codex.title}"
+}
