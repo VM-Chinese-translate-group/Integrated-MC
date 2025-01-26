@@ -1,0 +1,20 @@
+{
+  "block.caverns_and_chasms.cobblestone_brick_slab": "Small Cobblestone Brick Slab",
+  "block.caverns_and_chasms.cobblestone_brick_stairs": "Small Cobblestone Brick Stairs",
+  "block.caverns_and_chasms.cobblestone_brick_wall": "Small Cobblestone Brick Wall",
+  "block.caverns_and_chasms.cobblestone_bricks": "Small Cobblestone Bricks",
+  "block.caverns_and_chasms.cobblestone_tile_slab": "Cobblestone Mosaic Slab",
+  "block.caverns_and_chasms.cobblestone_tile_stairs": "Cobblestone Mosaic Stairs",
+  "block.caverns_and_chasms.cobblestone_tile_wall": "Cobblestone Mosaic Wall",
+  "block.caverns_and_chasms.cobblestone_tiles": "Cobblestone Mosaic",
+  "block.caverns_and_chasms.mossy_cobblestone_brick_slab": "Mossy Small Cobblestone Brick Slab",
+  "block.caverns_and_chasms.mossy_cobblestone_brick_stairs": "Mossy Small Cobblestone Brick Stairs",
+  "block.caverns_and_chasms.mossy_cobblestone_brick_wall": "Mossy Small Cobblestone Brick Wall",
+  "block.caverns_and_chasms.mossy_cobblestone_bricks": "Mossy Small Cobblestone Bricks",
+  "block.caverns_and_chasms.mossy_cobblestone_tile_slab": "Mossy Cobblestone Mosaic Slab",
+  "block.caverns_and_chasms.mossy_cobblestone_tile_stairs": "Mossy Cobblestone Mosaic Stairs",
+  "block.caverns_and_chasms.mossy_cobblestone_tile_wall": "Mossy Cobblestone Mosaic Wall",
+  "block.caverns_and_chasms.mossy_cobblestone_tiles": "Mossy Cobblestone Mosaic",
+  "item.minecraft.smithing_template.netherite_upgrade.additions_slot_description": "Add Electrum, Netherite or Necromium Ingot",
+  "item.minecraft.smithing_template.netherite_upgrade.ingredients": "Electrum, Netherite & Necromium Ingots"
+}

@@ -21,5 +21,7 @@
   "block.regions_unexplored.willow_trapdoor": "Silver Willow Trapdoor",
   "block.regions_unexplored.willow_wood": "Silver Willow Wood",
   "item.regions_unexplored.willow_boat": "Silver Willow Boat",
-  "item.regions_unexplored.willow_chest_boat": "Silver Willow Boat with Chest"
+  "item.regions_unexplored.willow_chest_boat": "Silver Willow Boat with Chest",
+  "biome.regions_unexplored.rainforest": "Great Rainforest",
+  "biome.regions_unexplored.sparse_rainforest": "Sparse Great Rainforest"
 }

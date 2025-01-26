@@ -8,5 +8,9 @@
   "item.born_in_chaos_v1.fangofthe_hound_leader": "Dread Fang",
   "item.born_in_chaos_v1.holiday_candy": "Candy Corn",
   "item.born_in_chaos_v1.magical_holiday_candy": "§bMagical Candy Corn",
-  "item.born_in_chaos_v1.sharpened_dark_metal_sword": "§6Dark Metal Sword"
+  "item.born_in_chaos_v1.sharpened_dark_metal_sword": "§6Dark Metal Sword",
+  "item.born_in_chaos_v1.baby_spider_spawn_egg": "Spiderling Spawn Egg",
+  "item.born_in_chaos_v1.baby_spider_controlled_spawn_egg": "Spiderling Spawn Egg",
+  "entity.born_in_chaos_v1.baby_spider_controlled": "Spiderling",
+  "entity.born_in_chaos_v1.baby_spider": "Spiderling"
 }

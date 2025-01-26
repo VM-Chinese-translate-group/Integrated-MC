@@ -1,0 +1,843 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 6
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterend:amber_gem",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterend:ender_shard",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterend:terminite_ingot",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 8
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterend:thallasium_ingot",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 8
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:source_gem",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:beetroot_seeds",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 10
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:saddle",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:runic_tablet",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_horse_armor"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:empowered_remnant"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterend:terminite_sword",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterend:terminite_boots",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterend:terminite_chestplate",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterend:terminite_leggings",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterend:terminite_helmet",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterend:terminite_pickaxe",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterend:terminite_shovel",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterend:thallasium_sword",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterend:thallasium_boots",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterend:thallasium_chestplate",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterend:thallasium_leggings",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterend:thallasium_helmet",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterend:thallasium_pickaxe",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterend:thallasium_shovel",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 40
+        },
+        {
+          "type": "minecraft:item",
+          "name": "knavesneeds:betterend/thallasium/scythe",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "knavesneeds:betterend/terminite/scythe",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "knavesneeds:betterend/thallasium/chakram",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "knavesneeds:betterend/thallasium/spear",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "knavesneeds:betterend/terminite/warglaive",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "knavesneeds:betterend/thallasium/rapier",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "knavesneeds:betterend/terminite/rapier",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "knavesneeds:betterend/thallasium/halberd",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "knavesneeds:betterend/terminite/halberd",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "knavesneeds:betterend/thallasium/claymore",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "knavesneeds:betterend/terminite/claymore",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "knavesneeds:betterend/thallasium/greataxe",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "knavesneeds:betterend/terminite/rapier",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 39
+              },
+              "treasure": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_additions:codex_entry",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_additions:lost_codex_entry",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_additions:ancient_codex_entry",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:warp_scroll",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quark:music_disc_endermosh",
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "forbidden_arcanus:darkstone_upgrade_smithing_template"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spire_armor_trim_smithing_template"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterend:plate_upgrade_smithing_template"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:dormant_relic"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+              "tag":"{AntiqueInk:1b,
+                pages:[
+                  \"[
+                    {\\\"translate\\\":\\\"§r§4§lWeapons of Thunder and Lightning\n\\\"},
+                    {\\\"translate\\\":\\\"~~~~~~~~~\n\\\"},
+                    {\\\"translate\\\":\\\"Within these pages lie secrets of four mighty weapons: a hammer, a twinblade, a halberd, and a longsword. Each starts as a blade from alloys of the End and the Nether.\\\"}
+                  ]\",
+                  \"[
+                    {\\\"translate\\\":\\\"To transform these arms, place the chosen weapon in a Godly Forge, one surrounded by eight pedestals.Set: 2 Lightning Dragonsteel Ingots, 2 Bottles of Lightning, 2 Dark Durable Sheets, and 2 Blue Magnetic Ingots.\\\"}
+                  ]\",
+                  \"[
+                    {\\\"translate\\\":\\\"But mere placement is not enough. The device must be of Tier 5 quality and enhanced by Elementarium. Feed it 20,000 Aureal, 7,500 Experience, and 100 Souls.\\\"}
+                  ]\",
+                  \"[
+                    {\\\"translate\\\":\\\"Harness these powers and you shall command weapons worthy of legend. Let lightning and thunder heed your call, and use such might to guide this world toward balance, not ruin.\\\"}
+                  ]\"
+                ],
+                title:日志,
+                author:CraisinLord,
+                display:{Lore:[\"Found in an End City\"]}
+              }"},
+              {
+                "function": "minecraft:set_name",
+                "name": "Weapons of Thunder and Lightning",
+                "add": false
+              }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+            "function":"set_nbt",
+            "tag":"{AntiqueInk:1b,
+            pages:[
+              \"[
+                {\\\"translate\\\":\\\"book.end_city.2.page.1_1\\\"},
+                {\\\"translate\\\":\\\"book.tilde\\\"},
+                {\\\"translate\\\":\\\"book.end_city.2.page.1_2\\\"}
+              ]\",
+              \"[
+                {\\\"translate\\\":\\\"book.end_city.2.page.2_1\\\"}
+              ]\",
+              \"[
+                {\\\"translate\\\":\\\"book.end_city.2.page.3_1\\\"}
+              ]\",
+              \"[
+                {\\\"translate\\\":\\\"book.end_city.2.page.4_1\\\"},
+                {\\\"translate\\\":\\\"book.end_city.2.page.4_2\\\"}
+              ]\"
+              ],
+              title:日志,
+              author:CraisinLord,
+              display:{Lore:[\"Found in the city at the end of the game\"]}
+              }"},
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "book.end_city.2.name"
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+              "tag":"{AntiqueInk:1b,
+              pages:[
+              \"[
+                {\\\"translate\\\":\\\"book.end_city.1.page.1_1\\\"},
+                {\\\"translate\\\":\\\"book.tilde\\\"},
+                {\\\"translate\\\":\\\"book.end_city.1.page.1_2\\\"},
+                {\\\"translate\\\":\\\"book.end_city.1.page.1_3\\\"}
+              ]\",
+              \"[
+                {\\\"translate\\\":\\\"book.end_city.1.page.2_1\\\"}
+              ]\",
+              \"[
+                {\\\"translate\\\":\\\"book.end_city.1.page.3_1\\\"}
+              ]\",
+              \"[
+                {\\\"translate\\\":\\\"book.end_city.1.page.4_1\\\"},
+                {\\\"translate\\\":\\\"book.end_city.1.page.4_2\\\"}
+              ]\"
+            ],
+            title:日志,
+            author:CraisinLord,
+            display:{Lore:[\"Found in the city and the end of the game\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "book.end_city.1.name"
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+              "tag":"{AntiqueInk:1b,
+                pages:[
+                    \"[
+                      {\\\"translate\\\":\\\"§5§lCaelestis: Blade of the Astral Plane\n\\\"},
+                      {\\\"translate\\\":\\\"Legends whisper of a blade forged in star-kissed darkness, one that slips between realities. Its edge severs more than flesh—it parts the veil, granting passage into the astral plane and rendering the bearer untouchable.\\\"}
+                    ]\",
+                    \"[
+                      {\\\"translate\\\":\\\"To shape Caelestis, set a Runic Longsword into a Tier 5 Hephaestus Forge. Surround it with eight Darkstone Pedestals bearing: 2x Eternal Crystal, 2x Phantom Powder, 2x Shadow Gem, and 2x Corrupted Arcane Crystal.\\\"}
+                    ]\",
+                    \"[
+                      {\\\"translate\\\":\\\"Then, channel raw energies: 20000 Aureal, 25000 Blood, 1200 Experience, and 900 Souls. In these currents, the sword transcends its earthly shell, becoming an astral artifact that turns aside mortal harm.\\\"}
+                    ]\",
+                    \"[
+                      {\\\"translate\\\":\\\"Wield Caelestis wisely. In its presence, reality blurs and enemies strike at illusions. May those who dare awaken this blade find themselves worthy of its cosmic grace.\\\"}
+                    ]\"
+                ],
+                title:\"Caelestis Tome\",
+                author:\"CraisinLord\",
+                display:{Lore:[\"A record from the End\"]}
+              }"},
+              {
+                "function": "minecraft:set_name",
+                "name": "Caelestis",
+                "add": false
+              }
+          ]
+        }
+      ]
+    }
+  ]
+}
