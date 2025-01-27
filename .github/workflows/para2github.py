@@ -88,7 +88,7 @@ def save_translation(zh_cn_dict: dict[str, str], path: Path) -> None:
             json.dump(
                 source_json, f, ensure_ascii=False, indent=4, separators=(",", ":")
             )
-        except IOError:
+        except:
             print(f"{source_path}路径不存在，文件按首字母排序！")
             json.dump(
                 zh_cn_dict,
