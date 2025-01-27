@@ -1,4 +1,3 @@
-'''只有项目第一次创建上传才需要这个！更新文件无法使用本程序！'''
 import asyncio
 import os
 
@@ -14,6 +13,7 @@ async def upload_file(path, file):
     async with paratranz_client.ApiClient(configuration) as api_client:
         api_instance = paratranz_client.FilesApi(api_client)
         project_id = int(os.environ["PROJECT_ID"])
+        files_response = await api_instance.get_files(project_id)
         try:
             # 第一次创建文件
             api_response = await api_instance.create_file(
@@ -21,7 +21,11 @@ async def upload_file(path, file):
             )
             pprint(api_response)
         except Exception as e:
-            print(f"Exception when calling FilesApi->create_file: {e}\n")
+            filePath: str = json.loads(e.__dict__.get("body"))["message"].split(" ")[1]
+            for fileName in files_response:
+                if fileName.name == filePath:
+                    await api_instance.update_file(project_id, file_id=fileName.id, file=file)
+                    print(f"文件已更新！文件路径为：{fileName.name}")
 
 
 def get_filelist(dir):
