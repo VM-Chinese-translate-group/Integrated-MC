@@ -412,6 +412,7 @@ JEIEvents.information(e => {
   e.addItem('forbidden_arcanus:artisan_relic', [Component.translate('info.forbidden_arcanus.artisan_relic')]),
   e.addItem('forbidden_arcanus:crimson_stone', [Component.translate('info.forbidden_arcanus.crimson_stone')]),
   e.addItem('forbidden_arcanus:crescent_moon', [Component.translate('info.forbidden_arcanus.crescent_moon')]),
+  e.addItem('forbidden_arcanus:golden_orchid_seeds', [Component.translate('info.forbidden_arcanus.golden_orchid_seeds')]),
   e.addItem('iceandfire:ice_dragon_blood', [Component.translate('info.iceandfire.ice_dragon_blood')]),
   e.addItem('iceandfire:fire_dragon_blood', [Component.translate('info.iceandfire.fire_dragon_blood')]),
   e.addItem('iceandfire:lightning_dragon_blood', [Component.translate('info.iceandfire.lightning_dragon_blood')]),

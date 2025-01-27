@@ -788,6 +788,7 @@
 				}
 			}
 			id: "32BC483761E19582"
+			repeatable: true
 			rewards: [{
 				id: "2A9FCB1CCD192408"
 				item: {
@@ -804,6 +805,7 @@
 				id: "797B31C6335BADDD"
 				type: "checkmark"
 			}]
+			title: "{ftbquests.chapter.pack_introduction.quest26.title}"
 			x: 5.0d
 			y: 4.5d
 		}
