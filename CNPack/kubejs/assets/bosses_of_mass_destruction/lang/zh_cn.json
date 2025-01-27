@@ -1,0 +1,16 @@
+{
+    "advancements.adventure.night_lich_defeat.description":"Defeat the Dread Queen Boss",
+    "subtitles.bosses_of_mass_destruction.lich_death":"Dread Queen Dies",
+    "subtitles.bosses_of_mass_destruction.lich_hurt":"Dread Queen Hurts",
+    "subtitles.bosses_of_mass_destruction.lich_teleport":"Dread Queen Teleport",
+    "subtitles.bosses_of_mass_destruction.rage_prepare":"Dread Queen Rages",
+    "subtitles.bosses_of_mass_destruction.teleport_prepare":"Dread Queen Prepares Teleport",
+    "subtitles.bosses_of_mass_destruction.missile_prepare":"Dread Queen Prepares Iceballs",
+    "subtitles.bosses_of_mass_destruction.missile_shoot":"Dread Queen Shoots Iceballs",
+    "subtitles.bosses_of_mass_destruction.comet_prepare":"Dread Queen Prepares Comet",
+    "subtitles.bosses_of_mass_destruction.comet_shoot":"Dread Queen Launches Comet",
+    "text.autoconfig.bosses_of_mass_destruction.category.Lich":"Dread Queen",
+    "text.autoconfig.bosses_of_mass_destruction.option.lichConfig.missile.statusEffectId":"Status Effect",
+    "text.autoconfig.bosses_of_mass_destruction.option.lichConfig.missile.statusEffectDuration":"Status Effect Duration",
+    "text.autoconfig.bosses_of_mass_destruction.option.lichConfig.missile.statusEffectPotency":"Status Effect Potency"
+}
