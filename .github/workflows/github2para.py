@@ -1,3 +1,4 @@
+'''只有项目第一次创建上传才需要这个！更新文件无法使用本程序！'''
 import asyncio
 import os
 
@@ -14,8 +15,8 @@ async def upload_file(path, file):
         api_instance = paratranz_client.FilesApi(api_client)
         project_id = int(os.environ["PROJECT_ID"])
         try:
-            # 更新文件
-            api_response = await api_instance.update_file(
+            # 第一次创建文件
+            api_response = await api_instance.create_file(
                 project_id, file=file, path=path
             )
             pprint(api_response)
