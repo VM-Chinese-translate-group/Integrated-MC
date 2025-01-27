@@ -14,8 +14,8 @@ async def upload_file(path, file):
         api_instance = paratranz_client.FilesApi(api_client)
         project_id = int(os.environ["PROJECT_ID"])
         try:
-            # 上传文件
-            api_response = await api_instance.create_file(
+            # 更新文件
+            api_response = await api_instance.update_file(
                 project_id, file=file, path=path
             )
             pprint(api_response)
