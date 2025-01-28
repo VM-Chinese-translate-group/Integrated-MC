@@ -1,4 +1,5 @@
 {
+    "block.eidolon.brazier":"Dark Ritual Brazier",
     "block.eidolon.goblet":"Deorum Golbet",
     "block.eidolon.polished_button":"Imbued Wood Button",
     "block.eidolon.polished_door":"Imbued Wood Door",
@@ -24,5 +25,6 @@
     "entity.eidolon.necromancer":"Graveweaver",
     "item.eidolon.gold_inlay":"Deorum Inlay",
     "item.eidolon.spawn_Graveweaver":"Spawn Graveweaver",
+    "jei.eidolon.ritual":"Dark Ritual Brazier",
     "lore.eidolon.holy_symbol":"Born from a Deorum Inlay touched by the light"
 }
