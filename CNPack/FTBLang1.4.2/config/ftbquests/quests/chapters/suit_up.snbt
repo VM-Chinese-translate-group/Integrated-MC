@@ -1,0 +1,906 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "suit_up"
+	group: "4CEB1A39D55B2802"
+	icon: {
+		Count: 1
+		id: "born_in_chaos_v1:dark_metal_armor_helmet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "54735992C512A3DD"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.suit_up.quest1.description1}"
+				""
+				"{ftbquests.chapter.suit_up.quest1.description2}"
+			]
+			id: "59870DC2804ADD01"
+			shape: "gear"
+			tasks: [{
+				id: "5ABD1AD05F8BEFAF"
+				title: "{ftbquests.chapter.suit_up.quest1.task_+6538411716270354351.title}"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "iceandfire:dragonsteel_fire_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "37F7C8E9869CC663"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A627C6F31188B22"
+				table_id: 1787598695114971302L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					id: "5454136DD817963C"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F7A6BC1A4D382B7"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A8C6F20014EB852"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F1D744A0DFB0AA5"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.suit_up.quest2.title}"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "iceandfire:dragonsteel_ice_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "022ACCBB71EB1966"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F8299C93CAF22B8"
+				table_id: 1787598695114971302L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					id: "48E7BC0D54A8B9E5"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_ice_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4987C56BBD7EFFC8"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_ice_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0CB9C63FE7470734"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_ice_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DB529E53172C1F2"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_ice_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.suit_up.quest3.title}"
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "iceandfire:dragonsteel_lightning_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2D80F91B985C5AD6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "646B906466BB68B4"
+				table_id: 1787598695114971302L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					id: "7A8D4C34098BD82F"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_lightning_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C5E8EE474EBB8BB"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_lightning_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "621AB5C92848A862"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_lightning_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D3B4082947158C0"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_lightning_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.suit_up.quest4.title}"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["37F7C8E9869CC663"]
+			icon: {
+				Count: 1
+				id: "born_in_chaos_v1:dark_metal_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5157AE29DAEBB0A1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B7CA194D659164A"
+				table_id: 1787598695114971302L
+				type: "choice"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "49BF88BC8202B503"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:dark_metal_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F5B8C59EF953537"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:dark_metal_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D72658CC0AC4CB9"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:dark_metal_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78906529F6B34518"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:dark_metal_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.suit_up.quest5.title}"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["37F7C8E9869CC663"]
+			icon: {
+				Count: 1
+				id: "cataclysm:ignitium_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0CEC4FEFF915FD6F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "047B3C9C502848B8"
+				table_id: 1787598695114971302L
+				type: "choice"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "67A340B3EDEBA5FE"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6BA93A0B356B4B53"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_elytra_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7EADAFB59CA0FDD9"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3EA2DEE873E25BEC"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.suit_up.quest6.title}"
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["022ACCBB71EB1966"]
+			icon: {
+				Count: 1
+				id: "aquamirae:terrible_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "700ECEC8C332E809"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C8F5CC68421C92E"
+				table_id: 1787598695114971302L
+				type: "choice"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "62226218D412B628"
+					item: {
+						Count: 1
+						id: "aquamirae:terrible_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02DAB536ECFC9D0F"
+					item: {
+						Count: 1
+						id: "aquamirae:terrible_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A83D693F26DFAEA"
+					item: {
+						Count: 1
+						id: "aquamirae:terrible_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D9C81E0FAC45FAC"
+					item: {
+						Count: 1
+						id: "aquamirae:terrible_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.suit_up.quest7.title}"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["022ACCBB71EB1966"]
+			icon: {
+				Count: 1
+				id: "aquamirae:abyssal_heaume"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "17EFC22034CD0363"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0EF93EC0BB140327"
+				table_id: 1787598695114971302L
+				type: "choice"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "1C52D189236126DE"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_heaume"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35C26CDFF80742EF"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_brigantine"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7301654F8D4F6C9B"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3542C84E76267AC3"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.suit_up.quest8.title}"
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2D80F91B985C5AD6"]
+			icon: {
+				Count: 1
+				id: "cataclysm:cursium_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5A9F07499023CC33"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00D3487FDFCD7876"
+				table_id: 1787598695114971302L
+				type: "choice"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "32A6E331CE27A32D"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "367FBA62679492B8"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17E520AB377EE5FE"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D004D2F7E6FCE3C"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.suit_up.quest9.title}"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2D80F91B985C5AD6"]
+			icon: {
+				Count: 1
+				id: "forbidden_arcanus:draco_arcanus_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0FACEEEE34E36733"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62C4B4CAF9709C5F"
+				table_id: 1787598695114971302L
+				type: "choice"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "364FDD4431F1700E"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:draco_arcanus_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E7EFF846EDE321E"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:draco_arcanus_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49C3F998550E49ED"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:draco_arcanus_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F2B6585A6F89F51"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:draco_arcanus_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.suit_up.quest10.title}"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			description: ["{ftbquests.chapter.suit_up.quest11.description1}"]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "537502D17BEAA19F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62209BE91BCDF545"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "71F08974DAA04F56"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "1083E9B5E4E4A725"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "57548ECEB611900F"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "739B7BBF312AC120"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.suit_up.quest11.title}"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["537502D17BEAA19F"]
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "37CC92B7A18C2F7B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CD66E2D1D1022B4"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "octagon"
+			subtitle: "{ftbquests.chapter.suit_up.quest12.subtitle}"
+			tasks: [
+				{
+					id: "33F5411A4962424A"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42FFBB731B6F4469"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4550FF30BF35E5BA"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6EE9977095C132AF"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.suit_up.quest12.title}"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["537502D17BEAA19F"]
+			description: ["{ftbquests.chapter.suit_up.quest13.description1}"]
+			icon: {
+				Count: 1
+				id: "oreganized:electrum_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6BF97B53FE3D64DD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C2F545014A0ACB4"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "octagon"
+			subtitle: "{ftbquests.chapter.suit_up.quest13.subtitle}"
+			tasks: [
+				{
+					id: "4B645B1333E31474"
+					item: {
+						Count: 1
+						id: "oreganized:electrum_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06C7D449D9236329"
+					item: {
+						Count: 1
+						id: "oreganized:electrum_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "489D0ABAB6AE8AB7"
+					item: {
+						Count: 1
+						id: "oreganized:electrum_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AD43CF3DF0A94C0"
+					item: {
+						Count: 1
+						id: "oreganized:electrum_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.suit_up.quest13.title}"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["537502D17BEAA19F"]
+			description: ["{ftbquests.chapter.suit_up.quest14.description1}"]
+			icon: {
+				Count: 1
+				id: "caverns_and_chasms:necromium_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "585A2CD65F9FB12D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EF9D04CFA9C2D49"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "octagon"
+			subtitle: "{ftbquests.chapter.suit_up.quest14.subtitle}"
+			tasks: [
+				{
+					id: "281C95D7B8CDEF56"
+					item: {
+						Count: 1
+						id: "caverns_and_chasms:necromium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E2FA4F151AE4EE4"
+					item: {
+						Count: 1
+						id: "caverns_and_chasms:necromium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F20BABEB26FFE72"
+					item: {
+						Count: 1
+						id: "caverns_and_chasms:necromium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C02A7D69731851A"
+					item: {
+						Count: 1
+						id: "caverns_and_chasms:necromium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.suit_up.quest14.title}"
+			x: 1.0d
+			y: 0.5d
+		}
+	]
+	title: "{ftbquests.chapter.suit_up.title}"
+}

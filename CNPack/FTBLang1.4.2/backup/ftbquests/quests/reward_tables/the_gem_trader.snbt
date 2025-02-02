@@ -1,0 +1,15 @@
+{
+	id: "11F984B30F05534D"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{ count: 4, item: "minecraft:diamond" }
+		{ item: "iceandfire:sapphire_gem" }
+		{ item: "betterend:amber_gem" }
+		{ item: "illagerinvasion:hallowed_gem" }
+		{ count: 16, item: "ars_nouveau:source_gem" }
+		{ count: 16, item: "minecraft:emerald" }
+		{ count: 4, item: "rubinated_nether:ruby" }
+	]
+	title: "The Gem Trader"
+}

@@ -1,0 +1,754 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "tools"
+	group: "1D344E867FA1E0AF"
+	id: "2441E1BDA6689B90"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Backpacks are a great way to carry more goods. Equip them to your back and open them with &d\"B\"&r."
+				""
+				"They also have a ton of special &bUpgrades&r. Experiment with the ones you like best!"
+			]
+			id: "016934946D35435A"
+			rewards: [{
+				id: "3709C3246E30C613"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			subtitle: "Expand your inventory!"
+			tasks: [{
+				id: "4147C66D93E17BBD"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"&bBounty Boards&r collect quests from anywhere, though the type are usually related to the &bDegree&r that they have. The &bDegrees&r that each Board has can be modified. "
+				""
+				"Complete the quests to earn rewards and to build up &5Reputation&r! As you become more &5Reputable&r, you may find that the Quests give better rewards or even new unique Rewards!"
+			]
+			id: "1CE5DB8F32C55162"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CE35A585114AFD8"
+				table_id: 3922798688039514987L
+				type: "random"
+			}]
+			subtitle: "Recieve Quests and get Rewards!"
+			tasks: [{
+				id: "097AD25B52AF80C7"
+				item: "bountiful:bountyboard"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			description: ["A &bSaw&r can be used to quickly and effectively process wood, similar to a &bStonecutter&r."]
+			id: "47C6BBA8F12D8A07"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C66F055979DB65A"
+				table_id: 3891788239355830357L
+				type: "choice"
+			}]
+			subtitle: "Aids in wood processing!"
+			tasks: [{
+				id: "37154E8FBCCB5607"
+				item: "sawmill:sawmill"
+				type: "item"
+			}]
+			title: "Sawmill"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["016934946D35435A"]
+			description: ["Holds 4 rows of items and 2 &bUpgrades&r!"]
+			id: "4304E3AD68B94345"
+			subtitle: "Expand your inventory!"
+			tasks: [{
+				id: "5ADFB5D39D40D9BA"
+				item: "sophisticatedbackpacks:copper_backpack"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4304E3AD68B94345"]
+			description: ["Holds 5 rows of items and 3 &bUpgrades&r!"]
+			id: "6ADD9600A6172CF7"
+			subtitle: "Expand your inventory!"
+			tasks: [{
+				id: "4CC9CE8A858945AF"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6ADD9600A6172CF7"]
+			description: ["Holds 6 rows of items and 4 &bUpgrades&r!"]
+			id: "38E11C348CFD8239"
+			subtitle: "Expand your inventory!"
+			tasks: [{
+				id: "12E5D62928DF041C"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["38E11C348CFD8239"]
+			description: ["Holds 7 rows of items and 5 &bUpgrades&r!"]
+			id: "0A2D086772C35D7E"
+			subtitle: "Expand your inventory!"
+			tasks: [{
+				id: "5C35AC39C9E0BE46"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0A2D086772C35D7E"]
+			description: ["Holds 8 rows of items and 6 &bUpgrades&r!"]
+			id: "5D5B790F573BDDFC"
+			subtitle: "Expand your inventory!"
+			tasks: [{
+				id: "6629A268F6E92863"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"&aKnives&r are versatile tools that can be used as weapons, to harvest straw from grass and to obtain extra materials from animals. When used with a &acutting board&r you can really get the most out of your fauna and flora! "
+				""
+				"- &dRight-click&r with an item in your hand to place it on the cutting board "
+				"- Equip your knife, &dright-click&r on the cutting board and see what happens! "
+				""
+				"- You can hold the item in your &doff hand&r and the knife in your &dmain hand&r to make this process much faster."
+				""
+				"Knives aren't the only tool that can be used on the cutting board. Try looking up its uses (&dHover + Press U&r) to see what you can make."
+			]
+			id: "43754E858501D502"
+			rewards: [{
+				count: 5
+				id: "49F8E5795685718E"
+				item: "minecraft:chicken"
+				type: "item"
+			}]
+			subtitle: "Process your foods!"
+			tasks: [
+				{
+					id: "51883C98432E0EC4"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "59897884A294235C"
+					item: {
+						Count: 1
+						id: "farmersdelight:iron_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			description: ["&bCages&r can capture animals that are small enough. May be helpful in starting a farm!"]
+			id: "44F51A6260C8CC34"
+			rewards: [
+				{
+					id: "46017A55A941A74E"
+					item: "minecraft:lead"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E2664002D3FB739"
+					table_id: 1030506019370660012L
+					type: "random"
+				}
+			]
+			subtitle: "Capture (Small) Mobs!"
+			tasks: [{
+				id: "68D1DE691A2C19A1"
+				item: "supplementaries:cage"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"A &bTrowel&r randomly places blocks from your hotbar when used."
+				""
+				"An &bAbacus&r can be used to count the number of blocks between the block you right clicked and the block you are looking at, up to 48 blocks."
+			]
+			id: "5850D59D0073A81E"
+			rewards: [
+				{
+					count: 10
+					id: "3D9DE40872473001"
+					item: "minecraft:polished_deepslate"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "5F63912951C7E775"
+					item: "minecraft:polished_andesite"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "7B15C8AC9A9356F1"
+					item: "minecraft:polished_granite"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "7DB22CF3EA95500C"
+					item: "quark:polished_calcite"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "6E9A57E125AF7695"
+					item: "minecraft:polished_diorite"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "5BA352ABB8866AB8"
+					item: "quark:polished_limestone"
+					type: "item"
+				}
+			]
+			subtitle: "Tools to aid in Building!"
+			tasks: [
+				{
+					id: "49B2DE30022E3DD6"
+					item: "quark:abacus"
+					type: "item"
+				}
+				{
+					id: "4A5FCCF7A30A942D"
+					item: "quark:trowel"
+					type: "item"
+				}
+			]
+			title: "Building Tools"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["43754E858501D502"]
+			description: [
+				"This land is full of delicious ingredients just waiting to be turned into culinary delights. Don't settle for boring baked potatoes when you can use the &bCooking Pot&r to make bigger, hearty meals. However, you'll need to &aheat&r the pot somehow and may even need some type of &akitchenware to hold your freshly cooked food.&r "
+				""
+				"Try as many different foods as you can, it might even make you &astronger&r! "
+			]
+			id: "5342670AA8821220"
+			rewards: [
+				{
+					count: 5
+					id: "77935516A9DE6BB8"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "386893FDD7F84EA1"
+					table_id: 1030506019370660012L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "16189482214DA712"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5342670AA8821220"]
+			description: ["&bNourishing&r food prevent players from losing &bHunger Points&r or &bSaturation&r from sources other than regenerating health for as long as the effect is active!"]
+			id: "2AA580C449FFFACF"
+			rewards: [
+				{
+					count: 5
+					id: "4EDF5982471A20C9"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D0709ED4D548AB8"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			subtitle: "Eat a food that grants Nourishing!"
+			tasks: [{
+				advancement: "farmersdelight:main/eat_nourishing_food"
+				criterion: ""
+				id: "2E08CCF691BD23F8"
+				type: "advancement"
+			}]
+			title: "Nourishing!"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5342670AA8821220"]
+			description: ["&bComforting&r foods prevent the player from being affected by &bSlowness&r, &bWeakness&r, or &bHunger&r."]
+			id: "1D3D89732504F4A8"
+			rewards: [
+				{
+					count: 5
+					id: "57208ABBF2EFBD0C"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21DB5E9C595A1A00"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			subtitle: "Eat a food that provides Comforting!"
+			tasks: [{
+				advancement: "farmersdelight:main/eat_comfort_food"
+				criterion: ""
+				id: "1B50DFD838D27BAD"
+				type: "advancement"
+			}]
+			title: "Comforting!"
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			description: ["&bFeeding Troughs&r are storage blocks that animals will automatically eat from. &6With enough food, animals may breed on their own!&r"]
+			id: "3C9FA7F2B8517E28"
+			rewards: [
+				{
+					count: 5
+					id: "5002ED04D314B49C"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A932FC1A866D8EF"
+					table_id: 1030506019370660012L
+					type: "random"
+				}
+			]
+			subtitle: "Automatically feed animals!"
+			tasks: [{
+				id: "41E9537BAFFE06D8"
+				item: "quark:feeding_trough"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			description: ["As you taste different foods, you'll unlock more hearts! After &6the first 50 different foods&r to get your first bonus heart, &6every 25 different foods&r will unlock another heart. The &eSpice of Life: Carrot Edition&r &bFood Book&r will track your progress. Try to eat everything this pack offers!"]
+			id: "479A621DF64E62EA"
+			rewards: [{
+				id: "613172E9C5CC530C"
+				item: "quark:seed_pouch"
+				type: "item"
+			}]
+			subtitle: "Gain more hearts by eating new foods!"
+			tasks: [{
+				id: "35096574B379FE49"
+				item: "solcarrot:food_book"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&bStorage Drawers&r allow players to store many items in one block. Additionally, &6they can hold many upgrades&r to greatly increase storage capacity. "
+				""
+				"- &d\"Right Click\"&r to deposit items."
+				"- &d\"Shift + Right Click\"&r to deposit an entire stack of items."
+				"- &d\"Left Click\"&r to retrieve items."
+				"- &d\"Shift + Right Click\"&r to retrieve an entire stack of items."
+			]
+			id: "1960B5A8EDED7D73"
+			min_required_tasks: 1
+			rewards: [
+				{
+					id: "5B7DF0F61660F04F"
+					item: "storagedrawers:drawer_key"
+					type: "item"
+				}
+				{
+					id: "31CB4051838B93F3"
+					item: "storagedrawers:quantify_key"
+					type: "item"
+				}
+				{
+					id: "55B3535E80B1BC68"
+					item: "storagedrawers:shroud_key"
+					type: "item"
+				}
+			]
+			subtitle: "Compound Storage!"
+			tasks: [{
+				consume_items: false
+				id: "29B46505F639F2BD"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(storagedrawers:full_drawers)"
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "Storage Drawers"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1960B5A8EDED7D73"]
+			description: ["&bDrawer Controllers&r allow multiple &bStorage Drawers&r to be connected together. Depositing items here will deposit them into the correlating &bStorage Drawer&r, as long as they are connected by other Storage Drawers or &bController Extenders&r."]
+			id: "280398BC0590E878"
+			rewards: [{
+				count: 3
+				id: "28287F1D09885A2B"
+				item: "storagedrawers:iron_storage_upgrade"
+				type: "item"
+			}]
+			subtitle: "Connect multiple Drawers!"
+			tasks: [{
+				id: "0EB82E4269B01C1C"
+				item: "storagedrawers:controller"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1960B5A8EDED7D73"]
+			description: ["&bUpgrade Templates&r serve as the base for any &bDrawer Upgrade&r you make. Upgrades can massively increase the storage of a &bStorage Drawer&r, but require &bMechanical Crafters&r (see '&5Create&r') to make."]
+			id: "2072EFE734B3DB11"
+			rewards: [{
+				id: "403DF0C4356D334F"
+				item: "storagedrawers:gold_storage_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5999FC9CE1BD6989"
+				item: "storagedrawers:upgrade_template"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"&bWaystones&r are a great way to teleport between locations, for a small XP cost. "
+				""
+				"They can be difficult to craft though, requiring both Mechanical Crafters and the Enchanting Apparatus!"
+			]
+			id: "24A2AE4C4974B805"
+			min_required_tasks: 1
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0B9FE70F51730843"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "78611259EA3CE748"
+					item: {
+						Count: 1
+						id: "ars_nouveau:warp_scroll"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Teleportation!"
+			tasks: [
+				{
+					id: "7120BF6CD064ABCB"
+					item: "waystones:waystone"
+					type: "item"
+				}
+				{
+					id: "422FC169445D0E52"
+					item: "waystones:mossy_waystone"
+					type: "item"
+				}
+				{
+					id: "3DF8D988E5293620"
+					item: "waystones:sandy_waystone"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			description: ["You'll be doing lots of exploring in this pack. A &bBottle of Dimensional Tears&r is a quick way to warp back to your spawn (or base). Obtain one by using an &bEmpty Bottle&r on a block of &bCrying Obsidian&r or a filled &bRespawn Anchor&r."]
+			id: "469130521D081BB9"
+			rewards: [
+				{
+					id: "3EBD324DB3006B4F"
+					item: "minecraft:crying_obsidian"
+					type: "item"
+				}
+				{
+					id: "22A7014C1D76C647"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+			]
+			subtitle: "Return home!"
+			tasks: [{
+				id: "4FE57DB16B9686DF"
+				item: {
+					Count: 1
+					id: "spelunkery:portal_fluid_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&bSpyglasses&r have been given some much needed improvements. They can be stored in the Belt Slot in your inventory and as long as you are carrying one, they can be accessed at anytime by pressing &d\"Z\"&r."
+				""
+				"Additionally, you can scope further in or out with a mousewheel!"
+			]
+			id: "45B5E234D1A7DC39"
+			rewards: [{
+				id: "676FBEE0A52A3BA1"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			subtitle: "Zoom in!"
+			tasks: [{
+				id: "39E8DD1376A38E38"
+				item: "minecraft:spyglass"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&bBedrolls&r let you sleep without setting your spawnpoint! They can be dyed just like beds."
+				""
+				"&bSacks&r have 9 slots to hold items and act as early-game shulker boxes. But don't get too greedy because you will get slowed down if you carry too many. "
+				"&7Note: Sacks cannot go into backpacks."
+			]
+			id: "405E55B7AF63B20A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76798126DAA5FD03"
+				table_id: 1030506019370660012L
+				type: "random"
+			}]
+			subtitle: "Tools to help with adventure and exploration far from home!"
+			tasks: [
+				{
+					id: "6E292FDD97D75AA0"
+					item: "upgrade_aquatic:bedroll"
+					type: "item"
+				}
+				{
+					id: "15B6852D4541AB01"
+					item: "supplementaries:sack"
+					type: "item"
+				}
+			]
+			title: "Bedrolls and Sacks"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"A &bHammer&r lets you customize your furniture to your heart's content!"
+				""
+				"Use on &bchairs&r to switch the back style, &bshelves&r and &bwooden pedestals&r to toggle item rotation, and &bcrates&r to prop them up/down."
+			]
+			id: "107FDD2B4822C31F"
+			rewards: [{
+				id: "123B6ED05B4880C4"
+				item: "redeco:oak_chair"
+				type: "item"
+			}]
+			subtitle: "Become a Carpenter!"
+			tasks: [{
+				id: "391AF375149BEC48"
+				item: {
+					Count: 1
+					id: "redeco:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&6Apothic Tomes&r are useful tools that can be used in place of &6Books&r in an &bEnchanting Table.&r They function similiarly to a book, but instead only recieve &dEnchantments&r for a specific piece of equipment. "
+				""
+				"Additionally, &6Tomes of Scrapping&r extract enchantments off of a piece of equipment, storing them as a &6book&r for later use."
+			]
+			id: "59F85A95694F0A7A"
+			rewards: [{
+				count: 3
+				id: "5D0664970C0B83FD"
+				item: "apotheosis:improved_scrap_tome"
+				type: "item"
+			}]
+			subtitle: "Specifiy Enchantments"
+			tasks: [
+				{
+					id: "3D17DC7E79EF88E5"
+					item: "apotheosis:helmet_tome"
+					type: "item"
+				}
+				{
+					id: "391BA95B4E59C54A"
+					item: "apotheosis:chestplate_tome"
+					type: "item"
+				}
+				{
+					id: "2EB99E017B7A2B2C"
+					item: "apotheosis:leggings_tome"
+					type: "item"
+				}
+				{
+					id: "78ED234FC23179AE"
+					item: "apotheosis:boots_tome"
+					type: "item"
+				}
+				{
+					id: "52248617CA2F7563"
+					item: "apotheosis:weapon_tome"
+					type: "item"
+				}
+				{
+					id: "54CDF72BDE1587BE"
+					item: "apotheosis:bow_tome"
+					type: "item"
+				}
+				{
+					id: "3818153BBB48780A"
+					item: "apotheosis:pickaxe_tome"
+					type: "item"
+				}
+				{
+					id: "5DE880912E9DD7ED"
+					item: "apotheosis:fishing_tome"
+					type: "item"
+				}
+				{
+					id: "19F16772F4717781"
+					item: "apotheosis:other_tome"
+					type: "item"
+				}
+			]
+			title: "Apothic Tomes"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"A sluice needs a few things to work. First, it must have a fluid flowing through it. Second, the side of the sluice that the fluid is exiting from must be a grate and not solid (r-click with a pickaxe to do this). Lastly, &ethe fluid must be flowing out AND down from the sluice&r. You can collect by interacting with the sluice. It has 9 slots and acts similar to a chest."
+				""
+				"Only one source block of fluid is needed; the rest can (and probably should) be flowing. Channels can help create longer waterways for aesthetic purposes."
+				""
+				"For recipes in the sluice using both a block and a fluid, &ethrow the block&r into the fluid."
+				""
+				"Unfortunately, only &9Water&r and &cLava&r currently work in the sluice. &5Dimensional Tears&r and &bSpring Water&r do not currently function."
+				""
+				"&eCheck the next page for an image of a possible sluice setup. -->"
+				"{@pagebreak}"
+				""
+				"{image:imcquests:textures/misc/sluice.png width:200 height:200 align:center}"
+			]
+			icon: "spelunkery:stone_sluice"
+			id: "7CB53B29D7C17D98"
+			rewards: [{
+				id: "307406BEC02BD658"
+				item: "spelunkery:wooden_sluice"
+				type: "item"
+			}]
+			subtitle: "Passive-ish resource gathering!"
+			tasks: [{
+				id: "4F49AB789EDF57B2"
+				title: "Sluices"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"The &dTransmogrification Table&r can be used to make items have the appearance of other items!"
+				""
+				"It even works on armor!"
+				""
+				"It takes &6Amethyst Shards&r or &6Spinel&r as fuel. It changes the first item to have the appearance of the second item."
+			]
+			id: "732EE130794FBAA6"
+			rewards: [{
+				count: 32
+				id: "01C63BA8D02479EE"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			tasks: [{
+				id: "190BB6256C36666E"
+				item: "transmog:transmogrification_table"
+				type: "item"
+			}]
+			title: "Transmog!"
+			x: -2.5d
+			y: 2.0d
+		}
+	]
+	title: "Tools of the Trade"
+}

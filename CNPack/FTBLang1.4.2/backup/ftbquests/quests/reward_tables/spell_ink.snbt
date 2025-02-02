@@ -1,0 +1,13 @@
+{
+	id: "774EF3288A277797"
+	loot_size: 1
+	order_index: 32
+	rewards: [
+		{ count: 10, item: "irons_spellbooks:common_ink", random_bonus: 5 }
+		{ count: 8, item: "irons_spellbooks:uncommon_ink", random_bonus: 4 }
+		{ count: 5, item: "irons_spellbooks:rare_ink", random_bonus: 3 }
+		{ count: 2, item: "irons_spellbooks:epic_ink", random_bonus: 1 }
+		{ item: "irons_spellbooks:legendary_ink", weight: 0.25f }
+	]
+	title: "Spell Ink"
+}

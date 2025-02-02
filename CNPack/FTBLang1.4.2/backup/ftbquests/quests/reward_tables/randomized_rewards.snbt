@@ -1,0 +1,113 @@
+{
+	hide_tooltip: true
+	id: "7E678D491AD05DB4"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "endrem:cryptic_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.2f
+		}
+		{ item: "quark:monster_box", weight: 2.0f }
+		{ count: 3, exclude_from_claim_all: true, item: "spelunkery:rough_diamond", random_bonus: 2 }
+		{ count: 8, item: "minecraft:emerald", random_bonus: 4, weight: 1.2f }
+		{ count: 3, item: "farmersdelight:hamburger", random_bonus: 3 }
+		{
+			type: "xp_levels"
+			xp_levels: 5
+		}
+		{ count: 10, item: "minecraft:coal", random_bonus: 10, weight: 1.2f }
+		{ count: 5, item: "minecraft:raw_iron", random_bonus: 5 }
+		{ item: "supplementaries:antique_ink" }
+		{ count: 3, item: "farmersdelight:melon_juice", random_bonus: 2 }
+		{ count: 10, item: "minecraft:book", random_bonus: 5 }
+		{ count: 10, item: "minecraft:map", random_bonus: 5 }
+		{
+			item: {
+				Count: 1
+				id: "spelunkery:portal_fluid_bottle"
+				tag: { }
+			}
+		}
+		{ count: 6, item: "spelunkery:nephrite_chunk", random_bonus: 6 }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:bundle"
+				tag: { }
+			}
+		}
+		{ item: "quark:smithing_template_rune", weight: 0.8f }
+		{ item: "supplementaries:bomb_blue", random_bonus: 2 }
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:magnetic_caves"
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:primordial_caves"
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:toxic_caves"
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:abyssal_chasm"
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:forlorn_hollows"
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:candy_cavity"
+				}
+			}
+			weight: 0.5f
+		}
+		{ count: 10, item: "minecraft:raw_iron", random_bonus: 5 }
+		{ count: 5, item: "oreganized:raw_silver", random_bonus: 5 }
+		{ count: 5, item: "minecraft:raw_gold", random_bonus: 5 }
+	]
+	title: "Random (Uncommon)"
+}

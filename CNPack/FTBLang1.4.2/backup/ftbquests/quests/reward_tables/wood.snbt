@@ -1,0 +1,38 @@
+{
+	id: "360268C8BBD8E055"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ count: 10, item: "upgrade_aquatic:driftwood_log" }
+		{ count: 10, item: "minecraft:oak_log" }
+		{ count: 10, item: "minecraft:spruce_log" }
+		{ count: 10, item: "minecraft:birch_log" }
+		{ count: 10, item: "minecraft:jungle_log" }
+		{ count: 10, item: "minecraft:acacia_log" }
+		{ count: 10, item: "minecraft:dark_oak_log" }
+		{ count: 10, item: "minecraft:mangrove_log" }
+		{ count: 10, item: "minecraft:cherry_log" }
+		{ count: 10, item: "upgrade_aquatic:river_log" }
+		{ count: 10, item: "quark:azalea_log" }
+		{ count: 10, item: "quark:blossom_log" }
+		{ count: 10, item: "minecraft:bamboo_block" }
+		{ count: 10, item: "regions_unexplored:silver_birch_log" }
+		{ count: 10, item: "regions_unexplored:baobab_log" }
+		{ count: 10, item: "regions_unexplored:blackwood_log" }
+		{ count: 10, item: "regions_unexplored:cypress_log" }
+		{ count: 10, item: "regions_unexplored:dead_log" }
+		{ count: 10, item: "regions_unexplored:eucalyptus_log" }
+		{ count: 10, item: "regions_unexplored:joshua_log" }
+		{ count: 10, item: "regions_unexplored:kapok_log" }
+		{ count: 10, item: "regions_unexplored:larch_log" }
+		{ count: 10, item: "regions_unexplored:magnolia_log" }
+		{ count: 10, item: "regions_unexplored:maple_log" }
+		{ count: 10, item: "regions_unexplored:mauve_log" }
+		{ count: 10, item: "regions_unexplored:palm_log" }
+		{ count: 10, item: "regions_unexplored:pine_log" }
+		{ count: 10, item: "regions_unexplored:redwood_log" }
+		{ count: 10, item: "regions_unexplored:socotra_log" }
+		{ count: 10, item: "regions_unexplored:willow_log" }
+	]
+	title: "Wood"
+}

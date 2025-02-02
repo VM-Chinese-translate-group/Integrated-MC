@@ -1,0 +1,892 @@
+{
+	autofocus_id: "3D36F07AC12953C8"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_basics_of_magic"
+	group: "009BCA07CC6CD4ED"
+	icon: {
+		Count: 1
+		id: "irons_spellbooks:copper_spell_book"
+		tag: {
+			ISB_Spells: {
+				data: [ ]
+				maxSpells: 5
+				mustEquip: 1b
+				spellWheel: 1b
+			}
+		}
+	}
+	id: "061912F2BD5E566A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			id: "2F804D28B5B43115"
+			shape: "rsquare"
+			size: 1.3d
+			subtitle: "It's like a crafting table, but bigger and more magical!"
+			tasks: [{
+				id: "076AF0B4BF99A25C"
+				item: "eidolon:worktable"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["00FF7DE915CA1ED2"]
+			id: "7B65FB9D682FED35"
+			rewards: [
+				{
+					count: 4
+					id: "55C1E1A719875D4D"
+					item: "forbidden_arcanus:arcane_crystal"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7CB122C633585E5E"
+					item: "forbidden_arcanus:arcane_crystal_dust"
+					type: "item"
+				}
+			]
+			subtitle: "Some of the most common and useful ingredients"
+			tasks: [
+				{
+					id: "234B3E6A125D2BFC"
+					item: "forbidden_arcanus:arcane_crystal"
+					type: "item"
+				}
+				{
+					id: "279BF3589A08615D"
+					item: "forbidden_arcanus:arcane_crystal_dust"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["00FF7DE915CA1ED2"]
+			id: "65E0354DE34C81D0"
+			rewards: [{
+				id: "57ECC50CCE8CCFB4"
+				item: "forbidden_arcanus:rune"
+				type: "item"
+			}]
+			subtitle: "Used for several Hepheastus Forge recipes"
+			tasks: [{
+				id: "7C26EF762F8D43A5"
+				item: "forbidden_arcanus:rune"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["00FF7DE915CA1ED2"]
+			id: "443AFFDE2461BC07"
+			rewards: [{
+				id: "7F2030CEB86D8D83"
+				item: "forbidden_arcanus:stellarite_piece"
+				type: "item"
+			}]
+			subtitle: "Used in more complex and difficult magic recipes"
+			tasks: [{
+				id: "00BEC2BDBFA21071"
+				item: "forbidden_arcanus:stellarite_piece"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["00FF7DE915CA1ED2"]
+			id: "56A735B63F109EE8"
+			rewards: [
+				{
+					count: 4
+					id: "0BAE07A704C675C8"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "513183B07638C1E5"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+			]
+			subtitle: "Can be imbued into source gems. Also used in several magic recipes"
+			tasks: [
+				{
+					id: "02CFE48DE31C88C6"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "1FBAC4103EE0F1CD"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["00FF7DE915CA1ED2"]
+			id: "66197573AC8399A5"
+			rewards: [{
+				count: 2
+				id: "7B4A534DB7B02907"
+				item: "forbidden_arcanus:xpetrified_orb"
+				type: "item"
+			}]
+			subtitle: "Common ingredient in magic recipes. Can be consumed to gain experience"
+			tasks: [{
+				id: "12EC42253280EB05"
+				item: "forbidden_arcanus:xpetrified_orb"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -9.5d
+		}
+		{
+			description: [
+				"To cast spells of your own, you need to use &5Mana&r. You start out with a small amount of &5mana&r, but certain armor, robes, and jewelry can increase it. &5Mana&r will passively regenerate, but there are potions to speed up recovery. Again, armor and trinkets can help increase &5mana&r regeneration time."
+				""
+				"&bArs Nouveau&r and &bIron's Spells and Spellsbooks&r have been integrated to share the same mana system. Since &ethe amounts of mana were disproportionate&r when simply sharing the same mana system, &emana values have also been adjusted&r."
+			]
+			id: "60BA27B29CE55350"
+			subtitle: "Internal Fuel for Magic"
+			tasks: [{
+				id: "4A0DBD85C115E150"
+				title: "Mana"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			description: ["&5Source&r is what powers magic not directly cast by the player. This includes things such as spell turrets, enchanting apparatuses, and imbuement chambers. &5Source&r can be collecting in a variety of ways using &bSourcelinks&r. It can be stored using &bSource Jars&r and transferred using &bSource Relays&r."]
+			id: "6E0B3AEFF41D927C"
+			subtitle: "External Fuel for Magic"
+			tasks: [{
+				id: "5F8D5A9B077495FF"
+				title: "Source"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6E0B3AEFF41D927C"]
+			description: [
+				"&dSource&r is required to fuel many arcane machines. However, before you learn how to gather it, you need to create a place to store it."
+				""
+				"Stores up to &d10,000 Source&r."
+			]
+			hide_dependency_lines: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "3209934F1BB5A161"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68FAEE50C99AC4AE"
+				table_id: 1887718904363554025L
+				type: "random"
+			}]
+			size: 1.0d
+			subtitle: "Store Source!"
+			tasks: [{
+				id: "69C5C9162C07A3CC"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			title: "Storing Source"
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3209934F1BB5A161"]
+			description: ["The &bVitalic Sourcelink&r generates &dSource&r whenever animals are bred near it or mobs are killed near it."]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "3AC1457F134EF7F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40C76AC800582B7D"
+				table_id: 1887718904363554025L
+				type: "random"
+			}]
+			subtitle: "Breed or Kill Mobs for Source!"
+			tasks: [{
+				id: "39E060CBD9E8FDF5"
+				item: "ars_nouveau:vitalic_sourcelink"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3209934F1BB5A161"]
+			description: [
+				"The &bVolcanic Sourcelink&r burns nearby fuel items (whether they be on &bArcane Pedestals&r, &bArcane Platforms&r, or are &bdropped items&r) to generate &dSource&r."
+				""
+				"Turns nearby &bStone&r into &bMagma Blocks&r and eventually into &bLava&r."
+			]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "4AC0BED6A281BA8F"
+			rewards: [{
+				count: 10
+				id: "6261B96FD4F021D5"
+				item: "ars_nouveau:red_archwood_log"
+				type: "item"
+			}]
+			subtitle: "Convert Flamable Items into Source!"
+			tasks: [{
+				id: "1799B49EB04EC1ED"
+				item: "ars_nouveau:volcanic_sourcelink"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3209934F1BB5A161"]
+			description: ["Absorbs &bPotions&r from nearby &bPotion Jars&r to generate &dSource&r."]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "ars_nouveau:alchemical_sourcelink"
+			id: "74ECE8FC28BCE28B"
+			rewards: [{
+				count: 3
+				id: "5BF17095AE37BE86"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:swiftness"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Consumes Potions for Source!"
+			tasks: [
+				{
+					id: "79A70E472694C1C3"
+					item: "ars_nouveau:alchemical_sourcelink"
+					type: "item"
+				}
+				{
+					id: "0496875C27BD1368"
+					item: "ars_nouveau:potion_jar"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3209934F1BB5A161"]
+			description: [
+				"&bSource Relays&r sends &dSource&r from &bJars&r to other &bJars/Relays&r."
+				""
+				"The &bDominion Wand&r tells the &bJars/Relays&r where to send and receive &dSource&r. Use &eR-Click&r to set locations with the wand."
+			]
+			hide_dependency_lines: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "54D9720613318CAB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1DEE31D13624712F"
+				table_id: 1887718904363554025L
+				type: "random"
+			}]
+			subtitle: "Transport your Source!"
+			tasks: [
+				{
+					id: "70CD732F145A8320"
+					item: "ars_nouveau:relay"
+					type: "item"
+				}
+				{
+					id: "5BAE616DE3543D90"
+					item: {
+						Count: 1
+						id: "ars_nouveau:dominion_wand"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3209934F1BB5A161"]
+			description: [
+				"&bArgonomic Sourcelinks&r generate &dSource&r when nearby crops grow."
+				""
+				"&bSource Jars&r must be within 5 blocks of the &bAgronomic Sourcelink&r."
+			]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "79669F4020EDD24C"
+			rewards: [{
+				count: 5
+				id: "5718B2A31DCC9091"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			subtitle: "Grow Crops for Source!"
+			tasks: [{
+				id: "2C54EECD42DB3EC8"
+				item: "ars_nouveau:agronomic_sourcelink"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3209934F1BB5A161"]
+			description: [
+				"&bMycelial Sourcelinks&r generate &dSource&r when fueled with food on &bArcane Pedestals&r, &bArcane Platforms&r, or &bdropped nearby&r. Generates more &dSource&r if the food is a &dSource&r producing food."
+				""
+				"Slowly converts the ground below it into &bMycelium&r and eventually causes &bMushrooms&r to grow."
+			]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "277BD20052456039"
+			rewards: [
+				{
+					count: 3
+					id: "3811B2A82C7493C3"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3589EB4AB361342B"
+					item: "ars_nouveau:source_berry_roll"
+					type: "item"
+				}
+			]
+			subtitle: "Consumes Food for Source!"
+			tasks: [{
+				id: "3BF55A4FA58BBDBF"
+				item: "ars_nouveau:mycelial_sourcelink"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2F804D28B5B43115"]
+			description: [
+				"The &bImbuement Chamber&r absorbs passive &dSource&r from the environment to enhance the magical properties of various items."
+				""
+				"Items augmenting (ie. placed on pedestals surrounding) the &bImbuement Chamber&r will NOT be consumed."
+			]
+			hide_dependency_lines: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "3764C595F34F0F6A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "772CB91269D89A63"
+				table_id: 1887718904363554025L
+				type: "random"
+			}]
+			subtitle: "Create Source Gems!"
+			tasks: [{
+				id: "2B907CB0093C7BC6"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3764C595F34F0F6A"]
+			description: [
+				"An &bEnchanting Apparatus&r allows one to make all sorts of refined magical equipment. Simply put in the item you are modifying, surround the Apparatus with the appropriate items on the surrounding &bArcane Pedestals&r, and supply enough &dSource&r."
+				""
+				"&bEnchanting Apparatus&r can also be used to create the specific &bEnchanted Books&r that you want. Just provide the right catalysts."
+			]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "ars_nouveau:enchanting_apparatus"
+			id: "0666CFB596D74586"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4738F651588236F4"
+				table_id: 1887718904363554025L
+				type: "random"
+			}]
+			subtitle: "A New Way to Enchant!"
+			tasks: [
+				{
+					id: "3A2839054817576A"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+				{
+					id: "18269B3421BB4283"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+			]
+			title: "Enchanting Apparatus"
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"3764C595F34F0F6A"
+				"0666CFB596D74586"
+			]
+			description: [
+				"&bImbuement Chambers&r and &bEnchanting Apparatus&r can use nearby items to influence what they produce. &bArcane Pedestals&r act as a way to both display items and provide items to modify the properties of &dImbuing&r and &dEnchanting Rituals&r. "
+				""
+				"They need to be within 3 blocks of the &bImbuement Chamber&r or the &bEnchantment Apparatus&r to have effect."
+			]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "156105C4F08135ED"
+			min_required_tasks: 1
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F3372E3BB3B57C6"
+				table_id: 1887718904363554025L
+				type: "random"
+			}]
+			subtitle: "Augment your Rituals!"
+			tasks: [
+				{
+					count: 8L
+					id: "246FAEC4E0FD6624"
+					item: "ars_nouveau:arcane_pedestal"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6B61CF5708E07AC5"
+					item: "ars_nouveau:arcane_platform"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["67D5A9B23263E922"]
+			description: [
+				"&dMage Armor&r can be enhanced through &dMagical Threads&r. Each Armor has a level associated with it, and the strength of the applied &dThread's effect&r will be based on that level."
+				""
+				"See the &eWorn Notebook - Magical Armor&r for more info."
+			]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "415966EE90AB7E36"
+			min_required_dependencies: 1
+			min_required_tasks: 1
+			rewards: [{
+				count: 3
+				id: "021CEE59FB0EB4B8"
+				item: "ars_nouveau:blank_thread"
+				type: "item"
+			}]
+			subtitle: "Customize your Armor!"
+			tasks: [
+				{
+					id: "6F05977A4860F699"
+					item: "ars_nouveau:alteration_table"
+					type: "item"
+				}
+				{
+					id: "0A093DB7FAEEDA99"
+					item: "ars_nouveau:blank_thread"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"&bMagebloom Seeds&r, obtained through the &bEnchanting Apparatus&r, produce &bMagebloom Fiber&r which can be made into various &dMagical Armors&r."
+				""
+				"Each &dArmor&r starts off at Tier 1. Upgrade to Tier 2 with two &bBlaze Rods&r in an &bEnchanting Apparatus&r, and Tier 3 with two &bEnder Pearls&r and one &bChorus Fruit&r in an &bEnchanting Apparatus&r. Each upgrade increases the amount of &dMana Regen&r and the number of &bAugmenting Threads&r an &dArmor&r can hold."
+			]
+			hide_dependency_lines: false
+			hide_until_deps_complete: false
+			id: "67D5A9B23263E922"
+			rewards: [{
+				count: 10
+				id: "13D3ECC9ECE8E4C7"
+				item: "ars_nouveau:magebloom_fiber"
+				type: "item"
+			}]
+			subtitle: "Create Magic Armor!"
+			tasks: [
+				{
+					id: "6C375F56E319C602"
+					item: "ars_nouveau:magebloom_crop"
+					type: "item"
+				}
+				{
+					id: "63987226458DCD5E"
+					item: "ars_nouveau:magebloom_fiber"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			description: ["Provides the least armor but supports the strongest &dAugmentation Threads&r."]
+			hide_until_deps_complete: false
+			id: "0F726766A83773CF"
+			rewards: [{
+				count: 2
+				id: "6F64542F613B6DEC"
+				item: "ars_nouveau:blank_thread"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "42AF6266114A26A2"
+					item: {
+						Count: 1
+						id: "ars_nouveau:sorcerer_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "229216FF3B79BA55"
+					item: {
+						Count: 1
+						id: "ars_nouveau:sorcerer_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58597E40DB61B68A"
+					item: {
+						Count: 1
+						id: "ars_nouveau:sorcerer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A3917A8823B9762"
+					item: {
+						Count: 1
+						id: "ars_nouveau:sorcerer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Sorcerer's Robes"
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			description: ["Provides more armor than the &dSorcerer's set&r and supports stronger &dAugmentation Threads&r than the &dBattlemage's set&r, but weaker threads than the &dSorcerer's&r and less armor than the &dBattlemage's&r."]
+			hide_until_deps_complete: false
+			id: "5F27714AC233BE85"
+			rewards: [{
+				count: 2
+				id: "06A32F52840FE85B"
+				item: "ars_nouveau:blank_thread"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4019883A2ABD7887"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "282640E196830BB2"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0AD1B7FAC25D53E7"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "660F470BC646D411"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Arcanist's Robes"
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			description: ["Provides the most Armor but supports the least powerful &dAugmentation Threads&r."]
+			hide_until_deps_complete: false
+			id: "4943FD135605433A"
+			rewards: [{
+				count: 2
+				id: "2858079CA06E5E14"
+				item: "ars_nouveau:blank_thread"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4DFD534FB567BF93"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CACD62ACD0CEDEE"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "486F39770DBDFC8E"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "351974FE2C6D8495"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Battlemage's Robes"
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["00FF7DE915CA1ED2"]
+			id: "04EA231FECDB53FA"
+			rewards: [{
+				count: 2
+				id: "4A680A2A93392CAB"
+				item: "irons_spellbooks:arcane_ingot"
+				type: "item"
+			}]
+			subtitle: "Used in mid-tiered magic recipes"
+			tasks: [{
+				id: "367B45AA629CC58A"
+				item: "irons_spellbooks:arcane_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -12.5d
+		}
+		{
+			id: "00FF7DE915CA1ED2"
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				id: "65362EFF34423A43"
+				title: "Magical Ores and Ingots"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"00FF7DE915CA1ED2"
+				"3764C595F34F0F6A"
+			]
+			description: [
+				"&dSource Gems&r can be made by putting any of the following items inside the &bImbuement Chamber&r:"
+				""
+				"- Lapis"
+				"- Amethyst Shard"
+				"- Spinel"
+				"- Arcane Crystal"
+				"- Sapphire"
+			]
+			id: "3D36F07AC12953C8"
+			rewards: [{
+				count: 4
+				id: "6622034225E7284F"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			subtitle: "The basic ingredient for many magic recipes"
+			tasks: [{
+				id: "2C9FB2F1CDF5FAD5"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["00FF7DE915CA1ED2"]
+			id: "2983A4A9F1C1289E"
+			rewards: [{
+				count: 2
+				id: "61E8253B7C40C266"
+				item: "caverns_and_chasms:spinel"
+				type: "item"
+			}]
+			subtitle: "Can be imbued into source gems"
+			tasks: [{
+				id: "4317F95E70E83202"
+				item: "caverns_and_chasms:spinel"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -11.0d
+		}
+		{
+			id: "1FECDF8B1F36F5BC"
+			rewards: [{
+				count: 4
+				id: "12E3EFABFB949FFD"
+				item: "irons_spellbooks:blank_rune"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "22762CBAA363D820"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "107EC91FD706BC02"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57769C2C0F30E91B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E960905F72D94D5"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Netherite Battlemage's Armor"
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			id: "7207ADA048E26A11"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "3038234CE746866D"
+				item: "eidolon:pewter_ingot"
+				type: "item"
+			}]
+			subtitle: "Pewter, created by mixing lead and silver in a heated basin, is needed to craft the magic workbench. Check out \"The Brass Age\" to learn about heated mixing."
+			tasks: [{
+				id: "0DB0AAB7B905D37E"
+				item: "eidolon:pewter_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.3d
+		}
+	]
+	title: "The Basics of Magic"
+}

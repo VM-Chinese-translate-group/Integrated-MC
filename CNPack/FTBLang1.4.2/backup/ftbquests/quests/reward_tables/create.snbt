@@ -1,0 +1,13 @@
+{
+	id: "197362649FE29D14"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ count: 3, item: "create:cogwheel", random_bonus: 3 }
+		{ item: "create:large_cogwheel", random_bonus: 3 }
+		{ count: 5, item: "create:andesite_alloy", random_bonus: 5 }
+		{ count: 3, item: "create:belt_connector", random_bonus: 5 }
+		{ count: 5, item: "create:shaft", random_bonus: 5 }
+	]
+	title: "Create"
+}

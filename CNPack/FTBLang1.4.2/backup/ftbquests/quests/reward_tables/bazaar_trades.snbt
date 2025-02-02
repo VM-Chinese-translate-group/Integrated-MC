@@ -1,0 +1,12 @@
+{
+	id: "7A79B31AD98BC3B5"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{ count: 5, item: "minecraft:emerald" }
+		{ count: 16, item: "minecraft:sand" }
+		{ count: 5, item: "spelunkery:rough_lazurite" }
+		{ count: 3, item: "minecraft:raw_gold" }
+	]
+	title: "Bazaar Trades"
+}

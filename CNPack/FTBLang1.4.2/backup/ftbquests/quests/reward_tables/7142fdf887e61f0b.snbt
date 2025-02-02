@@ -1,0 +1,232 @@
+{
+	id: "7142FDF887E61F0B"
+	loot_size: 1
+	order_index: 28
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:cat_spawn_egg"
+				tag: {
+					EntityTag: {
+						VariantID: "minecraft:tabby"
+					}
+					display: {
+						Name: "[{\"text\":\"Brown Tabby Cat\"}]"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:cat_spawn_egg"
+				tag: {
+					EntityTag: {
+						VariantID: "moremobvariants:gray_tabby"
+					}
+					display: {
+						Name: "[{\"text\":\"Gray Tabby Cat\"}]"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:cat_spawn_egg"
+				tag: {
+					EntityTag: {
+						VariantID: "minecraft:red"
+					}
+					display: {
+						Name: "[{\"text\":\"Orange Tabby Cat\"}]"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:cat_spawn_egg"
+				tag: {
+					EntityTag: {
+						VariantID: "moremobvariants:anita_hart"
+					}
+					display: {
+						Name: "[{\"text\":\"Anita Hart Cat\"}]"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:cat_spawn_egg"
+				tag: {
+					EntityTag: {
+						VariantID: "minecraft:all_black"
+					}
+					display: {
+						Name: "[{\"text\":\"Black Cat\"}]"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:cat_spawn_egg"
+				tag: {
+					EntityTag: {
+						VariantID: "minecraft:british_shorthair"
+					}
+					display: {
+						Name: "[{\"text\":\"British Shorthair Cat\"}]"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:cat_spawn_egg"
+				tag: {
+					EntityTag: {
+						VariantID: "minecraft:calico"
+					}
+					display: {
+						Name: "[{\"text\":\"Calico Cat\"}]"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:cat_spawn_egg"
+				tag: {
+					EntityTag: {
+						VariantID: "moremobvariants:doug"
+					}
+					display: {
+						Name: "[{\"text\":\"Doug Cat\"}]"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:cat_spawn_egg"
+				tag: {
+					EntityTag: {
+						VariantID: "moremobvariants:handsome"
+					}
+					display: {
+						Name: "[{\"text\":\"Handsome Cat\"}]"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:cat_spawn_egg"
+				tag: {
+					EntityTag: {
+						VariantID: "minecraft:jellie"
+					}
+					display: {
+						Name: "[{\"text\":\"Jellie Cat\"}]"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:cat_spawn_egg"
+				tag: {
+					EntityTag: {
+						VariantID: "minecraft:persian"
+					}
+					display: {
+						Name: "[{\"text\":\"Persian Cat\"}]"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:cat_spawn_egg"
+				tag: {
+					EntityTag: {
+						VariantID: "minecraft:ragdoll"
+					}
+					display: {
+						Name: "[{\"text\":\"Ragdoll Cat\"}]"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:cat_spawn_egg"
+				tag: {
+					EntityTag: {
+						VariantID: "minecraft:siamese"
+					}
+					display: {
+						Name: "[{\"text\":\"Siamese Cat\"}]"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:cat_spawn_egg"
+				tag: {
+					EntityTag: {
+						VariantID: "moremobvariants:tortoiseshell"
+					}
+					display: {
+						Name: "[{\"text\":\"Tortoiseshell Cat\"}]"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:cat_spawn_egg"
+				tag: {
+					EntityTag: {
+						VariantID: "minecraft:black"
+					}
+					display: {
+						Name: "[{\"text\":\"Tuxedo Cat\"}]"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:cat_spawn_egg"
+				tag: {
+					EntityTag: {
+						VariantID: "minecraft:white"
+					}
+					display: {
+						Name: "[{\"text\":\"White Cat\"}]"
+					}
+				}
+			}
+		}
+	]
+	title: "Cat Variants"
+}

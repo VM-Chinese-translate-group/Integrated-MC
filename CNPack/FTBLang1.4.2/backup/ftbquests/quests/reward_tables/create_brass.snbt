@@ -1,0 +1,13 @@
+{
+	id: "42A83E4CEEFC08CD"
+	loot_size: 1
+	order_index: 23
+	rewards: [
+		{ count: 4, item: "create:cogwheel", random_bonus: 4 }
+		{ count: 2, item: "create:large_cogwheel", random_bonus: 2 }
+		{ count: 5, item: "create:brass_ingot", random_bonus: 5 }
+		{ count: 6, item: "create:belt_connector", random_bonus: 4 }
+		{ item: "create:mechanical_crafter" }
+	]
+	title: "Create Brass"
+}

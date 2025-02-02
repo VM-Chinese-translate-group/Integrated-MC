@@ -1,0 +1,11 @@
+{
+	id: "161E155CC8EA3CBA"
+	loot_size: 1
+	order_index: 30
+	rewards: [
+		{ count: 2, item: "eyesoficeandfire:eye_of_fire_dragon" }
+		{ count: 2, item: "eyesoficeandfire:eye_of_ice_dragon" }
+		{ count: 2, item: "eyesoficeandfire:eye_of_lightning_dragon" }
+	]
+	title: "Dragon Locater Eyes"
+}

@@ -1,0 +1,232 @@
+{
+	id: "11E3E94F1096B286"
+	loot_size: 1
+	order_index: 27
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:wolf_spawn_egg"
+				tag: {
+					EntityTag: {
+						VariantID: "moremobvariants:ashen"
+					}
+					display: {
+						Name: "[{\"text\":\"Ashen Wolf\"}]"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:wolf_spawn_egg"
+				tag: {
+					EntityTag: {
+						VariantID: "moremobvariants:black"
+					}
+					display: {
+						Name: "[{\"text\":\"Black Wolf\"}]"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:wolf_spawn_egg"
+				tag: {
+					EntityTag: {
+						VariantID: "moremobvariants:chestnut"
+					}
+					display: {
+						Name: "[{\"text\":\"Chestnut Wolf\"}]"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:wolf_spawn_egg"
+				tag: {
+					EntityTag: {
+						VariantID: "moremobvariants:rusty"
+					}
+					display: {
+						Name: "[{\"text\":\"Rusty Wolf\"}]"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:wolf_spawn_egg"
+				tag: {
+					EntityTag: {
+						VariantID: "moremobvariants:snowy"
+					}
+					display: {
+						Name: "[{\"text\":\"Snowy Wolf\"}]"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:wolf_spawn_egg"
+				tag: {
+					EntityTag: {
+						VariantID: "moremobvariants:spotted"
+					}
+					display: {
+						Name: "[{\"text\":\"Spotted Wolf\"}]"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:wolf_spawn_egg"
+				tag: {
+					EntityTag: {
+						VariantID: "moremobvariants:striped"
+					}
+					display: {
+						Name: "[{\"text\":\"Striped Wolf\"}]"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:wolf_spawn_egg"
+				tag: {
+					EntityTag: {
+						VariantID: "moremobvariants:woods"
+					}
+					display: {
+						Name: "[{\"text\":\"Woods Wolf\"}]"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:wolf_spawn_egg"
+				tag: {
+					EntityTag: {
+						VariantID: "moremobvariants:basenji"
+					}
+					display: {
+						Name: "[{\"text\":\"Basenji\"}]"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:wolf_spawn_egg"
+				tag: {
+					EntityTag: {
+						VariantID: "moremobvariants:french_bulldog"
+					}
+					display: {
+						Name: "[{\"text\":\"French Bulldog\"}]"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:wolf_spawn_egg"
+				tag: {
+					EntityTag: {
+						VariantID: "moremobvariants:german_shepherd"
+					}
+					display: {
+						Name: "[{\"text\":\"German Shepherd\"}]"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:wolf_spawn_egg"
+				tag: {
+					EntityTag: {
+						VariantID: "moremobvariants:golden_retriever"
+					}
+					display: {
+						Name: "[{\"text\":\"Golden Retriever\"}]"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:wolf_spawn_egg"
+				tag: {
+					EntityTag: {
+						VariantID: "moremobvariants:husky"
+					}
+					display: {
+						Name: "[{\"text\":\"Husky\"}]"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:wolf_spawn_egg"
+				tag: {
+					EntityTag: {
+						VariantID: "moremobvariants:jupiter"
+					}
+					display: {
+						Name: "[{\"text\":\"Jupiter (Brown) Wolf\"}]"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:wolf_spawn_egg"
+				tag: {
+					EntityTag: {
+						VariantID: "moremobvariants:skeleton"
+					}
+					display: {
+						Name: "[{\"text\":\"Skeleton Wolf\"}]"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:wolf_spawn_egg"
+				tag: {
+					EntityTag: {
+						VariantID: "moremobvariants:default"
+					}
+					display: {
+						Name: "[{\"text\":\"Pale (Default) Wolf\"}]"
+					}
+				}
+			}
+		}
+	]
+	title: "Wolf Variants"
+}

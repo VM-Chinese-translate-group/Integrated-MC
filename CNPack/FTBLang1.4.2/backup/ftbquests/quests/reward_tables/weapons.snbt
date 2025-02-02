@@ -1,0 +1,152 @@
+{
+	id: "6EA2AE0FC5EDBCED"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:golden_sword"
+				tag: {
+					Damage: 20
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:gold_longsword"
+				tag: {
+					Damage: 20
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:gold_twinblade"
+				tag: {
+					Damage: 20
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:gold_rapier"
+				tag: {
+					Damage: 20
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:gold_katana"
+				tag: {
+					Damage: 20
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:gold_sai"
+				tag: {
+					Damage: 20
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:gold_spear"
+				tag: {
+					Damage: 20
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:gold_glaive"
+				tag: {
+					Damage: 20
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:gold_warglaive"
+				tag: {
+					Damage: 20
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:gold_cutlass"
+				tag: {
+					Damage: 20
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:gold_claymore"
+				tag: {
+					Damage: 20
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:gold_greathammer"
+				tag: {
+					Damage: 20
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:gold_greataxe"
+				tag: {
+					Damage: 20
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:gold_chakram"
+				tag: {
+					Damage: 20
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:gold_scythe"
+				tag: {
+					Damage: 20
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:gold_halberd"
+				tag: {
+					Damage: 20
+				}
+			}
+		}
+	]
+	title: "Weapons"
+}

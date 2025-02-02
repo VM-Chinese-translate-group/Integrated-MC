@@ -1,0 +1,72 @@
+{
+	id: "7A3FDED2F5737E3F"
+	loot_size: 1
+	order_index: 20
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "target_x"
+					display: {
+						Name: "{\"text\":\"Ocean Monument Explorer Map\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "betteroceanmonuments:ocean_monument"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "target_x"
+					display: {
+						Name: "{\"text\":\"Bazaar Explorer Map\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "idas:bazaar"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "target_x"
+					display: {
+						Name: "{\"text\":\"Catacombs Explorer Map\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "betterarcheology:catacombs"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "target_x"
+					display: {
+						Name: "{\"text\":\"Desert Pyramid Explorer Map\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "idas:desert_pyramid"
+					zoomLevel: 2
+				}
+			}
+		}
+	]
+	title: "Pirate Maps"
+}

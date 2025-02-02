@@ -1,0 +1,50 @@
+{
+	id: "6D6AFBA20835EE5C"
+	loot_size: 1
+	order_index: 29
+	rewards: [
+		{
+			command: "/ftbquests change_progress @p complete 14DE8BE45C93938D"
+			icon: "minecraft:book"
+			title: "Basenji"
+			type: "command"
+		}
+		{
+			command: "/ftbquests change_progress @p complete 19181886B9191A08"
+			icon: "minecraft:book"
+			title: "French Bulldog"
+			type: "command"
+		}
+		{
+			command: "/ftbquests change_progress @p complete 3923F3BA54ABB7D4"
+			icon: "minecraft:book"
+			title: "German Shepherd"
+			type: "command"
+		}
+		{
+			command: "/ftbquests change_progress @p complete 1D48DCCEAF6D99C7"
+			icon: "minecraft:book"
+			title: "Golden Retriever"
+			type: "command"
+		}
+		{
+			command: "/ftbquests change_progress @p complete 35B8FC3191769867"
+			icon: "minecraft:book"
+			title: "Husky"
+			type: "command"
+		}
+		{
+			command: "/ftbquests change_progress @p complete 4D79A4568FF926EE"
+			icon: "minecraft:book"
+			title: "Jupiter"
+			type: "command"
+		}
+		{
+			command: "/ftbquests change_progress @p complete 6B36A56F261A018D"
+			icon: "minecraft:book"
+			title: "Skeleton Wolf"
+			type: "command"
+		}
+	]
+	title: "Dog Breeding"
+}

@@ -1,0 +1,55 @@
+{
+	id: "4A6B3F609DD98B95"
+	loot_size: 1
+	order_index: 21
+	rewards: [
+		{ count: 64, item: "minecraft:raw_copper" }
+		{ count: 32, item: "minecraft:raw_gold" }
+		{ count: 64, item: "minecraft:raw_iron" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:sharpness"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 3s
+						}
+						{
+							id: "minecraft:mending"
+							lvl: 1s
+						}
+					]
+				}
+			}
+		}
+		{ count: 64, item: "minecraft:map" }
+		{ count: 32, item: "minecraft:golden_carrot" }
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:long_regeneration"
+				}
+			}
+		}
+		{ count: 16, item: "farmersdelight:hot_cocoa" }
+		{ count: 3, item: "minecraft:diamond" }
+		{ count: 32, item: "forbidden_arcanus:arcane_crystal" }
+		{ count: 64, item: "farmersdelight:straw" }
+		{ count: 32, item: "farmersdelight:shepherds_pie_block" }
+		{ count: 32, item: "farmersdelight:stuffed_pumpkin_block" }
+		{ count: 5, item: "minecraft:emerald_block" }
+		{ count: 16, item: "supplementaries:flax_block" }
+		{ count: 25, item: "minecraft:hay_block" }
+	]
+	title: "Dinner Party Gifts"
+}

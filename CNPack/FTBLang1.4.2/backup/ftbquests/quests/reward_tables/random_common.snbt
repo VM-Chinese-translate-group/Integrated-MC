@@ -1,0 +1,28 @@
+{
+	hide_tooltip: true
+	id: "0E4D17C3C77D70AC"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ count: 10, item: "minecraft:oak_log" }
+		{ count: 3, item: "minecraft:raw_iron" }
+		{ count: 3, item: "minecraft:bread" }
+		{
+			item: {
+				Count: 1
+				id: "endrem:cryptic_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.005f
+		}
+		{ count: 5, item: "minecraft:coal" }
+		{
+			type: "xp_levels"
+			xp_levels: 1
+		}
+		{ count: 5, item: "supplementaries:rope" }
+	]
+	title: "Random (Common)"
+}

@@ -1,0 +1,200 @@
+{
+	id: "3C81DD1A0A737D4B"
+	loot_size: 1
+	order_index: 31
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "target_x"
+					display: {
+						Name: "{\"text\":\"Acacia Mineshaft Explorer Map\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "hopo:mineshaft/acacia_mineshaft"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "target_x"
+					display: {
+						Name: "{\"text\":\"Bamboo Mineshaft Explorer Map\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "hopo:mineshaft/bamboo_mineshaft"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "target_x"
+					display: {
+						Name: "{\"text\":\"Birch Mineshaft Explorer Map\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "hopo:mineshaft/birch_mineshaft"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "target_x"
+					display: {
+						Name: "{\"text\":\"Cherry Mineshaft Explorer Map\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "hopo:mineshaft/cherry_mineshaft"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "target_x"
+					display: {
+						Name: "{\"text\":\"Dark Oak Mineshaft Explorer Map\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "hopo:mineshaft/dark_oak_mineshaft"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "target_x"
+					display: {
+						Name: "{\"text\":\"Deepslate Mineshaft Explorer Map\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "hopo:mineshaft/deepslate_mineshaft"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "target_x"
+					display: {
+						Name: "{\"text\":\"Jungle Mineshaft Explorer Map\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "hopo:mineshaft/jungle_mineshaft"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "target_x"
+					display: {
+						Name: "{\"text\":\"Mangrove Mineshaft Explorer Map\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "hopo:mineshaft/mangrove_mineshaft"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "target_x"
+					display: {
+						Name: "{\"text\":\"Mud Mineshaft Explorer Map\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "hopo:mineshaft/mud_mineshaft"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "target_x"
+					display: {
+						Name: "{\"text\":\"Oak Mineshaft Explorer Map\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "hopo:mineshaft/oak_mineshaft"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "target_x"
+					display: {
+						Name: "{\"text\":\"Spruce Mineshaft Explorer Map\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "hopo:mineshaft/spruce_mineshaft"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "target_x"
+					display: {
+						Name: "{\"text\":\"Stone Mineshaft Explorer Map\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "hopo:mineshaft/stone_mineshaft"
+					zoomLevel: 2
+				}
+			}
+		}
+	]
+	title: "Mineshaft Explorer Maps"
+}

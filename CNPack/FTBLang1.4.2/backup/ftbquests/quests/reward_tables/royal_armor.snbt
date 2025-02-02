@@ -1,0 +1,172 @@
+{
+	id: "1C9DF4A25A1E9A15"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:leather_helmet"
+				tag: {
+					BMCursed: 1b
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:protection"
+							lvl: 7s
+						}
+						{
+							id: "minecraft:projectile_protection"
+							lvl: 6s
+						}
+						{
+							id: "allurement:reforming"
+							lvl: 1s
+						}
+					]
+					RepairCost: 1
+					Trim: {
+						material: "minecraft:gold"
+						pattern: "minecraft:sentry"
+					}
+					display: {
+						Name: "{\"text\":\"Royal Helmet\"}"
+						color: 8991416
+					}
+					"quark:RuneColor": "blank"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:leather_chestplate"
+				tag: {
+					BMCursed: 1b
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:protection"
+							lvl: 7s
+						}
+						{
+							id: "minecraft:projectile_protection"
+							lvl: 6s
+						}
+						{
+							id: "allurement:reforming"
+							lvl: 1s
+						}
+					]
+					RepairCost: 1
+					Trim: {
+						material: "minecraft:gold"
+						pattern: "minecraft:sentry"
+					}
+					display: {
+						Name: "{\"text\":\"Royal Tunic\"}"
+						color: 8991416
+					}
+					"quark:RuneColor": "blank"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:leather_leggings"
+				tag: {
+					BMCursed: 1b
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:protection"
+							lvl: 6s
+						}
+						{
+							id: "minecraft:projectile_protection"
+							lvl: 7s
+						}
+						{
+							id: "allurement:reforming"
+							lvl: 1s
+						}
+					]
+					RepairCost: 1
+					Trim: {
+						material: "minecraft:gold"
+						pattern: "minecraft:sentry"
+					}
+					display: {
+						Name: "{\"text\":\"Royal Leggings\"}"
+						color: 8991416
+					}
+					"quark:RuneColor": "blank"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:leather_boots"
+				tag: {
+					BMCursed: 1b
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:protection"
+							lvl: 6s
+						}
+						{
+							id: "minecraft:projectile_protection"
+							lvl: 7s
+						}
+						{
+							id: "allurement:reforming"
+							lvl: 1s
+						}
+					]
+					RepairCost: 1
+					Trim: {
+						material: "minecraft:gold"
+						pattern: "minecraft:sentry"
+					}
+					display: {
+						Name: "{\"text\":\"Royal Boots\"}"
+						color: 8991416
+					}
+					"quark:RuneColor": "blank"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					BMCursed: 1b
+					Damage: 0
+					Enchantments: [
+						{
+							id: "allurement:reforming"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:smite"
+							lvl: 6s
+						}
+					]
+					RepairCost: 1
+					display: {
+						Name: "{\"text\":\"Royal Sword\"}"
+					}
+					"fabrication#conflictingEnchants": {
+						"apotheosis:bane_of_illagers": 7
+					}
+					"quark:RuneColor": "blank"
+				}
+			}
+		}
+	]
+	title: "Royal Armor"
+}

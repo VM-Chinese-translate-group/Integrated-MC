@@ -1,0 +1,1369 @@
+{
+	autofocus_id: "1989A03204C26C0C"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "boss_codex"
+	group: "4CEB1A39D55B2802"
+	icon: "cataclysm:abyssal_sacrifice"
+	id: "2F69231010DE05DB"
+	images: [
+		{
+			height: 3.0d
+			image: "imcquests:textures/misc/tier1.png"
+			rotation: 0.0d
+			width: 5.333333333333333d
+			x: -1.0d
+			y: -10.5d
+		}
+		{
+			height: 3.0d
+			image: "imcquests:textures/misc/tier2.png"
+			rotation: 0.0d
+			width: 5.333333333333333d
+			x: 4.5d
+			y: -10.5d
+		}
+		{
+			height: 3.0d
+			image: "imcquests:textures/misc/tier3.png"
+			rotation: 0.0d
+			width: 5.333333333333333d
+			x: 10.0d
+			y: -10.5d
+		}
+		{
+			height: 3.0d
+			image: "imcquests:textures/misc/tier4.png"
+			rotation: 0.0d
+			width: 5.333333333333333d
+			x: 15.5d
+			y: -10.5d
+		}
+		{
+			height: 3.0d
+			image: "imcquests:textures/misc/tier5.png"
+			rotation: 0.0d
+			width: 5.333333333333333d
+			x: 21.0d
+			y: -10.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["The &3Ocean Monument&r holds the key to living beneath the waves, but the key remains guarded by &3three ancient sea creatures&r and their underlings. With bodies built for both defence and offense, the fight will not be an easy one for those unprepared for the water."]
+			icon: {
+				Count: 1
+				id: "endrem:guardian_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3231857C187C0EE1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C18C6837CE23938"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				icon: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "216AD6CB63EEA6F0"
+				title: "&a★☆☆☆☆ Elder Guardian!"
+				type: "kill"
+				value: 3L
+			}]
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			description: ["Once thought to just be a rumor or legend, but now known to be true. &bThe Wither&r is a terrifying undead monster that brings decay and ruin wherever it roams. But should you slay this creature, you can bring a beacon of light to all."]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "207657501BD4CDEB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FEA79E8A2155EDC"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "4624BAF598CDA8D2"
+				title: "&e★★☆☆☆ Wither!"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -8.5d
+		}
+		{
+			description: ["Without eyes to see with, the &3Warden&r uses preternatural hearing to locate trespassers in its &3Ancient City&r. This being usually remains submerged in the skulk, but it will appear should the alarm sound three times. Are you brave enough to explore the &3Ancient City&r and seek out its treasures?"]
+			id: "51DA55FEB55D644A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31583B95608AF7D1"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: "minecraft:sculk_sensor"
+				id: "1BE55548579924B5"
+				title: "&c★★★★☆ Warden!"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: -5.5d
+		}
+		{
+			description: ["The ruler over the entire End dimension, the &5Ender Dragon&r acts as a gatekeeper for any adventurers who step foot in her dimension. She is a mighty beast who protects her land, but often overlooks her harm of the other End residents. Once you travel to the End, the &5Ender Dragon&r is the only thing standing between you and returning home to the Overworld."]
+			id: "0F3AF3760EEF1B76"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B090FC26023C73E"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "48F499CAE25EE0F2"
+				title: "&6★★★☆☆ Ender Dragon!"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.5d
+			y: -8.5d
+		}
+		{
+			description: [
+				"Created through a sacrificial ritual performed by Underzealots, &4Forsaken&r are large hostile mobs with sound-based attacks. They fight foes with sonic waves in addition to a variety of melee strikes from their upper arms, and can leap around to gain a better position. Although weaker than a Warden’s sonic blast, it can still pack a punch and pierce through armor. "
+				"Fun Fact: &4Forsaken&r are immune to the &3Warden’s&r sonic blast but the &3Warden&r can be damaged extra by the &4Forsaken’s&r sonic attack."
+				"{@pagebreak}"
+				"Forsaken are found within the &4Forlorn Hollows&r biome only when &6Underzealots&r sacrifice &6Vespers&r."
+			]
+			id: "748BA2DB0F36CC4C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F6B315ED35B9363"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "alexscaves:forsaken"
+				icon: "alexscaves:pure_darkness"
+				id: "61CF1C9B76C3C03A"
+				title: "&e★★☆☆☆ Forsaken!"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: -8.5d
+		}
+		{
+			description: [
+				"Although not always hostile, &9hullbreakers&r are foreboding giants that lurk in the depths of the &9Abyssal Chasm&r. They are frightful predators that can reach a size of 14 blocks long. They do not attack on sight, but rather on light. &9Hullbreakers&r have an aversion to anything emitting light and will seek to destroy it at all cost. This could range from a gentle glow squid to the bright floodlights of a submarine. They tend to circle their prey before attacking, so shut your lights off quickly if you notice one of these creatures. "
+				"{@pagebreak}"
+				"&9Hullbreakers&r are found within the &9Abyssal Chasm&r biome."
+			]
+			id: "615884269AB07E86"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56DF38D4EEDBAE86"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "alexscaves:hullbreaker"
+				icon: "alexscaves:immortal_embryo"
+				id: "36C749220F63521A"
+				title: "&6★★★☆☆ Hullbreaker!"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: -8.5d
+		}
+		{
+			description: [
+				"Long ago, before players or villagers or even creepers, dinosaurs called the Overworld their home. But disaster struck, and they were forced to flee deep underground into &aPrimordial Caves&r. The greatest and most deadly of the creatures within is the &cLuxtructosaurus&r. This dinosaur causes nearby other volcanoes to erupt, has a powerful stomp attack that can level terrain, and can enter an enraged state that grants it the ability to breathe flames in addition to creating fissures in the ground with its stomp."
+				"{@pagebreak}"
+				"The Luxtructosaurus can be spawned by throwing an &6Ominous Catalyst&r onto an active Volcanic Core in the &2Primordial Caves&r biome."
+			]
+			id: "1B4599B19EBFD1D0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EDA76AD9E48A799"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "alexscaves:luxtructosaurus"
+				icon: "alexscaves:tectonic_shard"
+				id: "1381E7CFE3154663"
+				title: "&6★★★☆☆ Luxtructosaurus!"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.5d
+			y: -8.5d
+		}
+		{
+			description: [
+				"The &5Void Worm&r is the result of a failed experiment to clone the &5Ender Dragon&r. Instead of a dragon, the experiment resulted in a hostile, worm-like creature that shoots through the sky and teleports around to throw its opponents off balance. The most dangerous part of the failed cloning experiment, perhaps, is that the &5Void Worm&r can clone itself. If shot anywhere except its head, the &5Void Worm&r will split in two at the wound."
+				"{@pagebreak}"
+				"&5The Void Worm&r can only be summoned if the &5Ender Dragon&r is already defeated. To summon the &5Void Worm&r, throw a &9Mysterious Worm&r into the void while in the End dimension."
+			]
+			id: "174DA5B7870ACD56"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F63BF2B3C053A46"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "alexsmobs:void_worm"
+				icon: "alexsmobs:void_worm_eye"
+				id: "69749EFA28A2A8D9"
+				title: "&c★★★★☆ Void Worm!"
+				type: "kill"
+				value: 1L
+			}]
+			x: 17.0d
+			y: -8.5d
+		}
+		{
+			description: [
+				"“You are what you eat.” This saying has perhaps never been more apt than when it comes to a &cCrimson Mosquito&r. The mosquito will transform into a &3Warped Mosco&r by drinking the blood of a Warped Fungus &dMungus&r. Once the transformation is complete, the &3Mosco&r will become enraged and attack any nearby creature it sees as food, using its massive body as a weapon. It is unknown why only the &dMungus&r seems to cause this reaction. Perhaps this should be studied more…"
+				"{@pagebreak}"
+				"&dMungus&r spawn in &dMushroom Island&r biomes, and &cCrimson Mosquitos&r spawn in &cCrimson Forest&r biomes. A fly can also turn into a Crimson Mosquito if exposed to the Nether for too long. You will need to get these two mobs in the same place. You can r-click a &dMungus&r with &3warped fungus&r to make it a &3Warped Fungus &r&dMungus&r, but only if it does not already have mushrooms of a different type on its body."
+			]
+			id: "51040727BD2ABC19"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38040506DB4AE194"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "alexsmobs:warped_mosco"
+				icon: "alexsmobs:hemolymph_sac"
+				id: "7DD75522BCBFA524"
+				title: "&a★☆☆☆☆ Warped Mosco!"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"The ghost of a once great illager captain, &3Captain Cornelia&r was lost, never to be seen again in the &bIce Maze&r. She wanted her crew to be the first to explore this icy domain and return to tell the tale. But alas, she never returned. Rumor has it that with a special conch found on board her fleet of ships has the power to summon her ghost."
+				"{@pagebreak}"
+				"Use the &6Shell Horn&r to summon &3Captain Cornelia&r. The horn can be found within &k&6the Ship&r in the &bIce Maze&r. You must be in the &bIce Maze&r for the &6Shell Horn&r to work."
+			]
+			id: "5C71BF671699BF37"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49611943B6185785"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: {
+					Count: 1
+					id: "aquamirae:three_bolt_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5D1C3285B39DD207"
+				title: "&e★★☆☆☆ Captain Cornelia!"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			description: [
+				"The &5Mother of the Maze&r is an ancient sea monster that does not like to be disturbed. You will know she is nearby when you feel the vibrations in the water beneath your feet. You may want a special set of diving gear to protect you from the icy cold waters as you fight her."
+				"{@pagebreak}"
+				"The &5Mother of the Maze&r will periodically spawn as you explore the &bIce Maze&r. Enter the water after you see the message &6“You feel a vibration under the ice…”&r to find and fight her."
+			]
+			id: "2AD640E46A4B5685"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0AFF897E61F191B2"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "aquamirae:maze_mother"
+				icon: "aquamirae:abyssal_amethyst"
+				id: "4E076420381EDCC0"
+				title: "&a★☆☆☆☆ Mother of the Maze!"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			description: [
+				"The &dWilden Chimera&r is a beast so powerful that it took the greatest wizards all of their power to trap it in an &5Archmage Tower&r. The tower by itself could not hold this creature, and many wizards had to stay behind to contain it. Overtime, they too became dark and corrupted. Be sure to train and grow in your power, for this tower is a deadly trap to those who go in unprepared. "
+				"{@pagebreak}"
+				"The &dWilden Chimera&r can also be summoned with a &6Tablet of Summon Wilden&r. Only when augmented with a Wilden Spike, Wilden Horn, and a Wilden Wing, will this ritual summon the &dWilden Chimera&r. "
+				""
+				"&7Note: If summoning the chimera, this ritual will destroy blocks around the brazier."
+			]
+			id: "39E27D08343CC1EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07A3A34AEBB74DC4"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "ars_nouveau:wilden_boss"
+				icon: "ars_nouveau:wilden_tribute"
+				id: "033171D820948B40"
+				title: "&4★★★★★ Wilden Chimera!"
+				type: "kill"
+				value: 1L
+			}]
+			x: 21.0d
+			y: -7.0d
+		}
+		{
+			description: [
+				"Illagers are the common enemy against villagers. And with their newfound leader, it has only gotten worse. The &3Adjudicator&r can be found meditating in his study in the basement below the newly renovated &2Woodland Mansion&r. He will wake from his meditation upon the player attacking him or breaking any blocks. He uses a variety of magic such as teleportation and magic weapons. Should you find him too difficult, leave him be and he will return to meditating. But the dark forest will never be free until he is slain. "
+				"{@pagebreak}"
+				"The &2Woodland Mansion&r is located in &2Dark Forest&r biomes. The &3Adjudicator&r will only ever stay in the basement of this structure."
+			]
+			id: "2BEC97498707196B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65F64844BE9A4592"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "biomemakeover:adjudicator"
+				icon: "biomemakeover:gray_tapestry"
+				id: "17F3E760FA8AE5A6"
+				title: "&e★★☆☆☆ Adjudicator!"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			description: [
+				"Born from the legend of the Headless Horseman, &6Lord Pumpkinhead&r has vowed to destroy any that summon him. Don’t rely on any covered bridges to escape, he’ll chase right on after you. And should you manage to dismount him from his horse, there are two more deadly phases of the fight. The head can survive without the body, but the body will perish should the head be destroyed. "
+				"{@pagebreak}"
+				"Lord Pumpkinhead can be summoned by r-clicking on the &6Infernal Evil Pumpkin&r using &aTransmuting Elixir&r."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "born_in_chaos_v1:item/lordpumpkinhead_icon"
+				}
+			}
+			id: "3DA151EFD73220F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62AE85CF7AFD7FAD"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "born_in_chaos_v1:lord_pumpkinhead_head"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "born_in_chaos_v1:item/lordpumpkinhead_icon"
+					}
+				}
+				id: "45683621B1043D00"
+				title: "&4★★★★★ Lord Pumpkinhead!"
+				type: "kill"
+				value: 1L
+			}]
+			x: 19.5d
+			y: -5.5d
+		}
+		{
+			description: ["The &4Lifestealer&r was once upon a time just an average guy. But misfortune struck and they became a victim of dark magic. Struck with a curse and turned into a creature that feeds off of the life force of others, the &4Lifestealer&r is a frightening, bloodthirsty sight. At first appearing to be a large hooded figure, the &4Lifestealer&r reveals its true form by screaming after either making an attack or receiving enough damage. Luckily for you, it can only appear at night and after Day 100. "]
+			id: "385D04475177DDE9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5EBC67092F1B41C4"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "born_in_chaos_v1:lifestealer"
+				icon: "born_in_chaos_v1:lifestealer_skull"
+				id: "2CE315F11767C0DD"
+				title: "&a★☆☆☆☆ Lifestealer!"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"A stronger version of the once great &4Dead King&r, he can be summoned to fight once more. This time he will be more difficult to beat, but the rewards will also grow. The key to summoning him is hidden within his &cCatacombs&r."
+				"{@pagebreak}"
+				"The &4Enraged Dead King&r is summoned using a &6&kspell&r found within his &cCatacombs&r."
+			]
+			id: "5BB2644309CFB988"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "069873BEF26BD81A"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "traveloptics:enraged_dead_king"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "born_in_chaos_v1:textures/mob_effect/magic_depletion.png"
+					}
+				}
+				id: "30917F6CEEEED7B7"
+				title: "&4★★★★★ Enraged Dead King!"
+				type: "kill"
+				value: 1L
+			}]
+			x: 19.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"A King that died long ago…A maze to store his treasures and body…The &4Dead King&r can be found in the Throne Room of the &cCatacombs&r and awakened by interacting with him. A powerful mage, he poses a large challenge, though you will receive treasures beyond compare if you defeat him. Be warned…this may not be the last you see of the &4Dead King&r."
+				"{@pagebreak}"
+				"The &cDead King’s Catacombs&r can be located using the &6Wayward Compass&r."
+			]
+			id: "482E14A0544D2722"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A97AA4FFFF683FB"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:keeper_flamberge"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "70A3100DC3F5969D"
+				title: "&6★★★☆☆ The Dead King!"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"Lost underground many years ago, these heavily armored knights are not men nor are they statues. Are they guarding something? They have forgotten what. Are they waiting for something? They have forgotten when. Are they mourning someone? They have forgotten whom. All they know is to slay those who approach their chambers. The armor is well made and keeps the knight protected. There is only one way to damage a &cFerrous Wroughtnaut&r; its weakness is for you to discover."
+				"{@pagebreak}"
+				"Use an &6Eye of Wrought&r to locate the &cFerrous Wroughtnaut&r. You may also find them by locating the entrance to &5The End&r."
+			]
+			icon: "mowzies_cataclysm:wrought_eye"
+			id: "544CD36D12C92902"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B783B97772874EE"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "mowzies_cataclysm:item/wrought_eye"
+					}
+				}
+				id: "238D699CC335F1E1"
+				title: "&e★★☆☆☆ Ferrous Wroughtnaut!"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"&eUmvuthi&r is the creator of the &eAbavuthana&r, residing in a stationary seat upon a throne in savanna groves. He draws his power from the sun, calling forth sunstrikes, solar flares, and massive solar beams. He can also create Umvuthana followers - including healers called &eUmvuthana Cranes&r - from masks to defend him during combat. As such, his masked children revere him as a god. Unequipped travelers should keep their distance from his grove, lest they be smitten by his heliomancy."
+				"{@pagebreak}"
+				"Use the &6Eye of Sunbird&r to locate &eUmvuthani&r and his followers in the savanna."
+			]
+			id: "17D8D6C09A6BB039"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C2CA8F891A6BAAC"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				icon: "mowziesmobs:sol_visage"
+				id: "321DAAAD83D6A5D6"
+				title: "&e★★☆☆☆ Umvuthi The Sunbird!"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"&bFrostmaws&r are dangerous beasts found rarely in snowy areas. Their massive size, impressive speed, and powerful ice breath make them near-impossible opponents. If, on your travels, you encounter one sleeping in your path, it's likely best to take a different route and let it lay. The beast guards a precious ice crystal that can unleash pure winter energy when wielded."
+				"{@pagebreak}"
+				"Use the &6Eye of Frost&r to locate the &bFrostmaw &rin its snowy den."
+			]
+			id: "4A18B3B814D57B69"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2378A68614AE7AD4"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "03F820C7EA902BC5"
+				title: "&6★★★☆☆ Frostmaw!"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"&cThe Netherite Monstrosity&r was created in a freak accident many years ago. A blacksmith was testing out a new invention involving lava, netherite, and liquid hyper experience when he was attacked by a Ghast and fell into the mixture. When he emerged, it was no longer as a human, but something else, something &cMonstrous&r. He became angry at the world and all those within. He still to this day lives within his forge, the &cSoul Blacksmith&r, practising with his fiery powers and destroying anyone who comes near."
+				"{@pagebreak}"
+				"The Netherite Monstrosity will awaken as soon as you near it the Soul Blacksmith structure. Use an &6Eye of Monstrous&r to find the Soul Blacksmith while inside the &4Nether&r."
+			]
+			id: "7018999749A4E9FC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "382AB8D0814135FD"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "cataclysm:textures/mob_effect/monstrous.png"
+					}
+				}
+				id: "412A42CEDF650F6A"
+				title: "&c★★★★☆ Netherite Monstrosity!"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"A distant relative of the &5Obsidilith&r, the &dEnder Guardian&r resides within the &5End&r. Appearing as part of an End City itself, it is thought that the &dEnder Guardian&r is a physical manifestation of the &dRuined Citadel&r. This creature is extremely solitary and will fight anyone who imposes on its home. To prevent intruders, the &dEnder Guardian&r has fitted the &dRuined Citadel&r with a variety of traps. Be careful where you step."
+				"{@pagebreak}"
+				"Approach the Altar on the lowest level of the Ruined Citadel to wake the Ender Guardian. Use an &6Eye of Void&r to locate the Ruined Citadel while in the &5End&r dimension."
+			]
+			icon: "cataclysm:void_eye"
+			id: "7245C47C3CCC10F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C961E356D24814B"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					entity: "cataclysm:ender_guardian"
+					icon: "cataclysm:void_eye"
+					id: "0B733F2A42152E7E"
+					title: "&c★★★★☆ Ender Guardian!"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:ender_golem"
+					icon: "cataclysm:void_core"
+					id: "6B09B94A27582A13"
+					title: "&7Ender Golem (Miniboss)"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 17.0d
+			y: -7.0d
+		}
+		{
+			description: [
+				"&9The Leviathan&r was once the great deity of the ocean but is now contained inside an altar. This kraken-like creature dwells within the &9Sunken City&r and is guarded by the ocean coming to life. Giant masses of coral and merfolk reside within this city, ready to stop anyone who comes to try and take away their god. It’s not just the guards to watch out for, the &9Leviathan&r can defend itself quite well once awakened. But should you prevail, the ocean will bend to your will. "
+				""
+				"&7There is a rumor that eating the meat of&r &dmystical crabs&r &7can help ward you from the devastating effects of the Leviathan's attacks. But where can these crabs be found? And how does the crab meat gain its &r&dprotective powers?&r"
+				"{@pagebreak}"
+				"To summon the Leviathan, place an Abyssal Sacrifice in the Altar of Abyss. This must be crafted using mob drops from those within the Sunken City. Use an &6Eye of Abyss&r to locate the Sunken City in the &2Overworld&r."
+			]
+			icon: "cataclysm:abyssal_sacrifice"
+			id: "3B2840F80C601A0F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D4BE259A4D1AED7"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					entity: "cataclysm:the_leviathan"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "cataclysm:item/abyssal_sacrifice"
+						}
+					}
+					id: "509C899A9D350F52"
+					title: "&4★★★★★ The Leviathan!"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:coral_golem"
+					icon: "cataclysm:crystallized_coral"
+					id: "0E0FF072ED4F3EB6"
+					title: "&7Coral Golem (Miniboss)"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:coralssus"
+					icon: "cataclysm:coral_chunk"
+					id: "6313660024EE6AE0"
+					title: "&7Coralssus (Miniboss)"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 21.0d
+			y: -8.5d
+		}
+		{
+			description: [
+				"&4The Harbinger&r resides in an &4Ancient Factory&r full of technology beyond our comprehension. The greatest creation of it all was the &4Harbinger&r itself. Angered by the treatment of itself and other automatons, the &4Harbinger&r rose up and destroyed its creator. But with that newfound freedom came power and greed. Now the &4Harbinger&r hides away in the &4Factory&r, preparing for the day when it will conquer all of the overworld. "
+				"{@pagebreak}"
+				"To awaken the &4Harbinger&r, r-click it with a nether star. Use an &6Eye of Mech&r to locate the &4Ancient Factory&r in the &2Overworld&r."
+			]
+			icon: "cataclysm:witherite_ingot"
+			id: "66C6A9EFF154999E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C6140F03BFCDD31"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					entity: "cataclysm:the_harbinger"
+					icon: "cataclysm:witherite_ingot"
+					id: "61B627F8F61700DB"
+					title: "&4★★★★★ The Harbinger!"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:the_prowler"
+					icon: "cataclysm:emp"
+					id: "085EF666527E3288"
+					title: "&7Prowler (Miniboss)"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 19.5d
+			y: -8.5d
+		}
+		{
+			description: [
+				"Long ago, before players or villagers or even creepers, dinosaurs called the Overworld their home. But disaster struck, and they were forced to flee deep underground into &aPrimordial Caves&r. Only one species, the &6Thornapod&r, remained on the surface, and that would become its downfall."
+				""
+				"Archeologists throughout the realm speak of the &eAncient Remnant&r. It is a skeletal statue resembling a &6Thornapod&r that can be found at the bottom of the &eCursed Pyramid&r, a vast new dungeon within the desert. The &ePyramid&r is full of treasures galore, but that is not all that lies inside. Traps, hostiles, and puzzles await the player to stop them from conquering this dungeon."
+				"{@pagebreak}"
+				"When you find the Ancient Remnant, it will be stationary like a statue. You’ll need to right-click it with the &eNecklace of the Desert&r. The Necklace is hidden within suspicious sand in the Cursed Pyramid. Use the &6Eye of Desert&r to locate the Cursed Pyramid."
+			]
+			icon: "cataclysm:remnant_skull"
+			id: "52C9EED9E31E0821"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72F2B13772D2A6F9"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					entity: "cataclysm:ancient_remnant"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "cataclysm:item/remnant_skull"
+						}
+					}
+					id: "67AECE3E0E742657"
+					title: "&4★★★★★ Ancient Remnant!"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:kobolediator"
+					icon: "cataclysm:kobolediator_skull"
+					id: "04BB2C627D2BFDD4"
+					title: "&7Kobolediator (Miniboss)"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:wadjet"
+					icon: "cataclysm:necklace_of_the_desert"
+					id: "1E490DF2124846E9"
+					title: "&7Wadjet (Miniboss)"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 22.5d
+			y: -8.5d
+		}
+		{
+			description: [
+				"&4Ignis&r is one of, if not &othe greatest&r adversary within &6Integrated Minecraft&r. Taking on this foe requires careful preparation and a strong understanding of his mechanics. The &4Ignis&r is a god-like being, perhaps even a god itself. No one has ever returned from setting off to battle this foe, so there is little information to go off of. So utterly threatening is the Ignis, that only it and its bodyguards reside within the &4Burning Arena&r. Wither Skeletons, Piglins, and Ghasts are all too afraid to enter. Are you?"
+				"{@pagebreak}"
+				"To summon Ignis, you will need to first slay his bodyguards, the Ignited Revenants. They will drop Burning Ashes which can be used on the Altar of Fire to summon Ignis. Use the &6Eye of Flame&r to locate the Burning Arena within the &4Nether&r."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "cataclysm:textures/mob_effect/blazing_brand.png"
+				}
+			}
+			id: "70D116BC58038638"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F550B61763BAD0B"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					entity: "cataclysm:ignis"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "cataclysm:textures/mob_effect/blazing_brand.png"
+						}
+					}
+					id: "053089FCAE07797B"
+					title: "&4★★★★★ Ignis!"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:ignited_revenant"
+					icon: "cataclysm:burning_ashes"
+					id: "5DE00ED4136019FE"
+					title: "&7Ignited Revenant (Miniboss)"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 22.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"A warrior Angel once upon a time who became corrupted by power and greed. Kicked out of its celestial home and forced to live in a &bFrosted Prison&r in the Overworld, &bMaledictus&r became a tyrannical lord. Eventually all the citizens nearby fled leaving only &bMaledictus&r and his most faithful warriors behind. Now &bMaledictus&r spends his days asleep, dreaming of his return home where he plans to wage war on those who wronged him."
+				"{@pagebreak}"
+				"To wake Maledictus, r-click on his grave within the Frosted Prison in the &2Overworld&r. Use an &6Eye of Curse&r to locate the Frosted Prison."
+			]
+			icon: "cataclysm:cursed_eye"
+			id: "2B5C13373769BEC0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FAC8A7DBF42B8CB"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					entity: "cataclysm:maledictus"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "cataclysm:item/cursed_eye"
+						}
+					}
+					id: "7ACD50895C5797F7"
+					title: "&c★★★★☆ Maledictus!"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:aptrgangr"
+					icon: "cataclysm:aptrgangr_head"
+					id: "29D351F1C9B4A160"
+					title: "&7Aptrgangr (Miniboss)"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 14.0d
+			y: -7.0d
+		}
+		{
+			description: [
+				"Think the &3Adjudicator&r was difficult? His successor is even worse. More powerful than an evoker and adjudicator combined, this Illager leader lives within the &dPillager Fortress&r. Despite his great strengths, defeating just him is not the only hard part. He is protected by legions of marauders, vindicators, ravagers, and more. To get to the &eInvoker&r, one must be prepared. "
+				"{@pagebreak}"
+				"The &eInvoker&r spawns at the top of the &dPillager Fortress&r."
+			]
+			id: "340AEA7194551724"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "560E554861948893"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "illagerinvasion:invoker"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "illagerinvasion:item/primal_essence"
+					}
+				}
+				id: "58B5B5AAF1DA074D"
+				title: "&6★★★☆☆ Invoker!"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.5d
+			y: -5.5d
+		}
+		{
+			description: ["Ruler of the Dreadlands, the &bDread Queen&r uses her army to reign supreme over that icy and bitter dimension. But the Dreadlands has nothing left to conquer, and so she has turned her sights elsewhere. Now there are &bDread Citadels&r appearing in snowy lands across the Overworld. These looming structures house the &bDread Queen’s&r army, and in the throne room, the &bDread Queen&r herself."]
+			id: "103D3820A6270DC2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75FFD4E3237CE3D0"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: "bosses_of_mass_destruction:ancient_anima"
+				id: "2FE16D5755F41D92"
+				title: "&4★★★★★ Dread Queen!"
+				type: "kill"
+				value: 1L
+			}]
+			x: 21.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"It is unknown how the &aVoid Blossom&r came to be. Perhaps a science experiment gone wrong, toxic gas mixing with spore blossoms, or a dark warlock casting a spell. A sentient plant creature living deep within a dungeon. Although not as frightening as other hostiles found inside, it won’t be long before its vines and poisons bring death your way."
+				"{@pagebreak}"
+				"The &aVoid Blossom&r spawns within the &4&kAncient Mines&r."
+			]
+			id: "564D225B5F8DB57B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27B84A43BB1CC4CE"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "bosses_of_mass_destruction:block/void_lily"
+					}
+				}
+				id: "4BD380CB7832A455"
+				title: "&e★★☆☆☆ Void Blossom!"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -8.5d
+		}
+		{
+			description: [
+				"In times of old, Giants ruled the &4Nether&r. But now they are gone and only pieces remain. One such piece is the sentient gauntlet of the Giant King. Left behind in the remains of the King’s treasure room, the netherite glove became embedded into the stone in the center of the room. To awaken the gauntlet, mine a piece of the stone. Though the &4Nether Gauntlet&r may look a bit silly, don’t let it “hand” you a defeat. It will use powerful explosions and fire to take you down."
+				"{@pagebreak}"
+				"The &4Nether Gauntlet&r is found in the &4Gauntlet Arena&r. Break one of the blocks with eyes on it to spawn the &4Gauntlet&r."
+			]
+			id: "5F3B80A9E670FCEA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77D118D29895FFA2"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "bosses_of_mass_destruction:item/blazing_eye"
+					}
+				}
+				id: "610299615703415A"
+				title: "&c★★★★☆ Nether Gauntlet!"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: -8.5d
+		}
+		{
+			description: [
+				"A void being of unknown origin, the &5Obsidilith&r calls the End its home. It lives at the top of a large, cubic structure that floats in the void. Some think that this is to make it easier for the &5Obsidilith&r to defend its home. After all, not many creatures can survive in nothingness."
+				"{@pagebreak}"
+				"The &5Obsidilith&r can be spawned by placing an Eye of Ender into the Obsidian Altar at the top of the &5Obsidilith Arena&r."
+			]
+			id: "14BA1AFBE5DA8D59"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42722162EE01B270"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "bosses_of_mass_destruction:item/obsidian_heart"
+					}
+				}
+				id: "1B17EF3F278CDE6B"
+				title: "&c★★★★☆ Obsidilith!"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.5d
+			y: -8.5d
+		}
+		{
+			description: [
+				"For those who seek to explore and loot the &dPink Salt Shrine&r deep underground, be warned for it is protected against trespassers. The &dBerserker&r is the guardian of this shrine. What once was a normal zombie became fused with the pink salt within the shrine and turned into the behemoth it now is. It's rage and chaos unparalleled by any others within the cave."
+				"{@pagebreak}"
+				"The &dBerserker&r is in the &dPink Salt Shrine&r. This shrine spawns in pink salt caves, typically under mountainous biomes."
+			]
+			id: "614FBA80C927D14C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7170FC62CF746F7E"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "galosphere:berserker"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "galosphere:item/saltbound_tablet"
+					}
+				}
+				id: "2005B6DB95DF05FE"
+				title: "&a★☆☆☆☆ Berserker!"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"&eWildfire&r, the master of blazes, is protected by four blazing shields. The guardians of the &4Nether Citadel&r, &eWildfires&r bring a heated fight. This encounter is not a friendly one, watch out for its shield debris barrage and ground-shaking shockwave attack. When cornered, it summons blazes for reinforcement. "
+				"{@pagebreak}"
+				"The &eWildfire&r spawns within the &4Nether Citadel&r."
+			]
+			id: "36026009639E7142"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35A65C883448DFB5"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "friendsandfoes:wildfire"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "mynethersdelight:item/blazefire"
+					}
+				}
+				id: "42D1E8D878B1CBD2"
+				title: "&a★☆☆☆☆ Wildfire!"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"A monster with one body and six…no three…no nine heads. The &aHydra&r makes its lair in &2swampy&r biomes. The fog helping it to sneak up on and poison its prey. This creature will attack anything that moves, so you better hope it’s not got its sights set on you. If it does, make sure to keep it alight with fire, so that its heads do not multiply."
+				"{@pagebreak}"
+				"The &aHydra&r will spawn in its lair throughout &2swamp-like&r biomes."
+			]
+			id: "0DE14E15D9A336F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "123C7A9F59CA844D"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "iceandfire:hydra"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "iceandfire:item/hydra_venom"
+					}
+				}
+				id: "75103D0098FD5FF4"
+				title: "&e★★☆☆☆ Hydra!"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"The &aGorgon&r was once a beautiful woman but is now cursed into a monster and trapped within a deadly maze. But despite her appearance being a curse, she has slain many adventurers with her stony gaze. Avert your eyes, lest you fall to the same fate. "
+				"{@pagebreak}"
+				"The Gorgon is located within the &6&kLabyrinth&r."
+			]
+			id: "6AC6B49A1006475A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BFB7420FAB5A45E"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "iceandfire:gorgon"
+				icon: {
+					Count: 1
+					id: "iceandfire:gorgon_head"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "59B812BAB0279E25"
+				title: "&a★☆☆☆☆ Gorgon!"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			description: [
+				"&cRawwrh!&r"
+				"{@pagebreak}"
+				"Fire Dragons can be found in hot biomes such as deserts and mesas."
+			]
+			id: "0BBFE3A82C1D7086"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "185423D16E32EFF1"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "iceandfire:fire_dragon"
+				icon: "iceandfire:fire_dragon_heart"
+				id: "35338B12CA6C4AF3"
+				title: "&6★★★☆☆ Fire Dragon!"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"&bRawwrh!&r"
+				"{@pagebreak}"
+				"Ice Dragons can be found in cold biomes such as snowy plains and ice spikes."
+			]
+			id: "48A8BDBA503F6840"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0EF9F0E450D30461"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "iceandfire:ice_dragon"
+				icon: "iceandfire:ice_dragon_heart"
+				id: "5E394E70C0D121D1"
+				title: "&6★★★☆☆ Ice Dragon!"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: -7.0d
+		}
+		{
+			description: [
+				"&5Rawwrh!&r"
+				"{@pagebreak}"
+				"Lightning Dragons can be found anywhere in the Overworld as long as the altitude (y-level) is high enough."
+			]
+			id: "65B65FE2A989ADC8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59B2E56DA8359D0A"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "iceandfire:lightning_dragon"
+				icon: "iceandfire:lightning_dragon_heart"
+				id: "1DC1B9423F817374"
+				title: "&6★★★☆☆ Lightning Dragon!"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"&2Cyclopes&r are a species of one-eyed giants. Filled with a love for sheep and a hatred for humans, they stay in caves watching over their flocks. You may occasionally see one taking a stroll with their flock of sheep out in the plains. Brute force is their strength while vision is their weakness. It is said that an accurate shot towards its eye can leave the &2Cyclops&r blinded and stunned."
+				"{@pagebreak}"
+				"&2Cyclopes&r are most often found in their &7stoney coves&r along &ebeaches&r, but occasionally can be spotted roaming &2plains&r and &2savannas&r."
+			]
+			id: "0F9318C32E0B74F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38CF798FD106AE97"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "iceandfire:cyclops"
+				icon: {
+					Count: 1
+					id: "iceandfire:cyclops_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4F5C7EFF9FE3FEEA"
+				title: "&a★☆☆☆☆ Cyclops!"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -8.5d
+		}
+		{
+			description: [
+				"Though safe from these creatures on the surface, deep under the water is another story. Giant &9Eels&r lurk in the depths of the &bIce Maze&r. They prey on those who sought to build shelter deep in the ice to escape the bitter wind. These creatures have been cursed to forever haunt these shelters and attack any who enter. The &9Eel&r remains in the water below the shelters, but will leap out to attack anyone and anything nearby."
+				"{@pagebreak}"
+				"&9Eels&r spawn underneath &8&kShelters&r in the &bIce Maze&r. You must go down into the bottom of the &8&kShelter&r."
+			]
+			id: "07238D6DC2A5D89D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2195EC00207D143B"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "aquamirae:eel"
+				icon: "aquamirae:rune_of_the_storm"
+				id: "22469F61152B1181"
+				title: "&a★☆☆☆☆ Eel!"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			description: ["Residing within dark caves, the &4Mother of Spiders&r protects her kin. She is the last true descendant of &6Arachne&r and as such holds more power and abilities to the other arachnids you have encountered. The &4Mother&r poisons and slows her victims. She will also summon her children to help fight off attackers. Once defeated, she will leave behind a mess of her webs, and should you be lucky enough, one of her &cMandibles&r."]
+			id: "4C0BA7F1453A9EA8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "632D17F07C568C16"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:mother_spider"
+				icon: "born_in_chaos_v1:spider_mandible"
+				id: "44988B19BDEA6263"
+				title: "&a★☆☆☆☆ Spider Mother!"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			description: ["The &cMissionary&r is a powerful spirit sent to bring chaos to the Overworld. They were created for only one purpose: destroy the Overworld. With the power to control the weather and undead mobs, the &cMissionary&r will stop at nothing to achieve its goal. "]
+			id: "5D245128F6649E1C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61829C868D4514AE"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:missioner"
+				icon: {
+					Count: 1
+					id: "born_in_chaos_v1:missionary_hat_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "423B52E6D36585C1"
+				title: "&a★☆☆☆☆ Missionary!"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+	]
+	title: "Boss Codex"
+}

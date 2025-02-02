@@ -1,0 +1,13 @@
+{
+	id: "76FED81F7E1C1777"
+	loot_size: 1
+	order_index: 25
+	rewards: [
+		{ count: 4, item: "create:cogwheel", random_bonus: 4 }
+		{ count: 2, item: "create:large_cogwheel", random_bonus: 3 }
+		{ count: 2, item: "create:sturdy_sheet", random_bonus: 2 }
+		{ count: 2, item: "create:railway_casing", random_bonus: 3 }
+		{ count: 8, item: "create:track", random_bonus: 4 }
+	]
+	title: "Create Train"
+}

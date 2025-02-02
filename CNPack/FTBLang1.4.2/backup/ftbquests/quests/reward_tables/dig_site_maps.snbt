@@ -1,0 +1,40 @@
+{
+	id: "351EEAA072F465B1"
+	loot_size: 1
+	order_index: 19
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "target_x"
+					display: {
+						Name: "{\"text\":\"Dig Site Explorer Map\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "idas:dig_site/dig_site"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "target_x"
+					display: {
+						Name: "{\"text\":\"Desert Dig Site Explorer Map\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "idas:dig_site/dig_site_desert"
+					zoomLevel: 2
+				}
+			}
+		}
+	]
+	title: "Dig Site Maps"
+}

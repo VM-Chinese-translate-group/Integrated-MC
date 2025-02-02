@@ -1,0 +1,11 @@
+{
+	id: "619BFA1300CE13C0"
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{ item: "waystones:waystone" }
+		{ item: "waystones:mossy_waystone" }
+		{ item: "waystones:sandy_waystone" }
+	]
+	title: "Waystones"
+}

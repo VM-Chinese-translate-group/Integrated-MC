@@ -1,0 +1,360 @@
+{
+	autofocus_id: "786374C18337A919"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_brass_age"
+	group: "084C5D8A23021A7B"
+	icon: "create:brass_ingot"
+	id: "0FC8A45C8B69F6CF"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7EEB451F21DD14AE"]
+			description: ["More complex &eCreate&r components are crafted with precision machines. These machines are made by deploying a cogwheel, large cogwheel, and iron ingot (in that order) 5 times. Because these are so difficult to make, however, there is a chance that it will not succeed and you will instead get another item."]
+			hide_until_deps_complete: false
+			id: "2B4A9CFD716B5475"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "54DC3A8410893A89"
+					table_id: 4803157502738565325L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C4590F501FAEF9C"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "0DC741890C0FC241"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			title: "Precision Machine"
+			x: 13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["67EF8F4FAA3520C8"]
+			description: ["These wheels can only be crafted by a mechanical crafter due to their enormous size. When two crushing wheels are placed next to each other and rotate in opposite directions, they become an important part of automation. Crushing wheels will refine items thrown in at the top into their more basic components. Sometimes you can even get a bit more material out of the refined items. Chutes placed above and below the crushing wheels allow for items to automatically be input and output."]
+			hide_until_deps_complete: false
+			id: "55D11A9056859FDD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7D7C70941551EEF6"
+					table_id: 4803157502738565325L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D674B9F510CB87A"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "0EC9578610E2E13F"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			title: "Crushing Wheel"
+			x: 13.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4CA94FAA40ECF71D"]
+			description: [
+				"Sometimes just a regular crafting table doesn't cut it. You need something bigger and more mechanical! Mechanical crafters can be placed next to one another to make recipes larger than a 3x3 grid. Only one rotational force connection is needed as long as each mechanical crafter is connected in a grid. They can also be added to farms in order to automate crafting productions. Perfect for making an iron farm output blocks instead of ingots or nuggets!"
+				""
+				"The crafting process starts when every crafter has an item or when the crafter recieves a redstone input. Make sure that the arrows on the crafters are pointed ini a way that brings the slotted items together in the desired way. An exit point for the crafted item is also needed."
+				""
+				"&8&oThe Mechanical Villager&r &8&oIndustries is not liable in any way, shape, or form for any misuse, malpractice, workplace injuries, or random speaking of french that may arise from using this product. Use at your own risk!"
+			]
+			hide_until_deps_complete: false
+			id: "67EF8F4FAA3520C8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "44DB36CD162D0EC6"
+					table_id: 4803157502738565325L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7588AB68FB69A7A7"
+					table_id: 1030506019370660012L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 9L
+				id: "4B5CD575F30ED552"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			title: "Mechanical Crafters"
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			description: ["The first step to the brass age is creating brass. Makes sense, right? In order to make brass, you'll need to heat a basin using a blaze burner. Take your empty blaze burner into the nether and r-click a blaze with it. The blaze will now stay in the blaze burner indefinitely. Don't forget to feed it!"]
+			id: "6B1DEDA32CA51BAD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F50BE57E0812DD1"
+					table_id: 4803157502738565325L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C81EEA902DE1326"
+					table_id: 1030506019370660012L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "03A73BBD77DD100A"
+					item: "create:empty_blaze_burner"
+					type: "item"
+				}
+				{
+					id: "1ED8A03ACDF39E9E"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					id: "6FBC343F4BF945BA"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+			]
+			title: "Things are Heating Up!"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6B1DEDA32CA51BAD"]
+			description: ["In a heated basin, mix together copper and zinc. Place the basin on top of a blaze burner. R-click the blaze burner with fuel (coal, wood, blaze rod, etc.) to heat."]
+			id: "4CA94FAA40ECF71D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "36B5057C7E9A35CB"
+					table_id: 4803157502738565325L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A2F7A7F3C9DF950"
+					table_id: 1030506019370660012L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					count: 8L
+					id: "43899860BC21041C"
+					item: "create:brass_casing"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2E08DFEC4180CB30"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+			]
+			title: "Brass Casings and Ingots"
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4CA94FAA40ECF71D"]
+			description: ["These components act very similar to their vanilla/andesite counterparts, but with more options. Brass components allow for filtering by item type, size, etc. For more information on specific components, ponder the item."]
+			id: "786374C18337A919"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "092E677724D12EC9"
+					table_id: 4803157502738565325L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FFB41CF17D5DECF"
+					table_id: 1030506019370660012L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "3F6B1C15C15797A6"
+					item: "create:smart_chute"
+					type: "item"
+				}
+				{
+					id: "177904B8A9F3D0D7"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+				{
+					id: "1105F6A260C35EC3"
+					item: "create:brass_tunnel"
+					type: "item"
+				}
+				{
+					id: "532976259A523F7D"
+					item: "create:smart_fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "42CF1BCDFC7095C7"
+					item: "create:content_observer"
+					type: "item"
+				}
+			]
+			title: "\"Smart\" Items"
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4CA94FAA40ECF71D"]
+			description: [
+				"Deployers can act as a player when it comes the world interactions. They can use weapons like swords, and tools like shears. R-click with a wrench to toggle between acting as a l-click (attack/destroy) and r-click (place). R-click with the weapon/tool/item on the brass hand's hitbox to give it to the depoyer."
+				""
+				"Deployers are also a very important tool for recipe sequences. Many recipe  sequences require items to be deployed on whatever is processing. This works for items on belts and depots. Chutes placed above deployers can provide them with more items if needed."
+			]
+			id: "7EEB451F21DD14AE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0729913193E78DE3"
+					table_id: 4803157502738565325L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3994997250C32005"
+					table_id: 1030506019370660012L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "27EC0DC970ABDBBC"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2B4A9CFD716B5475"]
+			description: [
+				"Mechanical arms can move items between inventories as long as the inventory is \"open\" (belt, depot, funnel) and not \"closed\" (vault, chest, barrel). Input and output locations must be set before placing down the mechanicall arm. To do this, r-click once on the desired output inventory and r-click twice on the desired input inventory. There can be multiple input and output locations as long as they are within reach of the arm. "
+				""
+				"These arms cannot filter items themselves, but will follow the filters of brass funnels listed as input locations. This works especially well when paired with a mechanical crafter."
+			]
+			id: "1553EAB6E1821554"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1FB342516BD2132F"
+					table_id: 4803157502738565325L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E4791112C4F9724"
+					table_id: 1030506019370660012L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1EBCA3196CABBF55"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"2B4A9CFD716B5475"
+				"55D11A9056859FDD"
+			]
+			description: [
+				"Place the mechanical crafters in a grid like so:"
+				""
+				"  []"
+				"  []"
+				"[][][]"
+				"[][][]"
+				"  []"
+				""
+				"Input the crafting materials according to the EMI recipe. Be sure that the mechanical crafters are aligned so that the items will move correctly and have a point of exit. Use your new Extendo Grip in your offhand to have extra reach whenever you may need it. This might come in handy for mining, fighting, building, and more!"
+				""
+				"&l&bVoila!&r You have made a &l&eCreate Creation!&r"
+			]
+			id: "6BD65F35DF3DA446"
+			optional: true
+			rewards: [
+				{
+					id: "763C85CE4A90B1E2"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C50E2193BCB5B45"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Extendo Grip"
+			tasks: [
+				{
+					count: 9L
+					id: "0CD5226E539FEE84"
+					item: "create:mechanical_crafter"
+					type: "item"
+				}
+				{
+					id: "1EA9A3EE3844310F"
+					item: {
+						Count: 1
+						id: "create:extendo_grip"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Practice Time"
+			x: 15.5d
+			y: -1.0d
+		}
+	]
+	title: "The Brass Age"
+}

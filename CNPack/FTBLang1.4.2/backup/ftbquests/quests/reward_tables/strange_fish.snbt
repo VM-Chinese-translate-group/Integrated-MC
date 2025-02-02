@@ -1,0 +1,60 @@
+{
+	id: "558F5BB03CCB4B2F"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:lure"
+						lvl: 5s
+					}]
+				}
+			}
+			title: "Lure V"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:luck_of_the_sea"
+						lvl: 5s
+					}]
+				}
+			}
+			title: "Luck of the Sea V"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:ancient_tome"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:luck_of_the_sea"
+						lvl: 5s
+					}]
+				}
+			}
+			title: "Luck of the Sea"
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:ancient_tome"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:lure"
+						lvl: 5s
+					}]
+				}
+			}
+			title: "Lure"
+		}
+	]
+	title: "Strange Fish"
+}

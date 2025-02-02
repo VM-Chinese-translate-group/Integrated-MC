@@ -1,0 +1,613 @@
+{
+	default_hide_dependency_lines: true
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "towards_the_end_of_the_beginning"
+	group: "523BD734ACA98B4C"
+	icon: "minecraft:end_portal_frame"
+	id: "39FA816C9D8E9F58"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["The keys to the End have been scattered as 15 Eyes of Ender, all obtained through different ways. Only 12 are needed to open the End."]
+			disable_toast: true
+			icon: "minecraft:ender_eye"
+			id: "38E9931BC4307F61"
+			rewards: [{
+				id: "3169C159E5EF8552"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "2B28313EDF8B54F6"
+				title: "End Remastered"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38E9931BC4307F61"]
+			description: [
+				"As the &5Eyes&r provided a great source of power, merchants used &5Fragments of this Eye&r to power their ships. Yet, as with any relic of supreme power, there were those who sought to monopolize it."
+				""
+				"The first known accounts of Pirates where those who would attack merchant ships, hoping to steal &5Fragments of the Eye&r for themselves. Worse yet, there were accounts of mutinies carried out on merchant ships as ploys for power were made."
+				""
+				"&eThus, many of these &5Fragments &ewere sunk to the bottom of the sea, stored in &6Pirate caches&r&e, or otherwise might be found around the &6carcasses of pirate ships&r&e."
+			]
+			id: "57C70BD9DC5205C4"
+			rewards: [
+				{
+					id: "32ECB263E8D048B8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7433604EEFAEECCB"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			subtitle: "Found in Buried Treasure, Pirate Village, and Sunken Ships!"
+			tasks: [{
+				id: "262C616C2C108419"
+				item: {
+					Count: 1
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["38E9931BC4307F61"]
+			description: [
+				"The original bearer of this &5Eye&r once used it to carve out a domain of his own. He covered his land with a snowstorm so vicious that it would freeze any who would dare to enter."
+				""
+				"Though the bearer has long since past away, &ethe power of the &5Eye&r &estill permeates through the land, ocassionally concentrating deeply enough in some creatures to grant them abilities similar to the original bearer&r. Adventurers have colloquially termed these creatures &6Frostmaws&r. To this day, no one has been able to slay one..."
+			]
+			id: "12F23460A83BE2E6"
+			rewards: [
+				{
+					id: "73572BA595AC648A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "685C0DFAECC6039C"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			subtitle: "Obtained through slaying the Frostmaw!"
+			tasks: [{
+				id: "4613A54417D0C310"
+				item: {
+					Count: 1
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["38E9931BC4307F61"]
+			description: [
+				"Among those who sealed the &5Ender Dragon&r, one had joined for his own purposes. He believed the power granted by the &5Eyes&r would allow him the power to drive those who opposed him to their knees."
+				""
+				"As the Bearer exploited the Eye's power and as his own thoughts, feelings, and desires flowed into the &5Eye&r, the power within the &5Eye&r began taking on the Bearer's personality. In turn, using the &5Eye&r amplified everything the Bearer put into it, warping him beyond recognition. He became more violent, more ruthless, and more greedy. Overtime, the &5Eye&r fragmented, and its &5Fragments&r were passed down along the Bearer's lineage, leading to the creation of the &7Illagers&r. &eOnly &7Illager Royalty&r&e are privledged enough to obtain &5Fragments of this Eye&r&e, and they remain within the &5Illager Fortress&r&e, giving out orders across the land.&r"
+			]
+			id: "1ADC6CA35D35A4E9"
+			rewards: [
+				{
+					id: "686A9A72A6714CA0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "096A1FE839E54C34"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			subtitle: "Found in the Illager Fortress!"
+			tasks: [{
+				id: "271ECCB98E8B0C0D"
+				item: {
+					Count: 1
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["38E9931BC4307F61"]
+			description: [
+				"&eAdventurers commonly treat the &5Fragments of this Eye&r &eas a commodity, a marker of status&r. Only the greatest Adventurers are granted the privledge of holding a fragment. All those who have been granted &5Fragments&r have gone on to become legends of their era. However, it is said that once those Bearers settle down and retire, their &5Fragment&r mysteriously vanishes. Thus, to keep the legends going, &eBearers have a tradition of passing it on to the next generation, though only to those with a certain &6Reputation&e.&r"
+				""
+				"However, to this day, no one has been able to truly tap into its power."
+			]
+			id: "694706F0E768993C"
+			rewards: [
+				{
+					id: "67D8B01532631B3C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A92C223749C10A6"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			subtitle: "Obtained through the Bounty Board with a Reputation of greater than 15!"
+			tasks: [{
+				id: "514AA899670AB22C"
+				item: {
+					Count: 1
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["38E9931BC4307F61"]
+			description: [
+				"Just as the &5Cursed Eye&r was granted to the Pigkin for their aid in the sealing of the &5Ender Dragon&r, so to was the &5Nether Eye&r. For Millenia, this &5Eye&r remained intact, acting as a central pillar of the Pigkin community. "
+				""
+				"Yet, overtime, as expansion throughout the &4Nether&r continued, there were those who thought it'd be best to fragment this &5Eye&r, so its power could be applied in other places. This eventually became the majority sentiment, as so it was done. Expansion increased dramatically, and &eNether Fortresses&r sprung up everywhere, cementing the Pigkin as a dominant force. Yet, as all things do, things went wrong. "
+				"{@pagebreak}"
+				"As the &5War of Hel and Stone&r began, the Fortresses became a center point of the battle and the &5Fragments of the Nether Eye&r were used. While a potent weapon, its true value lied in the enhancing properties it granted. Pigkin bearing the Eye grew taller, hit harder, and would overcome death itself. "
+				""
+				"Now knowing its power, the &4Pigkin of the Fortresses&r grew protective of their &5Fragments&r, even turning away other Pigkin, eventually resulting an a civil war between the two fractions. The &8Pigkin of the Bastions&r, now known as Piglins, were decimated and forced into hiding. Yet, those of the &4Fortress&r weren't unscathe too. Their excessive use of the &5Eye&r warped them beyond recognition. While their death defying capabilities were once a blessing, now they had become a curse, as their flesh decayed, taking their minds with it. Their only remaining thought was \"Protect the &5Nether Eye&r\"."
+			]
+			hide_dependency_lines: true
+			id: "07E54C1FB967CBF0"
+			rewards: [
+				{
+					id: "012187F7EA0DBF7A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A0C6A9C39D85F9C"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			subtitle: "Found in Nether Fortresses!"
+			tasks: [{
+				id: "0D3CD226490EDCE4"
+				item: {
+					Count: 1
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["38E9931BC4307F61"]
+			description: [
+				"There was once a Pharaoh who sought immortality. In this pursuit, he eventually stumbled upon a &5Fragment of an Eye&r, buried amongst the sands. It appeared before him, as if to tempt him. Immediately recognizing the &5Eye&r as a relic of immense power, he immediately grabbed it. As he did, forbidden knowledge flowed into his head, whispering of other races in other worlds, of secrets, of immortality."
+				""
+				"While he did eventually find a way to cheat death, it wasn't the true immortality he sought. And one day, his machinations caught up to him and he was killed permanently. &eEver since then, the &5Fragment of the Eye&r&e has lied dormant at his burial site..."
+				""
+				"&eSome speculate that the &5Fragments of this Eye&r&e and the insight it grants are the fuel behind the Deathworms that plague the Desert. As the fluid produced by killing Deathworms is well known for being involved in rituals of forsight.&r"
+			]
+			id: "5250E3D2EE1DE794"
+			rewards: [
+				{
+					id: "6AD118B8F0FB2205"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "567AE69EDAE03039"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			subtitle: "Found in the Desert Labyrinth or Dropped by Large Deathworms!"
+			tasks: [{
+				id: "012629DCA79F361F"
+				item: {
+					Count: 1
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38E9931BC4307F61"]
+			description: ["&5The Tinker&r &eused the &5Fragments of this Eye&r &eto unlock a higher creative energy within themself&r. It is said it was originally used by ancient people to build advanced machines of immense redstone and rotational power."]
+			hide_dependency_lines: true
+			id: "1E18A77B4B8174BA"
+			rewards: [
+				{
+					id: "080E35EECF1A8D63"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "627FC1E0E8130DA8"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			subtitle: "Found in the Tinker's Workshop"
+			tasks: [{
+				id: "7F348AE3688054AE"
+				item: {
+					Count: 1
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["38E9931BC4307F61"]
+			description: ["&5The Pigkin&r &ehave protected &5Fragments of this Eye&r &efor generations&r. It is said they once used its power to extract many valuable resources from the nether and build their empire. The bastions are all that remain of the expansive control they had over the nether. "]
+			hide_dependency_lines: true
+			id: "460E2F310507A17F"
+			rewards: [
+				{
+					id: "7CC091BE2FA43917"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41112D80B38B0778"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			subtitle: "Obtained through Piglin Bartering and found in Bastions"
+			tasks: [{
+				id: "315D655882D31338"
+				item: {
+					Count: 1
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["38E9931BC4307F61"]
+			description: [
+				"The &5Fragments of this Eyes&r was given to the &6Clerics&r of each Village for safekeeping and to fuel their magic. Though its true origin and power was forgotten, &6Clerics &eregularly infuse &5Vessels&r with &5Fragments&r of its power, creating more talismen that can tap into the original source."
+				""
+				"&eHowever, only the most trusted are given this opportunity.&r"
+			]
+			id: "73F858344B4A39FF"
+			rewards: [
+				{
+					id: "55022F6D52508DEC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33BD972B1C3E152E"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			subtitle: "Obtained through trading with a Master level Cleric"
+			tasks: [{
+				id: "044AE1083FBE8B1B"
+				item: {
+					Count: 1
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["38E9931BC4307F61"]
+			description: [
+				"The Temples lining the sea were once considered places of worship. To protect these Temples, the architects used the power of one of the original &5Eyes of Ender&r to create the Guardians."
+				""
+				"While the power is too dilute to be noticed in most normal Guardians, those that have survived for a long time have enough concentrated energy to inflict curse on all who approach the Temple. &eOne can recollect &5Fragments of this Eye&r &eby pressing a &5Vessel&r &eto the eye of an &6Elder Guardian&e.&r"
+			]
+			id: "6498AEED17F07B33"
+			rewards: [
+				{
+					id: "61BDBD06A30EF370"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E22356282B92668"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			subtitle: "Obtain by combining Elder Eyes with Eyes of Ender!"
+			tasks: [{
+				id: "3C683584ABACD3E6"
+				item: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["38E9931BC4307F61"]
+			description: [
+				"At the height of her power, the Primordial Wizard shattered this &5Eye&r, spreading its &5Fragments&r throughout the land and laying the foundation for Magic as we know it. However, never knowing when she may once again need it, she left a way to tap into its power. &eBy combining the &6Essences of Magic&e, a &5Vessel&e could be filled and act as a conduit&r."
+				""
+				"Though this was kept secret, those who study Magic would eventually discover this method, exploiting it for their own purposes..."
+			]
+			id: "0DEB4C96E26A317A"
+			rewards: [
+				{
+					id: "6C8B69A67474F25B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4EBF64293526FCD1"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			subtitle: "Obtained through combining all the essences in the Enchanting Apparatus!"
+			tasks: [{
+				id: "543F93E3E5697EDB"
+				item: {
+					Count: 1
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["38E9931BC4307F61"]
+			description: [
+				"&5Fragments of this &5Eye&r were cast into the fires of the &4Nether&r. There, its hatred grew and grew. The souls in the soil around it responded to this hatred in kind, rising up with &7bones stained black&r. "
+				""
+				"&eShould enough of these bones be brought together and given form, perhaps one would be able to create a simulacrum of this Eye&r. Though, with such condensed power and more souls to manipulate, there's no telling what could happen."
+			]
+			id: "4D72253029FC6F22"
+			rewards: [
+				{
+					id: "76A42D260D35F55A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C611691393449C2"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			subtitle: "Obtained through killing the Wither!"
+			tasks: [{
+				id: "4D6ABC55B032783F"
+				item: {
+					Count: 1
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["38E9931BC4307F61"]
+			description: [
+				"One of the factions responsible for sealing the &5Ender Dragon&r were the &6Witches of the Swamplands&r. Thus, they were given one of the &5Eyes&r to safeguard. "
+				""
+				"Sadly, it seems that overtime it corrupted them, causing them to view Villagers and other allies as horrendous monstrosities. The &5Eye&r was eventually fragmented and the original Witch Circle broke up into many sects. "
+				""
+				"&ePerhaps if one could gain a Witch's trust, they'd be able to obtain a fragment of this &5Eye&r. &eThough, one would have to find a way around the &5Eye's Corruption&r&e."
+			]
+			id: "3ACF72A3235361FA"
+			rewards: [
+				{
+					id: "474042429F7A8FE2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77B7A9F2372F140A"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			subtitle: "Obtained through Witch Haggling!"
+			tasks: [{
+				id: "42E85E081600E37A"
+				item: {
+					Count: 1
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["38E9931BC4307F61"]
+			description: [
+				"To ensure the continued existence of this &5Eye&r, its &5Fragments&r were imbued into the living. Unfortunately, its power was too great and as its initial bearers died, the power seeping from the &5Fragments&r brought them back to life."
+				""
+				"While no more bearers are created, it is also impossible to truly destroy the current ones. They may vanish for a time, but they are always brought back. &eThough, brewing together some of their parts and providing an empty &5Vessel&r &ecan allow one to create a simulacrum of the original."
+			]
+			id: "7D84E41526BDDD94"
+			rewards: [
+				{
+					id: "5DD0E89404F43DD4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C8C48D19329DDEB"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			subtitle: "Obtained through cooking multiple Undead drops!"
+			tasks: [{
+				id: "731EE21E85404A70"
+				item: {
+					Count: 1
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["38E9931BC4307F61"]
+			description: [
+				"This &5Eye&r was fragmented shortly after the Ender Dragon was sealed. It permated the land, often pooling in areas commonly known to attract the attention of its inhabitants."
+				""
+				"&eBy presenting a &5Vessel&r &ewith ample material from various rare biomes, one can obtain a &5Fragment of this Eye&r&e."
+			]
+			id: "6B17330480CD9698"
+			rewards: [
+				{
+					id: "4CD8559E25BD0188"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4DF3E7C4EC19FDEF"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			subtitle: "Obtained through crafting together many exotic items!"
+			tasks: [{
+				id: "5B4AF9AC5BDFDDCC"
+				item: {
+					Count: 1
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38E9931BC4307F61"]
+			description: ["No one knows how, when, or where this Eye was shattered. &eThough, there have been reports of it showing up randomly once adventurers reach their goals.&r"]
+			id: "6A3D26E733E636E7"
+			rewards: [
+				{
+					id: "1B9D63039E3DC3F2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F069770C10FF1A3"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			subtitle: "Rarely obtained through Randomized Rewards!"
+			tasks: [{
+				id: "4A9F07B0D070E74E"
+				item: {
+					Count: 1
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+	]
+	title: "To the End of the Beginning"
+}

@@ -1,0 +1,360 @@
+{
+	autofocus_id: "786374C18337A919"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_brass_age"
+	group: "084C5D8A23021A7B"
+	icon: "create:brass_ingot"
+	id: "0FC8A45C8B69F6CF"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7EEB451F21DD14AE"]
+			description: ["{ftbquests.chapter.the_brass_age.quest1.description1}"]
+			hide_until_deps_complete: false
+			id: "2B4A9CFD716B5475"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "54DC3A8410893A89"
+					table_id: 4803157502738565325L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C4590F501FAEF9C"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "0DC741890C0FC241"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_brass_age.quest1.title}"
+			x: 13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["67EF8F4FAA3520C8"]
+			description: ["{ftbquests.chapter.the_brass_age.quest2.description1}"]
+			hide_until_deps_complete: false
+			id: "55D11A9056859FDD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7D7C70941551EEF6"
+					table_id: 4803157502738565325L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D674B9F510CB87A"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "0EC9578610E2E13F"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_brass_age.quest2.title}"
+			x: 13.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4CA94FAA40ECF71D"]
+			description: [
+				"{ftbquests.chapter.the_brass_age.quest3.description1}"
+				""
+				"{ftbquests.chapter.the_brass_age.quest3.description2}"
+				""
+				"{ftbquests.chapter.the_brass_age.quest3.description3}"
+			]
+			hide_until_deps_complete: false
+			id: "67EF8F4FAA3520C8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "44DB36CD162D0EC6"
+					table_id: 4803157502738565325L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7588AB68FB69A7A7"
+					table_id: 1030506019370660012L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 9L
+				id: "4B5CD575F30ED552"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_brass_age.quest3.title}"
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			description: ["{ftbquests.chapter.the_brass_age.quest4.description1}"]
+			id: "6B1DEDA32CA51BAD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F50BE57E0812DD1"
+					table_id: 4803157502738565325L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C81EEA902DE1326"
+					table_id: 1030506019370660012L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "03A73BBD77DD100A"
+					item: "create:empty_blaze_burner"
+					type: "item"
+				}
+				{
+					id: "1ED8A03ACDF39E9E"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					id: "6FBC343F4BF945BA"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_brass_age.quest4.title}"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6B1DEDA32CA51BAD"]
+			description: ["{ftbquests.chapter.the_brass_age.quest5.description1}"]
+			id: "4CA94FAA40ECF71D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "36B5057C7E9A35CB"
+					table_id: 4803157502738565325L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A2F7A7F3C9DF950"
+					table_id: 1030506019370660012L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					count: 8L
+					id: "43899860BC21041C"
+					item: "create:brass_casing"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2E08DFEC4180CB30"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_brass_age.quest5.title}"
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4CA94FAA40ECF71D"]
+			description: ["{ftbquests.chapter.the_brass_age.quest6.description1}"]
+			id: "786374C18337A919"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "092E677724D12EC9"
+					table_id: 4803157502738565325L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FFB41CF17D5DECF"
+					table_id: 1030506019370660012L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "3F6B1C15C15797A6"
+					item: "create:smart_chute"
+					type: "item"
+				}
+				{
+					id: "177904B8A9F3D0D7"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+				{
+					id: "1105F6A260C35EC3"
+					item: "create:brass_tunnel"
+					type: "item"
+				}
+				{
+					id: "532976259A523F7D"
+					item: "create:smart_fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "42CF1BCDFC7095C7"
+					item: "create:content_observer"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_brass_age.quest6.title}"
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4CA94FAA40ECF71D"]
+			description: [
+				"{ftbquests.chapter.the_brass_age.quest7.description1}"
+				""
+				"{ftbquests.chapter.the_brass_age.quest7.description2}"
+			]
+			id: "7EEB451F21DD14AE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0729913193E78DE3"
+					table_id: 4803157502738565325L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3994997250C32005"
+					table_id: 1030506019370660012L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "27EC0DC970ABDBBC"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2B4A9CFD716B5475"]
+			description: [
+				"{ftbquests.chapter.the_brass_age.quest8.description1}"
+				""
+				"{ftbquests.chapter.the_brass_age.quest8.description2}"
+			]
+			id: "1553EAB6E1821554"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1FB342516BD2132F"
+					table_id: 4803157502738565325L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E4791112C4F9724"
+					table_id: 1030506019370660012L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1EBCA3196CABBF55"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"2B4A9CFD716B5475"
+				"55D11A9056859FDD"
+			]
+			description: [
+				"{ftbquests.chapter.the_brass_age.quest9.description1}"
+				""
+				"{ftbquests.chapter.the_brass_age.quest9.description2}"
+				"{ftbquests.chapter.the_brass_age.quest9.description3}"
+				"{ftbquests.chapter.the_brass_age.quest9.description4}"
+				"{ftbquests.chapter.the_brass_age.quest9.description5}"
+				"{ftbquests.chapter.the_brass_age.quest9.description6}"
+				""
+				"{ftbquests.chapter.the_brass_age.quest9.description7}"
+				""
+				"{ftbquests.chapter.the_brass_age.quest9.description8}"
+			]
+			id: "6BD65F35DF3DA446"
+			optional: true
+			rewards: [
+				{
+					id: "763C85CE4A90B1E2"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C50E2193BCB5B45"
+					table_id: 9108404116502109620L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.the_brass_age.quest9.subtitle}"
+			tasks: [
+				{
+					count: 9L
+					id: "0CD5226E539FEE84"
+					item: "create:mechanical_crafter"
+					type: "item"
+				}
+				{
+					id: "1EA9A3EE3844310F"
+					item: {
+						Count: 1
+						id: "create:extendo_grip"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_brass_age.quest9.title}"
+			x: 15.5d
+			y: -1.0d
+		}
+	]
+	title: "{ftbquests.chapter.the_brass_age.title}"
+}

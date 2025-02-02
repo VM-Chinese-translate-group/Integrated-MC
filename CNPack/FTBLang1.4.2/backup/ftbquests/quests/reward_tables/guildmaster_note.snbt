@@ -1,0 +1,24 @@
+{
+	id: "0F298BDE869F4808"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{ count: 32, item: "minecraft:emerald" }
+		{ count: 64, item: "apotheosis:obsidian_arrow" }
+		{ count: 5, item: "minecraft:diamond" }
+		{ count: 3, item: "farmersdelight:shepherds_pie_block" }
+		{
+			count: 3
+			item: {
+				Count: 1
+				id: "bountiful:decree"
+				tag: {
+					"bountiful:decree_data": "{}"
+				}
+			}
+		}
+		{ count: 10, item: "create_enchantment_industry:hyper_experience_bottle" }
+		{ item: "iceandfire:sapphire_gem" }
+	]
+	title: "Guildmaster Note"
+}

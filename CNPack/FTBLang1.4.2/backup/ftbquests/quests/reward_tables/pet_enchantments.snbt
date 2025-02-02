@@ -1,0 +1,203 @@
+{
+	id: "466A095B8D600168"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "domesticationinnovation:healing_aura"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Healing Aura I"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "domesticationinnovation:ore_scenting"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Ore Scenting I"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "domesticationinnovation:intimidation"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Intimidation I"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "domesticationinnovation:rejuvenation"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Rejuvenation"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "domesticationinnovation:tethered_teleport"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Tethered Teleport"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "domesticationinnovation:psychic_wall"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Psychic Wall I"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "domesticationinnovation:defusal"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Defusal I"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "domesticationinnovation:shadow_hands"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Shadow Hands I"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "domesticationinnovation:charisma"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Charismatic I"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "domesticationinnovation:vampire"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Vampires Familiar I"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "domesticationinnovation:herding"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Herding I"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "domesticationinnovation:speedster"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Speedster I"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "domesticationinnovation:chain_lightning"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Chain Lightning I"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "domesticationinnovation:immunity_frame"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Immunity Frame I"
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "domesticationinnovation:health_boost"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "Extra Health I"
+		}
+	]
+	title: "Pet Enchantments"
+}

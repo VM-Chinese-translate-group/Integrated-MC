@@ -1,0 +1,13 @@
+{
+	id: "7C52DF23AC21A9AE"
+	loot_size: 1
+	order_index: 22
+	rewards: [
+		{ count: 3, item: "create:cogwheel", random_bonus: 3 }
+		{ item: "create:large_cogwheel", random_bonus: 2, title: "1-3x Large Cogwheel" }
+		{ count: 5, item: "minecraft:copper_ingot", random_bonus: 5 }
+		{ count: 3, item: "create:fluid_pipe", random_bonus: 5 }
+		{ item: "create:mechanical_pump" }
+	]
+	title: "Create Copper"
+}

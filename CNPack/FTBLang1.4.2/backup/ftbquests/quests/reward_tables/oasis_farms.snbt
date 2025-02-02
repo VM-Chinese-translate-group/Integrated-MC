@@ -1,0 +1,11 @@
+{
+	id: "06920E0AF583624F"
+	loot_size: 1
+	order_index: 17
+	rewards: [
+		{ count: 3, item: "farmersdelight:mixed_salad" }
+		{ count: 3, item: "farmersdelight:hamburger" }
+		{ count: 5, item: "farmersdelight:smoked_ham" }
+	]
+	title: "Oasis Farms"
+}

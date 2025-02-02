@@ -1,0 +1,1155 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dark_arts"
+	group: "009BCA07CC6CD4ED"
+	icon: "forbidden_arcanus:dark_matter"
+	id: "0055F64FAE7E0B4D"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.dark_arts.quest1.description1}"
+				""
+				"{ftbquests.chapter.dark_arts.quest1.description2}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.dark_arts.quest1.description3}"
+				""
+				"{ftbquests.chapter.dark_arts.quest1.description4}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.dark_arts.quest1.description5}"
+				"{ftbquests.chapter.dark_arts.quest1.description6}"
+				"{ftbquests.chapter.dark_arts.quest1.description7}"
+				"{ftbquests.chapter.dark_arts.quest1.description8}"
+				"{ftbquests.chapter.dark_arts.quest1.description9}"
+				"{ftbquests.chapter.dark_arts.quest1.description10}"
+				"{ftbquests.chapter.dark_arts.quest1.description11}"
+				"{ftbquests.chapter.dark_arts.quest1.description12}"
+				"{ftbquests.chapter.dark_arts.quest1.description13}"
+				"{ftbquests.chapter.dark_arts.quest1.description14}"
+				"{ftbquests.chapter.dark_arts.quest1.description15}"
+				""
+				"{ftbquests.chapter.dark_arts.quest1.description16}"
+				"{ftbquests.chapter.dark_arts.quest1.description17}"
+				"{ftbquests.chapter.dark_arts.quest1.description18}"
+				"{ftbquests.chapter.dark_arts.quest1.description19}"
+				"{ftbquests.chapter.dark_arts.quest1.description20}"
+				"{ftbquests.chapter.dark_arts.quest1.description21}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.dark_arts.quest1.description22}"
+				"{ftbquests.chapter.dark_arts.quest1.description23}"
+				"{ftbquests.chapter.dark_arts.quest1.description24}"
+				"{ftbquests.chapter.dark_arts.quest1.description25}"
+				"{ftbquests.chapter.dark_arts.quest1.description26}"
+				"{ftbquests.chapter.dark_arts.quest1.description27}"
+				"{ftbquests.chapter.dark_arts.quest1.description28}"
+				"{ftbquests.chapter.dark_arts.quest1.description29}"
+				""
+				"{ftbquests.chapter.dark_arts.quest1.description30}"
+				"{ftbquests.chapter.dark_arts.quest1.description31}"
+				"{ftbquests.chapter.dark_arts.quest1.description32}"
+				"{ftbquests.chapter.dark_arts.quest1.description33}"
+				"{ftbquests.chapter.dark_arts.quest1.description34}"
+				"{ftbquests.chapter.dark_arts.quest1.description35}"
+				"{ftbquests.chapter.dark_arts.quest1.description36}"
+				"{ftbquests.chapter.dark_arts.quest1.description37}"
+				"{ftbquests.chapter.dark_arts.quest1.description38}"
+				"{ftbquests.chapter.dark_arts.quest1.description39}"
+			]
+			icon: "forbidden_arcanus:hephaestus_forge"
+			id: "4150E861C50B3BC9"
+			rewards: [
+				{
+					count: 10
+					id: "135B6585FB3FE3DF"
+					item: "forbidden_arcanus:soul"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0EE2A100BA45B757"
+					item: "forbidden_arcanus:xpetrified_orb"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.dark_arts.quest1.subtitle}"
+			tasks: [
+				{
+					count: 9L
+					id: "08F9A8FEFD50E3B2"
+					item: "forbidden_arcanus:arcane_chiseled_polished_darkstone"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4DAE8615AA32A2DF"
+					item: "forbidden_arcanus:chiseled_arcane_polished_darkstone"
+					type: "item"
+				}
+				{
+					id: "17A4F585B6571FF2"
+					item: "forbidden_arcanus:mundabitur_dust"
+					type: "item"
+				}
+				{
+					id: "59C159D93759F7E3"
+					item: "minecraft:smithing_table"
+					type: "item"
+				}
+				{
+					count: 48L
+					id: "36A1CE0C7C19A6FD"
+					item: "forbidden_arcanus:polished_darkstone"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "438B0FCB6CC599E8"
+					item: "forbidden_arcanus:darkstone_pedestal"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.dark_arts.quest1.title}"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4150E861C50B3BC9"]
+			description: [
+				"{ftbquests.chapter.dark_arts.quest2.description1}"
+				""
+				"{ftbquests.chapter.dark_arts.quest2.description2}"
+				""
+				"{@pagebreak}"
+				"{ftbquests.chapter.dark_arts.quest2.description3}"
+				""
+				"{ftbquests.chapter.dark_arts.quest2.description4}"
+				""
+				"{ftbquests.chapter.dark_arts.quest2.description5}"
+				""
+				"{ftbquests.chapter.dark_arts.quest2.description6}"
+				""
+				"{ftbquests.chapter.dark_arts.quest2.description7}"
+				""
+				"{ftbquests.chapter.dark_arts.quest2.description8}"
+				""
+				"{ftbquests.chapter.dark_arts.quest2.description9}"
+				""
+				"{ftbquests.chapter.dark_arts.quest2.description10}"
+			]
+			hide_dependency_lines: false
+			id: "1A4A60AA59D64147"
+			rewards: [
+				{
+					count: 10
+					id: "4412B5DCFFE52565"
+					item: "forbidden_arcanus:arcane_crystal_block"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0F7E6A52DF6A6F15"
+					item: "forbidden_arcanus:xpetrified_orb"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "3A4603BDC43819B8"
+					item: "forbidden_arcanus:enchanted_soul"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.dark_arts.quest2.subtitle}"
+			tasks: [
+				{
+					id: "567C98A9AFFE5009"
+					item: "forbidden_arcanus:artisan_relic"
+					type: "item"
+				}
+				{
+					id: "51EDC4CCA9B62D6B"
+					item: "forbidden_arcanus:crescent_moon"
+					type: "item"
+				}
+				{
+					id: "123E9D07D7E4328F"
+					item: "forbidden_arcanus:crimson_stone"
+					type: "item"
+				}
+				{
+					id: "034A7447DB62FD78"
+					item: "forbidden_arcanus:elementarium"
+					type: "item"
+				}
+				{
+					id: "5D69E321B4AB7F08"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "706BB9465D70B066"
+					item: "hexerei:blood_sigil"
+					type: "item"
+				}
+				{
+					id: "399812343764E74E"
+					item: "eidolon:unholy_symbol"
+					type: "item"
+				}
+				{
+					id: "56375CFB83BEE5D4"
+					item: "eidolon:holy_symbol"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.dark_arts.quest2.title}"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4150E861C50B3BC9"]
+			description: [
+				"{ftbquests.chapter.dark_arts.quest3.description1}"
+				""
+				"{ftbquests.chapter.dark_arts.quest3.description2}"
+				""
+				"{ftbquests.chapter.dark_arts.quest3.description3}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.dark_arts.quest3.description4}"
+				""
+				"{ftbquests.chapter.dark_arts.quest3.description5}"
+				""
+				"{ftbquests.chapter.dark_arts.quest3.description6}"
+				""
+				"{ftbquests.chapter.dark_arts.quest3.description7}"
+				""
+				"{ftbquests.chapter.dark_arts.quest3.description8}"
+			]
+			id: "0B1FFCF9EF4ED910"
+			rewards: [{
+				id: "5667F7B3CE6A43C6"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:eternal_stella"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.dark_arts.quest3.subtitle}"
+			tasks: [
+				{
+					id: "3EB1E29A98FBC221"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:smelter_prism"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "157F5997176F6213"
+					item: "forbidden_arcanus:whirlwind_prism"
+					type: "item"
+				}
+				{
+					id: "474A9823E8424ED2"
+					item: "forbidden_arcanus:terrastomp_prism"
+					type: "item"
+				}
+				{
+					id: "574A5694A81F57FE"
+					item: "forbidden_arcanus:sea_prism"
+					type: "item"
+				}
+				{
+					id: "542B03823C43F640"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:eternal_stella"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.dark_arts.quest3.title}"
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["16B12A291E165ECE"]
+			description: [
+				"{ftbquests.chapter.dark_arts.quest4.description1}"
+				""
+				"{ftbquests.chapter.dark_arts.quest4.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "forbidden_arcanus:mystical_dagger"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0878CBFC2F121405"
+			rewards: [{
+				id: "33C535474C39F65D"
+				item: "hexerei:blood_bottle"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.dark_arts.quest4.subtitle}"
+			tasks: [
+				{
+					id: "79F34159FF01BEBB"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:mystical_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39066ED6A2B368F2"
+					item: "forbidden_arcanus:test_tube"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.dark_arts.quest5.description1}"
+				""
+				"{ftbquests.chapter.dark_arts.quest5.description2}"
+				"{ftbquests.chapter.dark_arts.quest5.description3}"
+				""
+				"{ftbquests.chapter.dark_arts.quest5.description4}"
+				""
+				"{ftbquests.chapter.dark_arts.quest5.description5}"
+				""
+				"{@pagebreak}"
+				"{ftbquests.chapter.dark_arts.quest5.description6}"
+			]
+			icon: {
+				Count: 1
+				id: "hexerei:book_of_shadows"
+				tag: {
+					bookmarks: { }
+					chapter: 0
+					opened: 0b
+					page: 0
+				}
+			}
+			id: "16B12A291E165ECE"
+			rewards: [{
+				id: "25EA71522A6DC43D"
+				item: "hexerei:book_of_shadows_altar"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.dark_arts.quest5.subtitle}"
+			tasks: [
+				{
+					id: "0F2897D1AA6EB9BE"
+					item: {
+						Count: 1
+						id: "hexerei:book_of_shadows"
+						tag: {
+							bookmarks: { }
+							chapter: 0
+							opened: 0b
+							page: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48F1F45DE561EAFC"
+					item: "hexerei:mixing_cauldron"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.dark_arts.quest5.title}"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16B12A291E165ECE"]
+			description: [
+				"{ftbquests.chapter.dark_arts.quest6.description1}"
+				""
+				"{ftbquests.chapter.dark_arts.quest6.description2}"
+			]
+			id: "0E9AEA014A72691F"
+			rewards: [{
+				count: 5
+				id: "35CAAF0BE2138463"
+				item: "hexerei:sage"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.dark_arts.quest6.subtitle}"
+			tasks: [{
+				id: "17B6D695194CE207"
+				item: {
+					Count: 1
+					id: "hexerei:witch_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.dark_arts.quest6.title}"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.dark_arts.quest7.description1}"
+				""
+				"{ftbquests.chapter.dark_arts.quest7.description2}"
+				""
+				"{@pagebreak}"
+				"{ftbquests.chapter.dark_arts.quest7.description3}"
+				""
+				"{ftbquests.chapter.dark_arts.quest7.description4}"
+				""
+				"{@pagebreak}"
+				"{ftbquests.chapter.dark_arts.quest7.description5}"
+				""
+				"{ftbquests.chapter.dark_arts.quest7.description6}"
+			]
+			icon: "eidolon:brazier"
+			id: "2A116873ED861860"
+			rewards: [{
+				id: "71D1E1B6B6A76FB9"
+				item: "eidolon:music_disc_parousia"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "{ftbquests.chapter.dark_arts.quest7.subtitle}"
+			tasks: [
+				{
+					id: "340E4D77AB3EA261"
+					item: "eidolon:brazier"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "2082CD62B155DCB3"
+					item: "eidolon:stone_hand"
+					type: "item"
+				}
+				{
+					id: "2F5F41960CE8BBED"
+					item: "eidolon:necrotic_focus"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.dark_arts.quest7.title}"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2A116873ED861860"]
+			description: [
+				"{ftbquests.chapter.dark_arts.quest8.description1}"
+				""
+				"{ftbquests.chapter.dark_arts.quest8.description2}"
+			]
+			id: "0172044AEE32F857"
+			rewards: [{
+				count: 8
+				id: "7856A9790C142684"
+				item: "eidolon:soul_shard"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.dark_arts.quest8.subtitle}"
+			tasks: [
+				{
+					count: 2L
+					id: "75340DC0D4614594"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "60DDAC9EAC9730E9"
+					item: "forbidden_arcanus:arcane_bone_meal"
+					type: "item"
+				}
+				{
+					id: "19F01757F0FCD51E"
+					item: "eidolon:soul_shard"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.dark_arts.quest8.title}"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0172044AEE32F857"]
+			description: [
+				"{ftbquests.chapter.dark_arts.quest9.description1}"
+				""
+				"{ftbquests.chapter.dark_arts.quest9.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "born_in_chaos_v1:textures/mob_effect/light_rampage.png"
+				}
+			}
+			id: "3450D506F74FA638"
+			rewards: [{
+				count: 16
+				id: "06AA013D08181CEF"
+				item: "born_in_chaos_v1:smoked_monster_flesh"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.dark_arts.quest9.subtitle}"
+			tasks: [
+				{
+					count: 7L
+					id: "040C542682A2E608"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6A06A3FF9D717BDD"
+					item: "minecraft:rotten_flesh"
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "6255998961D9DE80"
+					item: "eidolon:soul_shard"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7295A24D7837FAD3"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0B680AB3A3E5E65A"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+				{
+					id: "0C33F470DBDEE596"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					id: "73AC98C1718164B4"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					id: "6E0E6B214C2A6D76"
+					item: "minecraft:prismarine_shard"
+					type: "item"
+				}
+				{
+					id: "7E919606B25BE480"
+					item: "minecraft:string"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.dark_arts.quest9.title}"
+			x: -0.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["0172044AEE32F857"]
+			description: ["{ftbquests.chapter.dark_arts.quest10.description1}"]
+			icon: "minecraft:rose_bush"
+			id: "0A94A3D1599F2E79"
+			rewards: [{
+				count: 8
+				id: "671923273305A7CB"
+				item: "ars_nouveau:experience_gem"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.dark_arts.quest10.subtitle}"
+			tasks: [
+				{
+					id: "30B102C1839485BB"
+					item: "minecraft:rose_bush"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "46654AE832C5C42E"
+					item: "eidolon:soul_shard"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "433B969C8F97C0E1"
+					item: "minecraft:red_dye"
+					type: "item"
+				}
+				{
+					id: "5DB427E717A6A05B"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.dark_arts.quest10.title}"
+			x: 0.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0172044AEE32F857"]
+			description: ["{ftbquests.chapter.dark_arts.quest11.description1}"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "born_in_chaos_v1:textures/mob_effect/insect_protection.png"
+				}
+			}
+			id: "636BC56379E5C7B8"
+			rewards: [{
+				count: 8
+				id: "2AEE4DB9610425CB"
+				item: "ars_nouveau:experience_gem"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.dark_arts.quest11.subtitle}"
+			tasks: [
+				{
+					id: "029A9A352998F308"
+					item: "minecraft:nautilus_shell"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "075035A899F83111"
+					item: "eidolon:soul_shard"
+					type: "item"
+				}
+				{
+					id: "5E7751B7CA3E59ED"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+				{
+					id: "67B7EDF9226EA4A5"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					id: "52255C9D73794260"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:ingots/iron)"
+						}
+					}
+					title: "{ftbquests.chapter.dark_arts.quest11.task_+5919239116565332576.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.dark_arts.quest11.title}"
+			x: 0.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0172044AEE32F857"]
+			description: [
+				"{ftbquests.chapter.dark_arts.quest12.description1}"
+				""
+				"{ftbquests.chapter.dark_arts.quest12.description2}"
+			]
+			icon: "minecraft:emerald"
+			id: "33FD847B1EC82811"
+			rewards: [{
+				count: 8
+				id: "1969F0F42EAB5683"
+				item: "ars_nouveau:experience_gem"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.dark_arts.quest12.subtitle}"
+			tasks: [
+				{
+					count: 2L
+					id: "5286DB963198B60C"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "17BA3DE1EB83BE3C"
+					item: "eidolon:soul_shard"
+					type: "item"
+				}
+				{
+					id: "7687700721A89873"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:mushrooms)"
+						}
+					}
+					title: "{ftbquests.chapter.dark_arts.quest12.task_+8540918394263214195.title}"
+					type: "item"
+				}
+				{
+					id: "4886897EF00CE0B7"
+					item: "minecraft:fermented_spider_eye"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.dark_arts.quest12.title}"
+			x: 4.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["0172044AEE32F857"]
+			description: [
+				"{ftbquests.chapter.dark_arts.quest13.description1}"
+				""
+				"{ftbquests.chapter.dark_arts.quest13.description2}"
+			]
+			icon: "minecraft:clock"
+			id: "3702172378DF0A87"
+			rewards: [{
+				count: 8
+				id: "5ABB24512E9242FF"
+				item: "ars_nouveau:experience_gem"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.dark_arts.quest13.subtitle}"
+			tasks: [
+				{
+					id: "4C50AC6D7DBE1470"
+					item: "minecraft:sunflower"
+					type: "item"
+				}
+				{
+					id: "5EF3DDF471F9460C"
+					item: "minecraft:black_dye"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "44563F16820E43F9"
+					item: "eidolon:soul_shard"
+					type: "item"
+				}
+				{
+					id: "3952CF1CD31BB18E"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "5C890C3DC5E27459"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+				{
+					id: "1D8F2EB9981B2296"
+					item: "minecraft:spider_eye"
+					type: "item"
+				}
+				{
+					id: "265F30FAC027F2FA"
+					item: "minecraft:snowball"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.dark_arts.quest13.title}"
+			x: 1.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["0172044AEE32F857"]
+			description: [
+				"{ftbquests.chapter.dark_arts.quest14.description1}"
+				""
+				"{ftbquests.chapter.dark_arts.quest14.description2}"
+			]
+			icon: "minecraft:glistering_melon_slice"
+			id: "30CE58ED62B7001C"
+			rewards: [{
+				count: 8
+				id: "70CCD0A8318B53DA"
+				item: "ars_nouveau:experience_gem"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.dark_arts.quest14.subtitle}"
+			tasks: [
+				{
+					id: "784EF127190812DF"
+					item: "minecraft:glistering_melon_slice"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5D0F1EF1D7F9C695"
+					item: "eidolon:soul_shard"
+					type: "item"
+				}
+				{
+					id: "6CE0398C68DAC928"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3E8466C7954C28BC"
+					item: "forbidden_arcanus:arcane_crystal_dust"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.dark_arts.quest14.title}"
+			x: 3.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0172044AEE32F857"]
+			description: [
+				"{ftbquests.chapter.dark_arts.quest15.description1}"
+				""
+				"{ftbquests.chapter.dark_arts.quest15.description2}"
+			]
+			id: "2459B50858B70395"
+			rewards: [{
+				count: 8
+				id: "12EEB0E564200A60"
+				item: "ars_nouveau:experience_gem"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.dark_arts.quest15.subtitle}"
+			tasks: [
+				{
+					id: "41DC27563CA3DA05"
+					item: {
+						Count: 1
+						id: "eidolon:sapping_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17EDBA09617CDD2B"
+					item: "eidolon:sanguine_amulet"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.dark_arts.quest15.title}"
+			x: 3.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0172044AEE32F857"]
+			description: [
+				"{ftbquests.chapter.dark_arts.quest16.description1}"
+				""
+				""
+				"{ftbquests.chapter.dark_arts.quest16.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "eidolon:soulfire_wand"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4562FCBFF36D1BAD"
+			rewards: [{
+				count: 8
+				id: "627990D9468FB21F"
+				item: "ars_nouveau:experience_gem"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.dark_arts.quest16.subtitle}"
+			tasks: [
+				{
+					count: 2L
+					id: "13BC14C0D1458C01"
+					item: "eidolon:lesser_soul_gem"
+					type: "item"
+				}
+				{
+					id: "30C2ED10D9FE96F8"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "12318129920C2E1E"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5103B7F0056662CD"
+					item: "minecraft:snowball"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.dark_arts.quest16.title}"
+			x: 3.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["0172044AEE32F857"]
+			description: [
+				"{ftbquests.chapter.dark_arts.quest17.description1}"
+				""
+				"{ftbquests.chapter.dark_arts.quest17.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "eidolon:summoning_staff"
+				tag: {
+					selected: 0
+				}
+			}
+			id: "7204A79531AD8EEC"
+			rewards: [{
+				count: 8
+				id: "60B32D5023BEB4BE"
+				item: "ars_nouveau:experience_gem"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.dark_arts.quest17.subtitle}"
+			tasks: [
+				{
+					id: "7AB5D4FEAD293039"
+					item: "eidolon:death_essence"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2F4603D6D81BBB65"
+					item: "eidolon:soul_shard"
+					type: "item"
+				}
+				{
+					id: "38113F665A889235"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "424863D57314EFDC"
+					item: "hexerei:cloth"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.dark_arts.quest17.title}"
+			x: 2.0d
+			y: -4.25d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.dark_arts.quest18.description1}"
+				""
+				"{@pagebreak}"
+				"{ftbquests.chapter.dark_arts.quest18.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "born_in_chaos_v1:item/pumpkinspiriticon"
+				}
+			}
+			id: "26C72351AEF1BE59"
+			rewards: [{
+				count: 8
+				id: "550C7EBD7C86B6BA"
+				item: "delightful:smore"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "{ftbquests.chapter.dark_arts.quest18.subtitle}"
+			tasks: [
+				{
+					id: "3058D7A8489B537C"
+					item: "minecraft:carved_pumpkin"
+					type: "item"
+				}
+				{
+					id: "6D17ED8ECD34833E"
+					item: "minecraft:hay_block"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "681E3C92AEA45DC2"
+					item: "minecraft:dark_oak_log"
+					type: "item"
+				}
+				{
+					id: "2EB5D4DEC3253D0C"
+					item: "born_in_chaos_v1:ethereal_spirit"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.dark_arts.quest18.title}"
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["46D87DD6463355E4"]
+			hide_until_deps_complete: true
+			id: "1197A015BBA76AB1"
+			rewards: [{
+				id: "75FBD909F4B4602F"
+				item: "irons_spellbooks:ancient_knowledge_fragment"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B8F05E9CF60CD4A"
+				item: "irons_spellbooks:eldritch_manuscript"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6A59E3A0C5965DA0"]
+			hide_until_deps_complete: true
+			id: "55734798DC88ABDC"
+			rewards: [
+				{
+					count: 5
+					id: "27160DF4256C55B7"
+					item: "irons_spellbooks:rare_ink"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "29B4D8F01F894972"
+					item: "irons_spellbooks:epic_ink"
+					type: "item"
+				}
+				{
+					id: "07587C04F410F048"
+					item: "irons_spellbooks:legendary_ink"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4305529B65531D24"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:netherite_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3879EEA676F2CF45"]
+			hide_until_deps_complete: true
+			id: "46D87DD6463355E4"
+			rewards: [{
+				id: "1463E92EE80AC582"
+				item: "irons_spellbooks:ancient_knowledge_fragment"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A17F9C97EDAD029"
+				item: "irons_spellbooks:ancient_knowledge_fragment"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3879EEA676F2CF45"]
+			hide_until_deps_complete: true
+			id: "6A59E3A0C5965DA0"
+			rewards: [
+				{
+					count: 5
+					id: "385071AD1BE84E8A"
+					item: "irons_spellbooks:rare_ink"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5EAF88824515B63B"
+					item: "irons_spellbooks:epic_ink"
+					type: "item"
+				}
+				{
+					id: "17C35F4C82EB10B8"
+					item: "irons_spellbooks:legendary_ink"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "62424E7944215930"
+				item: "irons_spellbooks:ruined_book"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.dark_arts.quest23.description1}"
+				""
+				"{ftbquests.chapter.dark_arts.quest23.description2}"
+				""
+				"{ftbquests.chapter.dark_arts.quest23.description3}"
+				""
+				"{ftbquests.chapter.dark_arts.quest23.description4}"
+			]
+			id: "3879EEA676F2CF45"
+			rewards: [{
+				id: "7BD062ACCEBE880B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: "minecraft:sculk_sensor"
+				id: "114CDE612B7AEC64"
+				structure: "#minecraft:ancient_city"
+				title: "{ftbquests.chapter.dark_arts.quest23.task_+1246615705797454948.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.dark_arts.quest23.title}"
+			x: 2.0d
+			y: 2.0d
+		}
+	]
+	title: "{ftbquests.chapter.dark_arts.title}"
+}

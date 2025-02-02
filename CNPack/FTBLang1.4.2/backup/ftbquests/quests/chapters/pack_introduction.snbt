@@ -1,0 +1,814 @@
+{
+	autofocus_id: "2713C8F59E5454D3"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "pack_introduction"
+	group: ""
+	icon: "minecraft:book"
+	id: "5768FFE8D633E233"
+	images: [
+		{
+			height: 3.598531211750306d
+			image: "imcquests:textures/misc/title.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			height: 1.45d
+			image: "imcquests:textures/misc/faq.png"
+			rotation: 0.0d
+			width: 2.5777777777777775d
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "imcquests:textures/misc/guides.png"
+			rotation: 0.0d
+			width: 3.5555555555555554d
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "imcquests:textures/misc/tips_n_tools.png"
+			rotation: 0.0d
+			width: 3.5555555555555554d
+			x: -9.0d
+			y: 2.25d
+		}
+		{
+			height: 2.0d
+			image: "imcquests:textures/misc/tweaks.png"
+			rotation: 0.0d
+			width: 3.5555555555555554d
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "storagedrawers:block/indicator/priority_p1_icon"
+			rotation: -90.0d
+			width: 2.0d
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			height: 3.0d
+			image: "imcquests:textures/misc/quests.png"
+			rotation: 0.0d
+			width: 5.333333333333333d
+			x: -11.5d
+			y: -0.5d
+		}
+		{
+			height: 3.0d
+			image: "imcquests:textures/misc/more.png"
+			rotation: 0.0d
+			width: 5.333333333333333d
+			x: -11.5d
+			y: -1.0d
+		}
+	]
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&5Integrated Minecraft &6is a modpack centered around integrating various popular mods together for a cohesive experience.&r This questbook is set up to help guide you through some of the larger mods as well as to point you towards things of interest. Keep reading for more info!"
+				""
+				"You'll also notice that the sections outside of this one are written with some lore. Feel free to delve into it, but if not your cup of tea, the &6Subtitles&r should give you a quick overview of each section."
+				""
+				"&bClick on the questbook icon below to learn more about using this modpack and completing quests!"
+			]
+			disable_toast: true
+			icon: "supplementaries:regions_unexplored/sign_post_maple"
+			id: "2713C8F59E5454D3"
+			rewards: [{
+				count: 3
+				id: "0D0CAAB307569F1F"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Welcome to Integrated Minecraft"
+			tasks: [{
+				id: "058D02A382D06C87"
+				type: "checkmark"
+			}]
+			title: "Click Me to Start!"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: false
+			description: [
+				"&e\"JEI\"&r (short for Just Enough Items) and &e\"EMI\"&r are the items on the right when you open your inventory. Use them to search items and view their recipes. Here's a couple of tricks!"
+				""
+				"- Press &d\"R\"&r over an item, or &dleft-click&r on it, to view its recipe. Some items like Rotten Flesh will display the mob they are dropped by. Some items will have a tab with an &a\"I\"&r in a circle. Click it to view more information on the item"
+				""
+				"- Press &d\"U\"&r over an item, or &dright-click&r on it, to view its uses in various recipes."
+				""
+				"&bContinue on Next Page ->&r"
+				"{@pagebreak}"
+				"You can also search for specific mods with &a\"@\"&r. For instance, try &a\"@endrem\"&r. If you are enjoying items from a specific mod, try looking it up to see what else it has to offer!"
+				""
+				"&nExamples: &r"
+				"@AlexsMobs"
+				"@Spelunkery"
+				"@Create"
+				""
+				"&bContinue on Next Page ->&r"
+				"{@pagebreak}"
+				"You can search for specific tags or groups of items with &a\"#\"&r. Try the following!"
+				""
+				"&nExample:&r"
+				"  - #starter_kit"
+				"  - #villager_job_site"
+				"  - #saplings"
+				""
+				"&bContinue on Next Page ->&r"
+				"{@pagebreak}"
+				"Using JEI/EMI on a mob's Spawn Egg can show you what that mob's drops are. Some mobs have information as well attached to their Spawn Eggs. The extra information is usually for mobs with more complicated mechanics. Additional information and lore for many mobs can be found through the &6Animal Dictionary&r."
+				""
+				"&nExample:&r"
+				"Gorilla"
+				"Elephant"
+				"Bee"
+			]
+			disable_toast: true
+			icon: "minecraft:spyglass"
+			id: "6E5C712DA54999CB"
+			optional: true
+			rewards: [{
+				count: 10
+				id: "20F18CD9E9E05460"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Learn to use JEI/EMI to search items!"
+			tasks: [{
+				disable_toast: true
+				id: "60B747D4B3CD889D"
+				title: "Learn to use JEI"
+				type: "checkmark"
+			}]
+			title: "JEI/EMI!"
+			x: -8.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"- Villagers have completely reworked trades to integrate the various mods. Higher tiered villagers also have some special rewards. All of these changes were made through &e\"Dynamic Villager Trades\"&r."
+				""
+				"- Villagers now follow players holding &2Emerald Blocks&r, courtesy of &e\"Quark\"&r."
+				""
+				"- Villagers now cycle their trades every day."
+				""
+				"- Only &lmax level&r librarians sell &bMending&r, but they are more likely to sell &bMending&r. There may be other ways to obtain it too..."
+				""
+				"- There are four new villager types through &e\"Ice and Fire\"&r, &e\"Domestication Innovation\"&r, &e\"Easel Does It\"&r, and &e\"Better Archeology\"&r. Search &2#villager_job_site&r to view their job blocks."
+			]
+			disable_toast: true
+			icon: "minecraft:emerald"
+			id: "013FD06AF702E130"
+			optional: true
+			rewards: [{
+				count: 5
+				id: "610D17C6B644EF87"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "4C7BBD1F2762093C"
+				title: "Villager Mechanic Tweaks"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"- Enchanting has been overhauled through &e\"Apotheosis\"&r. Upgrade your enchanting set up with higher tier bookshelves to get better results!"
+				""
+				"- The EXP needed for max-level enchanting (through Apotheosis) has been greatly increased. However, now &670% of your EXP is dropped on death and the EXP scaling between levels has been greatly reduced&r."
+				""
+				"- &6Enchantment books found in chests are now limited in level&r to encourage enchanting through the &bEnchanting Table&r. They can still be upgraded in &bAnvils&r (see Anvil tweaks)."
+			]
+			disable_toast: true
+			icon: "minecraft:enchanting_table"
+			id: "745086C99829C9E5"
+			optional: true
+			rewards: [{
+				id: "6E63FB437EC34123"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "5E48274771E6C1FA"
+				title: "Enchantment Tweaks"
+				type: "checkmark"
+			}]
+			title: "Enchanting and EXP Tweaks"
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"- &bAnvils&r &6no longer have penalties for prior work&r to reduce the need for EXP grinders and encourage a gradual progression of tool improvement, rather than applying all the enchantments at once."
+				""
+				"- &bAnvils&r can now be repaired by right-clicking with &bIron Ingots&r"
+				""
+				"- Renaming items only ever needs 1 level of EXP."
+				""
+				"All of these changes have been done through &e\"Forgery\"&r!"
+			]
+			disable_toast: true
+			icon: "minecraft:anvil"
+			id: "633E91356C64D6ED"
+			optional: true
+			rewards: [{
+				id: "1A0CF445D52DBE86"
+				item: "minecraft:name_tag"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "69D2D7CC18437EAB"
+				title: "Anvil Tweaks"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"- Combat is improved through the &e\"Better Combat\"&r mod. Try it for yourself!"
+				""
+				"- There are multiple new types of weapons. Each has different combat properties, so try several."
+				""
+				"- &bShields&r have been reworked through the &e\"Shield Expansion\"&r mod. &bShields&r are now disabled upon being hit, but if you time your block right when attacked (parry), the cooldown is bypassed and melee attackers are pushed back."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "simplyswords:iron_cutlass"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "78A73FF9E2F525EB"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0B8C10A3CC3405BA"
+					table_id: 7972125673167633645L
+					type: "choice"
+				}
+				{
+					id: "587C9D65E751C234"
+					item: {
+						Count: 1
+						id: "shieldexp:wooden_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "5FE3D2092E9AA8BC"
+				title: "Miscellaneous Tweaks"
+				type: "checkmark"
+			}]
+			title: "Combat Tweaks"
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"This pack comes with a lot of keybinds built in. Here are some of key ones:"
+				""
+				"- &d\"B\"&r - Open Backpack (&eSophisticated Backpacks&r)"
+				"- &d\"C\"&r - Open Spellbook (&eArs Nouveau&r)"
+				"- &d\"G\"&r - Open Tool Belt (&eTool Belt&r)"
+				"- &d\"Button 4\"&r - Cycles through Utility Belt (&eInventorio&r)"
+				"- &d\"M\"&r - Open Map Atlas (&eMap Atlas&r)"
+				"- &d\"Y\"&r - Crawl (&eForgery&r)"
+				"- &d\"I\"&r - Inventory Settings Menu (&eInventorio&r)."
+				"- &d\"Z\"&r - Uses a Spyglass in your Inventory (&eSpyglass Improvements&r)."
+				""
+				"&a&lYou might want to add a keybind to:&r&r"
+				"- Switch hotbars (&eQuark&r). Search it at \"Hotbar Swapper\" under Keybinds."
+				"- Switch utilities (&eInventorio&r). This scrolls through your offhand slot. Search it at \"Utility\" under Keybinds."
+				"- Enables Rotation Lock (&eQuark&r), allowing for placing blocks only in a certain orientation. Search it at \"Rotation Lock\"."
+				"{@pagebreak}"
+				"If you have any questions on how to control something, check the Key Binds!"
+				""
+				"Some items with specific keybinds (ie. &bQuiver&r, &bMap Atlas&r) have additional information on them in their JEI Information tab."
+			]
+			icon: "supplementaries:key"
+			id: "7F0321F6C37A19B7"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "19AA8E66CA30B88F"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "All current keybinds of note!"
+			tasks: [{
+				id: "4976579F87754AC9"
+				type: "checkmark"
+			}]
+			title: "Keybinds"
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			description: ["The pathway to the &5End&r has been completely reworked through &e\"End Remastered\"&r. View it under \"&aTo the End of the Beginning&r\"!"]
+			disable_toast: true
+			icon: "minecraft:ender_eye"
+			id: "25503C678AAC68FA"
+			optional: true
+			shape: "pentagon"
+			tasks: [{
+				id: "11251FD718B56492"
+				title: "Eyes of Ender Tweaks"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"&5Special thanks to&r:"
+				""
+				"&eJAWredstoneguy&r, &eSlayDigger&r, &eAntN&r, and &earzadu&r for their work on the pack"
+				""
+				"&dThe IDAS builder&r team for the fantastic structures"
+				""
+				"&1Pareidolia&r (Creator of Bibliophilia Resource Pack) for accepting mod suggestions to add to their resource pack"
+				""
+				"&aHeyKatu&r (Creator of Cottage Witch) for some of the pack's ideas&r"
+				""
+				"All of our wonderful players and discord members (esp. those who've brought bugs to our attention)"
+				""
+				"Sincerely,"
+				"&5CraisinLord&r and &4Hisakid&r"
+			]
+			disable_toast: true
+			id: "1746CBB538290039"
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "128BF2E48F7054BB"
+				title: "Acknowledgements"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&5&lCurseForge Page&r&r: https://www.curseforge.com/minecraft/modpacks/integrated-minecraft"
+				""
+				"&5&lDiscord&r&r: https://discord.gg/uMyJYrPy7x"
+				""
+				"&5&lYoutube&r&r: https://www.youtube.com/@craisinlord"
+			]
+			disable_toast: true
+			id: "4C430AD8ACBEBF9E"
+			optional: true
+			shape: "gear"
+			subtitle: "Website and Discord Links"
+			tasks: [{
+				id: "7A63602EAFF57742"
+				title: "Links"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			description: ["Details and flavorful descriptions of all the mobs from &6\"Alex's Mobs\"&r!"]
+			disable_toast: true
+			icon: "alexsmobs:animal_dictionary"
+			id: "0E27BB345555B163"
+			optional: true
+			rewards: [{
+				id: "56CBE8533B3B644B"
+				item: "alexsmobs:animal_dictionary"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Click to get the Animal Dictionary!"
+			tasks: [{
+				id: "33F3176AAFA4EED1"
+				title: "Animal Dictionary"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			description: ["Obtain the Chronicle of Shadows from the mod &eApotheosis&r. Contains details on enchanting changes, potion changes, and villager changes."]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "apotheosis:apoth_chronicle"
+				}
+			}
+			id: "5DE9C42F9E76A839"
+			optional: true
+			rewards: [{
+				id: "4E17F1972AD7DD55"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "apotheosis:apoth_chronicle"
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "More details on Enchanting changes from Apotheosis!"
+			tasks: [{
+				id: "65D135D53E6875DF"
+				title: "Chronicle of Shadows"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			description: ["A book documenting the mod &dArs Nouveau&r. While the quest chapter &e\"The Basics of Magic\"&r will give you a good starting point, this book can help with any deeper questions about the mod and how to progress through it."]
+			disable_toast: true
+			icon: "ars_nouveau:worn_notebook"
+			id: "3D7EC35D193066EB"
+			optional: true
+			rewards: [{
+				id: "1E014C5330C08A14"
+				item: "ars_nouveau:worn_notebook"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Detailed documentation on Ars Nouveau!"
+			tasks: [{
+				id: "5214DFAE0B39DAC4"
+				title: "Ars Nouveau Documentation"
+				type: "checkmark"
+			}]
+			title: "Worn Notebook"
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"&bExplorer Maps&r are a core part of the &5Integrated Minecraft&r experience, acting as an expansion of the mapping functionalities provided by the base game. There are maps that can take you to specific biomes or structures. "
+				""
+				"Look in the &eShopping&r tab on the left menu to see the &bExplorer Maps&r available for you to buy. Some maps cannot be bought and must be obtained through quests."
+				""
+				"Many of you already know how to use a Map, but here's a quick reference for anyone who's forgotten."
+				"{@pagebreak}"
+				"- The top of the map is &6North&r, and travelling in the &6negative Z direction&r takes you North. The red pole of the &bMagnetic Compass&r also points North, so if it is pointing upwards, you are travelling North."
+				""
+				"- Left of the map is &6West&r, and travelling in the &6negative X direction&r takes you West. The &bMagentic compass&r will be pointing right."
+				""
+				"- Right of the map is &6East&r, and travelling in the &6positive X direction&r takes you East. The &bMagentic compass&r will be pointing left."
+				""
+				"- The bottom of the map is &6South&r, and travelling in the &6positive Z direction&r takes you South. The &bMagentic compass&r will be pointing down."
+				""
+				"F3 will show the direction you are headed if you ever get confused."
+			]
+			icon: "minecraft:map"
+			id: "579E86961E6B04DC"
+			rewards: [{
+				id: "1797CFF95E77AA33"
+				item: {
+					Count: 1
+					id: "spelunkery:magnetic_compass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Quick refresher on how Explorer Maps work!"
+			tasks: [{
+				id: "27893B49168B3203"
+				title: "Using Maps"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"&e\"Regions Unexplored\"&r adds many biomes, including some with their own types of &bdirt&r. While there is an option to limit biome generation to only include default dirt, in order to allow for greater customization, this is not enabled by default."
+				""
+				"However, to ease inventory management issues, all new dirt types can be converted to vanilla &bdirt&r through the &bCrafting Table&r. Try it out!"
+				""
+				"Many can also be crafted through custom recipes (mostly involving their respective saplings)."
+			]
+			icon: "minecraft:dirt"
+			id: "53BD475217957F3B"
+			rewards: [
+				{
+					count: 10
+					id: "7C921B792D3082DF"
+					item: "regions_unexplored:peat_dirt"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "60D0932B963EABF4"
+					item: "regions_unexplored:silt_dirt"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "1AB3EF381A4B9F38"
+					item: "regions_unexplored:argillite"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Easy Conversions for Inventory Management!"
+			tasks: [{
+				id: "152E39AD8E2B215D"
+				title: "Dirt Conversions"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"- The inventory is greatly improved through the &e\"Inventorio\"&r and &e\"Tool Belt\"&r mods!"
+				""
+				"- You now have multiple offhands! This is now called the &bUtility Belt&r. You can scroll through them with a keybind (default &5\"Button 4\"&r)."
+				""
+				"- You can now equip a &bTool Belt&r through the curios menu. Press &5\"G\"&r to access it. You can add more slots to your &bTool Belt&r with &bBelt Pouches&r with an &bAnvil&r."
+				""
+				"- There is a new leggings enchantment called &bDeep Pockets&r. Each level adds &6an additional row&r to your inventory. Additionally, the first level adds 4 extra slots to the &bUtility Belt&r."
+				""
+				"- The capacity for the &bEnder Chest&r has been doubled."
+				"- An &bInfinity Bow&r no longer requires arrows."
+				"- &bTotems&r activate from the &bUtility Belt&r."
+			]
+			disable_toast: true
+			icon: "minecraft:bundle"
+			id: "19858426E2D2C636"
+			optional: true
+			rewards: [
+				{
+					id: "1113A1A5171B14DA"
+					item: "toolbelt:belt"
+					type: "item"
+				}
+				{
+					id: "040EC6B639BD7935"
+					item: "minecraft:bundle"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "143B1CBA8DDB1F87"
+				title: "Inventorio"
+				type: "checkmark"
+			}]
+			title: "Inventory Tweaks"
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"Since you're here, you probably understand the basics of the &dQuest Book&r. However, in case you are new to this, here's some important things to keep in mind:"
+				""
+				"- The &btab/menu&r on the left (indicated by the &cred arrow&r) shows all of the &eChapters&r within the &dQuest Book&r. You can keep the tab open by clicking the pin in the top right of the tab."
+				""
+				"- L-Click on a quest to open up each individual &equest page&r. The &6top left&r shows what you need to do. You can click on items to view recipes and/or submit items. The &6top right&r shows what you will get as a reward. Be sure to click it in order to collect it. The &6bottom middle&r (what you are looking at currently) is the description. This can include lore, hints, information, and more to help you complete the quest."
+				""
+				"- Some quests have more than one page. Either use your &5scroll wheel&r or &5click the arrow&r at the bottom right of the &equest page&r to go to the next page. &bTry it now!&r"
+				"{@pagebreak}"
+				"- &eSome chapters and many quests&r are &binitially hidden&r, until they are triggered by &bcertain events&r. This is usually by completing a previous quest or finding a specific item."
+				""
+				"- One chapter acts as a storage for &dhidden recipes&r, unlocked by finding &7Tattered Books&r. Claim your reward on the top right of this quest box to unlock your &bfirst secret recipe&r!"
+			]
+			icon: "ftbquests:book"
+			id: "4C840076783D73B9"
+			rewards: [{
+				id: "285751488F17C0DE"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						AntiqueInk: 1b
+						author: "hisakid13"
+						generation: 3
+						pages: ["{\"font\":\"supplementaries:antiquable\",\"text\":\"Here's the recipe to make a Bundle (because Minecraft doesn't let me enable reviewing of it by default T_T)\\n\\nBAB\\nA A\\nAAA\\n\\nA: Rabbit Hide or Canvas\\nB: String\\n\"}"]
+						title: "Bundle Recipe"
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "Learn how the Quest Book works!"
+			tasks: [{
+				id: "489D3DAC74C9AB66"
+				type: "checkmark"
+			}]
+			title: "Quests"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"&6Do Normal Minecraft Stuff ;)&r"
+				""
+				"This pack has tools to help you explore and add a more RPG element, &bit's meant as an open ended vanilla expansion&r. Maybe try getting the Eyes of Ender? For more hardcore players (play style, not difficulty level), you can try to defeat all the bosses and complete the questbook. &bPlay this pack however you want to&r. Learn more about the mechanics of Create, become a powerful wizard through Ars and ISS, build an epic megabase, craft the best armor. The possibilities are endless."
+				""
+				"At the end of the day, &bMinecraft is a sandbox game&r. &eAs long as you are having fun, go for it!&r"
+			]
+			id: "007975FAB14150D8"
+			tasks: [{
+				id: "0D2D116A6DE98B9E"
+				title: "What should I do in this modpack?"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"There are several &bSecret Recipes&r within &6Integrated Minecraft&r. To find these recipes, go exploring and discover new structures and dungeons with recipe books inside. Many of the recipe books are intentionally left ambiguous with the intent that players puzzle it out on their own. "
+				""
+				"That said, we know not everyone likes that approach. Thus, each quest book &oshould&r trigger a &5Quest&r containing an exact image of the process along with a written description of materials needed."
+			]
+			id: "109C6AD5357E8B22"
+			tasks: [{
+				id: "25EC3E293196F29E"
+				title: "Why isn't _____ in JEI/EMI?"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"There is a forum on our discord where you can suggest mods for &6Integrated Minecraft&r. Feel free to post your thought there. Be prepared for the suggestion to be denied, however. As a general rule of thumb, it's better to have less mods than more, as if we discover any game-breaking bugs, removing mods can break player's worlds."
+				""
+				"That said, we highly highly encourage you to customize the pack to your wants and needs. To do this, in CurseForge, go to the dots next to &6\"Play\"&r, hit &6\"Profile Options\"&r, and click &6\"Allow Content Management for this Profile\"&r. Most mods should be compatible out of the box. "
+				""
+				"&cALWAYS BACKUP YOUR PACK BEFORE ADDING, REMOVING, OR UPDATING MODS.&r"
+			]
+			id: "02FA2B11318F6A46"
+			tasks: [{
+				id: "36E586F2E2AD6E1B"
+				title: "Can you add _____ mod?"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Make sure to check JEI/EMI first before asking for help from one of the devs. Many recipes have been edited or completely changed to better fit the idea of &o&6integration&r. Recipes now require items from various mods instead of just one mod and/or vanilla."
+				""
+				"Some recipes are hidden on purpose. Check &e\"Why isn't _____ in JEI/EMI?\"&r for more information on this."
+				""
+				"Make sure you are using the correct recipe for &othis&r modpack and not from a different one. If the problem still persists, reach out on our discord. "
+			]
+			id: "6F3E0DADC7E5D1B5"
+			tasks: [{
+				id: "7A59E053353442CA"
+				title: "Why can't I craft _____?"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			description: ["The hard part about this pack is many of the features are so integrated that it's hard to untangle them. That said, many are highly configured (looking at you, Apotheosis...) to smooth some of the rougher corners. &bWe are willing to help you remove mods if you ask in Discord&r (besides Ars Nouveau, Create, and a few others. Those are bedrock of this pack unfortunately)."]
+			id: "3E7C748B00FAB751"
+			tasks: [{
+				id: "219DDCE340FECEFA"
+				title: "What if I don't like _____ mod?"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"&dMending&r has now been restricted to &2Max Level Librarians&r only now. Because of this, there is a 1/3 chance that their final trade will be &dmending&r (or some variation of it). Villagers cycle their trades regularly, so it shouldn't take too long before at least one &2Max Level Librarian&r is selling it."
+				""
+				"&7There may be other ways to obtain this enchantment, however..."
+			]
+			id: "252BFDFCE0877B3C"
+			tasks: [{
+				id: "4562C7385F57B6D6"
+				title: "Why can't I get mending?"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			description: ["If you have any questions, please feel free to ask on discord! &dCraisin&r or &cHisakid&r are usually around to answer questions. Make sure to check that your question hasn't already been answered, though."]
+			id: "516DF3AB5A9E93AC"
+			tasks: [{
+				id: "5FF94EF381E38CCB"
+				title: "I don't see my question listed..."
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"&6Cave Compendium:&r This book is found in &eUnderground Cabins&r. It can be filled with entries about the new Alex's Caves biomes by deciphering cove tablets at a spelunkery table."
+				""
+				"&6The Book of Shadows:&r This book must be crafted and then &eplaced on an altar&r in order to be read. It contains information about the mod &eHexerei&r such as flying broomsticks and mixing cauldrons."
+			]
+			id: "339FA351D4D2BDFD"
+			rewards: [{
+				id: "191A93469A860A65"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "158B79BC391255F0"
+					item: "alexscaves:cave_book"
+					type: "item"
+				}
+				{
+					id: "7F78B2ECEC591D41"
+					item: {
+						Count: 1
+						id: "hexerei:book_of_shadows"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Other Guide Books"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			description: ["This book is your guide to Iron's Spells and Spellbooks. Although some things have been modified or outright removed, using this in tandem with JEI/EMI and the &e\"Wizardy\"&r quests should give you a good understanding of how &dBattle Magic&r works."]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "irons_spellbooks:iss_guide_book"
+				}
+			}
+			id: "32BC483761E19582"
+			repeatable: true
+			rewards: [{
+				id: "2A9FCB1CCD192408"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "irons_spellbooks:iss_guide_book"
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "797B31C6335BADDD"
+				type: "checkmark"
+			}]
+			title: "Iron's Guidebook"
+			x: 5.0d
+			y: 4.5d
+		}
+	]
+	title: "Pack Introduction"
+}

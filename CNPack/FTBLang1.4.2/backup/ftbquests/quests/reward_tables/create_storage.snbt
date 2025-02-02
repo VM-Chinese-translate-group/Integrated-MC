@@ -1,0 +1,13 @@
+{
+	id: "03FE9A5BF8FD6321"
+	loot_size: 1
+	order_index: 24
+	rewards: [
+		{ count: 4, item: "create:cogwheel", random_bonus: 4 }
+		{ count: 2, item: "create:large_cogwheel", random_bonus: 3 }
+		{ count: 2, item: "create:sturdy_sheet", random_bonus: 2 }
+		{ count: 4, item: "toms_storage:ts.inventory_cable", random_bonus: 4 }
+		{ item: "create:item_vault", random_bonus: 1, title: "1-2x Item Vault" }
+	]
+	title: "Create Storage"
+}
