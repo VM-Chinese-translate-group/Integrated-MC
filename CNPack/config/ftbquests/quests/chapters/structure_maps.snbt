@@ -2,9 +2,18 @@
 	autofocus_id: "2B8CF1D521BD6EF2"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	default_repeatable_quest: true
 	filename: "structure_maps"
 	group: "79E58030D94D590D"
 	id: "4A03DC84A7111D4E"
+	images: [{
+		height: 1.2d
+		image: "imcquests:textures/misc/start.png"
+		rotation: 0.0d
+		width: 2.1333333333333333d
+		x: -0.95d
+		y: -1.5d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -21,8 +30,8 @@
 			hide_dependent_lines: true
 			icon: "minecraft:compass"
 			id: "2B8CF1D521BD6EF2"
-			shape: "square"
-			size: 1.5d
+			shape: "hexagon"
+			size: 1.7d
 			tasks: [{
 				id: "73CCF795866F2C4F"
 				type: "checkmark"
@@ -32,6 +41,7 @@
 			y: -0.5d
 		}
 		{
+			can_repeat: false
 			dependencies: ["2B8CF1D521BD6EF2"]
 			hide_dependency_lines: true
 			id: "5C4362FBF4BB8846"
@@ -470,13 +480,14 @@
 			y: -3.0d
 		}
 		{
+			can_repeat: false
 			dependencies: ["2B8CF1D521BD6EF2"]
 			hide_dependency_lines: true
 			id: "6E7FC02CC9F72786"
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
-				advancement: "minecraft:story/root"
+				advancement: "integrated_villages:integrated_villages_root"
 				criterion: ""
 				disable_toast: true
 				icon: "minecraft:water_bucket"
@@ -484,17 +495,18 @@
 				title: "{ftbquests.chapter.structure_maps.quest15.task_+4549181780233491984.title}"
 				type: "advancement"
 			}]
-			x: -4.0d
-			y: 5.0d
+			x: -1.0d
+			y: 3.0d
 		}
 		{
+			can_repeat: false
 			dependencies: ["2B8CF1D521BD6EF2"]
 			hide_dependency_lines: true
 			id: "16B9798AEDF87B43"
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
-				advancement: "minecraft:story/root"
+				advancement: "integrated_villages:integrated_villages_root"
 				criterion: ""
 				disable_toast: true
 				icon: "minecraft:grass_block"
@@ -502,17 +514,18 @@
 				title: "{ftbquests.chapter.structure_maps.quest16.task_+422829831626838945.title}"
 				type: "advancement"
 			}]
-			x: 2.0d
-			y: 5.0d
+			x: 4.0d
+			y: 4.5d
 		}
 		{
+			can_repeat: false
 			dependencies: ["2B8CF1D521BD6EF2"]
 			hide_dependency_lines: true
 			id: "73BD96E3742DD6A4"
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
-				advancement: "minecraft:story/root"
+				advancement: "integrated_villages:integrated_villages_root"
 				criterion: ""
 				disable_toast: true
 				id: "2B80874BE1C94F6E"
@@ -523,13 +536,14 @@
 			y: -0.5d
 		}
 		{
+			can_repeat: false
 			dependencies: ["2B8CF1D521BD6EF2"]
 			hide_dependency_lines: true
 			id: "7809186557DA0382"
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
-				advancement: "minecraft:story/root"
+				advancement: "integrated_villages:integrated_villages_root"
 				criterion: ""
 				disable_toast: true
 				icon: "minecraft:end_stone"
@@ -537,17 +551,18 @@
 				title: "{ftbquests.chapter.structure_maps.quest18.task_+2811549809160829652.title}"
 				type: "advancement"
 			}]
-			x: -1.0d
-			y: 2.25d
+			x: -6.0d
+			y: 4.5d
 		}
 		{
+			can_repeat: false
 			dependencies: ["2B8CF1D521BD6EF2"]
 			hide_dependency_lines: true
 			id: "494A179D406BCBE1"
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
-				advancement: "minecraft:story/root"
+				advancement: "integrated_villages:integrated_villages_root"
 				criterion: ""
 				disable_toast: true
 				icon: "minecraft:stone"
@@ -559,13 +574,14 @@
 			y: -0.5d
 		}
 		{
+			can_repeat: false
 			dependencies: ["2B8CF1D521BD6EF2"]
 			hide_dependency_lines: true
 			id: "545BE458BC2EF51A"
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
-				advancement: "minecraft:story/root"
+				advancement: "integrated_villages:integrated_villages_root"
 				criterion: ""
 				icon: "minecraft:netherrack"
 				id: "3BF5EF76783FC2F9"
@@ -576,13 +592,14 @@
 			y: -9.0d
 		}
 		{
+			can_repeat: false
 			dependencies: ["2B8CF1D521BD6EF2"]
 			hide_dependency_lines: true
 			id: "53C2B729C130C8A9"
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
-				advancement: "minecraft:story/root"
+				advancement: "integrated_villages:integrated_villages_root"
 				criterion: ""
 				disable_toast: true
 				icon: "biomemakeover:gray_tapestry"
@@ -594,6 +611,7 @@
 			y: -6.0d
 		}
 		{
+			can_repeat: false
 			dependencies: ["2B8CF1D521BD6EF2"]
 			hide_dependency_lines: true
 			icon: "biomemakeover:light_gray_tapestry"
@@ -601,7 +619,7 @@
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
-				advancement: "minecraft:story/root"
+				advancement: "integrated_villages:integrated_villages_root"
 				criterion: ""
 				disable_toast: true
 				icon: "biomemakeover:light_gray_tapestry"
@@ -643,8 +661,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.structure_maps.quest23.title}"
-			x: -2.0d
-			y: 5.0d
+			x: 0.5d
+			y: 2.0d
 		}
 		{
 			can_repeat: true
@@ -677,8 +695,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.structure_maps.quest24.title}"
-			x: -3.0d
-			y: 6.5d
+			x: -1.0d
+			y: 4.9d
 		}
 		{
 			can_repeat: true
@@ -711,8 +729,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.structure_maps.quest25.title}"
-			x: -5.0d
-			y: 6.5d
+			x: 0.5d
+			y: 4.0d
 		}
 		{
 			can_repeat: true
@@ -745,8 +763,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.structure_maps.quest26.title}"
-			x: -6.0d
-			y: 5.0d
+			x: -2.5d
+			y: 4.0d
 		}
 		{
 			can_repeat: true
@@ -779,8 +797,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.structure_maps.quest27.title}"
-			x: -5.0d
-			y: 3.5d
+			x: -2.5d
+			y: 2.0d
 		}
 		{
 			can_repeat: true
@@ -813,8 +831,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.structure_maps.quest28.title}"
-			x: -3.0d
-			y: 3.5d
+			x: -1.0d
+			y: 1.1d
 		}
 		{
 			can_repeat: true
@@ -831,7 +849,7 @@
 						display: {
 							Name: "{\"text\":\"End City Explorer Map\"}"
 						}
-						maxSearchRadius: 100
+						maxSearchRadius: 200
 						skinKnown: 1b
 						targetStructure: "minecraft:end_city"
 						zoomLevel: 2
@@ -847,8 +865,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.structure_maps.quest29.title}"
-			x: -2.5d
-			y: 2.25d
+			x: -7.0d
+			y: 6.0d
 		}
 		{
 			can_repeat: true
@@ -1051,8 +1069,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.structure_maps.quest35.title}"
-			x: 0.0d
-			y: 4.5d
+			x: 2.0d
+			y: 4.0d
 		}
 		{
 			can_repeat: true
@@ -1085,8 +1103,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.structure_maps.quest36.title}"
-			x: 1.0d
-			y: 3.5d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			can_repeat: true
@@ -1119,8 +1137,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.structure_maps.quest37.title}"
-			x: 2.0d
-			y: 3.0d
+			x: 4.0d
+			y: 2.5d
 		}
 		{
 			can_repeat: true
@@ -1153,8 +1171,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.structure_maps.quest38.title}"
-			x: 3.0d
-			y: 3.5d
+			x: 5.0d
+			y: 3.0d
 		}
 		{
 			can_repeat: true
@@ -1187,8 +1205,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.structure_maps.quest39.title}"
-			x: 4.0d
-			y: 5.5d
+			x: 6.0d
+			y: 5.0d
 		}
 		{
 			can_repeat: true
@@ -1207,7 +1225,7 @@
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
-						targetStructure: "better_archeology:tumulus:grassy"
+						targetStructure: "better_archeology:tumulus_grassy"
 						zoomLevel: 2
 					}
 				}
@@ -1221,8 +1239,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.structure_maps.quest40.title}"
-			x: 3.0d
-			y: 6.5d
+			x: 5.0d
+			y: 6.0d
 		}
 		{
 			can_repeat: true
@@ -1261,8 +1279,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.structure_maps.quest41.title}"
-			x: 2.0d
-			y: 7.0d
+			x: 4.0d
+			y: 6.5d
 		}
 		{
 			can_repeat: true
@@ -1295,8 +1313,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.structure_maps.quest42.title}"
-			x: 1.0d
-			y: 6.5d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			can_repeat: true
@@ -1329,8 +1347,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.structure_maps.quest43.title}"
-			x: 4.0d
-			y: 4.5d
+			x: 6.0d
+			y: 4.0d
 		}
 		{
 			can_repeat: true
@@ -1363,8 +1381,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.structure_maps.quest44.title}"
-			x: 0.0d
-			y: 5.5d
+			x: 2.0d
+			y: 5.0d
 		}
 		{
 			can_repeat: true
@@ -2344,6 +2362,7 @@
 			y: -8.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["6F28D7EF4606CB44"]
 			icon: "minecraft:beehive"
 			id: "716D88AB186E4DEF"
@@ -2688,7 +2707,7 @@
 		{
 			can_repeat: true
 			dependencies: ["7809186557DA0382"]
-			icon: "bosses_of_mass_destruction:obsidian_heart"
+			icon: "minecraft:chorus_fruit"
 			id: "666633506F508DFC"
 			rewards: [{
 				id: "11803EF6522F00BB"
@@ -2698,11 +2717,11 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Obsidilith Arena Explorer Map\"}"
+							Name: "{\"text\":\"Enderkeep Courtyard Explorer Map\"}"
 						}
-						maxSearchRadius: 100
+						maxSearchRadius: 200
 						skinKnown: 1b
-						targetStructure: "bosses_of_mass_destruction:obsidilith_arena"
+						targetStructure: "mes:enderkeep_courtyard"
 						zoomLevel: 2
 					}
 				}
@@ -2710,14 +2729,14 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 32L
+				count: 64L
 				id: "5362EDADCE709FC4"
-				item: "minecraft:emerald_block"
+				item: "minecraft:emerald"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.structure_maps.quest82.title}"
-			x: 0.5d
-			y: 2.25d
+			x: -4.0d
+			y: 4.0d
 		}
 		{
 			can_repeat: true
@@ -2752,6 +2771,285 @@
 			title: "{ftbquests.chapter.structure_maps.quest83.title}"
 			x: 0.0d
 			y: -7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7809186557DA0382"]
+			icon: "minecraft:end_rod"
+			id: "1DBCE49270D2E2C5"
+			rewards: [{
+				id: "03B75C7C7E07B5B0"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						decoration: "target_x"
+						display: {
+							Name: "{\"text\":\"Enderwatch Tower Explorer Map\"}"
+						}
+						maxSearchRadius: 200
+						skinKnown: 1b
+						targetStructure: "mes:enderwatch_tower"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "1C04940F899F782B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.structure_maps.quest84.title}"
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7809186557DA0382"]
+			icon: "bosses_of_mass_destruction:obsidian_heart"
+			id: "51C5A13E468075F6"
+			rewards: [{
+				id: "3D1C4A67AEA2302A"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						decoration: "target_x"
+						display: {
+							Name: "{\"text\":\"Obsidilith Arena Explorer Map\"}"
+						}
+						maxSearchRadius: 200
+						skinKnown: 1b
+						targetStructure: "bosses_of_mass_destruction:obsidilith_arena"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "1706D900B765689C"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.structure_maps.quest85.title}"
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7809186557DA0382"]
+			icon: "ars_nouveau:storage_lectern"
+			id: "6C19DD3BA3097690"
+			rewards: [{
+				id: "0ED597921063F134"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						decoration: "target_x"
+						display: {
+							Name: "{\"text\":\"Manuscript Shrine Explorer Map\"}"
+						}
+						maxSearchRadius: 200
+						skinKnown: 1b
+						targetStructure: "mes:manuscript_shrine"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "4BA60CFC00199112"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.structure_maps.quest86.title}"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7809186557DA0382"]
+			hide_dependency_lines: false
+			icon: "supplementaries:end_stone_lamp"
+			id: "375CFCF95E57AC3D"
+			rewards: [{
+				id: "258EBA29BD27F658"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						decoration: "target_x"
+						display: {
+							Name: "{\"text\":\"Monolith Explorer Map\"}"
+						}
+						maxSearchRadius: 200
+						skinKnown: 1b
+						targetStructure: "mes:monolith"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "10BEAD8955B202FD"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.structure_maps.quest87.title}"
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7809186557DA0382"]
+			icon: "betterend:end_stone_furnace"
+			id: "1BC3DA7400EA4A2A"
+			rewards: [{
+				id: "3216F963E5D2B9F2"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						decoration: "target_x"
+						display: {
+							Name: "{\"text\":\"Astral Hideaway Explorer Map\"}"
+						}
+						maxSearchRadius: 200
+						skinKnown: 1b
+						targetStructure: "mes:astral_hideaway"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "48938745D0384414"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.structure_maps.quest88.title}"
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7809186557DA0382"]
+			icon: {
+				Count: 1
+				id: "minecraft:elytra"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "74A5C93710B5B429"
+			rewards: [{
+				id: "2397767025D3E9DE"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						decoration: "target_x"
+						display: {
+							Name: "{\"text\":\"Starlight Voyager Explorer Map\"}"
+						}
+						maxSearchRadius: 200
+						skinKnown: 1b
+						targetStructure: "mes:starlight_voyager"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "2F9ED476482D4D54"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.structure_maps.quest89.title}"
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7809186557DA0382"]
+			icon: "minecraft:phantom_membrane"
+			id: "6FFD064208CB6FE5"
+			rewards: [{
+				id: "33E20D8F478A518E"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						decoration: "target_x"
+						display: {
+							Name: "{\"text\":\"Phantom Citadel Explorer Map\"}"
+						}
+						maxSearchRadius: 200
+						skinKnown: 1b
+						targetStructure: "mes:phantom_citadel"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "12CD5B37747F88C5"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.structure_maps.quest90.title}"
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7809186557DA0382"]
+			icon: "quark:violet_corundum_cluster"
+			id: "647BB831AA2FF8C4"
+			rewards: [{
+				id: "1FA44652FB0890F9"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						decoration: "target_x"
+						display: {
+							Name: "{\"text\":\"Enderskog Explorer Map\"}"
+						}
+						maxSearchRadius: 200
+						skinKnown: 1b
+						targetStructure: "mes:enderskog"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "3E033F0805CF21EC"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.structure_maps.quest91.title}"
+			x: -7.0d
+			y: 3.0d
 		}
 	]
 	title: "{ftbquests.chapter.structure_maps.title}"

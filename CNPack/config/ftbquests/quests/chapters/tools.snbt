@@ -198,7 +198,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 0.5d
+			y: -1.0d
 		}
 		{
 			description: [
@@ -374,7 +374,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 1.5d
+			y: 1.0d
 		}
 		{
 			description: ["{ftbquests.chapter.tools.quest16.description1}"]
@@ -559,7 +559,7 @@
 			id: "45B5E234D1A7DC39"
 			rewards: [{
 				id: "676FBEE0A52A3BA1"
-				item: "endermanoverhaul:bubble_pearl"
+				item: "minecraft:ender_pearl"
 				type: "item"
 			}]
 			subtitle: "{ftbquests.chapter.tools.quest22.subtitle}"
@@ -692,7 +692,7 @@
 			]
 			title: "{ftbquests.chapter.tools.quest25.title}"
 			x: -2.5d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			description: [
@@ -724,6 +724,30 @@
 			}]
 			x: 2.0d
 			y: 1.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.tools.quest27.description1}"
+				""
+				"{ftbquests.chapter.tools.quest27.description2}"
+				""
+				"{ftbquests.chapter.tools.quest27.description3}"
+			]
+			id: "732EE130794FBAA6"
+			rewards: [{
+				count: 32
+				id: "01C63BA8D02479EE"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			tasks: [{
+				id: "190BB6256C36666E"
+				item: "transmog:transmogrification_table"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.tools.quest27.title}"
+			x: -2.5d
+			y: 2.0d
 		}
 	]
 	title: "{ftbquests.chapter.tools.title}"

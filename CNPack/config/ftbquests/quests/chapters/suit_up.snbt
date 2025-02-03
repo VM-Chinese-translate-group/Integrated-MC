@@ -712,6 +712,7 @@
 				type: "random"
 			}]
 			shape: "octagon"
+			subtitle: "{ftbquests.chapter.suit_up.quest12.subtitle}"
 			tasks: [
 				{
 					id: "33F5411A4962424A"
@@ -764,6 +765,7 @@
 		}
 		{
 			dependencies: ["537502D17BEAA19F"]
+			description: ["{ftbquests.chapter.suit_up.quest13.description1}"]
 			icon: {
 				Count: 1
 				id: "oreganized:electrum_helmet"
@@ -779,6 +781,7 @@
 				type: "random"
 			}]
 			shape: "octagon"
+			subtitle: "{ftbquests.chapter.suit_up.quest13.subtitle}"
 			tasks: [
 				{
 					id: "4B645B1333E31474"
@@ -831,6 +834,7 @@
 		}
 		{
 			dependencies: ["537502D17BEAA19F"]
+			description: ["{ftbquests.chapter.suit_up.quest14.description1}"]
 			icon: {
 				Count: 1
 				id: "caverns_and_chasms:necromium_helmet"
@@ -846,6 +850,7 @@
 				type: "random"
 			}]
 			shape: "octagon"
+			subtitle: "{ftbquests.chapter.suit_up.quest14.subtitle}"
 			tasks: [
 				{
 					id: "281C95D7B8CDEF56"

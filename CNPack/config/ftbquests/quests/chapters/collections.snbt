@@ -3429,6 +3429,101 @@
 					item: "aquamirae:poseidons_breakfast"
 					type: "item"
 				}
+				{
+					id: "20A232DEB8C0DB46"
+					item: "brewinandchewin:apple_jelly"
+					type: "item"
+				}
+				{
+					id: "6DEA4578E49257BE"
+					item: "brewinandchewin:glow_berry_marmalade"
+					type: "item"
+				}
+				{
+					id: "29383977CEB148FE"
+					item: "brewinandchewin:sweet_berry_jam"
+					type: "item"
+				}
+				{
+					id: "7B20D57D699746C9"
+					item: "brewinandchewin:quiche"
+					type: "item"
+				}
+				{
+					id: "76F21502D6FF77A5"
+					item: "brewinandchewin:ham_and_cheese_sandwich"
+					type: "item"
+				}
+				{
+					id: "4384BB85702DADCB"
+					item: "brewinandchewin:fiery_fondue_pot"
+					type: "item"
+				}
+				{
+					id: "3B34C99B8EACC761"
+					item: "brewinandchewin:pizza"
+					type: "item"
+				}
+				{
+					id: "45E9511A5100B00E"
+					item: "brewinandchewin:scarlet_cheese_wheel"
+					type: "item"
+				}
+				{
+					id: "2BD7AE42EC792BAE"
+					item: "brewinandchewin:flaxen_cheese_wheel"
+					type: "item"
+				}
+				{
+					id: "6A79DC73E4937881"
+					item: "brewinandchewin:horror_lasagna"
+					type: "item"
+				}
+				{
+					id: "67E2B245E97C5348"
+					item: "brewinandchewin:scarlet_pierogies"
+					type: "item"
+				}
+				{
+					id: "61F1F11873228DA6"
+					item: "brewinandchewin:creamy_onion_soup"
+					type: "item"
+				}
+				{
+					id: "2EA9295D934C7132"
+					item: "brewinandchewin:cheesy_pasta"
+					type: "item"
+				}
+				{
+					id: "09EF2DEB334F0496"
+					item: "brewinandchewin:vegetable_omelet"
+					type: "item"
+				}
+				{
+					id: "59D67EE14CA9B600"
+					item: "brewinandchewin:cocoa_fudge"
+					type: "item"
+				}
+				{
+					id: "3D79DDC4FFFD5AD9"
+					item: "brewinandchewin:kippers"
+					type: "item"
+				}
+				{
+					id: "61E416E555A777B3"
+					item: "brewinandchewin:pickled_pickles"
+					type: "item"
+				}
+				{
+					id: "6F4B6CC84E961694"
+					item: "brewinandchewin:jerky"
+					type: "item"
+				}
+				{
+					id: "0119A7D43D90103E"
+					item: "brewinandchewin:kimchi"
+					type: "item"
+				}
 			]
 			title: "{ftbquests.chapter.collections.quest9.title}"
 			x: 1.5d

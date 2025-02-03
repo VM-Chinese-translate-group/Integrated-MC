@@ -3318,7 +3318,7 @@
 							}
 							maxSearchRadius: 100
 							skinKnown: 1b
-							targetStructure: "friendsandfoes:illusioner_shack"
+							targetStructure: "integrated_minecraft:illusioner_shack"
 							zoomLevel: 2
 						}
 					}

@@ -491,38 +491,6 @@
 			x: 4.5d
 			y: -4.0d
 		}
-		{
-			dependencies: ["281CCE264FD37316"]
-			description: [
-				"{ftbquests.chapter.the_copper_age.quest20.description1}"
-				""
-				"{ftbquests.chapter.the_copper_age.quest20.description2}"
-			]
-			id: "16EAE7FD83AC33D2"
-			min_required_tasks: 1
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "588DA269A56DF52C"
-				table_id: 8958467953098074542L
-				type: "random"
-			}]
-			subtitle: "{ftbquests.chapter.the_copper_age.quest20.subtitle}"
-			tasks: [
-				{
-					id: "57B676DA3B4441CB"
-					item: "molten_metals:ceramic_ingot_mold"
-					type: "item"
-				}
-				{
-					id: "3940E3FEDCCB4AD7"
-					item: "molten_metals:ingot_mold"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.the_copper_age.quest20.title}"
-			x: 1.5d
-			y: -4.5d
-		}
 	]
 	title: "{ftbquests.chapter.the_copper_age.title}"
 }

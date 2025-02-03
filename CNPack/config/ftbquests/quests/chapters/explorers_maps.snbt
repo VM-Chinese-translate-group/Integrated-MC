@@ -6,6 +6,14 @@
 	filename: "explorers_maps"
 	group: "79E58030D94D590D"
 	id: "58BB2C8D50270BA7"
+	images: [{
+		height: 1.2d
+		image: "imcquests:textures/misc/start.png"
+		rotation: 0.0d
+		width: 2.1333333333333333d
+		x: 0.0d
+		y: -1.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -29,7 +37,7 @@
 		{
 			can_repeat: true
 			dependencies: ["09600EADF4F3DC69"]
-			icon: "biomemakeover:illunite_cluster"
+			icon: "minecraft:dark_oak_sapling"
 			id: "2A704F47861FA750"
 			optional: true
 			rewards: [{
@@ -65,8 +73,12 @@
 			optional: true
 			shape: "square"
 			tasks: [{
-				id: "542A31A2E4E42911"
-				type: "checkmark"
+				advancement: "integrated_villages:integrated_villages_root"
+				criterion: ""
+				icon: "quark:cactus_block"
+				id: "42156995FD54C3DA"
+				title: "{ftbquests.chapter.explorers_maps.quest3.task_+4761828273935401946.title}"
+				type: "advancement"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest3.title}"
 			x: -5.5d
@@ -165,26 +177,14 @@
 			hide_dependency_lines: true
 			icon: "caverns_and_chasms:rocky_dirt"
 			id: "677A9F1FFA392B64"
-			optional: true
-			rewards: [{
-				id: "1EC63D4F1308B37E"
-				item: {
-					Count: 1
-					id: "quark:pathfinders_quill"
-					tag: {
-						targetBiome: "minecraft:windswept_hills"
-						targetBiomeColor: 9079434
-						targetBiomeUnderground: 0b
-					}
-				}
-				type: "item"
-			}]
 			shape: "square"
 			tasks: [{
-				count: 5L
-				id: "00507160466F8396"
-				item: "ars_nouveau:source_gem"
-				type: "item"
+				advancement: "integrated_villages:integrated_villages_root"
+				criterion: ""
+				icon: "caverns_and_chasms:rocky_dirt"
+				id: "55563322F8613475"
+				title: "{ftbquests.chapter.explorers_maps.quest7.task_+6149158566510015605.title}"
+				type: "advancement"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest7.title}"
 			x: 4.0d
@@ -221,14 +221,18 @@
 		}
 		{
 			dependencies: ["6D43D69EEEBE2D79"]
-			hide_dependency_lines: false
+			hide_dependency_lines: true
 			icon: "minecraft:sweet_berries"
 			id: "09600EADF4F3DC69"
 			optional: true
 			shape: "square"
 			tasks: [{
-				id: "00B79A2F79B09178"
-				type: "checkmark"
+				advancement: "integrated_villages:integrated_villages_root"
+				criterion: ""
+				icon: "minecraft:sweet_berries"
+				id: "18D42B58C9E50113"
+				title: "{ftbquests.chapter.explorers_maps.quest9.task_+1789102612317274387.title}"
+				type: "advancement"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest9.title}"
 			x: 1.0d
@@ -513,8 +517,12 @@
 			optional: true
 			shape: "square"
 			tasks: [{
-				id: "1CA3BA825691F48D"
-				type: "checkmark"
+				advancement: "integrated_villages:integrated_villages_root"
+				criterion: ""
+				icon: "minecraft:jungle_sapling"
+				id: "32014C4EC5B870B9"
+				title: "{ftbquests.chapter.explorers_maps.quest19.task_+3603245078081466553.title}"
+				type: "advancement"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest19.title}"
 			x: -2.0d
@@ -586,8 +594,12 @@
 			optional: true
 			shape: "square"
 			tasks: [{
-				id: "382C1823D1E10A28"
-				type: "checkmark"
+				advancement: "integrated_villages:integrated_villages_root"
+				criterion: ""
+				icon: "minecraft:water_bucket"
+				id: "45718C70C1C8F571"
+				title: "{ftbquests.chapter.explorers_maps.quest22.task_+5003935076900730225.title}"
+				type: "advancement"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest22.title}"
 			x: 0.0d
@@ -624,61 +636,13 @@
 		}
 		{
 			can_repeat: true
-			dependencies: [
-				"292F660FC67B85FC"
-				"3AF8B4EBCE54E817"
-				"01F10BC751835B7C"
-				"1689677166235C89"
-				"131B6DE8B6402E75"
-				"62C13CF152B69B24"
-				"3B2DA52A95E1B730"
-				"10EC9FF38EB45AC1"
-				"7474E81497ACE677"
-				"2987F83C7A21D8DD"
-				"0B418D4D8B6E48A1"
-				"744273A33517A998"
-				"37B379FF4834D89D"
-				"611E0A75AEB395BB"
-				"694B82A6E6A653FA"
-				"1A1DBEF38340AD10"
-				"2A704F47861FA750"
-				"103AA360532E952F"
-				"327C2F098771B7C3"
-				"6038D2D0A54E29DF"
-				"72375066092E95D3"
-				"0123F0DD2DB7A203"
-				"4A4C7DC41D551FED"
-				"0E3EF6B800C9AD0D"
-				"1F825B81E177885F"
-				"35CEE121B754C216"
-				"6D43D69EEEBE2D79"
-				"52A04EC4A470E01D"
-				"0E920B47FE1D61F2"
-				"2F9EECF98AF13434"
-				"4F4C049182694CC7"
-				"3D8BCCFCEFEA77BE"
-				"34EFE70E1BC98D60"
-				"24EFE0DCEE54E844"
-				"512E3BB9064CEEC3"
-				"493AC092DA35B1E1"
-				"291C13A11D53BF38"
-				"2DF0C8FC6724145A"
-				"65E170B1002FD845"
-				"2F933AD3B96685AE"
-				"51D9307FA7FEDA46"
-				"075DAF257F0A374A"
-				"11D09E5F4AB40491"
-				"36C7A4A0B57146D6"
-				"79DB41984ACBE7BC"
-				"247F87052050822D"
-			]
+			dependencies: ["6D43D69EEEBE2D79"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			hide_details_until_startable: true
 			hide_until_deps_visible: true
 			icon: "regions_unexplored:alpha_grass_block"
 			id: "635E8B759C02188F"
-			optional: true
 			rewards: [{
 				id: "3E63E03F6DC165B1"
 				item: {
@@ -700,7 +664,7 @@
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest24.title}"
 			x: 2.0d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			can_repeat: true
@@ -1175,8 +1139,12 @@
 			optional: true
 			shape: "square"
 			tasks: [{
-				id: "49CFD6A597B5191E"
-				type: "checkmark"
+				advancement: "integrated_villages:integrated_villages_root"
+				criterion: ""
+				icon: "minecraft:ice"
+				id: "55FCC9EC2C916367"
+				title: "{ftbquests.chapter.explorers_maps.quest41.task_+6196049203552150375.title}"
+				type: "advancement"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest41.title}"
 			x: -2.5d
@@ -1647,31 +1615,19 @@
 			y: -4.0d
 		}
 		{
-			can_repeat: true
 			dependencies: ["6D43D69EEEBE2D79"]
 			hide_dependency_lines: true
 			icon: "minecraft:glow_lichen"
 			id: "0123F0DD2DB7A203"
 			optional: true
-			rewards: [{
-				id: "00BCD27AC4CD206F"
-				item: {
-					Count: 1
-					id: "quark:pathfinders_quill"
-					tag: {
-						targetBiome: "minecraft:dripstone_caves"
-						targetBiomeColor: 1639942
-						targetBiomeUnderground: 0b
-					}
-				}
-				type: "item"
-			}]
 			shape: "square"
 			tasks: [{
-				count: 5L
-				id: "25587E0E6F556B20"
-				item: "ars_nouveau:source_gem"
-				type: "item"
+				advancement: "integrated_villages:integrated_villages_root"
+				criterion: ""
+				icon: "minecraft:glow_lichen"
+				id: "5E6BD14C120996D2"
+				title: "{ftbquests.chapter.explorers_maps.quest58.task_+6803761786723604178.title}"
+				type: "advancement"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest58.title}"
 			x: 5.5d
@@ -1918,8 +1874,12 @@
 			optional: true
 			shape: "square"
 			tasks: [{
-				id: "02B348C91C317C8E"
-				type: "checkmark"
+				advancement: "integrated_villages:integrated_villages_root"
+				criterion: ""
+				icon: "regions_unexplored:dark_oak_shrub"
+				id: "5BE81A97DF981044"
+				title: "{ftbquests.chapter.explorers_maps.quest67.task_+6622572491641983044.title}"
+				type: "advancement"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest67.title}"
 			x: -6.5d
@@ -1962,8 +1922,12 @@
 			optional: true
 			shape: "square"
 			tasks: [{
-				id: "28A32B6E39DEB9A8"
-				type: "checkmark"
+				advancement: "integrated_villages:integrated_villages_root"
+				criterion: ""
+				icon: "environmental:giant_tall_grass"
+				id: "704692CF55230AAE"
+				title: "{ftbquests.chapter.explorers_maps.quest69.task_+8090315199801920174.title}"
+				type: "advancement"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest69.title}"
 			x: -2.0d
@@ -2481,8 +2445,12 @@
 			progression_mode: "linear"
 			shape: "square"
 			tasks: [{
-				id: "0CBA75372C34C44E"
-				type: "checkmark"
+				advancement: "integrated_villages:integrated_villages_root"
+				criterion: ""
+				icon: "minecraft:lily_pad"
+				id: "2865F7E0BBB99123"
+				title: "{ftbquests.chapter.explorers_maps.quest87.task_+2911005278759129379.title}"
+				type: "advancement"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest87.title}"
 			x: 3.0d

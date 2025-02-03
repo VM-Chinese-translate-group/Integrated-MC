@@ -545,6 +545,59 @@
 			x: 2.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["2813DA6EC6E62656"]
+			description: [
+				"{ftbquests.chapter.the_idk_age.quest21.description1}"
+				""
+				"{ftbquests.chapter.the_idk_age.quest21.description2}"
+			]
+			id: "656A08444C0E1B92"
+			min_required_tasks: 1
+			rewards: [
+				{
+					id: "5841050FCAAEAD7A"
+					table_id: 4803157502738565325L
+					type: "random"
+				}
+				{
+					id: "4D217F232D3CE470"
+					item: "createmetallurgy:molten_iron_bucket"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.the_idk_age.quest21.subtitle}"
+			tasks: [
+				{
+					id: "5EE5D2B50F712F40"
+					item: "createmetallurgy:foundry_basin"
+					type: "item"
+				}
+				{
+					id: "630A3DE71DDD3DAA"
+					item: "createmetallurgy:casting_basin"
+					type: "item"
+				}
+				{
+					id: "7CF3B9A14AEB2FF2"
+					item: "createmetallurgy:casting_table"
+					type: "item"
+				}
+				{
+					id: "20C162783BA29160"
+					item: "createmetallurgy:foundry_mixer"
+					type: "item"
+				}
+				{
+					id: "68B0B2FCECBE99EE"
+					item: "createmetallurgy:glassed_foundry_lid"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_idk_age.quest21.title}"
+			x: -4.5d
+			y: 0.0d
+		}
 	]
 	title: "{ftbquests.chapter.the_idk_age.title}"
 }
