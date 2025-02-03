@@ -23,15 +23,15 @@
               "tag":"{AntiqueInk:1b,
               pages:[
               \"[
-                {\\\"text\\\":\\\"§r§4§lEmberblade\n\\\"},
-                {\\\"text\\\":\\\"~~~~~~~~~\n\\\"},
-                {\\\"text\\\":\\\"This journal details how to make a blade of pure fire.\\\"}
+                {\\\"translate\\\":\\\"book.nether_fortress.2.page.1_1\\\"},
+                {\\\"translate\\\":\\\"book.tilde\\\"},
+                {\\\"translate\\\":\\\"book.nether_fortress.2.page.1_2\\\"}
               ]\",
               \"[
-                {\\\"text\\\":\\\"To create this blade of fire, infuse a sword made of an ancient metal with a rod of fire, a bottle of fiery blood, 2 bright red gemstones, 2 essence of fire, and 2 witherbones.\\\"}
+                {\\\"translate\\\":\\\"book.nether_fortress.2.page.2_1\\\"}
               ]\",
               \"[
-                {\\\"text\\\":\\\"Use this powerful weapon well.\n\\\"}
+                {\\\"translate\\\":\\\"book.nether_fortress.2.page.3_1\\\"}
               ]\"
             ],
             title:Journal,
@@ -40,7 +40,9 @@
             }"},
             {
               "function": "minecraft:set_name",
-              "name": "Emberblade",
+              "name": {
+                "translate": "book.nether_fortress.2.name"
+              },
               "add": false
             }
           ]
@@ -55,24 +57,26 @@
               "tag":"{AntiqueInk:1b,
               pages:[
               \"[
-                {\\\"text\\\":\\\"§r§4§lEmberlash\n\\\"},
-                {\\\"text\\\":\\\"~~~~~~~~~\n\\\"},
-                {\\\"text\\\":\\\"Attached below are instructions for creating a whip of pure fire. It is said mighty beasts used to use such whips, until the last one was killed by a wizard.\\\"}
+                {\\\"translate\\\":\\\"book.nether_fortress.1.page.1_1\\\"},
+                {\\\"translate\\\":\\\"book.tilde\\\"},
+                {\\\"translate\\\":\\\"book.nether_fortress.1.page.1_2\\\"}
               ]\",
               \"[
-                {\\\"text\\\":\\\"To create this lash of fire, infuse a sai made of an ancient metal with a squirming tendon, a bottle of fiery blood, 2 essence of fire, 2 dark silk from the depths, and 2 witherbones.\\\"}
+                {\\\"translate\\\":\\\"book.nether_fortress.1.page.2_1\\\"}
               ]\",
               \"[
-                {\\\"text\\\":\\\"Use this powerful weapon well.\n\\\"}
+                {\\\"translate\\\":\\\"book.nether_fortress.1.page.3_1\\\"}
               ]\"
             ],
-            title:Journal,
+            title:日志,
             author:CraisinLord,
             display:{Lore:[\"Found in the Nether Fortress\"]}
             }"},
             {
               "function": "minecraft:set_name",
-              "name": "Emberlash",
+              "name": {
+                "translate": "book.nether_fortress.1.name"
+              },
               "add": false
             }
           ]
