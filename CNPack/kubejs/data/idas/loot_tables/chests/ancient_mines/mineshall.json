@@ -23,16 +23,16 @@
               "tag":"{AntiqueInk:1b,
               pages:[
               \"[
-                {\\\"translate\\\":\\\"§r§4§lSoulkeeper\n\\\"},
-                {\\\"translate\\\":\\\"~~~~~~~~~\n\\\"},
-                {\\\"translate\\\":\\\"Our people have been crafting greataxes of substantial and unique powers for generations. This hammer, the soulkeeper, harnesses the power of the supernatural world.\\\"}
+                {\\\"translate\\\":\\\"book.ancient_mines.5.page.1_1\\\"},
+                {\\\"translate\\\":\\\"book.tilde\\\"},
+                {\\\"translate\\\":\\\"book.ancient_mines.5.page.1_2\\\"}
               ]\",
               \"[
-                {\\\"translate\\\":\\\"To create this weapon, infuse a greathammer made of ancient metal from Hell with 5 ghostly plasm, one glowing blue heart, and 2 skulls of great beasts.\\\"}
+                {\\\"translate\\\":\\\"book.ancient_mines.5.page.2_1\\\"}
               ]\",
               \"[
-                {\\\"translate\\\":\\\"Use this power for good,\n\\\"},
-                {\\\"translate\\\":\\\"A Dwarven blacksmith\\\"}
+                {\\\"translate\\\":\\\"book.ancient_mines.5.page.3_1\\\"},
+                {\\\"translate\\\":\\\"book.ancient_mines.5.page.3_2\\\"}
               ]\"
             ],
             title:日志,
@@ -41,7 +41,9 @@
             }"},
             {
               "function": "minecraft:set_name",
-              "name": "Soulkeeper",
+              "name": {
+                "translate": "book.ancient_mines.5.name"
+              },
               "add": false
             }
           ]
@@ -56,16 +58,16 @@
               "tag":"{AntiqueInk:1b,
               pages:[
               \"[
-                {\\\"translate\\\":\\\"§r§4§lHearthflame\n\\\"},
-                {\\\"translate\\\":\\\"~~~~~~~~~\n\\\"},
-                {\\\"translate\\\":\\\"Our people have been crafting greataxes of substantial and unique powers for generations. This hammer, the hearthflame, harnesses the power of volcanic rock uncovered deep within the earth.\\\"}
+                {\\\"translate\\\":\\\"book.ancient_mines.4.page.1_1\\\"},
+                {\\\"translate\\\":\\\"book.tilde\\\"},
+                {\\\"translate\\\":\\\"book.ancient_mines.4.page.1_2\\\"}
               ]\",
               \"[
-                {\\\"translate\\\":\\\"To create this weapon, infuse a greathammer made of ancient metal from Hell with 4 shards from the core of the earth, 2 ash from a volcano, and 2 essence of fire itself.\\\"}
+                {\\\"translate\\\":\\\"book.ancient_mines.4.page.2_1\\\"}
               ]\",
               \"[
-                {\\\"translate\\\":\\\"Use this power for good,\n\\\"},
-                {\\\"translate\\\":\\\"A Dwarven blacksmith\\\"}
+                {\\\"translate\\\":\\\"book.ancient_mines.4.page.3_1\\\"},
+                {\\\"translate\\\":\\\"book.ancient_mines.4.page.3_2\\\"}
               ]\"
             ],
             title:日志,
@@ -74,7 +76,9 @@
             }"},
             {
               "function": "minecraft:set_name",
-              "name": "Hearthflame",
+              "name": {
+                "translate": "book.ancient_mines.4.name"
+              },
               "add": false
             }
           ]
@@ -89,16 +93,16 @@
               "tag":"{AntiqueInk:1b,
               pages:[
               \"[
-                {\\\"translate\\\":\\\"§r§4§lMolten Edge\n\\\"},
-                {\\\"translate\\\":\\\"~~~~~~~~~\n\\\"},
-                {\\\"translate\\\":\\\"Our people have been crafting greataxes of substantial and unique powers for generations. This greataxe, the Molten Edge, harnesses the power of fire and magma.\\\"}
+                {\\\"translate\\\":\\\"book.ancient_mines.3.page.1_1\\\"},
+                {\\\"translate\\\":\\\"book.tilde\\\"},
+                {\\\"translate\\\":\\\"book.ancient_mines.3.page.1_2\\\"}
               ]\",
               \"[
-                {\\\"translate\\\":\\\"To create this weapon, infuse a greataxe made of ancient metal from Hell with 1 bottle of an fiery blood, 3 pieces of a primal magma, 2 bright red gems, and 2 essence of fire itself.\\\"}
+                {\\\"translate\\\":\\\"book.ancient_mines.3.page.2_1\\\"}
               ]\",
               \"[
-                {\\\"translate\\\":\\\"Use this power for good,\n\\\"},
-                {\\\"translate\\\":\\\"A Dwarven blacksmith\\\"}
+                {\\\"translate\\\":\\\"book.ancient_mines.3.page.3_1\\\"},
+                {\\\"translate\\\":\\\"book.ancient_mines.3.page.3_2\\\"}
               ]\"
             ],
             title:日志,
@@ -107,7 +111,9 @@
             }"},
             {
               "function": "minecraft:set_name",
-              "name": "Molten Edge",
+              "name": {
+                "translate": "book.ancient_mines.3.name"
+              },
               "add": false
             }
           ]

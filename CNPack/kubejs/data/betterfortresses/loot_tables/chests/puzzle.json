@@ -1,0 +1,283 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+              "tag":"{AntiqueInk:1b,
+              pages:[
+              \"[
+                {\\\"text\\\":\\\"§r§4§lEmberblade\n\\\"},
+                {\\\"text\\\":\\\"~~~~~~~~~\n\\\"},
+                {\\\"text\\\":\\\"This journal details how to make a blade of pure fire.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"To create this blade of fire, infuse a sword made of an ancient metal with a rod of fire, a bottle of fiery blood, 2 bright red gemstones, 2 essence of fire, and 2 witherbones.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Use this powerful weapon well.\n\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:CraisinLord,
+            display:{Lore:[\"Found in the Nether Fortress\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Emberblade",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+              "tag":"{AntiqueInk:1b,
+              pages:[
+              \"[
+                {\\\"text\\\":\\\"§r§4§lEmberlash\n\\\"},
+                {\\\"text\\\":\\\"~~~~~~~~~\n\\\"},
+                {\\\"text\\\":\\\"Attached below are instructions for creating a whip of pure fire. It is said mighty beasts used to use such whips, until the last one was killed by a wizard.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"To create this lash of fire, infuse a sai made of an ancient metal with a squirming tendon, a bottle of fiery blood, 2 essence of fire, 2 dark silk from the depths, and 2 witherbones.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Use this powerful weapon well.\n\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:CraisinLord,
+            display:{Lore:[\"Found in the Nether Fortress\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Emberlash",
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 3.0,
+        "max": 6.0
+      },
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 5.0
+              },
+              "add": false
+            }
+          ],
+          "name": "betternether:cincinnasite_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 5.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:gold_nugget"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 5.0
+              },
+              "add": false
+            }
+          ],
+          "name": "betternether:cincinnasite"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 5.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 4.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:nether_wart"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 2.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 2.0
+              },
+              "add": false
+            }
+          ],
+          "name": "rubinated_nether:ruby"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 1.0
+              },
+              "add": false
+            }
+          ],
+          "name": "endrem:nether_eye"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 1.0
+              },
+              "add": false
+            }
+          ],
+          "name": "betternether:bowl_upgrade_smithing_template"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 1.0
+              },
+              "add": false
+            }
+          ],
+          "name": "betternether:flaming_ruby_upgrade_smithing_template"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 1.0
+              },
+              "add": false
+            }
+          ],
+          "name": "betternether:cincinnasite_diamond_upgrade_smithing_template"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:constant",
+        "value": 1
+      },
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:blaze_rod"
+        }
+      ]
+    }
+  ]
+}
