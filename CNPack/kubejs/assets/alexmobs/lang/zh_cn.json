@@ -1,1 +1,7 @@
-null
+{
+    "item.alexsmobs.spawn_egg_spectre":"Spectray Spawn Egg",
+    "block.alexsmobs.spectre_sail":"Spectray Membrane Sail",
+    "alexsmobs.sound.subtitle.spectre_idle":"Spectray howls",
+    "alexsmobs.sound.subtitle.spectre_hurt":"Spectray screeches",
+    "advancements.alexsmobs.spectre.desc":"Lure a Spectray in the end with a Soul Heart. Use a lead on them to hitch a ride!"
+}
