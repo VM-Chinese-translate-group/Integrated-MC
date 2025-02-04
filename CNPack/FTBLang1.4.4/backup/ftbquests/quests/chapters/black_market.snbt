@@ -42,7 +42,7 @@
 				only_from_crafting: false
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.black_market.quest1.title}"
+			title: "Ancient Mines"
 			x: -6.0d
 			y: -10.5d
 		}
@@ -82,7 +82,7 @@
 				item: "iceandfire:sapphire_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.black_market.quest2.title}"
+			title: "Pillager Fortress"
 			x: -5.5d
 			y: -14.0d
 		}
@@ -118,7 +118,7 @@
 				item: "iceandfire:sapphire_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.black_market.quest3.title}"
+			title: "Archmage Tower"
 			x: -4.5d
 			y: -14.0d
 		}
@@ -153,7 +153,7 @@
 				item: "iceandfire:sapphire_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.black_market.quest4.title}"
+			title: "Labyrinth"
 			x: -6.5d
 			y: -14.0d
 		}
@@ -189,7 +189,7 @@
 				item: "iceandfire:sapphire_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.black_market.quest5.title}"
+			title: "Desert Pyramid"
 			x: -5.0d
 			y: -10.5d
 		}
@@ -225,7 +225,7 @@
 				item: "iceandfire:sapphire_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.black_market.quest6.title}"
+			title: "Dread Citadel"
 			x: -3.5d
 			y: -14.0d
 		}
@@ -272,7 +272,7 @@
 				item: "iceandfire:sapphire_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.black_market.quest7.title}"
+			title: "Redhorn Guild"
 			x: -6.0d
 			y: -9.5d
 		}
@@ -307,7 +307,7 @@
 				item: "iceandfire:sapphire_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.black_market.quest8.title}"
+			title: "Tree of Wisdom"
 			x: -6.0d
 			y: -11.5d
 		}
@@ -348,7 +348,7 @@
 				item: "iceandfire:sapphire_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.black_market.quest9.title}"
+			title: "Apothecary Abode"
 			x: -5.0d
 			y: -11.5d
 		}
@@ -389,7 +389,7 @@
 				item: "iceandfire:sapphire_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.black_market.quest10.title}"
+			title: "Fisherman's Lodge"
 			x: -5.0d
 			y: -9.5d
 		}
@@ -424,7 +424,7 @@
 				item: "iceandfire:sapphire_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.black_market.quest11.title}"
+			title: "Frostmaw Spawn"
 			x: -2.5d
 			y: -14.0d
 		}
@@ -459,7 +459,7 @@
 				item: "iceandfire:sapphire_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.black_market.quest12.title}"
+			title: "Umvuthana Grove"
 			x: -1.5d
 			y: -14.0d
 		}
@@ -495,7 +495,7 @@
 				item: "iceandfire:sapphire_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.black_market.quest13.title}"
+			title: "Ancient Factory"
 			x: -6.0d
 			y: -13.0d
 		}
@@ -531,7 +531,7 @@
 				item: "iceandfire:sapphire_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.black_market.quest14.title}"
+			title: "Burning Arena"
 			x: -5.0d
 			y: -13.0d
 		}
@@ -567,7 +567,7 @@
 				item: "iceandfire:sapphire_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.black_market.quest15.title}"
+			title: "Cursed Pyramid"
 			x: -4.0d
 			y: -13.0d
 		}
@@ -603,7 +603,7 @@
 				item: "iceandfire:sapphire_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.black_market.quest16.title}"
+			title: "Frosted Prison"
 			x: -3.0d
 			y: -13.0d
 		}
@@ -639,7 +639,7 @@
 				item: "iceandfire:sapphire_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.black_market.quest17.title}"
+			title: "Ruined Citadel"
 			x: -7.0d
 			y: -13.0d
 		}
@@ -675,7 +675,7 @@
 				item: "iceandfire:sapphire_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.black_market.quest18.title}"
+			title: "Soul Black Smith"
 			x: -1.0d
 			y: -13.0d
 		}
@@ -711,7 +711,7 @@
 				item: "iceandfire:sapphire_gem"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.black_market.quest19.title}"
+			title: "Sunken City"
 			x: -2.0d
 			y: -13.0d
 		}
@@ -755,7 +755,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.black_market.quest20.title}"
+			title: "Toxic Caves"
 			x: -2.0d
 			y: -11.5d
 		}
@@ -799,7 +799,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.black_market.quest21.title}"
+			title: "Forlorn Hollows"
 			x: -3.0d
 			y: -9.5d
 		}
@@ -843,7 +843,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.black_market.quest22.title}"
+			title: "Primordial Caves"
 			x: -3.0d
 			y: -10.5d
 		}
@@ -887,7 +887,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.black_market.quest23.title}"
+			title: "Magnetic Caves"
 			x: -2.0d
 			y: -10.5d
 		}
@@ -931,7 +931,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.black_market.quest24.title}"
+			title: "Abyssal Chasm"
 			x: -3.0d
 			y: -11.5d
 		}
@@ -975,10 +975,10 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.black_market.quest25.title}"
+			title: "Candy Cavity"
 			x: -2.0d
 			y: -9.5d
 		}
 	]
-	title: "{ftbquests.chapter.black_market.title}"
+	title: "Black Market"
 }

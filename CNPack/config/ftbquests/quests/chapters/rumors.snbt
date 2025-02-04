@@ -869,7 +869,7 @@
 					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						"ftbfiltersystem:filter": "nbt(fuzzy:{AntiqueInk:1b,author:\"Hisakid\",display:{Name:'{\"text\":\"Summons\"}'}})"
+						"ftbfiltersystem:filter": "nbt(fuzzy:{AntiqueInk:1b,author:\"Hisakid\",display:{Name:'{\"translate\":\"book.abandoned_mineshaft.2.name\"}'}})"
 					}
 				}
 				match_nbt: true

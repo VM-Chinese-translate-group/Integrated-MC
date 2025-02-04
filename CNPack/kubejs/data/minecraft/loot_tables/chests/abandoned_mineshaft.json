@@ -23,12 +23,12 @@
         "tag":"{AntiqueInk:1b,
           pages:[
               \"[
-                {\\\"translate\\\":\\\"§r§4§lSummons\n\\\"},
-                {\\\"translate\\\":\\\"~~~~~~~~~\n\\\"},
-                {\\\"translate\\\":\\\"Our citadel is under siege by the Pigkin. \\\"},
-                {\\\"translate\\\":\\\"Please return as soon as possible with as many mineral as you've gathered. Do not use the portals. They are no longer safe. \n\\\"},
-                {\\\"translate\\\":\\\"The 51st King of Dwargonia, \n\\\"},
-                {\\\"translate\\\":\\\"§5Karl of the Last Stone\\\"}
+                {\\\"translate\\\":\\\"book.abandoned_mineshaft.2.page.1_1\\\"},
+                {\\\"translate\\\":\\\"book.tilde\\\"},
+                {\\\"translate\\\":\\\"book.abandoned_mineshaft.2.page.1_2\\\"},
+                {\\\"translate\\\":\\\"book.abandoned_mineshaft.2.page.1_3\\\"},
+                {\\\"translate\\\":\\\"book.abandoned_mineshaft.2.page.1_4\\\"},
+                {\\\"translate\\\":\\\"book.abandoned_mineshaft.2.page.1_5\\\"}
               ]\"
             ],
             title:\"日志\",
@@ -37,7 +37,9 @@
             }"},
             {
               "function": "minecraft:set_name",
-              "name": "Summons",
+              "name": {
+                "translate": "book.abandoned_mineshaft.2.name"
+              },
               "add": false
             }
           ]

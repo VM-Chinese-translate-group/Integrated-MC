@@ -420,7 +420,7 @@
 								pattern: "minecraft:sentry"
 							}
 							display: {
-								Name: "{\"text\":\"Royal Helmet\"}"
+								Name: "{\"translate\":\"ftbquests.loot_table.royal.helmet\"}"
 								color: 8991416
 							}
 							"quark:RuneColor": "blank"
@@ -457,7 +457,7 @@
 								pattern: "minecraft:sentry"
 							}
 							display: {
-								Name: "{\"text\":\"Royal Tunic\"}"
+								Name: "{\"translate\":\"ftbquests.loot_table.royal.tunic\"}"
 								color: 8991416
 							}
 							"quark:RuneColor": "blank"
@@ -494,7 +494,7 @@
 								pattern: "minecraft:sentry"
 							}
 							display: {
-								Name: "{\"text\":\"Royal Leggings\"}"
+								Name: "{\"translate\":\"ftbquests.loot_table.royal.leggings\"}"
 								color: 8991416
 							}
 							"quark:RuneColor": "blank"
@@ -531,7 +531,7 @@
 								pattern: "minecraft:sentry"
 							}
 							display: {
-								Name: "{\"text\":\"Royal Boots\"}"
+								Name: "{\"translate\":\"ftbquests.loot_table.royal.boots\"}"
 								color: 8991416
 							}
 							"quark:RuneColor": "blank"
@@ -564,7 +564,7 @@
 							]
 							RepairCost: 0
 							display: {
-								Name: "{\"text\":\"Royal Sword\"}"
+								Name: "{\"translate\":\"ftbquests.loot_table.royal.sword\"}"
 							}
 							"quark:RuneColor": "blank"
 						}
