@@ -121,8 +121,9 @@ def process_translation(file_id: int, path: Path) -> dict[str, str]:
     zh_cn_dict = {}
     for key, value in zip(keys, values):
         # 确保替换 \\u00A0 和 \\n
-#        value = re.sub(r"\\u00A0", "\u00A0", value)  # 替换 \\u00A0 为 \u00A0
-#        value = re.sub(r"\\n", "\n", value)  # 替换 \\n 为换行符
+        value = re.sub(r"\\u00A0", "\u00A0", value)  # 替换 \\u00A0 为 \u00A0
+        value = re.sub(r"\\n", "\n", value)  # 替换 \\n 为换行符
+        vaule = re.sub(r"&#92;", "\\", vaule)
         # 保存替换后的值
         zh_cn_dict[key] = value
 
