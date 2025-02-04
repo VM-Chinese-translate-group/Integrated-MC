@@ -107,35 +107,6 @@ def save_translation(zh_cn_dict: dict[str, str], path: Path) -> None:
             )
 
 
-def process_translation(file_id: int, path: Path) -> dict[str, str]:
-    """
-    处理单个文件的翻译，返回翻译字典
-
-    :param file_id: 文件ID
-    :param path: 文件路径
-    :return: 翻译内容字典
-    """
-    keys, values = translate(file_id)
-
-    # 手动处理文本的替换，避免反斜杠被转义
-#    zh_cn_dict = {}
-#    for key, value in zip(keys, values):
-        # 确保替换 \\u00A0 和 \\n
-#        value = re.sub(r"\\u00A0", "\u00A0", value)  # 替换 \\u00A0 为 \u00A0
-#        value = re.sub(r"\\n", "\n", value)  # 替换 \\n 为换行符
-        # 保存替换后的值
-#        zh_cn_dict[key] = value
-
-    # 特殊处理：ftbquest 文件
-    if "ftbquest" in path.name:
-        zh_cn_dict = {
-            key: value.replace(" ", "\u00A0") if "image" not in value else value
-            for key, value in zip(keys, values)
-        }
-
-#    return zh_cn_dict
-
-
 def main() -> None:
     get_files()
 
