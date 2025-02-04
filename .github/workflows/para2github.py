@@ -1,7 +1,6 @@
 import json
 import os
 import re
-import html
 from pathlib import Path
 from typing import Tuple
 
@@ -111,8 +110,16 @@ def process_translation(file_id: int, path: Path) -> dict[str, str]:
     """
     keys, values = translate(file_id)
 
-    # 替换换行符
-    zh_cn_dict = {key: html.unescape(re.sub(r"\\u00A0", "\u00A0", re.sub(r"\\n", "\n", value)))for key, value in zip(keys, values)}
+# 只替换特定字符
+def process_value(value: str) -> str:
+    # 替换 \\u00A0 为 \u00A0
+    value = re.sub(r"\\u00A0", "\u00A0", value)
+    # 替换 \\n 为换行符
+    value = re.sub(r"\\n", "\n", value)
+    return value
+
+    # 处理翻译字典
+    zh_cn_dict = {key: process_value(value) for key, value in zip(keys, values)}
 
     # 特殊处理：ftbquest 文件
     if "ftbquest" in path.name:
