@@ -111,12 +111,12 @@ def process_translation(file_id: int, path: Path) -> dict[str, str]:
     keys, values = translate(file_id)
 
 # 只替换特定字符
-def process_value(value: str) -> str:
+def process_value(values: str) -> str:
     # 替换 \\u00A0 为 \u00A0
-    value = re.sub(r"\\u00A0", "\u00A0", value)
+    values = re.sub(r"\\u00A0", "\u00A0", values)
     # 替换 \\n 为换行符
-    value = re.sub(r"\\n", "\n", value)
-    return value
+    values = re.sub(r"\\n", "\n", values)
+    return values
 
     # 处理翻译字典
     zh_cn_dict = {key: process_value(value) for key, value in zip(keys, values)}
