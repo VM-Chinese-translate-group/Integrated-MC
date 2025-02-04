@@ -21,6 +21,13 @@ zh_cn_list: list[dict[str, str]] = []
 
 
 def fetch_json(url: str, headers: dict[str, str]) -> list[dict[str, str]]:
+    """
+    获取 JSON 数据
+
+    :param url: 请求的 URL
+    :param headers: 请求头
+    :return: 返回 JSON 数据
+    """
     response = requests.get(url, headers=headers)
     response.raise_for_status()
     return response.json()
@@ -88,7 +95,7 @@ def save_translation(zh_cn_dict: dict[str, str], path: Path) -> None:
             json.dump(
                 source_json, f, ensure_ascii=False, indent=4, separators=(",", ":")
             )
-        except:
+        except FileNotFoundError:
             print(f"{source_path}路径不存在，文件按首字母排序！")
             json.dump(
                 zh_cn_dict,
@@ -110,16 +117,11 @@ def process_translation(file_id: int, path: Path) -> dict[str, str]:
     """
     keys, values = translate(file_id)
 
-# 只替换特定字符
-def process_value(values: str) -> str:
-    # 替换 \\u00A0 为 \u00A0
-    values = re.sub(r"\\u00A0", "\u00A0", values)
-    # 替换 \\n 为换行符
-    values = re.sub(r"\\n", "\n", values)
-    return values
-
-    # 处理翻译字典
-    zh_cn_dict = {key: process_value(value) for key, value in zip(keys, values)}
+    # 替换 \\u00A0 和 \\n
+    zh_cn_dict = {
+        key: re.sub(r"\\u00A0", "\u00A0", re.sub(r"\\n", "\n", value))
+        for key, value in zip(keys, values)
+    }
 
     # 特殊处理：ftbquest 文件
     if "ftbquest" in path.name:
