@@ -111,7 +111,7 @@ def process_translation(file_id: int, path: Path) -> dict[str, str]:
     keys, values = translate(file_id)
 
     # 替换换行符
-    zh_cn_dict = {key: re.sub(r"\\n", "\n", value) for key, value in zip(keys, values)}
+    zh_cn_dict = {key: re.sub(r"\\u00A0", "\u00A0", re.sub(r"\\n", "\n", value))for key, value in zip(keys, values)}
 
     # 特殊处理：ftbquest 文件
     if "ftbquest" in path.name:
