@@ -1,12 +1,1 @@
-{
-    "item.ars_elemental.siren_shards":"Muse Token",
-    "item.ars_elemental.siren_charm":"Muse Charm",
-    "block.ars_elemental.mermaid_rock":"Muse Shrine",
-    "entity.ars_elemental.siren_entity":"Muse",
-    "entity.ars_elemental.siren_familiar":"Muse Familiar",
-    "ars_elemental.page1.mermaid":"Muses are found in warmer seas, jumping out of the water or following boats. You can befriend a wild mermaid by giving them a sea pickle, they will jump and leave behind few tokens. The siren charm can be used to summon a Muse and if used on Prismarine it will transform in a Muse Shrine. Tamed sirens can change colors if you give them kelp or corals.",
-    "item.ars_elemental.siren_familiar":"Bound Script: Muse",
-    "ars_elemental.familiar_name.siren_familiar":"Muse",
-    "ars_elemental.familiar_desc.siren_familiar":"A Muse Familiar will increase the damage of Water spells by 2. It will also give Dolphin Grace II to the summoner while in water. Obtained by performing the Ritual of Binding near a Muse.",
-    "ars_elemental.adv.desc.siren_charm":"Acquire a Muse Charm"
-}
+null
