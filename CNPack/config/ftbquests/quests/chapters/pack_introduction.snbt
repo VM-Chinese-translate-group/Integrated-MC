@@ -625,8 +625,8 @@
 						AntiqueInk: 1b
 						author: "hisakid13"
 						generation: 3
-						pages: ["{\"font\":\"supplementaries:antiquable\",\"text\":\"Here's the recipe to make a Bundle (because Minecraft doesn't let me enable reviewing of it by default T_T)\\n\\nBAB\\nA A\\nAAA\\n\\nA: Rabbit Hide or Canvas\\nB: String\\n\"}"]
-						title: "Bundle Recipe"
+						pages: ["{\"font\":\"supplementaries:antiquable\",\"translate\":\"book.bundle.1.page\"}"]
+						title: "收纳袋配方"
 					}
 				}
 				type: "item"

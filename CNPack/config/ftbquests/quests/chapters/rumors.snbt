@@ -680,15 +680,15 @@
 							AntiqueInk: 1b
 							author: "Hisakid"
 							display: {
-								Name: "{\"text\":\"To be Sent: Mansion\"}"
+								Name: "{\"translate\":\"book.apothecary_abode.1.name\"}"
 							}
 							pages: [
-								"[\r\n                {\"text\":\"§r§4§lPer Your Orders\n\"},\r\n                {\"text\":\"~~~~~~~~~\n\"},\r\n                {\"text\":\"To our glorious leader. We hope this note has reached your Manor safely.\n\"}\r\n              ]"
-								"[\r\n                {\"text\":\"We've finally done it. You will be very, very pleased with these results. Our research into §5enhancing the regenerative properties of the golden apples and our Totems has been successful.§r\"}\r\n              ]"
-								"[\r\n                {\"text\":\"All that needs to be done in to §5mix a Golden Apple or a Totem with extremely concentrated EXP and two Hallowed Gems in a heated basin.§r\"}\r\n              ]"
-								"[\r\n                {\"text\":\"We hope these findings will serve us well. \n\"},\r\n                {\"text\":\"Your Loyal Retainers, \n\"},\r\n                {\"text\":\"The Illusionary Apothecary\"}\r\n              ]"
+								"[\r\n                {\"translate\":\"book.apothecary_adobe.1.page.1_1\"},\r\n                {\"translate\":\"book.tilde\"},\r\n                {\"translate\":\"book.apothecary_adobe.1.page.1_2\"}\r\n              ]"
+								"[\r\n                {\"translate\":\"book.apothecary_adobe.1.page.2_1\"}\r\n              ]"
+								"[\r\n                {\"translate\":\"book.apothecary_adobe.1.page.3_1\"}\r\n              ]"
+								"[\r\n                {\"translate\":\"book.apothecary_adobe.1.page.4_1\"},\r\n                {\"translate\":\"book.apothecary_adobe.1.page.4_2\"},\r\n                {\"translate\":\"book.apothecary_adobe.1.page.4_3\"}\r\n              ]"
 							]
-							title: "Journal"
+							title: "日志"
 						}
 					}
 					title: "{ftbquests.chapter.rumors.quest15.task_+7282810698583452553.title}"

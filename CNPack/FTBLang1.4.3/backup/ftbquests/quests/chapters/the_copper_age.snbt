@@ -1,0 +1,496 @@
+{
+	autofocus_id: "73990A6D6C4847FF"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_copper_age"
+	group: "084C5D8A23021A7B"
+	icon: "minecraft:copper_ingot"
+	id: "6AA84001207C8982"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2B57E04D8058C200"]
+			description: [
+				"&ePipe:&r Pipes are the most basic component when it comes to transporting fluids. They carry fluid to and from other copper components. "
+				""
+				"&eMechanical Pump:&r To move fluids, rotational power must be provided to a mechanical pump. The direction of the pump controls the fluid, not the direction of the rotational power. You can r-click with a wrench on the pump to change the direction of the flow."
+				""
+				"&ePortable Fluid Interface:&r These act as pipes for tanks that are part of moving contraptions. One interface goes on the contraption and the other is stationary with a one or two block gap in between. They will pause the contraption and allow for fluids to travel through as needed. THis can be stopped with a redstone signal."
+			]
+			hide_until_deps_complete: false
+			id: "222C3C7B3C7CCF36"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59A398FB01C6EF92"
+				table_id: 8958467953098074542L
+				type: "random"
+			}]
+			subtitle: "Transport Fluids!"
+			tasks: [
+				{
+					count: 4L
+					id: "10A5A0DA64AF24D6"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "6F5CCF81DE38488D"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					id: "2746F046079A71AE"
+					item: "create:portable_fluid_interface"
+					type: "item"
+				}
+			]
+			title: "Pipes and Pumps"
+			x: 0.5d
+			y: -2.75d
+		}
+		{
+			description: [
+				"&bCopper&r is not only useful for decoration, it can also be used to make methods of transporting fluids! When a &bbucket&r won't cut it, &bpipes&r can transport larger amounts of liquid. Water, lava, potions, and more, &bcopper&r is the way to go."
+				""
+				"&6Create a Copper Casing by applying some Copper Ingots to a Stripped Log.&r"
+			]
+			id: "5B6C8A4CF0BF2D68"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "084E76B232DE07BC"
+				table_id: 8958467953098074542L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					count: 8L
+					id: "72FE1135CD66BACB"
+					item: "create:copper_casing"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7840C823B6D07BFC"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			title: "Go with the Flow"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5B6C8A4CF0BF2D68"]
+			id: "2B57E04D8058C200"
+			shape: "rsquare"
+			tasks: [{
+				id: "7DBD71E2FF8BC624"
+				title: "Transporting Fluids"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B57E04D8058C200"]
+			description: ["Item drains allow for items with fluid to be placed on top and drained. The item (such as a bucket or glass bottle) will remain on top of the drain, but the fluid can be transported through pipes now. A limited amount of fluid can be stored in the drain itself."]
+			id: "5BA90F4C3997585B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D9892A10F16EB64"
+				table_id: 8958467953098074542L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6912017F458C8A42"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2B57E04D8058C200"]
+			description: ["A hose pulley can add or remove fluids from large areas. Providing rotational force will lower the hose and reversing the rotation will raise the hose. The fluids will always drain top to botom and fill bottom to top. If the fluid source is large enough, its level will not be affected by the hose pulley. Pipes can be connected to the hose pulley opposite the side of the rotational force input."]
+			id: "5B872FEA442D632E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "084C9551B5D65A9F"
+				table_id: 8958467953098074542L
+				type: "random"
+			}]
+			tasks: [{
+				id: "429371475A03F9F5"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.75d
+		}
+		{
+			dependencies: ["2B57E04D8058C200"]
+			description: ["Spouts can add liquid to items on depots or belts underneath. Spouts must be filled using pipes and cannot be accessed manually. "]
+			id: "281CCE264FD37316"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A4064B7357DBA7B"
+				table_id: 8958467953098074542L
+				type: "random"
+			}]
+			tasks: [{
+				id: "51144BA57023AAAC"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2B57E04D8058C200"]
+			description: ["Sprinklers must be placed below a fluid pipe and will pour out whatever liquid is inside the pipes. This can be used to help water crops, deploy potions, or even make lava rain down. "]
+			id: "553E0D877ADAD979"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "401B2DDC794B3133"
+				table_id: 8958467953098074542L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3254BA1048DC4462"
+				item: "sliceanddice:sprinkler"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B57E04D8058C200"]
+			description: ["Fluid tanks are a much more compact way of storing fluids. Much like item vaults, they cannot be accessed manually. Pipes can be placed on any side to add or drain fluis from the tank. Fluid tanks must have a square base (1x1, 2x2, or 3x3) but can extend vertically by quite a lot."]
+			id: "4193ECB1F8F17519"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CB2DE7435C496B6"
+				table_id: 8958467953098074542L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6EB2AE79CE5FC7AD"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B57E04D8058C200"]
+			description: ["A fluid valve decides whether or not fluids are allowed to pass through the pipes. When turned one direction (using a valve handle, for example) they will stop fluid from passing through. Turning the other direction will once again allow fluid to pass. Valve handles can be dyed for aesthetic purposes."]
+			id: "51EB9D211279E8CD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FC5EB48EE161B8B"
+				table_id: 8958467953098074542L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "0CED5F194DEA4DFE"
+					item: "create:fluid_valve"
+					type: "item"
+				}
+				{
+					id: "64A0422266BB6D7F"
+					item: "create:copper_valve_handle"
+					type: "item"
+				}
+			]
+			title: "Valve and Valve Handle"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2B57E04D8058C200"]
+			description: [
+				"Steam engines are an excellent source of power generation. They can be placed off of a fluid tank, and when r-clicked with a shaft, transform into a kinetic output. "
+				""
+				"In order to operate, there needs to be a minimum of four fluid tanks, heat provided below the tanks, and sufficient enough water. The more water, heat, and tank size, the higher the kinetic output will be. Blaze burners provide an exceptional source of heat."
+				""
+				"Note: More than one steam engine can be placed on a tank, but adds to the water, heat, and size minimum requirements."
+			]
+			icon: "create:steam_engine"
+			id: "73990A6D6C4847FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "044C3A292D688034"
+				table_id: 8958467953098074542L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "1ECA8A4D1DCDC532"
+					type: "checkmark"
+				}
+				{
+					id: "2763A76409C62A6B"
+					item: "create:steam_engine"
+					type: "item"
+				}
+			]
+			title: "Full Steam Ahead!"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["73990A6D6C4847FF"]
+			description: ["In addition to water, lava, etc., experience can now be transported through pipes!"]
+			id: "6822B2281B450805"
+			shape: "rsquare"
+			tasks: [{
+				id: "2A41990BBCCE7ED4"
+				title: "Enchantment Industries"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6822B2281B450805"]
+			description: ["The disenchanter works just like an item drain, but for experience only. It will remove enchantments off of items, transforming those enchantments into liquid experience. If a player is standing on top of the disenchanter, their levels will also be removed and turned into liquid experience."]
+			id: "6CF9B417C3E73CE7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0EB3FB37F0481B30"
+				table_id: 8958467953098074542L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3978AD72E00E54F4"
+				item: "create_enchantment_industry:disenchanter"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6822B2281B450805"]
+			id: "65778C550E6A8D4F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5928113C216A411B"
+				table_id: 8958467953098074542L
+				type: "random"
+			}]
+			tasks: [{
+				id: "58957832BCA276FA"
+				item: "create_enchantment_industry:printer"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6822B2281B450805"]
+			description: ["This guide can be configured with r-click and given to a blaze burner with sneak r-click to turn it into a blaze enchanter. Based on the configured enchantment, the blaze enchanter will add enchantments to items it processes. These items must be able to accept the enchantments, so there is no adding Feather Falling to a sword or Impaling to a helmet. Books do not work with blaze enchanters, a printer is needed for that."]
+			id: "2DDD52DAA95D7069"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2ECD85FAE8706AB8"
+				table_id: 8958467953098074542L
+				type: "random"
+			}]
+			tasks: [{
+				id: "569F51A2088A087F"
+				item: "create_enchantment_industry:enchanting_guide"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65778C550E6A8D4F"]
+			description: ["Experience is required to make copies of enchanted books. Hyper experience can make the enchanting one level higher than its max. Example: Fortune III becomes Fortune IV. Hyper experience is required if the enchantment being copied already exceeds the vanilla max."]
+			id: "0D6F5EDC86D17225"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13AE39CF3F0AB6D9"
+				table_id: 8958467953098074542L
+				type: "random"
+			}]
+			tasks: [{
+				id: "62AF46FBAAC0B6DF"
+				item: "create_enchantment_industry:hyper_experience_bottle"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["65778C550E6A8D4F"]
+			description: ["Ink is required to make copies of written books."]
+			id: "19513F7B5301F040"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51BCD1B2894BB4B8"
+				table_id: 8958467953098074542L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4D8390970F8E9585"
+				item: "create_enchantment_industry:ink_bucket"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6822B2281B450805"]
+			description: [
+				"Place a disenchanter where you can step on it and connect it to a fluid tank. Make sure the fluid direction is going from the disenchanter to the tank. Next, have pipes coming up from the tank and out to a valve. The valve should be open on the side opposite the pipes from the tank. When you want to store experience, step on the disenchanter. When you want to take experience, step near the valve and turn the handle to open."
+				""
+				"&l&bVoila!&r You have made a &l&eCreate Creation!&r"
+			]
+			id: "33322CBB1721997C"
+			optional: true
+			rewards: [{
+				id: "7D21064BEC56691E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Experience Storage"
+			tasks: [
+				{
+					count: 4L
+					id: "4540818BD7EE9270"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3810CEFBDD24DDF1"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					id: "3F1988BC85260B3E"
+					item: "create:fluid_valve"
+					type: "item"
+				}
+				{
+					id: "0E24E422E202F060"
+					item: "create:copper_valve_handle"
+					type: "item"
+				}
+				{
+					id: "0E3D226065DB5707"
+					item: "create_enchantment_industry:disenchanter"
+					type: "item"
+				}
+			]
+			title: "Practice Time"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			description: ["Want to explore underwater, but can't hold your breath too long? Craft a set of copper diving gear to adventure to the depths of the ocean. Placing the backtank down and using rotational force to power it will fill it with air. You can then put it on in tandem with the helmet and have oxygen underwater. The diving boots will help you to run and jump across the ocean floor."]
+			id: "5660101D50868CE7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57A8EF69801A627E"
+				table_id: 8958467953098074542L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "01BDB98CA8AA48A8"
+					item: {
+						Count: 1
+						id: "create:copper_backtank"
+						tag: {
+							Air: 900
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12EEC3E25F986E75"
+					item: {
+						Count: 1
+						id: "create:copper_diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08B652CF772857FA"
+					item: {
+						Count: 1
+						id: "create:copper_diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Copper Diving Gear"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5660101D50868CE7"]
+			description: ["This netherite set of diving gear works just like the copper one, but also helps in lava. Not only will you stay safe from burns, the helmet will help you see better under lava. You'll need a netherite chestplate and leggings to be fully fireproof."]
+			id: "18B8D31483162997"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B0546689D9C6DCA"
+				table_id: 8958467953098074542L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "28628BD0ABED5C85"
+					item: {
+						Count: 1
+						id: "create:netherite_backtank"
+						tag: {
+							Air: 900
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F2FB8CEF51557DA"
+					item: {
+						Count: 1
+						id: "create:netherite_diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7FEF67A085F5B9EE"
+					item: {
+						Count: 1
+						id: "create:netherite_diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Netherite Diving Gear"
+			x: 4.5d
+			y: -4.0d
+		}
+	]
+	title: "The Copper Age"
+}

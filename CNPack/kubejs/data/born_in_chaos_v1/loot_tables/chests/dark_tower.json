@@ -1,0 +1,363 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 3,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "born_in_chaos_v1:shattered_skull",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "born_in_chaos_v1:monster_skin",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:name_tag",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 18
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "born_in_chaos_v1:monster_flesh",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "forbidden_arcanus:dark_rune",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 15
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 2,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:experience_gem",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "oreganized:silver_ingot",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "oreganized:lead_ingot",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "born_in_chaos_v1:dark_metal_ingot",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "born_in_chaos_v1:dark_metal_nugget",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 7,
+                "max": 15
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "born_in_chaos_v1:seedof_chaos",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 15
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+              "tag":"{AntiqueInk:1b,
+              pages:[
+              \"[
+                {\\\"translate\\\":\\\"book.dark_tower.1.page.1_1\\\"},
+                {\\\"translate\\\":\\\"book.tilde\\\"},
+                {\\\"translate\\\":\\\"book.dark_tower.1.page.1_2\\\"}
+              ]\",
+              \"[
+                {\\\"translate\\\":\\\"book.dark_tower.1.page.2_1\\\"}
+              ]\",
+              \"[
+                {\\\"translate\\\":\\\"book.dark_tower.1.page.3_1\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:CraisinLord,
+            display:{Lore:[\"Found in the Dark Tower\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "book.dark_tower.1.name"
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+              "tag":"{AntiqueInk:1b,
+                pages:[
+                  \"[
+                    {\\\"translate\\\":\\\"book.dark_tower.2.page.1_1\\\"},
+                    {\\\"translate\\\":\\\"book.dark_tower.2.page.1_2\\\"}
+                  ]\",
+                  \"[
+                    {\\\"translate\\\":\\\"book.dark_tower.2.page.2_1\\\"}
+                  ]\",
+                  \"[
+                    {\\\"translate\\\":\\\"book.dark_tower.2.page.3_1\\\"}
+                  ]\",
+                  \"[
+                    {\\\"translate\\\":\\\"book.dark_tower.2.page.4_1\\\"}
+                  ]\"
+                ],
+                title:\"日志\",
+                author:CraisinLord,
+                display:{Lore:[\"Found in the Dark Tower\"]}
+              }"},
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "book.dark_tower.2.name"
+                },
+                "add": false
+              }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "eidolon:unholy_symbol",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "born_in_chaos_v1:dark_upgrade",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "born_in_chaos_v1:anluka_doors",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "born_in_chaos_v1:death_totem",
+          "weight": 10
+        }
+      ]
+    }
+  ]
+}

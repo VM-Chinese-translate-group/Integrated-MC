@@ -701,27 +701,29 @@
               "tag":"{AntiqueInk:1b,
                 pages:[
                   \"[
-                    {\\\"translate\\\":\\\"§r§4§lWeapons of Thunder and Lightning\n\\\"},
-                    {\\\"translate\\\":\\\"~~~~~~~~~\n\\\"},
-                    {\\\"translate\\\":\\\"Within these pages lie secrets of four mighty weapons: a hammer, a twinblade, a halberd, and a longsword. Each starts as a blade from alloys of the End and the Nether.\\\"}
+                    {\\\"translate\\\":\\\"book.end_city.3.page.1_1\\\"},
+                    {\\\"translate\\\":\\\"book.tilde\\\"},
+                    {\\\"translate\\\":\\\"book.end_city.3.page.1_2\\\"}
                   ]\",
                   \"[
-                    {\\\"translate\\\":\\\"To transform these arms, place the chosen weapon in a Godly Forge, one surrounded by eight pedestals.Set: 2 Lightning Dragonsteel Ingots, 2 Bottles of Lightning, 2 Dark Durable Sheets, and 2 Blue Magnetic Ingots.\\\"}
+                    {\\\"translate\\\":\\\"book.end_city.3.page.2_1\\\"}
                   ]\",
                   \"[
-                    {\\\"translate\\\":\\\"But mere placement is not enough. The device must be of Tier 5 quality and enhanced by Elementarium. Feed it 20,000 Aureal, 7,500 Experience, and 100 Souls.\\\"}
+                    {\\\"translate\\\":\\\"book.end_city.3.page.3_1\\\"}
                   ]\",
                   \"[
-                    {\\\"translate\\\":\\\"Harness these powers and you shall command weapons worthy of legend. Let lightning and thunder heed your call, and use such might to guide this world toward balance, not ruin.\\\"}
+                    {\\\"translate\\\":\\\"book.end_city.3.page.4_1\\\"}
                   ]\"
                 ],
-                title:日志,
+                title:\"日志\",
                 author:CraisinLord,
                 display:{Lore:[\"Found in an End City\"]}
               }"},
               {
                 "function": "minecraft:set_name",
-                "name": "Weapons of Thunder and Lightning",
+                "name": {
+                  "translate": "book.end_city.3.name"
+                },
                 "add": false
               }
           ]
@@ -751,7 +753,7 @@
                 {\\\"translate\\\":\\\"book.end_city.2.page.4_2\\\"}
               ]\"
               ],
-              title:日志,
+              title:\"日志\",
               author:CraisinLord,
               display:{Lore:[\"Found in the city at the end of the game\"]}
               }"},
@@ -790,7 +792,7 @@
                 {\\\"translate\\\":\\\"book.end_city.1.page.4_2\\\"}
               ]\"
             ],
-            title:日志,
+            title:\"日志\",
             author:CraisinLord,
             display:{Lore:[\"Found in the city and the end of the game\"]}
             }"},
@@ -813,26 +815,28 @@
               "tag":"{AntiqueInk:1b,
                 pages:[
                     \"[
-                      {\\\"translate\\\":\\\"§5§lCaelestis: Blade of the Astral Plane\n\\\"},
-                      {\\\"translate\\\":\\\"Legends whisper of a blade forged in star-kissed darkness, one that slips between realities. Its edge severs more than flesh—it parts the veil, granting passage into the astral plane and rendering the bearer untouchable.\\\"}
+                      {\\\"translate\\\":\\\"book.end_city.4.page.1_1\\\"},
+                      {\\\"translate\\\":\\\"book.end_city.4.page.1_2\\\"}
                     ]\",
                     \"[
-                      {\\\"translate\\\":\\\"To shape Caelestis, set a Runic Longsword into a Tier 5 Hephaestus Forge. Surround it with eight Darkstone Pedestals bearing: 2x Eternal Crystal, 2x Phantom Powder, 2x Shadow Gem, and 2x Corrupted Arcane Crystal.\\\"}
+                      {\\\"translate\\\":\\\"book.end_city.4.page.2_1\\\"}
                     ]\",
                     \"[
-                      {\\\"translate\\\":\\\"Then, channel raw energies: 20000 Aureal, 25000 Blood, 1200 Experience, and 900 Souls. In these currents, the sword transcends its earthly shell, becoming an astral artifact that turns aside mortal harm.\\\"}
+                      {\\\"translate\\\":\\\"book.end_city.4.page.3_1\\\"}
                     ]\",
                     \"[
-                      {\\\"translate\\\":\\\"Wield Caelestis wisely. In its presence, reality blurs and enemies strike at illusions. May those who dare awaken this blade find themselves worthy of its cosmic grace.\\\"}
+                      {\\\"translate\\\":\\\"book.end_city.4.page.4_1\\\"}
                     ]\"
                 ],
-                title:\"Caelestis Tome\",
+                title:\"星阙宝典\",
                 author:\"CraisinLord\",
                 display:{Lore:[\"A record from the End\"]}
               }"},
               {
                 "function": "minecraft:set_name",
-                "name": "Caelestis",
+                "name": {
+                  "translate": "book.end_city.4.name"
+                },
                 "add": false
               }
           ]

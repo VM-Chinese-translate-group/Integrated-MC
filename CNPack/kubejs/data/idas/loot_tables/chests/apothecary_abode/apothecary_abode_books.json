@@ -199,7 +199,7 @@
                 {\\\"translate\\\":\\\"book.apothecary_adobe.1.page.4_3\\\"}
               ]\"
             ],
-            title:日志,
+            title:\"日志\",
             author:Hisakid,
             display:{Lore:[\"Found in the Apothecary Abode\"]}
             }"},
@@ -222,17 +222,17 @@
               "tag":"{AntiqueInk:1b,
                 pages:[
                     \"[
-                      {\\\"translate\\\":\\\"§4§lOn Brewing the Elixir of Rampage\n\\\"},
-                      {\\\"translate\\\":\\\"Within these pages lies the secret to creating the Elixir of Rampage, a brew that ignites ferocity in those bold enough to drink it. It's searing might may shred both mind and body if wielded by the unworthy.\\\"}
+                      {\\\"translate\\\":\\\"book.apothecary_adobe.2.page.1_1\\\"},
+                      {\\\"translate\\\":\\\"book.apothecary_adobe.2.page.1_2\\\"}
                     ]\",
                     \"[
-                      {\\\"translate\\\":\\\"Begin with a heated cauldron. First, add two scoops of Mundabitur Dust, that strange ash of twisted fates. Then a measure of Blaze Powder to fan the embers of inner wrath, followed by Fire Dust dredged from charred chaos.\\\"}
+                      {\\\"translate\\\":\\\"book.apothecary_adobe.2.page.2_1\\\"}
                     ]\",
                     \"[
-                      {\\\"translate\\\":\\\"Repeat this sequence until all ingredients—Mundabitur Dust, Blaze Powder, and Fire Dust—have blended into a molten, shimmering broth.\\\"}
+                      {\\\"translate\\\":\\\"book.apothecary_adobe.2.page.3_1\\\"}
                     ]\",
                     \"[
-                      {\\\"translate\\\":\\\"If the heat doesn’t break you, and the fumes don’t blind you, you will hold in your hands the Elixir of Rampage: a vessel of raw, searing power, best sipped with caution.\\\"}
+                      {\\\"translate\\\":\\\"book.apothecary_adobe.2.page.4_1\\\"}
                     ]\"
                 ],
                 title:Journal,
@@ -242,7 +242,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate":"Recipe: Elixir of Rampage"
+                "translate":"book.apothecary_adobe.2.name"
               },
               "add": false
             }
@@ -258,20 +258,20 @@
               "tag": "{AntiqueInk:1b,
                 pages:[
                     \"[
-                      {\\\"translate\\\":\\\"§4§lOn Brewing the Elixir of Vampirism\n\\\"},
-                      {\\\"translate\\\":\\\"Within these pages lies the secret to harnessing vampiric power. The key ingredient is the Lifestealer’s Bone, a relic from an ancient vampire lord who gave his soul to the Lord of Chaos for unimaginable might.\\\"}
+                      {\\\"translate\\\":\\\"book.apothecary_adobe.3.page.1_1\\\"},
+                      {\\\"translate\\\":\\\"book.apothecary_adobe.3.page.1_2\\\"}
                     ]\",
                     \"[
-                      {\\\"translate\\\":\\\"Legends whisper that this Lifestealer either struck down the Dark Titan or became it, forever bound to undeath and thirsting for blood. To draw forth the essence of his fury, begin by heating a cauldron with molten rock—lava—until it boils with dread intensity.\\\"}
+                      {\\\"translate\\\":\\\"book.apothecary_adobe.3.page.2_1\\\"}
                     ]\",
                     \"[
-                      {\\\"translate\\\":\\\"Once the cauldron seethes, drop in the Lifestealer Bone. Then pour in blood—bottles upon bottles—to feed the crimson hunger, and finally add a single Seed of Chaos, binding this gruesome brew to otherworldly forces.\\\"}
+                      {\\\"translate\\\":\\\"book.apothecary_adobe.3.page.3_1\\\"}
                     ]\",
                     \"[
-                      {\\\"translate\\\":\\\"As these elements collide in the churning lava, a dark metamorphosis takes place. The mixture will twist and writhe, forging a crimson draught that grants its drinker vampiric strength and the power to steal life with each strike.\\\"}
+                      {\\\"translate\\\":\\\"book.apothecary_adobe.3.page.4_1\\\"}
                     ]\",
                     \"[
-                      {\\\"translate\\\":\\\"Yet be warned: the Elixir of Vampirism demands a heavy toll. Only those prepared to embrace eternal hunger, to revel in the taste of mortal essence, should dare to sip this forbidden brew.\\\"}
+                      {\\\"translate\\\":\\\"book.apothecary_adobe.3.page.5_1\\\"}
                     ]\"
                 ],
                 title:Journal,
@@ -280,7 +280,9 @@
             },
             {
               "function": "minecraft:set_name",
-              "name": "Recipe: Elixir of Vampirism",
+              "name": {
+                "translate": "book.apothecary_adobe.3.name"
+              },
               "add": false
             }
           ]
@@ -295,20 +297,20 @@
               "tag": "{AntiqueInk:1b,
                 pages:[
                     \"[
-                      {\\\"translate\\\":\\\"§4§lOn Brewing the Elixir of Wither Resistance\n\\\"},
-                      {\\\"translate\\\":\\\"Within these pages, learn to defy one of the most dreadful curses that plague mortal flesh: the Wither.\\\"}
+                      {\\\"translate\\\":\\\"book.apothecary_adobe.4.page.1_1\\\"},
+                      {\\\"translate\\\":\\\"book.apothecary_adobe.4.page.1_2\\\"}
                     ]\",
                     \"[
-                      {\\\"translate\\\":\\\"Begin by stoking your cauldron with lava’s molten warmth. Once it bubbles with infernal heat, cast in shards of Wither, dark fragments born of corruption and decay.\\\"}
+                      {\\\"translate\\\":\\\"book.apothecary_adobe.4.page.2_1\\\"}
                     ]\",
                     \"[
-                      {\\\"translate\\\":\\\"These Wither Shards seethe with malevolent energy, their presence threatening to consume any who dare approach. Yet, into this brew we must also place a Warped Wart—an unlikely savior with antidotal properties that tame the vile essence within.\\\"}
+                      {\\\"translate\\\":\\\"book.apothecary_adobe.4.page.3_1\\\"}
                     ]\",
                     \"[
-                      {\\\"translate\\\":\\\"As the shards swirl in their molten prison and the Warped Wart’s magic takes root, the mixture begins to change. From chaos and corruption emerges a draught that stands against the Wither’s relentless grasp.\\\"}
+                      {\\\"translate\\\":\\\"book.apothecary_adobe.4.page.4_1\\\"}
                     ]\",
                     \"[
-                      {\\\"translate\\\":\\\"Thus, the Elixir of Wither Resistance is born. A single sip grants resilience against that creeping blight, sparing your bones from the Wither’s inevitable decay. Use it wisely, for defiance of death itself always carries a price.\\\"}
+                      {\\\"translate\\\":\\\"book.apothecary_adobe.4.page.5_1\\\"}
                     ]\"
                 ],
                 title:Journal,
@@ -317,7 +319,9 @@
             },
             {
               "function": "minecraft:set_name",
-              "name": "Recipe: Elixir of Wither Resistance",
+              "name": {
+                "translate": "book.apothecary_adobe.4.name"
+              },
               "add": false
             }
           ]

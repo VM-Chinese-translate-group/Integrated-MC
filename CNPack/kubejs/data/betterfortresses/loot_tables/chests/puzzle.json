@@ -34,7 +34,7 @@
                 {\\\"translate\\\":\\\"book.nether_fortress.2.page.3_1\\\"}
               ]\"
             ],
-            title:日志,
+            title:\"日志\",
             author:CraisinLord,
             display:{Lore:[\"Found in the Nether Fortress\"]}
             }"},
@@ -68,7 +68,7 @@
                 {\\\"translate\\\":\\\"book.nether_fortress.1.page.3_1\\\"}
               ]\"
             ],
-            title:日志,
+            title:\"日志\",
             author:CraisinLord,
             display:{Lore:[\"Found in the Nether Fortress\"]}
             }"},

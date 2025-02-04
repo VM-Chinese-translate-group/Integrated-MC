@@ -1979,7 +1979,7 @@
 						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							"ftbfiltersystem:filter": "nbt(fuzzy:{AntiqueInk:1b,author:\"CraisinLord\",display:{Name:'{\"text\":\"The Farming Secret\"}'}})"
+							"ftbfiltersystem:filter": "nbt(fuzzy:{AntiqueInk:1b,author:\"CraisinLord\",display:{Name:'{\"translate\":\"book.farmhouse.1.name\"}'}})"
 						}
 					}
 					title: "{ftbquests.chapter.village_quests.quest35.task_+5077120109080296075.title}"

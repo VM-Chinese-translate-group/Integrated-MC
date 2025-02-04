@@ -35,7 +35,7 @@
                 {\\\"translate\\\":\\\"book.ancient_mines.5.page.3_2\\\"}
               ]\"
             ],
-            title:日志,
+            title:\"日志\",
             author:CraisinLord,
             display:{Lore:[\"Found in the Ancient Mines\"]}
             }"},
@@ -70,7 +70,7 @@
                 {\\\"translate\\\":\\\"book.ancient_mines.4.page.3_2\\\"}
               ]\"
             ],
-            title:日志,
+            title:\"日志\",
             author:CraisinLord,
             display:{Lore:[\"Found in the Ancient Mines\"]}
             }"},
@@ -105,7 +105,7 @@
                 {\\\"translate\\\":\\\"book.ancient_mines.3.page.3_2\\\"}
               ]\"
             ],
-            title:日志,
+            title:\"日志\",
             author:CraisinLord,
             display:{Lore:[\"Found in the Ancient Mines\"]}
             }"},
@@ -140,7 +140,7 @@
                 {\\\"translate\\\":\\\"book.ancient_mines.2.page.3_2\\\"}
               ]\"
             ],
-            title:日志,
+            title:\"日志\",
             author:CraisinLord,
             display:{Lore:[\"Found in the Ancient Mines\"]}
             }"},
@@ -200,7 +200,7 @@
                 {\\\"translate\\\":\\\"If I traversed a block of land in the Nether, that would mean I traveled 8 blocks in the Overworld. Travel over two blocks, you traveled 16. The distances add up after a long while, and we used this to our people's advantage...\\\"}
               ]\"
             ],
-            title:日志,
+            title:\"日志\",
             author:Unknown,
             display:{Lore:[\"Found in the Ancient Mines\"]}
             }"},
@@ -243,7 +243,7 @@
                 {\\\"translate\\\":\\\"'Never fight the Pigkin, for they would fight as fiercely as a Dwarf's heart.' And yet, under poor counsel, I assumed better...\\\"}
               ]\"
             ],
-            title:日志,
+            title:\"日志\",
             author:Unknown,
             display:{Lore:[\"Found in the Ancient Mines\"]}
             }"},
@@ -286,7 +286,7 @@
                 {\\\"translate\\\":\\\"The war between Hel and Stone wasn't the death of our kingdom... But the resulting infighting was.\\\"}
               ]\"
             ],
-            title:日志,
+            title:\"日志\",
             author:Unknown,
             display:{Lore:[\"Found in the Ancient Mines\"]}
             }"},
@@ -332,7 +332,7 @@
                 {\\\"translate\\\":\\\"Who’s to say that’s possible, though, when my people are potentially dead or damned by my own ambitions...\\\"}
               ]\"
             ],
-            title:日志,
+            title:\"日志\",
             author:Unknown,
             display:{Lore:[\"Found in the Ancient Mines\"]}
             }"},
@@ -360,13 +360,13 @@
                 {\\\"translate\\\":\\\"If you have read this far, then I thank you. I hope that you keep our spirit and fervor in your heart, but be sure to protect those you could never live without.\\\"}
               ]\",
               \"[
-                {\\\"translate\\\":\\\"Before you close my 日志, however, I have one more request.\\\"}
+                {\\\"translate\\\":\\\"Before you close my \"日志\", however, I have one more request.\\\"}
               ]\",
               \"[
                 {\\\"translate\\\":\\\"If you ever see my people out there in the Netherrealm, leave them at peace. It's what they would've wanted in the end, even if they fought for or against my war...\\\"}
               ]\"
             ],
-            title:日志,
+            title:\"日志\",
             author:Unknown,
             display:{Lore:[\"Found in the Ancient Mines\"]}
             }"},

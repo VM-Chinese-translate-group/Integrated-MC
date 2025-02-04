@@ -1,0 +1,423 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"translate\\\":\\\"§lSecrets of the Hidden Room\n\\\"},
+                {\\\"translate\\\":\\\"~~~~~~~~~\n\\\"},
+                {\\\"translate\\\":\\\"Few who venture into the Ancient Factory uncover its hidden chamber, yet its secrets remain locked behind clever mechanisms. \\\"}
+              ]\",
+              \"[
+                {\\\"translate\\\":\\\"The Ancients, ever wary of intruders, devised a test for those who sought their greatest treasures. To unlock the chamber, one must find and flick two levers within the factory.\\\"}
+              ]\",
+              \"[
+                {\\\"translate\\\":\\\"Only then can the final step be completed: pressing the button to the left of the Harbinger's chamber. It is said that the mechanism activates in perfect harmony, revealing the treasures hidden behind cold, unyielding walls.\\\"}
+              ]\",
+              \"[
+                {\\\"translate\\\":\\\"But beware—the Harbinger stirs when its domain is disturbed. Complete the puzzle quickly, or risk awakening the factory's guardian before you are prepared.\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:CraisinLord,
+            display:{Lore:[\"Bam\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Ancient Factory Journal 3",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"translate\\\":\\\"§lJournal of a Trespasser\n\\\"},
+                {\\\"translate\\\":\\\"~~~~~~~~~\n\\\"},
+                {\\\"translate\\\":\\\"Day 17. I’ve breached the walls of the factory, though it nearly cost me my life. The Watchers—they’re everywhere. \\\"}
+              ]\",
+              \"[
+                {\\\"translate\\\":\\\"They see everything, their unblinking eyes following my every move. I’ve managed to evade them, but the sound of grinding gears haunts my steps.\\\"}
+              ]\",
+              \"[
+                {\\\"translate\\\":\\\"I found the Prowler in a darkened chamber. It attacked without hesitation, relentless and unyielding. I barely survived.\\\"}
+              ]\",
+              \"[
+                {\\\"translate\\\":\\\"At the heart of the factory lies the Harbinger. It sleeps now, but its presence fills the air with dread. If I don’t return, heed this warning: Do not awaken the Harbinger. The Ancients created it to protect their treasures, but it has no loyalty to the living.\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:CraisinLord,
+            display:{Lore:[\"Bam\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Ancient Factory Journal 2",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"translate\\\":\\\"§lOrigins of the Factory\n\\\"},
+                {\\\"translate\\\":\\\"~~~~~~~~~\n\\\"},
+                {\\\"translate\\\":\\\"In an age long forgotten, the Ancients sought perfection. Their machines were their legacy, built to last eternity, yet bound by time’s inevitable decay. \\\"}
+              ]\",
+              \"[
+                {\\\"translate\\\":\\\"Deep beneath the earth, this factory was their grandest creation—a place where mind and metal fused. Here, the Harbinger was forged, not as a mere tool but as a guardian of their secrets. They revered its power, fearing it as much as they admired it.\\\"}
+              ]\",
+              \"[
+                {\\\"translate\\\":\\\"When the Ancients vanished, they left the Harbinger behind to ensure no unworthy soul would uncover their knowledge. Beware, traveler, for their legacy was never meant for mortal hands.\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:CraisinLord,
+            display:{Lore:[\"Bam\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Ancient Factory Journal 1",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+            "function":"set_nbt",
+            "tag":"{AntiqueInk:1b,
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"translate\\\":\\\"book.ancient_factory.1.page.1_1\\\"},
+                {\\\"translate\\\":\\\"book.tilde\\\"},
+                {\\\"translate\\\":\\\"book.ancient_factory.1.page.1_2\\\"}
+              ]\",
+              \"[
+                {\\\"translate\\\":\\\"book.ancient_factory.1.page.2_1\\\"}
+              ]\",
+              \"[
+                {\\\"translate\\\":\\\"book.ancient_factory.1.page.3_1\\\"}
+              ]\"
+            ],
+            title:日志,
+            author:CraisinLord,
+            display:{Lore:[\"Bam\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "book.ancient_factory.1.name"
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 5,
+        "max": 6
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "create:experience_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 10,
+                "max": 30
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "create:brass_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:redstone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 9
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:lapis_lazuli",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 9
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 6
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "create:brass_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 7,
+                "max": 15
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:zinc_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:rose_quartz",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:lava_bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:iron_sheet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:linked_controller"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "create:cogwheel",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 5
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:large_cogwheel",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 5
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:shaft",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 5
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:brass_hand",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 5
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:gearbox",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "create:brass_ladder",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "quark:music_disc_clock"
+        }
+      ]
+    }
+  ]
+}

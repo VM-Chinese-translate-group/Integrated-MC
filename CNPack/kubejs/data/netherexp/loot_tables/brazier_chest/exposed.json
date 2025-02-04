@@ -343,18 +343,18 @@
               "tag":"{AntiqueInk:1b,
               pages:[
               \"[
-                {\\\"text\\\":\\\"§r§4§lThe Soulblades\n\\\"},
-                {\\\"text\\\":\\\"~~~~~~~~~\n\\\"},
-                {\\\"text\\\":\\\"In this book I will reveal how to create 2 weapons that manipulate the very souls of your enemies. Soulrender and Soulstealer.\\\"}
+                {\\\"translate\\\":\\\"book.sanctum.2.page.1_1\\\"},
+                {\\\"translate\\\":\\\"book.tilde\\\"},
+                {\\\"translate\\\":\\\"book.sanctum.2.page.1_2\\\"}
               ]\",
               \"[
-                {\\\"text\\\":\\\"To create Soulrender imbue a scythe made of a hellish black metal with a wither skeleton skull, a piece of wraithing flesh, 2 souls that seem to scream, 2 beads of the soul, and 2 powder from a possessed flame.\\\"}
+                {\\\"translate\\\":\\\"book.sanctum.2.page.2_1\\\"}
               ]\",
               \"[
-                {\\\"text\\\":\\\"To create Soulstealer imbue a sai made of a hellish black metal with 1 silk made from pure shadow, a piece of wraithing flesh, 2 souls that seem to scream, 2 beads of the soul, and 2 powder from a possessed flame.\\\"}
+                {\\\"translate\\\":\\\"book.sanctum.2.page.3_1\\\"}
               ]\",
               \"[
-                {\\\"text\\\":\\\"Have fun stealing souls!\n\\\"}
+                {\\\"translate\\\":\\\"book.sanctum.2.page.4_1\\\"}
               ]\"
             ],
             title:Journal,
@@ -363,7 +363,9 @@
             }"},
             {
               "function": "minecraft:set_name",
-              "name": "The Soulblades",
+              "name": {
+                "translate": "book.sanctum.2.name"
+              },
               "add": false
             }
           ]
@@ -392,7 +394,7 @@
                 {\\\"translate\\\":\\\"book.sanctum.1.page.4_1\\\"}
               ]\"
             ],
-            title:日志,
+            title:\"日志\",
             author:CraisinLord,
             display:{Lore:[\"Found in the Nexus\"]}
             }"},
