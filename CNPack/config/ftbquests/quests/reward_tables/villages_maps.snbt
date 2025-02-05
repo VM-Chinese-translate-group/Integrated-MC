@@ -9,7 +9,7 @@
 				id: "supplementaries:cartographers_quill"
 				tag: {
 					display: {
-						Name: "{\"text\":\"Bazaar Explorer Map\"}"
+						Name: "{\"translate\":\"ftbquests.rewards.bazaar.explorer.map\"}"
 					}
 					maxSearchRadius: 100
 					skinKnown: 1b
@@ -25,7 +25,7 @@
 				tag: {
 					decoration: "target_x"
 					display: {
-						Name: "{\"text\":\"Castle Explorer Map\"}"
+						Name: "{\"translate\":\"ftbquests.rewards.castle.explorer.map\"}"
 					}
 					maxSearchRadius: 100
 					skinKnown: 1b
@@ -41,7 +41,7 @@
 				tag: {
 					decoration: "target_x"
 					display: {
-						Name: "{\"text\":\"Airship Village Explorer Map\"}"
+						Name: "{\"translate\":\"ftbquests.rewards.airship.village.explorer.map\"}"
 					}
 					maxSearchRadius: 100
 					skinKnown: 1b
@@ -57,7 +57,7 @@
 				tag: {
 					decoration: "target_x"
 					display: {
-						Name: "{\"text\":\"Kutcha Village Explorer Map\"}"
+						Name: "{\"translate\":\"ftbquests.rewards.kutcha.village.explorer.map\"}"
 					}
 					maxSearchRadius: 100
 					skinKnown: 1b
@@ -73,7 +73,7 @@
 				tag: {
 					decoration: "target_x"
 					display: {
-						Name: "{\"text\":\"Mediterranean Village Explorer Map\"}"
+						Name: "{\"translate\":\"ftbquests.rewards.mediterranean.village.explorer.map\"}"
 					}
 					maxSearchRadius: 100
 					skinKnown: 1b
@@ -89,7 +89,7 @@
 				tag: {
 					decoration: "target_x"
 					display: {
-						Name: "{\"text\":\"Oasis Village Explorer Map\"}"
+						Name: "{\"translate\":\"ftbquests.rewards.oasis.village.explorer.map\"}"
 					}
 					maxSearchRadius: 100
 					skinKnown: 1b
@@ -105,7 +105,7 @@
 				tag: {
 					decoration: "target_x"
 					display: {
-						Name: "{\"text\":\"Pirate Village Explorer Map\"}"
+						Name: "{\"translate\":\"ftbquests.rewards.pirate.village.explorer.map\"}"
 					}
 					maxSearchRadius: 100
 					skinKnown: 1b
@@ -121,7 +121,7 @@
 				tag: {
 					decoration: "target_x"
 					display: {
-						Name: "{\"text\":\"Tavern Village Explorer Map\"}"
+						Name: "{\"translate\":\"ftbquests.rewards.tavern.village.explorer.map\"}"
 					}
 					maxSearchRadius: 100
 					skinKnown: 1b
@@ -137,7 +137,7 @@
 				tag: {
 					decoration: "target_x"
 					display: {
-						Name: "{\"text\":\"Minka Village Explorer Map\"}"
+						Name: "{\"translate\":\"ftbquests.rewards.minka.village.explorer.map\"}"
 					}
 					maxSearchRadius: 100
 					skinKnown: 1b
@@ -153,7 +153,7 @@
 				tag: {
 					decoration: "target_x"
 					display: {
-						Name: "{\"text\":\"Mossy Mounds Explorer Map\"}"
+						Name: "{\"translate\":\"ftbquests.rewards.mossy.mounds.explorer.map\"}"
 					}
 					maxSearchRadius: 100
 					skinKnown: 1b
@@ -169,7 +169,7 @@
 				tag: {
 					decoration: "target_x"
 					display: {
-						Name: "{\"text\":\"Cabin Village Explorer Map\"}"
+						Name: "{\"translate\":\"ftbquests.rewards.cabin.village.explorer.map\"}"
 					}
 					maxSearchRadius: 100
 					skinKnown: 1b
@@ -185,7 +185,7 @@
 				tag: {
 					decoration: "target_x"
 					display: {
-						Name: "{\"text\":\"Marketstead Village Explorer Map\"}"
+						Name: "{\"translate\":\"ftbquests.rewards.marketstead.village.explorer.map\"}"
 					}
 					maxSearchRadius: 100
 					skinKnown: 1b

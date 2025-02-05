@@ -72,7 +72,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Airship Village Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.airship.village.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -106,7 +106,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Cabin Village Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.cabin.village.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -140,7 +140,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Oasis Village Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.oasis.village.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -174,7 +174,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Kutcha Village Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.kutcha.village.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -208,7 +208,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Bazaar Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.bazaar.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -248,7 +248,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Tavern Village Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.tavern.village.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -288,7 +288,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Pirate Village Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.pirate.village.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -322,7 +322,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Marketstead Village Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.marketstead.village.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -356,7 +356,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Mossy Mounds Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.mossy.mounds.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -390,7 +390,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Minka Village Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.minka.village.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -424,7 +424,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Castle Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.castle.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -458,7 +458,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Mediterranean Village Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.mediterranean.village.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -643,7 +643,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Ruins of the Deep Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.ruins.of.the.deep.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -677,7 +677,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Coral Sunken Ship Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.coral.sunken.ship.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -711,7 +711,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Sunken Ship Ruins Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.sunken.ship.ruins.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -745,7 +745,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Sunken Ship Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.sunken.ship.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -779,7 +779,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Vanilla Shipwreck Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.vanilla.shipwreck.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -813,7 +813,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Ocean Monument Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.ocean.monument.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -847,7 +847,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"End City Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.end.city.explorer.map\"}"
 						}
 						maxSearchRadius: 200
 						skinKnown: 1b
@@ -881,7 +881,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Ancient Nether Portal Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.ancient.nether.portal.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -915,7 +915,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Nether Fortress Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.nether.fortress.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -949,7 +949,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Necromancer’s Spire Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.necromancer’s.spire.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -983,7 +983,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Nether Citadel Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.nether.citadel.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -1017,7 +1017,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Bastion Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.bastion.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -1051,7 +1051,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Owl Post Office Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.owl.post.office.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -1085,7 +1085,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Abandoned Lighthouse Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.abandoned.lighthouse.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -1119,7 +1119,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Abandoned House Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.abandoned.house.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -1153,7 +1153,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Haunted Manor Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.haunted.manor.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -1187,7 +1187,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Vanilla Jungle Temple Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.vanilla.jungle.temple.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -1221,7 +1221,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Tumulus Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.tumulus.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -1261,7 +1261,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Mott Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.mott.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -1295,7 +1295,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Snifferhenge Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.snifferhenge.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -1329,7 +1329,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Train Ruins Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.train.ruins.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -1363,7 +1363,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Ancient Archwood Tree Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.ancient.archwood.tree.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -1397,7 +1397,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Arcane Library Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.arcane.library.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -1431,7 +1431,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Ancient City Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.ancient.city.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -1465,7 +1465,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Archeology Catacombs Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.archeology.catacombs.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -1499,7 +1499,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Archeology Catacombs Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.archeology.catacombs.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -1533,7 +1533,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Dark Tower Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.dark.tower.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -1567,7 +1567,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Wizard Tower Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.wizard.tower.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -1613,7 +1613,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Cryomancer Tower Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.cryomancer.tower.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -1659,7 +1659,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Pyromancer Tower Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.pyromancer.tower.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -1700,7 +1700,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Deathworm Pit Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.deathworm.pit.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -1735,7 +1735,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Pink Salt Shrine Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.pink.salt.shrine.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -1770,7 +1770,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Ancient Portal Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.ancient.portal.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -1805,7 +1805,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Frozen Crypt Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.frozen.crypt.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -1867,7 +1867,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Light Temple Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.light.temple.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -1902,7 +1902,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"The Nexus Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.the.nexus.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -1937,7 +1937,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Lab Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.lab.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -1976,7 +1976,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Woodland Mansion Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.woodland.mansion.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -2015,7 +2015,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Dark Coven Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.dark.coven.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -2060,7 +2060,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Evoker Fort Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.evoker.fort.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -2093,7 +2093,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Witches’ Treestump Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.witches.treestump.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -2132,7 +2132,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Baba Yaga Hut Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.baba.yaga.hut.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -2169,7 +2169,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Baba Yaga Hut Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.baba.yaga.hut.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -2208,7 +2208,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Nature Coven Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.nature.coven.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -2241,7 +2241,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Witches’ Abode Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.witches.abode.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -2274,7 +2274,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Pillager Camp Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.pillager.camp.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -2307,7 +2307,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Pillager Outpost Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.pillager.outpost.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -2340,7 +2340,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Cottage Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.cottage.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -2374,7 +2374,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Beekeeper’s House Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.beekeeper’s.house.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -2407,7 +2407,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Brick House Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.brick.house.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -2440,7 +2440,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Farmhouse Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.farmhouse.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -2473,7 +2473,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Mushroom House Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.mushroom.house.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -2518,7 +2518,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Mangrove Hut Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.mangrove.hut.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -2551,7 +2551,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Enchanting Tower Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.enchanting.tower.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -2584,7 +2584,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Winter Wagon Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.winter.wagon.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -2617,7 +2617,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Bearclaw Inn Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.bearclaw.inn.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -2650,7 +2650,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Treetop Tavern Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.treetop.tavern.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -2683,7 +2683,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Hermit’s Hollow Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.hermit’s.hollow.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -2717,7 +2717,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Enderkeep Courtyard Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.enderkeep.courtyard.explorer.map\"}"
 						}
 						maxSearchRadius: 200
 						skinKnown: 1b
@@ -2751,7 +2751,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Gauntlet Arena Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.gauntlet.arena.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -2785,7 +2785,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Enderwatch Tower Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.enderwatch.tower.explorer.map\"}"
 						}
 						maxSearchRadius: 200
 						skinKnown: 1b
@@ -2819,7 +2819,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Obsidilith Arena Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.obsidilith.arena.explorer.map\"}"
 						}
 						maxSearchRadius: 200
 						skinKnown: 1b
@@ -2853,7 +2853,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Manuscript Shrine Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.manuscript.shrine.explorer.map\"}"
 						}
 						maxSearchRadius: 200
 						skinKnown: 1b
@@ -2888,7 +2888,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Monolith Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.monolith.explorer.map\"}"
 						}
 						maxSearchRadius: 200
 						skinKnown: 1b
@@ -2922,7 +2922,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Astral Hideaway Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.astral.hideaway.explorer.map\"}"
 						}
 						maxSearchRadius: 200
 						skinKnown: 1b
@@ -2962,7 +2962,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Starlight Voyager Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.starlight.voyager.explorer.map\"}"
 						}
 						maxSearchRadius: 200
 						skinKnown: 1b
@@ -2996,7 +2996,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Phantom Citadel Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.phantom.citadel.explorer.map\"}"
 						}
 						maxSearchRadius: 200
 						skinKnown: 1b
@@ -3030,7 +3030,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Enderskog Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.enderskog.explorer.map\"}"
 						}
 						maxSearchRadius: 200
 						skinKnown: 1b

@@ -10,7 +10,7 @@
 				tag: {
 					decoration: "target_x"
 					display: {
-						Name: "{\"text\":\"Acacia Mineshaft Explorer Map\"}"
+						Name: "{\"translate\":\"ftbquests.rewards.acacia.mineshaft.explorer.map\"}"
 					}
 					maxSearchRadius: 100
 					skinKnown: 1b
@@ -26,7 +26,7 @@
 				tag: {
 					decoration: "target_x"
 					display: {
-						Name: "{\"text\":\"Bamboo Mineshaft Explorer Map\"}"
+						Name: "{\"translate\":\"ftbquests.rewards.bamboo.mineshaft.explorer.map\"}"
 					}
 					maxSearchRadius: 100
 					skinKnown: 1b
@@ -42,7 +42,7 @@
 				tag: {
 					decoration: "target_x"
 					display: {
-						Name: "{\"text\":\"Birch Mineshaft Explorer Map\"}"
+						Name: "{\"translate\":\"ftbquests.rewards.birch.mineshaft.explorer.map\"}"
 					}
 					maxSearchRadius: 100
 					skinKnown: 1b
@@ -58,7 +58,7 @@
 				tag: {
 					decoration: "target_x"
 					display: {
-						Name: "{\"text\":\"Cherry Mineshaft Explorer Map\"}"
+						Name: "{\"translate\":\"ftbquests.rewards.cherry.mineshaft.explorer.map\"}"
 					}
 					maxSearchRadius: 100
 					skinKnown: 1b
@@ -74,7 +74,7 @@
 				tag: {
 					decoration: "target_x"
 					display: {
-						Name: "{\"text\":\"Dark Oak Mineshaft Explorer Map\"}"
+						Name: "{\"translate\":\"ftbquests.rewards.dark.oak.mineshaft.explorer.map\"}"
 					}
 					maxSearchRadius: 100
 					skinKnown: 1b
@@ -90,7 +90,7 @@
 				tag: {
 					decoration: "target_x"
 					display: {
-						Name: "{\"text\":\"Deepslate Mineshaft Explorer Map\"}"
+						Name: "{\"translate\":\"ftbquests.rewards.deepslate.mineshaft.explorer.map\"}"
 					}
 					maxSearchRadius: 100
 					skinKnown: 1b
@@ -106,7 +106,7 @@
 				tag: {
 					decoration: "target_x"
 					display: {
-						Name: "{\"text\":\"Jungle Mineshaft Explorer Map\"}"
+						Name: "{\"translate\":\"ftbquests.rewards.jungle.mineshaft.explorer.map\"}"
 					}
 					maxSearchRadius: 100
 					skinKnown: 1b
@@ -122,7 +122,7 @@
 				tag: {
 					decoration: "target_x"
 					display: {
-						Name: "{\"text\":\"Mangrove Mineshaft Explorer Map\"}"
+						Name: "{\"translate\":\"ftbquests.rewards.mangrove.mineshaft.explorer.map\"}"
 					}
 					maxSearchRadius: 100
 					skinKnown: 1b
@@ -138,7 +138,7 @@
 				tag: {
 					decoration: "target_x"
 					display: {
-						Name: "{\"text\":\"Mud Mineshaft Explorer Map\"}"
+						Name: "{\"translate\":\"ftbquests.rewards.mud.mineshaft.explorer.map\"}"
 					}
 					maxSearchRadius: 100
 					skinKnown: 1b
@@ -154,7 +154,7 @@
 				tag: {
 					decoration: "target_x"
 					display: {
-						Name: "{\"text\":\"Oak Mineshaft Explorer Map\"}"
+						Name: "{\"translate\":\"ftbquests.rewards.oak.mineshaft.explorer.map\"}"
 					}
 					maxSearchRadius: 100
 					skinKnown: 1b
@@ -170,7 +170,7 @@
 				tag: {
 					decoration: "target_x"
 					display: {
-						Name: "{\"text\":\"Spruce Mineshaft Explorer Map\"}"
+						Name: "{\"translate\":\"ftbquests.rewards.spruce.mineshaft.explorer.map\"}"
 					}
 					maxSearchRadius: 100
 					skinKnown: 1b
@@ -186,7 +186,7 @@
 				tag: {
 					decoration: "target_x"
 					display: {
-						Name: "{\"text\":\"Stone Mineshaft Explorer Map\"}"
+						Name: "{\"translate\":\"ftbquests.rewards.stone.mineshaft.explorer.map\"}"
 					}
 					maxSearchRadius: 100
 					skinKnown: 1b

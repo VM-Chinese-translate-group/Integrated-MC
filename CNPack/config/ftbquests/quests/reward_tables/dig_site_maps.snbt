@@ -10,7 +10,7 @@
 				tag: {
 					decoration: "target_x"
 					display: {
-						Name: "{\"text\":\"Dig Site Explorer Map\"}"
+						Name: "{\"translate\":\"ftbquests.rewards.dig.site.explorer.map\"}"
 					}
 					maxSearchRadius: 100
 					skinKnown: 1b
@@ -26,7 +26,7 @@
 				tag: {
 					decoration: "target_x"
 					display: {
-						Name: "{\"text\":\"Desert Dig Site Explorer Map\"}"
+						Name: "{\"translate\":\"ftbquests.rewards.desert.dig.site.explorer.map\"}"
 					}
 					maxSearchRadius: 100
 					skinKnown: 1b

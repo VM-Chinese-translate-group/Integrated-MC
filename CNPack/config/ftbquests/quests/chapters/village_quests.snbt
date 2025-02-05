@@ -762,7 +762,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Labyrinth Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.labyrinth.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -853,7 +853,7 @@
 				id: "supplementaries:cartographers_quill"
 				tag: {
 					display: {
-						Name: "{\"text\":\"Pirate Village Explorer Map\"}"
+						Name: "{\"translate\":\"ftbquests.rewards.pirate.village.explorer.map\"}"
 					}
 					maxSearchRadius: 100
 					skinKnown: 1b
@@ -878,7 +878,7 @@
 						tag: {
 							decoration: "target_x"
 							display: {
-								Name: "{\"text\":\"Oasis Village Explorer Map\"}"
+								Name: "{\"translate\":\"ftbquests.rewards.oasis.village.explorer.map\"}"
 							}
 							maxSearchRadius: 100
 							skinKnown: 1b
@@ -1445,7 +1445,7 @@
 						tag: {
 							decoration: "target_x"
 							display: {
-								Name: "{\"text\":\"Tinkers Workshop Explorer Map\"}"
+								Name: "{\"translate\":\"ftbquests.rewards.tinkers.workshop.explorer.map\"}"
 							}
 							maxSearchRadius: 100
 							skinKnown: 1b
@@ -1463,7 +1463,7 @@
 						tag: {
 							decoration: "target_x"
 							display: {
-								Name: "{\"text\":\"Tinkers Citadel Explorer Map\"}"
+								Name: "{\"translate\":\"ftbquests.rewards.tinkers.citadel.explorer.map\"}"
 							}
 							maxSearchRadius: 100
 							skinKnown: 1b
@@ -1848,7 +1848,7 @@
 				tag: {
 					decoration: "target_x"
 					display: {
-						Name: "{\"text\":\"Desert Pyramid Explorer Map\"}"
+						Name: "{\"translate\":\"ftbquests.rewards.desert.pyramid.explorer.map\"}"
 					}
 					maxSearchRadius: 100
 					skinKnown: 1b
@@ -1865,7 +1865,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Desert Pyramid Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.desert.pyramid.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -3235,7 +3235,7 @@
 				id: "supplementaries:cartographers_quill"
 				tag: {
 					display: {
-						Name: "{\"text\":\"Pirate Village Explorer Map\"}"
+						Name: "{\"translate\":\"ftbquests.rewards.pirate.village.explorer.map\"}"
 					}
 					maxSearchRadius: 100
 					skinKnown: 1b
@@ -3253,7 +3253,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Shelter Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.shelter.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -3296,7 +3296,7 @@
 						tag: {
 							decoration: "target_x"
 							display: {
-								Name: "{\"text\":\"Hunter’s Cabin Explorer Map\"}"
+								Name: "{\"translate\":\"ftbquests.rewards.hunter’s.cabin.explorer.map\"}"
 							}
 							maxSearchRadius: 100
 							skinKnown: 1b
@@ -3314,7 +3314,7 @@
 						tag: {
 							decoration: "target_x"
 							display: {
-								Name: "{\"text\":\"Illusioner Shack Explorer Map\"}"
+								Name: "{\"translate\":\"ftbquests.rewards.illusioner.shack.explorer.map\"}"
 							}
 							maxSearchRadius: 100
 							skinKnown: 1b

@@ -10,7 +10,7 @@
 				tag: {
 					decoration: "target_x"
 					display: {
-						Name: "{\"text\":\"Wilden Hunter Explorer Map\"}"
+						Name: "{\"translate\":\"ftbquests.rewards.wilden.hunter.explorer.map\"}"
 					}
 					maxSearchRadius: 100
 					skinKnown: 1b
@@ -26,7 +26,7 @@
 				tag: {
 					decoration: "target_x"
 					display: {
-						Name: "{\"text\":\"Wilden Defender Explorer Map\"}"
+						Name: "{\"translate\":\"ftbquests.rewards.wilden.defender.explorer.map\"}"
 					}
 					maxSearchRadius: 100
 					skinKnown: 1b
@@ -42,7 +42,7 @@
 				tag: {
 					decoration: "target_x"
 					display: {
-						Name: "{\"text\":\"Wilden Stalker Explorer Map\"}"
+						Name: "{\"translate\":\"ftbquests.rewards.wilden.stalker.explorer.map\"}"
 					}
 					maxSearchRadius: 100
 					skinKnown: 1b

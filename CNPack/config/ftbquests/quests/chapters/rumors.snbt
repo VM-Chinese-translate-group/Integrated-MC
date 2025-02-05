@@ -110,7 +110,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Apothecary Abode Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.apothecary.abode.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -297,7 +297,7 @@
 					id: "supplementaries:cartographers_quill"
 					tag: {
 						display: {
-							Name: "{\"text\":\"Redhorn Guild Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.redhorn.guild.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -362,7 +362,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Pillager Fortress Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.pillager.fortress.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -410,7 +410,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Castle Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.castle.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -499,7 +499,7 @@
 					id: "supplementaries:cartographers_quill"
 					tag: {
 						display: {
-							Name: "{\"text\":\"Umvuthana Grove Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.umvuthana.grove.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -653,7 +653,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Pillager Fortress Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.pillager.fortress.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -837,7 +837,7 @@
 					id: "supplementaries:cartographers_quill"
 					tag: {
 						display: {
-							Name: "{\"text\":\"Ancient Mines Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.ancient.mines.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -931,7 +931,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Fishermans Lodge Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.fishermans.lodge.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -1093,7 +1093,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Dread Citadel Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.dread.citadel.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -1326,7 +1326,7 @@
 					tag: {
 						decoration: "target_x"
 						display: {
-							Name: "{\"text\":\"Tree of Wisdom Explorer Map\"}"
+							Name: "{\"translate\":\"ftbquests.rewards.tree.of.wisdom.explorer.map\"}"
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
@@ -1568,7 +1568,7 @@
 						tag: {
 							decoration: "target_x"
 							display: {
-								Name: "{\"text\":\"Archmages Tower Explorer Map\"}"
+								Name: "{\"translate\":\"ftbquests.rewards.archmages.tower.explorer.map\"}"
 							}
 							maxSearchRadius: 100
 							skinKnown: 1b

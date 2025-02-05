@@ -226,7 +226,7 @@
 						tag: {
 							decoration: "target_x"
 							display: {
-								Name: "{\"text\":\"Bazaar Explorer Map\"}"
+								Name: "{\"translate\":\"ftbquests.rewards.bazaar.explorer.map\"}"
 							}
 							maxSearchRadius: 100
 							skinKnown: 1b
