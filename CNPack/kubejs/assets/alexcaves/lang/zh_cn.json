@@ -10,11 +10,11 @@
     "block.alexscaves.smooth_limestone_slab":"平滑远古石灰岩台阶",
     "block.alexscaves.smooth_limestone_wall":"平滑远古石灰岩墙",
     "block.alexscaves.sulfur":"硫磺块",
-    "item.alexscaves.limestone_spear":"Ancient Limestone Spear",
-    "item.alexscaves.limestone_spear_inventory":"Ancient Limestone Spear",
-    "entity.alexscaves.limestone_spear":"Ancient Limestone Spear",
-    "advancements.alexscaves.limestone.desc":"Obtain Ancient Limestone",
-    "advancements.alexscaves.cave_painting.desc":"Create a Cave Painting by using Charcoal on Smooth Ancient Limestone",
-    "alexscaves.sound.subtitle.limestone_spear_throw":"Ancient Limestone Spear chucked",
-    "alexscaves.sound.subtitle.limestone_spear_hit":"Ancient Limestone Spear stabs"
+    "item.alexscaves.limestone_spear":"远古石灰岩长矛",
+    "item.alexscaves.limestone_spear_inventory":"远古石灰岩长矛",
+    "entity.alexscaves.limestone_spear":"远古石灰岩长矛",
+    "advancements.alexscaves.limestone.desc":"获取远古石灰岩",
+    "advancements.alexscaves.cave_painting.desc":"用木炭在平滑远古石灰岩上创作壁画",
+    "alexscaves.sound.subtitle.limestone_spear_throw":"远古石灰岩长矛：扔出",
+    "alexscaves.sound.subtitle.limestone_spear_hit":"远古石灰岩长矛：穿刺"
 }
