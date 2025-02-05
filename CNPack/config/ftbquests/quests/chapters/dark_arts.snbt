@@ -477,13 +477,13 @@
 					type: "item"
 				}
 				{
-					id: "60DDAC9EAC9730E9"
-					item: "forbidden_arcanus:arcane_bone_meal"
+					id: "19F01757F0FCD51E"
+					item: "eidolon:soul_shard"
 					type: "item"
 				}
 				{
-					id: "19F01757F0FCD51E"
-					item: "eidolon:soul_shard"
+					id: "6670B0764F288382"
+					item: "minecraft:bone_meal"
 					type: "item"
 				}
 			]
