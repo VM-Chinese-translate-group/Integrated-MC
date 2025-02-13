@@ -1775,7 +1775,7 @@
 					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						"ftbfiltersystem:filter": "nbt(fuzzy:{author:\"CraisinLord\",title:\"The Bear Hunt\"})"
+						"ftbfiltersystem:filter": "nbt(fuzzy:{author:\"CraisinLord\",title:\"猎熊旅记\"})"
 					}
 				}
 				match_nbt: true
