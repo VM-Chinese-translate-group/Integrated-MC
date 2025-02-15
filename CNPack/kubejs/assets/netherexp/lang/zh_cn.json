@@ -5,8 +5,8 @@
     "block.netherexp.cut_necromium_slab":"Cut Necromium Slab",
     "block.netherexp.cut_necromium_stairs":"Cut Necromium Stairs",
     "block.netherexp.gargoyle_statue":"Wraithing Statue",
-    "block.netherexp.necromium_grate":"Necromium Grate",
-    "block.netherexp.necromium_plated_block":"Necromium Plated Block",
+    "block.netherexp.necromium_grate":"死灵合金格栅",
+    "block.netherexp.necromium_plated_block":"死灵合金镶板块",
     "block.netherexp.soul_ruby_ore":"Soul Ruby Ore",
-    "item.netherexp.necromium_plating":"Necromium Plating"
+    "item.netherexp.necromium_plating":"死灵合金镀层"
 }
