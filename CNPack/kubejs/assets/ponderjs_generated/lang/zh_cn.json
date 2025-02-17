@@ -1,9 +1,9 @@
 {
     "kubejs.ponder.ars_recipe.header":"新生魔艺配方",
-    "kubejs.ponder.ars_recipe.text_1":"新生魔艺提供了一些使用魔法装置的魔法配方",
-    "kubejs.ponder.ars_recipe.text_2":"附魔装置需要在其下方有一个奥数核心，而灌注室则不需要。",
-    "kubejs.ponder.ars_recipe.text_3":"将配方材料放置在距装置（在此情况下为附魔装置）一格远的基座上",
-    "kubejs.ponder.ars_recipe.text_4":"将配方中间的材料放入装置中",
+    "kubejs.ponder.ars_recipe.text_1":"新生魔艺提供了一些使用魔法装置制作的魔法配方",
+    "kubejs.ponder.ars_recipe.text_2":"要运作附魔装置，其下方需要有一个奥术核心，而灌注室则不需要。",
+    "kubejs.ponder.ars_recipe.text_3":"将配方材料放置在距装置（此处以附魔装置为例）一格远的基座上",
+    "kubejs.ponder.ars_recipe.text_4":"将配方正中间的材料放入装置中",
     "kubejs.ponder.ars_recipe.text_5":"配方将开始进行，但可能需要消耗附近的魔源",
     "kubejs.ponder.ars_recipe.text_6":"附魔装置会消耗基座上的材料，而灌注室则不会。",
     "kubejs.ponder.clibano.header":"超自然熔炉",
