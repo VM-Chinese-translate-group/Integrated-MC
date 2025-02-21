@@ -169,8 +169,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest6.title}"
-			x: -3.0d
-			y: 4.0d
+			x: -3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6D43D69EEEBE2D79"]
@@ -304,13 +304,12 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["0123F0DD2DB7A203"]
+			dependencies: ["0D47283F9CB3D318"]
 			hide_dependency_lines: false
 			hide_details_until_startable: true
 			hide_until_deps_visible: false
 			icon: "biomemakeover:tall_red_mushroom"
 			id: "79DB41984ACBE7BC"
-			min_required_dependencies: 2
 			optional: true
 			rewards: [{
 				id: "0B4295094850971A"
@@ -332,8 +331,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest12.title}"
-			x: 6.5d
-			y: 3.0d
+			x: -1.0d
+			y: 5.5d
 		}
 		{
 			can_repeat: true
@@ -722,7 +721,7 @@
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest26.title}"
 			x: -3.0d
-			y: 5.0d
+			y: 5.5d
 		}
 		{
 			can_repeat: true
@@ -954,7 +953,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest34.title}"
-			x: -1.5d
+			x: -2.0d
 			y: 3.0d
 		}
 		{
@@ -983,8 +982,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest35.title}"
-			x: -2.5d
-			y: 3.0d
+			x: -3.0d
+			y: 3.5d
 		}
 		{
 			can_repeat: true
@@ -1524,7 +1523,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest54.title}"
-			x: 5.5d
+			x: 6.5d
 			y: 3.0d
 		}
 		{
@@ -1554,7 +1553,7 @@
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest55.title}"
 			x: -2.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			can_repeat: true
@@ -1718,7 +1717,7 @@
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest61.title}"
 			x: -1.0d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
 			can_repeat: true
@@ -1931,7 +1930,7 @@
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest69.title}"
 			x: -2.0d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			can_repeat: true
@@ -2403,8 +2402,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.explorers_maps.quest85.title}"
-			x: -1.0d
-			y: 5.0d
+			x: -0.5d
+			y: 4.5d
 		}
 		{
 			can_repeat: true

@@ -732,6 +732,8 @@
 				"{ftbquests.chapter.tools.quest27.description2}"
 				""
 				"{ftbquests.chapter.tools.quest27.description3}"
+				""
+				"{ftbquests.chapter.tools.quest27.description4}"
 			]
 			id: "732EE130794FBAA6"
 			rewards: [{
@@ -740,11 +742,19 @@
 				item: "minecraft:amethyst_shard"
 				type: "item"
 			}]
-			tasks: [{
-				id: "190BB6256C36666E"
-				item: "transmog:transmogrification_table"
-				type: "item"
-			}]
+			subtitle: "{ftbquests.chapter.tools.quest27.subtitle}"
+			tasks: [
+				{
+					id: "190BB6256C36666E"
+					item: "transmog:transmogrification_table"
+					type: "item"
+				}
+				{
+					id: "4BC47811472A401E"
+					item: "transmog:void_fragment"
+					type: "item"
+				}
+			]
 			title: "{ftbquests.chapter.tools.quest27.title}"
 			x: -2.5d
 			y: 2.0d

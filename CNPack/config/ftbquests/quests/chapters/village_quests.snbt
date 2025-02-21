@@ -43,8 +43,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest1.title}"
-			x: -2.5d
-			y: -2.5d
+			x: -1.5d
+			y: -2.25d
 		}
 		{
 			can_repeat: true
@@ -135,7 +135,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest2.title}"
-			x: -2.5d
+			x: -2.0d
 			y: -5.0d
 		}
 		{
@@ -232,7 +232,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest3.title}"
-			x: -2.0d
+			x: -1.5d
 			y: -4.0d
 		}
 		{
@@ -265,7 +265,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest4.title}"
-			x: -3.0d
+			x: -2.5d
 			y: -4.0d
 		}
 		{
@@ -337,8 +337,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest5.title}"
-			x: -4.0d
-			y: -4.0d
+			x: -3.0d
+			y: -3.0d
 		}
 		{
 			can_repeat: true
@@ -371,8 +371,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest6.title}"
-			x: -4.5d
-			y: -6.0d
+			x: -3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["44792B9C63EA851A"]
@@ -573,8 +573,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest7.title}"
-			x: -5.5d
-			y: -4.5d
+			x: -4.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["135AD7AB9A4A16EF"]
@@ -630,8 +630,8 @@
 				type: "advancement"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest8.title}"
-			x: -7.5d
-			y: -4.5d
+			x: -5.0d
+			y: -5.0d
 		}
 		{
 			can_repeat: true
@@ -655,8 +655,8 @@
 				value: 5L
 			}]
 			title: "{ftbquests.chapter.village_quests.quest9.title}"
-			x: -9.0d
-			y: -4.5d
+			x: -6.0d
+			y: -6.0d
 		}
 		{
 			can_repeat: true
@@ -692,8 +692,8 @@
 				value: 15L
 			}]
 			title: "{ftbquests.chapter.village_quests.quest10.title}"
-			x: -7.0d
-			y: -3.0d
+			x: -5.0d
+			y: -4.0d
 		}
 		{
 			can_repeat: true
@@ -730,8 +730,8 @@
 				value: 5L
 			}]
 			title: "{ftbquests.chapter.village_quests.quest11.title}"
-			x: -7.0d
-			y: -6.0d
+			x: -4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -820,8 +820,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest12.title}"
-			x: -4.5d
-			y: -1.5d
+			x: -3.5d
+			y: -2.0d
 		}
 		{
 			description: [
@@ -842,8 +842,8 @@
 				type: "structure"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest13.title}"
-			x: -5.5d
-			y: -1.5d
+			x: -4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6DA7ACC4B17C7A44"]
@@ -927,8 +927,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest14.title}"
-			x: -6.5d
-			y: -1.5d
+			x: -5.5d
+			y: -2.5d
 		}
 		{
 			dependency_requirement: "one_started"
@@ -954,8 +954,8 @@
 				type: "structure"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest15.title}"
-			x: -3.5d
-			y: 0.0d
+			x: -3.0d
+			y: -0.75d
 		}
 		{
 			can_repeat: true
@@ -1033,8 +1033,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest16.title}"
-			x: -5.5d
-			y: -2.5d
+			x: -4.5d
+			y: -3.0d
 		}
 		{
 			description: [
@@ -1056,7 +1056,7 @@
 			}]
 			title: "{ftbquests.chapter.village_quests.quest17.title}"
 			x: 0.0d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2162E50E99B2C533"]
@@ -1665,8 +1665,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest29.title}"
-			x: -5.0d
-			y: 2.0d
+			x: -5.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2BC557F412C32C42"]
@@ -1738,8 +1738,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest30.title}"
-			x: -5.5d
-			y: 4.0d
+			x: -9.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["043BF3E32EBA4D01"]
@@ -1778,6 +1778,7 @@
 			subtitle: "{ftbquests.chapter.village_quests.quest31.subtitle}"
 			tasks: [
 				{
+					consume_items: true
 					id: "7962CF24AC967356"
 					item: "minecraft:map"
 					type: "item"
@@ -1791,8 +1792,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest31.title}"
-			x: -5.5d
-			y: 3.0d
+			x: -7.5d
+			y: 0.5d
 		}
 		{
 			can_repeat: true
@@ -1827,8 +1828,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest32.title}"
-			x: -5.5d
-			y: 5.0d
+			x: -10.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -1884,8 +1885,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest33.title}"
-			x: -6.0d
-			y: 1.0d
+			x: -6.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2A59ACA463BB5C05"]
@@ -1940,8 +1941,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest34.title}"
-			x: -6.0d
-			y: -0.5d
+			x: -5.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["078BE7E2C6230DC8"]
@@ -1993,7 +1994,7 @@
 			]
 			title: "{ftbquests.chapter.village_quests.quest35.title}"
 			x: -7.5d
-			y: -0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["50F2F6D14A979C9F"]
@@ -2078,7 +2079,7 @@
 			]
 			title: "{ftbquests.chapter.village_quests.quest36.title}"
 			x: -7.5d
-			y: 1.0d
+			y: -0.5d
 		}
 		{
 			can_repeat: true
@@ -2153,8 +2154,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest37.title}"
-			x: -7.0d
-			y: 3.0d
+			x: -10.0d
+			y: -0.5d
 		}
 		{
 			can_repeat: true
@@ -2183,15 +2184,21 @@
 			}]
 			title: "{ftbquests.chapter.village_quests.quest38.title}"
 			x: -9.0d
-			y: 1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["70F08FB0A44B9B94"]
+			description: [
+				"{ftbquests.chapter.village_quests.quest39.description1}"
+				""
+				"{ftbquests.chapter.village_quests.quest39.description2}"
+			]
 			icon: "minecraft:purple_wool"
 			id: "5BB9CDDB5CC625A3"
 			secret: true
 			shape: "diamond"
 			size: 1.5d
+			subtitle: "{ftbquests.chapter.village_quests.quest39.subtitle}"
 			tasks: [{
 				id: "3A994EF5E4B7FCAB"
 				structure: "integrated_villages:kutcha_village"
@@ -2199,10 +2206,15 @@
 				type: "structure"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest39.title}"
-			x: -2.5d
-			y: 2.5d
+			x: -0.75d
+			y: 3.0d
 		}
 		{
+			description: [
+				"{ftbquests.chapter.village_quests.quest40.description1}"
+				""
+				"{ftbquests.chapter.village_quests.quest40.description2}"
+			]
 			icon: {
 				Count: 1
 				id: "minecraft:crossbow"
@@ -2222,12 +2234,11 @@
 				type: "structure"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest40.title}"
-			x: 0.0d
-			y: 3.5d
+			x: 1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["70F08FB0A44B9B94"]
-			icon: "quark:andesite_pillar"
 			id: "76B79195000014B1"
 			secret: true
 			shape: "diamond"
@@ -2239,8 +2250,8 @@
 				type: "structure"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest41.title}"
-			x: 2.5d
-			y: 2.5d
+			x: 2.25d
+			y: 2.25d
 		}
 		{
 			description: [
@@ -2267,8 +2278,8 @@
 				type: "structure"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest42.title}"
-			x: 2.5d
-			y: -2.5d
+			x: 1.5d
+			y: -2.25d
 		}
 		{
 			dependencies: ["2C06457BFE5AE8C0"]
@@ -2311,8 +2322,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest43.title}"
-			x: 3.5d
-			y: -3.5d
+			x: 3.0d
+			y: -2.5d
 		}
 		{
 			can_repeat: false
@@ -2360,8 +2371,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest44.title}"
-			x: 5.0d
-			y: -4.5d
+			x: 4.5d
+			y: -4.0d
 		}
 		{
 			can_repeat: false
@@ -2393,8 +2404,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest45.title}"
-			x: 6.5d
-			y: -3.5d
+			x: 6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["323B6E2583E9F927"]
@@ -2431,8 +2442,8 @@
 				type: "advancement"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest46.title}"
-			x: 5.0d
-			y: -3.0d
+			x: 4.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2C06457BFE5AE8C0"]
@@ -2467,8 +2478,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest47.title}"
-			x: 3.0d
-			y: -4.5d
+			x: 2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6C24CC3341B9CD71"]
@@ -2556,8 +2567,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest48.title}"
-			x: 4.5d
-			y: -6.5d
+			x: 3.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["69CB8C1CF0DA3D93"]
@@ -2603,8 +2614,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest49.title}"
-			x: 6.5d
-			y: -7.5d
+			x: 5.5d
+			y: -7.0d
 		}
 		{
 			can_repeat: true
@@ -2638,8 +2649,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest50.title}"
-			x: 7.5d
-			y: -6.5d
+			x: 6.5d
+			y: -6.0d
 		}
 		{
 			description: [
@@ -2661,7 +2672,7 @@
 			}]
 			title: "{ftbquests.chapter.village_quests.quest51.title}"
 			x: 3.0d
-			y: 0.0d
+			y: -0.75d
 		}
 		{
 			dependencies: ["71CD0F0F9BB78A33"]
@@ -2701,8 +2712,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest52.title}"
-			x: 4.0d
-			y: -1.0d
+			x: 4.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["25977CEF373CE1AB"]
@@ -2751,8 +2762,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest53.title}"
-			x: 5.0d
-			y: -1.0d
+			x: 5.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["49C16B63ACC7E080"]
@@ -2786,8 +2797,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest54.title}"
-			x: 6.0d
-			y: -1.0d
+			x: 6.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["78D72C75AAB84562"]
@@ -2827,8 +2838,8 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest55.title}"
-			x: 7.0d
-			y: -1.0d
+			x: 7.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["71CD0F0F9BB78A33"]
@@ -2889,8 +2900,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest56.title}"
-			x: 4.0d
-			y: 1.0d
+			x: 5.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["65BE046851A681AE"]
@@ -2945,8 +2956,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest57.title}"
-			x: 5.5d
-			y: 1.0d
+			x: 6.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["63431F5DA8E6E44A"]
@@ -3010,7 +3021,7 @@
 			]
 			title: "{ftbquests.chapter.village_quests.quest58.title}"
 			x: 7.0d
-			y: 1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -3058,8 +3069,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest59.title}"
-			x: -1.0d
-			y: 5.5d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6449C6A7A5AB1BCA"]
@@ -3101,8 +3112,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest60.title}"
-			x: -1.0d
-			y: 7.0d
+			x: 0.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["365871124C0A4C2D"]
@@ -3134,8 +3145,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest61.title}"
-			x: -1.0d
-			y: 8.5d
+			x: 0.0d
+			y: 8.0d
 		}
 		{
 			can_repeat: true
@@ -3165,8 +3176,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest62.title}"
-			x: -2.5d
-			y: 8.5d
+			x: -1.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4665C398E1FEFC69"]
@@ -3217,7 +3228,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest63.title}"
-			x: 8.0d
+			x: 7.5d
 			y: -4.5d
 		}
 		{
@@ -3286,6 +3297,13 @@
 				""
 				"{ftbquests.chapter.village_quests.quest65.description4}"
 			]
+			icon: {
+				Count: 1
+				id: "minecraft:crossbow"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "1B4CF8A3B65B17EB"
 			rewards: [
 				{
@@ -3377,8 +3395,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest65.title}"
-			x: 0.0d
-			y: 6.5d
+			x: 1.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["54BED0E8315B4352"]
@@ -3399,8 +3417,8 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest66.title}"
-			x: 0.0d
-			y: 5.0d
+			x: 1.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -3423,8 +3441,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest67.title}"
-			x: 1.0d
-			y: 5.5d
+			x: 2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0ED1F398AAC94813"]
@@ -3457,8 +3475,8 @@
 				type: "advancement"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest68.title}"
-			x: 1.0d
-			y: 7.0d
+			x: 2.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1B4CF8A3B65B17EB"]
@@ -3469,6 +3487,13 @@
 				""
 				"{ftbquests.chapter.village_quests.quest69.description3}"
 			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7E508B292B8F29F5"
 			rewards: [
 				{
@@ -3544,7 +3569,7 @@
 					icon: "illagerinvasion:illusionary_dust"
 					id: "485E24904E59F1DB"
 					type: "kill"
-					value: 1L
+					value: 3L
 				}
 				{
 					entity: "illagerinvasion:basher"
@@ -3574,8 +3599,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest69.title}"
-			x: 0.0d
-			y: 8.0d
+			x: 1.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["7E508B292B8F29F5"]
@@ -3638,13 +3663,14 @@
 			]
 			tasks: [{
 				consume_items: true
+				count: 10L
 				id: "450FAF0187079FC4"
-				item: "friendsandfoes:totem_of_illusion"
+				item: "illagerinvasion:illusionary_dust"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest70.title}"
-			x: 0.0d
-			y: 9.5d
+			x: 1.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["2951C43CB2CC87B9"]
@@ -3720,8 +3746,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest71.title}"
-			x: 1.0d
-			y: 8.5d
+			x: 2.0d
+			y: 8.0d
 		}
 		{
 			description: ["{ftbquests.chapter.village_quests.quest72.description1}"]
@@ -3734,8 +3760,8 @@
 				title: "{ftbquests.chapter.village_quests.quest72.task_+5840229510990728839.title}"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: 12.5d
+			x: 0.5d
+			y: 11.0d
 		}
 		{
 			description: ["{ftbquests.chapter.village_quests.quest73.description1}"]
@@ -3748,8 +3774,8 @@
 				title: "{ftbquests.chapter.village_quests.quest73.task_+387643706122680995.title}"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: 11.5d
+			x: 0.5d
+			y: 10.0d
 		}
 		{
 			description: ["{ftbquests.chapter.village_quests.quest74.description1}"]
@@ -3762,8 +3788,8 @@
 				title: "{ftbquests.chapter.village_quests.quest74.task_+7050279930087892010.title}"
 				type: "checkmark"
 			}]
-			x: 0.5d
-			y: 11.5d
+			x: 1.5d
+			y: 10.0d
 		}
 		{
 			description: ["{ftbquests.chapter.village_quests.quest75.description1}"]
@@ -3776,8 +3802,8 @@
 				title: "{ftbquests.chapter.village_quests.quest75.task_+8092433256826698667.title}"
 				type: "checkmark"
 			}]
-			x: 0.5d
-			y: 12.5d
+			x: 1.5d
+			y: 11.0d
 		}
 		{
 			description: ["{ftbquests.chapter.village_quests.quest76.description1}"]
@@ -3790,8 +3816,8 @@
 				title: "{ftbquests.chapter.village_quests.quest76.task_+650827683162146393.title}"
 				type: "checkmark"
 			}]
-			x: 0.5d
-			y: 13.5d
+			x: 1.5d
+			y: 12.0d
 		}
 		{
 			description: ["{ftbquests.chapter.village_quests.quest77.description1}"]
@@ -3804,8 +3830,8 @@
 				title: "{ftbquests.chapter.village_quests.quest77.task_+2689926099053436417.title}"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: 13.5d
+			x: 0.5d
+			y: 12.0d
 		}
 		{
 			description: ["{ftbquests.chapter.village_quests.quest78.description1}"]
@@ -3818,8 +3844,8 @@
 				title: "{ftbquests.chapter.village_quests.quest78.task_+4326959413666351987.title}"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 14.5d
+			x: 1.0d
+			y: 13.0d
 		}
 		{
 			can_repeat: true
@@ -3846,8 +3872,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest79.title}"
-			x: 2.5d
-			y: 8.5d
+			x: 3.5d
+			y: 8.0d
 		}
 		{
 			can_repeat: true
@@ -3870,6 +3896,7 @@
 			hide_dependent_lines: true
 			hide_until_deps_complete: true
 			id: "6EF577B973CDE63C"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7B73F031687D5A38"
@@ -3884,8 +3911,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest80.title}"
-			x: 1.0d
-			y: 9.5d
+			x: 2.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["739967C9DA90AF30"]
@@ -3912,18 +3939,66 @@
 				type: "advancement"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest81.title}"
-			x: -1.0d
-			y: 9.5d
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["70F08FB0A44B9B94"]
+			id: "09693B390E92E0CA"
+			secret: true
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "6B56533D9CCD547E"
+				structure: "integrated_villages:quark/minka_village"
+				title: "{ftbquests.chapter.village_quests.quest82.task_+7734460934144218238.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.village_quests.quest82.title}"
+			x: -2.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["70F08FB0A44B9B94"]
+			id: "571C7811E61EADF5"
+			secret: true
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "5A1F19BE038A9421"
+				structure: "integrated_villages:marketstead_village"
+				title: "{ftbquests.chapter.village_quests.quest83.task_+6493937491585438753.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.village_quests.quest83.title}"
+			x: -3.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["70F08FB0A44B9B94"]
+			id: "161B0A04BCB41031"
+			secret: true
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "5034DE62026C35CA"
+				structure: "integrated_villages:cabin_village"
+				title: "{ftbquests.chapter.village_quests.quest84.task_+5779488734351996362.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.village_quests.quest84.title}"
+			x: 3.0d
+			y: 0.75d
 		}
 		{
 			can_repeat: true
 			dependencies: ["0DF48C54119CC56B"]
-			description: ["{ftbquests.chapter.village_quests.quest82.description1}"]
-			id: "267BE4672A95CEAB"
+			id: "186533480547C62D"
+			optional: true
 			rewards: [
 				{
 					count: 4
-					id: "10E7401DA75A402B"
+					id: "5A267FCEF45A84A1"
 					item: {
 						Count: 1
 						id: "minecraft:potion"
@@ -3935,7 +4010,7 @@
 				}
 				{
 					count: 4
-					id: "030405013FA7815A"
+					id: "1B8426530A8974F3"
 					item: {
 						Count: 1
 						id: "minecraft:potion"
@@ -3949,13 +4024,554 @@
 			shape: "hexagon"
 			tasks: [{
 				consume_items: true
-				id: "183BDE7A8B3FB58A"
-				item: "friendsandfoes:totem_of_illusion"
+				count: 32L
+				id: "42259BED531F1273"
+				item: "illagerinvasion:illusionary_dust"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.village_quests.quest82.title}"
-			x: 0.0d
-			y: 10.5d
+			title: "{ftbquests.chapter.village_quests.quest85.title}"
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5BB9CDDB5CC625A3"]
+			description: [
+				"{ftbquests.chapter.village_quests.quest86.description1}"
+				""
+				"{ftbquests.chapter.village_quests.quest86.description2}"
+				""
+				"{ftbquests.chapter.village_quests.quest86.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "supplementaries:bamboo_spikes_tipped"
+				tag: {
+					Damage: 0
+					Potion: "minecraft:poison"
+				}
+			}
+			id: "5F94DA31EAEFEC00"
+			subtitle: "{ftbquests.chapter.village_quests.quest86.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "02446086FD1505DB"
+					item: "supplementaries:bamboo_spikes"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "53085B113ACC9159"
+					item: "minecraft:sandstone_wall"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "56EE61E08C5E4A3F"
+					item: "minecraft:red_sandstone_wall"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.village_quests.quest86.title}"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6AAA371BABF988F6"]
+			description: [
+				"{ftbquests.chapter.village_quests.quest87.description1}"
+				""
+				"{ftbquests.chapter.village_quests.quest87.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "iceandfire:deathworm_gauntlet_yellow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "14D52F6472552559"
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.village_quests.quest87.subtitle}"
+			tasks: [
+				{
+					id: "79794458849E5ABB"
+					structure: "integrated_minecraft:deathworm_pit"
+					title: "{ftbquests.chapter.village_quests.quest87.task_+8753102497744050875.title}"
+					type: "structure"
+				}
+				{
+					entity: "iceandfire:deathworm"
+					icon: {
+						Count: 1
+						id: "iceandfire:deathworm_gauntlet_yellow"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "71FC779E8B19E5EB"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "{ftbquests.chapter.village_quests.quest87.title}"
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["14D52F6472552559"]
+			description: [
+				"{ftbquests.chapter.village_quests.quest88.description1}"
+				""
+				"{ftbquests.chapter.village_quests.quest88.description2}"
+			]
+			icon: "iceandfire:deathworm_tounge"
+			id: "7FF742B7FF7B1801"
+			rewards: [
+				{
+					count: 3
+					id: "26BF523697A5C3B9"
+					item: "iceandfire:sapphire_gem"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E082DDFED915C33"
+					table_id: 7764861743028037075L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.village_quests.quest88.subtitle}"
+			tasks: [
+				{
+					id: "5119F93AB7546C9B"
+					structure: "integrated_villages:kutcha_village"
+					title: "{ftbquests.chapter.village_quests.quest88.task_+5843976022069111963.title}"
+					type: "structure"
+				}
+				{
+					consume_items: true
+					id: "4DDF546A36231FA7"
+					item: "iceandfire:deathworm_tounge"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.village_quests.quest88.title}"
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5F94DA31EAEFEC00"]
+			description: [
+				"{ftbquests.chapter.village_quests.quest89.description1}"
+				""
+				"{ftbquests.chapter.village_quests.quest89.description2}"
+				""
+				"{ftbquests.chapter.village_quests.quest89.description3}"
+				""
+				"{ftbquests.chapter.village_quests.quest89.description4}"
+				""
+				"{ftbquests.chapter.village_quests.quest89.description5}"
+			]
+			icon: "minecraft:saddle"
+			id: "075884C5ED718014"
+			rewards: [{
+				count: 16
+				id: "3387E54EA0B5663F"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.village_quests.quest89.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "6700E00042C8A631"
+					item: {
+						Count: 1
+						id: "supplementaries:cage"
+						tag: {
+							BlockEntityTag: {
+								MobHolder: {
+									EntityData: {
+										CanUpdate: 1b
+										id: "minecraft:chicken"
+									}
+									Name: "Chicken"
+									Scale: 0.87719303f
+								}
+							}
+						}
+					}
+					match_nbt: true
+					title: "{ftbquests.chapter.village_quests.quest89.task_+7422178477631645233.title}"
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "248F89FCEB7EABB2"
+					item: {
+						Count: 1
+						id: "supplementaries:cage"
+						tag: {
+							BlockEntityTag: {
+								MobHolder: {
+									EntityData: {
+										id: "minecraft:pig"
+									}
+									Name: "Pig"
+									Scale: 0.6944445f
+								}
+							}
+						}
+					}
+					match_nbt: true
+					title: "{ftbquests.chapter.village_quests.quest89.task_+2634476026410740658.title}"
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "1D2231E5221C8251"
+					item: "minecraft:saddle"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "1D09B61C88EFF275"
+					item: "minecraft:lead"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.village_quests.quest89.title}"
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["075884C5ED718014"]
+			description: [
+				"{ftbquests.chapter.village_quests.quest90.description1}"
+				""
+				"{ftbquests.chapter.village_quests.quest90.description2}"
+			]
+			icon: "supplementaries:cartographers_quill"
+			id: "6AAA371BABF988F6"
+			rewards: [{
+				id: "1D086B310C3310B6"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						decoration: "target_x"
+						display: {
+							Name: "{\"translate\":\"ftbquests.rewards.deathworm.pit.explorer.map\"}"
+						}
+						maxSearchRadius: 100
+						skinKnown: 1b
+						targetStructure: "integrated_minecraft:deathworm_pit"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.village_quests.quest90.subtitle}"
+			tasks: [{
+				id: "700E8BDF014BA8BA"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.village_quests.quest90.title}"
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7FF742B7FF7B1801"]
+			description: [
+				"{ftbquests.chapter.village_quests.quest91.description1}"
+				""
+				"{ftbquests.chapter.village_quests.quest91.description2}"
+			]
+			id: "7522C6B8C737391B"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5BB51C780C47BE6A"
+				table_id: 248882807765374501L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 5L
+				id: "46ACE410961BAAF2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.village_quests.quest91.title}"
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5BB9CDDB5CC625A3"]
+			description: [
+				"{ftbquests.chapter.village_quests.quest92.description1}"
+				""
+				"{ftbquests.chapter.village_quests.quest92.description2}"
+				""
+				"{ftbquests.chapter.village_quests.quest92.description3}"
+				""
+				"{ftbquests.chapter.village_quests.quest92.description4}"
+				""
+				"{ftbquests.chapter.village_quests.quest92.description5}"
+			]
+			id: "1E19811D3170031B"
+			rewards: [
+				{
+					id: "4A0B379CA7E428A1"
+					item: "minecraft:mojang_banner_pattern"
+					type: "item"
+				}
+				{
+					id: "018B36B402F6423C"
+					item: "alexsmobs:banner_pattern_new_mexico"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.village_quests.quest92.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "22018CEAA12962BF"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(redeco:upholstery)"
+						}
+					}
+					title: "{ftbquests.chapter.village_quests.quest92.task_+2450394611620340415.title}"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "56471F90A7F93F54"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(redeco:white_fluffy_carpet)item(redeco:orange_fluffy_carpet)item(redeco:magenta_fluffy_carpet)item(redeco:light_blue_fluffy_carpet)item(redeco:yellow_fluffy_carpet)item(redeco:lime_fluffy_carpet)item(redeco:pink_fluffy_carpet)item(redeco:gray_fluffy_carpet)item(redeco:light_gray_fluffy_carpet)item(redeco:cyan_fluffy_carpet)item(redeco:purple_fluffy_carpet)item(redeco:blue_fluffy_carpet)item(redeco:brown_fluffy_carpet)item(redeco:green_fluffy_carpet)item(redeco:red_fluffy_carpet)item(redeco:black_fluffy_carpet))"
+						}
+					}
+					title: "{ftbquests.chapter.village_quests.quest92.task_+6216972516762140500.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.village_quests.quest92.title}"
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1E19811D3170031B"]
+			description: [
+				"{ftbquests.chapter.village_quests.quest93.description1}"
+				""
+				"{ftbquests.chapter.village_quests.quest93.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "domesticationinnovation:feather_on_a_stick"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "36793C32901CF405"
+			rewards: [
+				{
+					id: "3B092F9987123EEC"
+					item: "copycats:copycat_beam"
+					type: "item"
+				}
+				{
+					id: "0279F22BE49445AA"
+					item: "create:copycat_panel"
+					type: "item"
+				}
+				{
+					id: "5134C4228D9B7364"
+					item: "copycats:copycat_slope"
+					type: "item"
+				}
+				{
+					id: "1594B3E5D17D9E8D"
+					item: "minecraft:birch_fence"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "115A7F5180A5C652"
+					item: "redeco:birch_table"
+					type: "item"
+				}
+				{
+					id: "0497A4820D941198"
+					item: "redeco:polished_birch_planks"
+					type: "item"
+				}
+				{
+					id: "35C656261A6051DF"
+					item: "redeco:polished_birch_stairs"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "43FAEC85BB7146BA"
+					item: "farmersdelight:tatami"
+					type: "item"
+				}
+				{
+					id: "2A800ED01CE86839"
+					item: "redeco:magenta_cushion"
+					type: "item"
+				}
+				{
+					id: "34C69271A99B0178"
+					item: "redeco:magenta_fluffy_carpet"
+					type: "item"
+				}
+				{
+					id: "4B0A04129BBD0C80"
+					item: "redeco:magenta_awning"
+					type: "item"
+				}
+				{
+					id: "267CEE0618D6CFC9"
+					item: "domesticationinnovation:pet_bed_magenta"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.village_quests.quest93.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					id: "16D7B18D10D9F5E1"
+					item: {
+						Count: 1
+						id: "domesticationinnovation:feather_on_a_stick"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "07E3FB0A0A0FC8E1"
+					item: "ars_nouveau:magebloom_fiber"
+					title: "{ftbquests.chapter.village_quests.quest93.task_+568573998515865825.title}"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "08F48029872527ED"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(minecraft:fishes)"
+						}
+					}
+					title: "{ftbquests.chapter.village_quests.quest93.task_+645281562470197229.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.village_quests.quest93.title}"
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1B7C5F7C97E82D22"]
+			description: [
+				"{ftbquests.chapter.village_quests.quest94.description1}"
+				""
+				"{ftbquests.chapter.village_quests.quest94.description2}"
+				""
+				"{ftbquests.chapter.village_quests.quest94.description3}"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "2977787589A06A9D"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C285E2FABEADE15"
+				table_id: 8161364718622482187L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "2A706BED08D9934A"
+				item: "minecraft:tropical_fish"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.village_quests.quest94.title}"
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["36793C32901CF405"]
+			description: [
+				"{ftbquests.chapter.village_quests.quest95.description1}"
+				""
+				"{ftbquests.chapter.village_quests.quest95.description2}"
+				""
+				"{ftbquests.chapter.village_quests.quest95.description3}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.village_quests.quest95.description4}"
+				""
+				"{ftbquests.chapter.village_quests.quest95.description5}"
+				""
+				"{ftbquests.chapter.village_quests.quest95.description6}"
+				""
+				"{ftbquests.chapter.village_quests.quest95.description7}"
+				""
+				"{ftbquests.chapter.village_quests.quest95.description8}"
+				""
+				"{ftbquests.chapter.village_quests.quest95.description9}"
+				""
+				"{ftbquests.chapter.village_quests.quest95.description10}"
+				"{@pagebreak}"
+				""
+				"{ftbquests.chapter.village_quests.quest95.image0}"
+			]
+			id: "1B7C5F7C97E82D22"
+			rewards: [{
+				id: "326D54DA2273F42D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "{ftbquests.chapter.village_quests.quest95.subtitle}"
+			tasks: [{
+				hasCustomPicture: false
+				icon: "domesticationinnovation:pet_bed_magenta"
+				id: "2BE6931A51A948A3"
+				ignoreState: true
+				layer: false
+				name: "Cat_Tower"
+				rightclick: false
+				title: "{ftbquests.chapter.village_quests.quest95.task_+3163377529522833571.title}"
+				type: "questsadditions:structure"
+			}]
+			title: "{ftbquests.chapter.village_quests.quest95.title}"
+			x: -1.0d
+			y: 6.5d
 		}
 	]
 	title: "{ftbquests.chapter.village_quests.title}"

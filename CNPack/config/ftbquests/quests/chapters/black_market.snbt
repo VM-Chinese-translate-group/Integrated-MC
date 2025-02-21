@@ -308,7 +308,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.black_market.quest8.title}"
-			x: -6.0d
+			x: -6.5d
 			y: -11.5d
 		}
 		{
@@ -349,7 +349,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.black_market.quest9.title}"
-			x: -5.0d
+			x: -5.5d
 			y: -11.5d
 		}
 		{
@@ -977,6 +977,85 @@
 			]
 			title: "{ftbquests.chapter.black_market.quest25.title}"
 			x: -2.0d
+			y: -9.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1B4CF8A3B65B17EB"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "quark:ravager_hide"
+			id: "00005BF4AD7854AA"
+			optional: true
+			rewards: [{
+				id: "6F83A5540C55F0C1"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						decoration: "target_x"
+						display: {
+							Name: "{\"translate\":\"ftbquests.rewards.illusioner.shack.explorer.map\"}"
+						}
+						maxSearchRadius: 100
+						skinKnown: 1b
+						targetStructure: "integrated_minecraft:illusioner_shack"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1DCFBE415E7B8718"
+				item: "iceandfire:sapphire_gem"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.black_market.quest26.title}"
+			x: -7.0d
+			y: -10.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["14D52F6472552559"]
+			description: [""]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "iceandfire:deathworm_gauntlet_yellow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4D456BBE114AE0E5"
+			optional: true
+			rewards: [{
+				id: "42BC6C8AC902BC07"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						decoration: "target_x"
+						display: {
+							Name: "{\"translate\":\"ftbquests.rewards.deathworm.pit.explorer.map\"}"
+						}
+						maxSearchRadius: 100
+						skinKnown: 1b
+						targetStructure: "idas:deathworm_pit"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6A5AD2622A2768CB"
+				item: "iceandfire:sapphire_gem"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.black_market.quest27.title}"
+			x: -7.0d
 			y: -9.5d
 		}
 	]

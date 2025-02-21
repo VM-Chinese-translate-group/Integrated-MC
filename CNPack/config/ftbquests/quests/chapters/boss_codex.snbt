@@ -128,7 +128,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 14.0d
+			x: 15.5d
 			y: -5.5d
 		}
 		{
@@ -973,8 +973,10 @@
 		{
 			description: [
 				"{ftbquests.chapter.boss_codex.quest30.description1}"
-				"{@pagebreak}"
+				""
 				"{ftbquests.chapter.boss_codex.quest30.description2}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest30.description3}"
 			]
 			id: "564D225B5F8DB57B"
 			rewards: [{
@@ -1104,38 +1106,6 @@
 				"{@pagebreak}"
 				"{ftbquests.chapter.boss_codex.quest34.description2}"
 			]
-			id: "36026009639E7142"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "35A65C883448DFB5"
-				table_id: 7764861743028037075L
-				type: "random"
-			}]
-			shape: "square"
-			size: 1.0d
-			tasks: [{
-				entity: "friendsandfoes:wildfire"
-				icon: {
-					Count: 1
-					id: "ftbquests:custom_icon"
-					tag: {
-						Icon: "mynethersdelight:item/blazefire"
-					}
-				}
-				id: "42D1E8D878B1CBD2"
-				title: "{ftbquests.chapter.boss_codex.quest34.task_+4814885493071268818.title}"
-				type: "kill"
-				value: 1L
-			}]
-			x: -1.0d
-			y: -5.5d
-		}
-		{
-			description: [
-				"{ftbquests.chapter.boss_codex.quest35.description1}"
-				"{@pagebreak}"
-				"{ftbquests.chapter.boss_codex.quest35.description2}"
-			]
 			id: "0DE14E15D9A336F6"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1155,7 +1125,7 @@
 					}
 				}
 				id: "75103D0098FD5FF4"
-				title: "{ftbquests.chapter.boss_codex.quest35.task_+8435309174840975348.title}"
+				title: "{ftbquests.chapter.boss_codex.quest34.task_+8435309174840975348.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -1164,9 +1134,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.boss_codex.quest36.description1}"
+				"{ftbquests.chapter.boss_codex.quest35.description1}"
 				"{@pagebreak}"
-				"{ftbquests.chapter.boss_codex.quest36.description2}"
+				"{ftbquests.chapter.boss_codex.quest35.description2}"
 			]
 			id: "6AC6B49A1006475A"
 			rewards: [{
@@ -1185,7 +1155,7 @@
 					}
 				}
 				id: "59B812BAB0279E25"
-				title: "{ftbquests.chapter.boss_codex.quest36.task_+6464937858118950437.title}"
+				title: "{ftbquests.chapter.boss_codex.quest35.task_+6464937858118950437.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -1194,9 +1164,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.boss_codex.quest37.description1}"
+				"{ftbquests.chapter.boss_codex.quest36.description1}"
 				"{@pagebreak}"
-				"{ftbquests.chapter.boss_codex.quest37.description2}"
+				"{ftbquests.chapter.boss_codex.quest36.description2}"
 			]
 			id: "0BBFE3A82C1D7086"
 			rewards: [{
@@ -1209,7 +1179,7 @@
 				entity: "iceandfire:fire_dragon"
 				icon: "iceandfire:fire_dragon_heart"
 				id: "35338B12CA6C4AF3"
-				title: "{ftbquests.chapter.boss_codex.quest37.task_+3833560620644190963.title}"
+				title: "{ftbquests.chapter.boss_codex.quest36.task_+3833560620644190963.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -1218,9 +1188,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.boss_codex.quest38.description1}"
+				"{ftbquests.chapter.boss_codex.quest37.description1}"
 				"{@pagebreak}"
-				"{ftbquests.chapter.boss_codex.quest38.description2}"
+				"{ftbquests.chapter.boss_codex.quest37.description2}"
 			]
 			id: "48A8BDBA503F6840"
 			rewards: [{
@@ -1233,7 +1203,7 @@
 				entity: "iceandfire:ice_dragon"
 				icon: "iceandfire:ice_dragon_heart"
 				id: "5E394E70C0D121D1"
-				title: "{ftbquests.chapter.boss_codex.quest38.task_+6789544159415968209.title}"
+				title: "{ftbquests.chapter.boss_codex.quest37.task_+6789544159415968209.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -1242,9 +1212,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.boss_codex.quest39.description1}"
+				"{ftbquests.chapter.boss_codex.quest38.description1}"
 				"{@pagebreak}"
-				"{ftbquests.chapter.boss_codex.quest39.description2}"
+				"{ftbquests.chapter.boss_codex.quest38.description2}"
 			]
 			id: "65B65FE2A989ADC8"
 			rewards: [{
@@ -1257,7 +1227,7 @@
 				entity: "iceandfire:lightning_dragon"
 				icon: "iceandfire:lightning_dragon_heart"
 				id: "1DC1B9423F817374"
-				title: "{ftbquests.chapter.boss_codex.quest39.task_+2144198591789495156.title}"
+				title: "{ftbquests.chapter.boss_codex.quest38.task_+2144198591789495156.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -1266,9 +1236,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.boss_codex.quest40.description1}"
+				"{ftbquests.chapter.boss_codex.quest39.description1}"
 				"{@pagebreak}"
-				"{ftbquests.chapter.boss_codex.quest40.description2}"
+				"{ftbquests.chapter.boss_codex.quest39.description2}"
 			]
 			id: "0F9318C32E0B74F6"
 			rewards: [{
@@ -1287,7 +1257,7 @@
 					}
 				}
 				id: "4F5C7EFF9FE3FEEA"
-				title: "{ftbquests.chapter.boss_codex.quest40.task_+5718585263217966826.title}"
+				title: "{ftbquests.chapter.boss_codex.quest39.task_+5718585263217966826.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -1296,9 +1266,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.boss_codex.quest41.description1}"
+				"{ftbquests.chapter.boss_codex.quest40.description1}"
 				"{@pagebreak}"
-				"{ftbquests.chapter.boss_codex.quest41.description2}"
+				"{ftbquests.chapter.boss_codex.quest40.description2}"
 			]
 			id: "07238D6DC2A5D89D"
 			rewards: [{
@@ -1311,7 +1281,7 @@
 				entity: "aquamirae:eel"
 				icon: "aquamirae:rune_of_the_storm"
 				id: "22469F61152B1181"
-				title: "{ftbquests.chapter.boss_codex.quest41.task_+2469836684975083905.title}"
+				title: "{ftbquests.chapter.boss_codex.quest40.task_+2469836684975083905.title}"
 				type: "kill"
 				value: 1L
 			}]
@@ -1319,7 +1289,7 @@
 			y: -7.0d
 		}
 		{
-			description: ["{ftbquests.chapter.boss_codex.quest42.description1}"]
+			description: ["{ftbquests.chapter.boss_codex.quest41.description1}"]
 			id: "4C0BA7F1453A9EA8"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1331,15 +1301,15 @@
 				entity: "born_in_chaos_v1:mother_spider"
 				icon: "born_in_chaos_v1:spider_mandible"
 				id: "44988B19BDEA6263"
-				title: "{ftbquests.chapter.boss_codex.quest42.task_+4942853533715817059.title}"
+				title: "{ftbquests.chapter.boss_codex.quest41.task_+4942853533715817059.title}"
 				type: "kill"
 				value: 1L
 			}]
-			x: -2.5d
-			y: -4.0d
+			x: -1.0d
+			y: -5.5d
 		}
 		{
-			description: ["{ftbquests.chapter.boss_codex.quest43.description1}"]
+			description: ["{ftbquests.chapter.boss_codex.quest42.description1}"]
 			id: "5D245128F6649E1C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1357,7 +1327,7 @@
 					}
 				}
 				id: "423B52E6D36585C1"
-				title: "{ftbquests.chapter.boss_codex.quest43.task_+4772499381471774145.title}"
+				title: "{ftbquests.chapter.boss_codex.quest42.task_+4772499381471774145.title}"
 				type: "kill"
 				value: 1L
 			}]

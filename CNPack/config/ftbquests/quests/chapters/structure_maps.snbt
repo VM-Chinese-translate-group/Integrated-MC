@@ -32,6 +32,7 @@
 			id: "2B8CF1D521BD6EF2"
 			shape: "hexagon"
 			size: 1.7d
+			subtitle: "{ftbquests.chapter.structure_maps.quest1.subtitle}"
 			tasks: [{
 				id: "73CCF795866F2C4F"
 				type: "checkmark"
@@ -899,8 +900,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.structure_maps.quest30.title}"
-			x: 0.0d
-			y: -10.5d
+			x: -1.0d
+			y: -11.0d
 		}
 		{
 			can_repeat: true
@@ -933,8 +934,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.structure_maps.quest31.title}"
-			x: 1.0d
-			y: -9.0d
+			x: 0.5d
+			y: -10.0d
 		}
 		{
 			can_repeat: true
@@ -967,42 +968,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.structure_maps.quest32.title}"
-			x: -3.0d
-			y: -9.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["545BE458BC2EF51A"]
-			icon: "minecraft:blaze_powder"
-			id: "18C5F3BFDC8CF7B0"
-			rewards: [{
-				id: "36A8523D436A0319"
-				item: {
-					Count: 1
-					id: "supplementaries:cartographers_quill"
-					tag: {
-						decoration: "target_x"
-						display: {
-							Name: "{\"translate\":\"ftbquests.rewards.nether.citadel.explorer.map\"}"
-						}
-						maxSearchRadius: 100
-						skinKnown: 1b
-						targetStructure: "friendsandfoes:citadel"
-						zoomLevel: 2
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 32L
-				id: "076F4E4518102724"
-				item: "minecraft:emerald_block"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.structure_maps.quest33.title}"
-			x: -2.0d
-			y: -7.5d
+			x: -1.0d
+			y: -7.0d
 		}
 		{
 			can_repeat: true
@@ -1034,9 +1001,9 @@
 				item: "minecraft:emerald_block"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest34.title}"
-			x: -2.0d
-			y: -10.5d
+			title: "{ftbquests.chapter.structure_maps.quest33.title}"
+			x: -2.5d
+			y: -8.0d
 		}
 		{
 			can_repeat: true
@@ -1068,7 +1035,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest35.title}"
+			title: "{ftbquests.chapter.structure_maps.quest34.title}"
 			x: 2.0d
 			y: 4.0d
 		}
@@ -1102,7 +1069,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest36.title}"
+			title: "{ftbquests.chapter.structure_maps.quest35.title}"
 			x: 3.0d
 			y: 3.0d
 		}
@@ -1136,7 +1103,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest37.title}"
+			title: "{ftbquests.chapter.structure_maps.quest36.title}"
 			x: 4.0d
 			y: 2.5d
 		}
@@ -1170,7 +1137,7 @@
 				item: "minecraft:emerald_block"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest38.title}"
+			title: "{ftbquests.chapter.structure_maps.quest37.title}"
 			x: 5.0d
 			y: 3.0d
 		}
@@ -1204,7 +1171,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest39.title}"
+			title: "{ftbquests.chapter.structure_maps.quest38.title}"
 			x: 6.0d
 			y: 5.0d
 		}
@@ -1238,7 +1205,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest40.title}"
+			title: "{ftbquests.chapter.structure_maps.quest39.title}"
 			x: 5.0d
 			y: 6.0d
 		}
@@ -1278,7 +1245,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest41.title}"
+			title: "{ftbquests.chapter.structure_maps.quest40.title}"
 			x: 4.0d
 			y: 6.5d
 		}
@@ -1312,7 +1279,7 @@
 				item: "minecraft:emerald_block"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest42.title}"
+			title: "{ftbquests.chapter.structure_maps.quest41.title}"
 			x: 3.0d
 			y: 6.0d
 		}
@@ -1346,7 +1313,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest43.title}"
+			title: "{ftbquests.chapter.structure_maps.quest42.title}"
 			x: 6.0d
 			y: 4.0d
 		}
@@ -1380,7 +1347,7 @@
 				item: "minecraft:emerald_block"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest44.title}"
+			title: "{ftbquests.chapter.structure_maps.quest43.title}"
 			x: 2.0d
 			y: 5.0d
 		}
@@ -1414,7 +1381,7 @@
 				item: "minecraft:emerald_block"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest45.title}"
+			title: "{ftbquests.chapter.structure_maps.quest44.title}"
 			x: -6.0d
 			y: -2.0d
 		}
@@ -1448,7 +1415,7 @@
 				item: "minecraft:emerald_block"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest46.title}"
+			title: "{ftbquests.chapter.structure_maps.quest45.title}"
 			x: -4.5d
 			y: -2.5d
 		}
@@ -1482,7 +1449,7 @@
 				item: "minecraft:emerald_block"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest47.title}"
+			title: "{ftbquests.chapter.structure_maps.quest46.title}"
 			x: -3.0d
 			y: -2.0d
 		}
@@ -1516,7 +1483,7 @@
 				item: "minecraft:emerald_block"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest48.title}"
+			title: "{ftbquests.chapter.structure_maps.quest47.title}"
 			x: -2.5d
 			y: -0.5d
 		}
@@ -1550,7 +1517,7 @@
 				item: "minecraft:emerald_block"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest49.title}"
+			title: "{ftbquests.chapter.structure_maps.quest48.title}"
 			x: -3.0d
 			y: 1.0d
 		}
@@ -1584,7 +1551,7 @@
 				item: "minecraft:emerald_block"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest50.title}"
+			title: "{ftbquests.chapter.structure_maps.quest49.title}"
 			x: -4.5d
 			y: 1.5d
 		}
@@ -1630,7 +1597,7 @@
 				item: "minecraft:emerald_block"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest51.title}"
+			title: "{ftbquests.chapter.structure_maps.quest50.title}"
 			x: -6.0d
 			y: 1.0d
 		}
@@ -1676,50 +1643,9 @@
 				item: "minecraft:emerald_block"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest52.title}"
+			title: "{ftbquests.chapter.structure_maps.quest51.title}"
 			x: -6.5d
 			y: -0.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["494A179D406BCBE1"]
-			description: [""]
-			icon: {
-				Count: 1
-				id: "iceandfire:deathworm_gauntlet_yellow"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "7742F4287824D93E"
-			rewards: [{
-				id: "4941AC3F7A27B6C5"
-				item: {
-					Count: 1
-					id: "supplementaries:cartographers_quill"
-					tag: {
-						decoration: "target_x"
-						display: {
-							Name: "{\"translate\":\"ftbquests.rewards.deathworm.pit.explorer.map\"}"
-						}
-						maxSearchRadius: 100
-						skinKnown: 1b
-						targetStructure: "idas:deathworm_pit"
-						zoomLevel: 2
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 20L
-				id: "76392DB3605D5CDA"
-				item: "minecraft:emerald"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.structure_maps.quest53.title}"
-			x: 1.0d
-			y: -2.0d
 		}
 		{
 			can_repeat: true
@@ -1752,9 +1678,9 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest54.title}"
-			x: 2.5d
-			y: -2.5d
+			title: "{ftbquests.chapter.structure_maps.quest52.title}"
+			x: 1.6d
+			y: -2.2d
 		}
 		{
 			can_repeat: true
@@ -1787,9 +1713,9 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest55.title}"
-			x: 4.0d
-			y: -2.0d
+			title: "{ftbquests.chapter.structure_maps.quest53.title}"
+			x: 3.4d
+			y: -2.2d
 		}
 		{
 			can_repeat: true
@@ -1822,9 +1748,9 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest56.title}"
-			x: 4.5d
-			y: -0.5d
+			title: "{ftbquests.chapter.structure_maps.quest54.title}"
+			x: 4.4d
+			y: -1.0d
 		}
 		{
 			can_repeat: true
@@ -1832,7 +1758,7 @@
 			description: [
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.structure_maps.quest57.description1}"
+				"{ftbquests.chapter.structure_maps.quest55.description1}"
 			]
 			icon: "minecraft:rail"
 			id: "0D1779E491ED8A2F"
@@ -1849,9 +1775,9 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest57.title}"
+			title: "{ftbquests.chapter.structure_maps.quest55.title}"
 			x: 4.0d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
 			can_repeat: true
@@ -1884,9 +1810,9 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest58.title}"
+			title: "{ftbquests.chapter.structure_maps.quest56.title}"
 			x: 2.5d
-			y: 1.5d
+			y: 1.2d
 		}
 		{
 			can_repeat: true
@@ -1919,9 +1845,9 @@
 				item: "minecraft:emerald_block"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest59.title}"
+			title: "{ftbquests.chapter.structure_maps.quest57.title}"
 			x: 1.0d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
 			can_repeat: true
@@ -1954,9 +1880,9 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest60.title}"
-			x: 0.5d
-			y: -0.5d
+			title: "{ftbquests.chapter.structure_maps.quest58.title}"
+			x: 0.6d
+			y: -1.0d
 		}
 		{
 			dependencies: ["53C2B729C130C8A9"]
@@ -1993,7 +1919,7 @@
 				item: "minecraft:emerald_block"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest61.title}"
+			title: "{ftbquests.chapter.structure_maps.quest59.title}"
 			x: 4.5d
 			y: -8.0d
 		}
@@ -2032,7 +1958,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest62.title}"
+			title: "{ftbquests.chapter.structure_maps.quest60.title}"
 			x: 6.5d
 			y: -6.5d
 		}
@@ -2077,7 +2003,7 @@
 				item: "minecraft:emerald_block"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest63.title}"
+			title: "{ftbquests.chapter.structure_maps.quest61.title}"
 			x: 4.5d
 			y: -4.0d
 		}
@@ -2110,7 +2036,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest64.title}"
+			title: "{ftbquests.chapter.structure_maps.quest62.title}"
 			x: 2.5d
 			y: -6.5d
 		}
@@ -2149,8 +2075,8 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest65.title}"
-			x: 3.5d
+			title: "{ftbquests.chapter.structure_maps.quest63.title}"
+			x: 3.0d
 			y: -7.5d
 		}
 		{
@@ -2186,8 +2112,8 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest66.title}"
-			x: 5.5d
+			title: "{ftbquests.chapter.structure_maps.quest64.title}"
+			x: 6.0d
 			y: -7.5d
 		}
 		{
@@ -2225,7 +2151,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest67.title}"
+			title: "{ftbquests.chapter.structure_maps.quest65.title}"
 			x: 6.5d
 			y: -5.5d
 		}
@@ -2258,7 +2184,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest68.title}"
+			title: "{ftbquests.chapter.structure_maps.quest66.title}"
 			x: 2.5d
 			y: -5.5d
 		}
@@ -2291,8 +2217,8 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest69.title}"
-			x: 3.5d
+			title: "{ftbquests.chapter.structure_maps.quest67.title}"
+			x: 3.0d
 			y: -4.5d
 		}
 		{
@@ -2324,8 +2250,8 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest70.title}"
-			x: 5.5d
+			title: "{ftbquests.chapter.structure_maps.quest68.title}"
+			x: 6.0d
 			y: -4.5d
 		}
 		{
@@ -2357,7 +2283,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest71.title}"
+			title: "{ftbquests.chapter.structure_maps.quest69.title}"
 			x: -6.0d
 			y: -8.0d
 		}
@@ -2391,7 +2317,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest72.title}"
+			title: "{ftbquests.chapter.structure_maps.quest70.title}"
 			x: -5.0d
 			y: -7.5d
 		}
@@ -2424,7 +2350,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest73.title}"
+			title: "{ftbquests.chapter.structure_maps.quest71.title}"
 			x: -4.5d
 			y: -6.5d
 		}
@@ -2457,7 +2383,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest74.title}"
+			title: "{ftbquests.chapter.structure_maps.quest72.title}"
 			x: -4.5d
 			y: -5.5d
 		}
@@ -2490,7 +2416,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest75.title}"
+			title: "{ftbquests.chapter.structure_maps.quest73.title}"
 			x: -5.0d
 			y: -4.5d
 		}
@@ -2535,7 +2461,7 @@
 				item: "minecraft:emerald_block"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest76.title}"
+			title: "{ftbquests.chapter.structure_maps.quest74.title}"
 			x: -6.5d
 			y: -4.0d
 		}
@@ -2568,7 +2494,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest77.title}"
+			title: "{ftbquests.chapter.structure_maps.quest75.title}"
 			x: -8.0d
 			y: -4.5d
 		}
@@ -2601,7 +2527,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest78.title}"
+			title: "{ftbquests.chapter.structure_maps.quest76.title}"
 			x: -8.5d
 			y: -5.5d
 		}
@@ -2634,7 +2560,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest79.title}"
+			title: "{ftbquests.chapter.structure_maps.quest77.title}"
 			x: -8.5d
 			y: -6.5d
 		}
@@ -2667,7 +2593,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest80.title}"
+			title: "{ftbquests.chapter.structure_maps.quest78.title}"
 			x: -8.0d
 			y: -7.5d
 		}
@@ -2700,7 +2626,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest81.title}"
+			title: "{ftbquests.chapter.structure_maps.quest79.title}"
 			x: -7.0d
 			y: -8.0d
 		}
@@ -2734,7 +2660,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest82.title}"
+			title: "{ftbquests.chapter.structure_maps.quest80.title}"
 			x: -4.0d
 			y: 4.0d
 		}
@@ -2768,9 +2694,9 @@
 				item: "minecraft:emerald_block"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest83.title}"
-			x: 0.0d
-			y: -7.5d
+			title: "{ftbquests.chapter.structure_maps.quest81.title}"
+			x: 0.5d
+			y: -8.0d
 		}
 		{
 			can_repeat: true
@@ -2802,7 +2728,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest84.title}"
+			title: "{ftbquests.chapter.structure_maps.quest82.title}"
 			x: -8.0d
 			y: 5.0d
 		}
@@ -2836,7 +2762,7 @@
 				item: "minecraft:emerald_block"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest85.title}"
+			title: "{ftbquests.chapter.structure_maps.quest83.title}"
 			x: -6.0d
 			y: 6.5d
 		}
@@ -2905,7 +2831,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest87.title}"
+			title: "{ftbquests.chapter.structure_maps.quest85.title}"
 			x: -8.0d
 			y: 4.0d
 		}
@@ -2939,7 +2865,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest88.title}"
+			title: "{ftbquests.chapter.structure_maps.quest86.title}"
 			x: -6.0d
 			y: 2.5d
 		}
@@ -2979,7 +2905,7 @@
 				item: "minecraft:emerald_block"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest89.title}"
+			title: "{ftbquests.chapter.structure_maps.quest87.title}"
 			x: -5.0d
 			y: 6.0d
 		}
@@ -3013,7 +2939,7 @@
 				item: "minecraft:emerald_block"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest90.title}"
+			title: "{ftbquests.chapter.structure_maps.quest88.title}"
 			x: -4.0d
 			y: 5.0d
 		}
@@ -3047,9 +2973,43 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.structure_maps.quest91.title}"
+			title: "{ftbquests.chapter.structure_maps.quest89.title}"
 			x: -7.0d
 			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["545BE458BC2EF51A"]
+			icon: "netherexp:twisting_polished_blackstone_bricks"
+			id: "768B5A37B86F75E3"
+			rewards: [{
+				id: "3BCE267E2E55C40F"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						decoration: "target_x"
+						display: {
+							Name: "{\"translate\":\"ftbquests.rewards.withered.vault.explorer.map\"}"
+						}
+						maxSearchRadius: 100
+						skinKnown: 1b
+						targetStructure: "integrated_minecraft:withered_vault"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "418B83AE4BFFF0C8"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.structure_maps.quest90.title}"
+			x: -2.5d
+			y: -10.0d
 		}
 	]
 	title: "{ftbquests.chapter.structure_maps.title}"
