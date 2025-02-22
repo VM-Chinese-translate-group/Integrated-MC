@@ -1,12 +1,12 @@
 {
-    "item.ars_elemental.siren_shards":"Muse Token",
-    "item.ars_elemental.siren_charm":"Muse Charm",
-    "block.ars_elemental.mermaid_rock":"Muse Shrine",
-    "entity.ars_elemental.siren_entity":"Muse",
-    "entity.ars_elemental.siren_familiar":"Muse Familiar",
-    "ars_elemental.page1.mermaid":"Muses are found in warmer seas, jumping out of the water or following boats. You can befriend a wild mermaid by giving them a sea pickle, they will jump and leave behind few tokens. The siren charm can be used to summon a Muse and if used on Prismarine it will transform in a Muse Shrine. Tamed sirens can change colors if you give them kelp or corals.",
-    "item.ars_elemental.siren_familiar":"Bound Script: Muse",
-    "ars_elemental.familiar_name.siren_familiar":"Muse",
-    "ars_elemental.familiar_desc.siren_familiar":"A Muse Familiar will increase the damage of Water spells by 2. It will also give Dolphin Grace II to the summoner while in water. Obtained by performing the Ritual of Binding near a Muse.",
-    "ars_elemental.adv.desc.siren_charm":"Acquire a Muse Charm"
+    "item.ars_elemental.siren_shards":"缪斯碎片",
+    "item.ars_elemental.siren_charm":"缪斯护符",
+    "block.ars_elemental.mermaid_rock":"缪斯神坛",
+    "entity.ars_elemental.siren_entity":"缪斯",
+    "entity.ars_elemental.siren_familiar":"缪斯",
+    "ars_elemental.page1.mermaid":"缪斯出没在暖水海洋中，会在船只旁边跃动嬉戏。只要给一个海泡菜，这些小美人鱼就会成为你的朋友。她们会在收到礼物后跃起并赠予你一片缪斯碎片。对海晶石使用缪斯碎片，它就会在数秒后变成缪斯神坛，同时召唤出一只缪斯。你把珊瑚或海带送给驯服后的缪斯来改变她们的颜色。",
+    "item.ars_elemental.siren_familiar":"绑定手稿：缪斯",
+    "ars_elemental.familiar_name.siren_familiar":"缪斯",
+    "ars_elemental.familiar_desc.siren_familiar":"作为使魔时，缪斯可以为主人的水系法术增加2点伤害。在水中时还会给予主人2级海豚的恩惠。在一只缪斯附近进行绑定仪式即可将她收为使魔。",
+    "ars_elemental.adv.desc.siren_charm":"获得一枚缪斯护符"
 }

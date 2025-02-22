@@ -1,7 +1,7 @@
 {
     "item.alexsmobs.spawn_egg_spectre":"灵翼刷怪蛋",
-    "block.alexsmobs.spectre_sail":"Spectray Membrane Sail",
-    "alexsmobs.sound.subtitle.spectre_idle":"Spectray howls",
-    "alexsmobs.sound.subtitle.spectre_hurt":"Spectray screeches",
-    "advancements.alexsmobs.spectre.desc":"Lure a Spectray in the end with a Soul Heart. Use a lead on them to hitch a ride!"
+    "block.alexsmobs.spectre_sail":"在游戏里没有发现这个方块",
+    "alexsmobs.sound.subtitle.spectre_idle":"灵翼：嚎叫",
+    "alexsmobs.sound.subtitle.spectre_hurt":"灵翼：哀嚎",
+    "advancements.alexsmobs.spectre.desc":"手持灵魂之心可以吸引灵翼。把拴绳挂在它们身上，它们就会带着你一起飞翔！"
 }
