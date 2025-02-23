@@ -1,12 +1,12 @@
 {
-    "block.betterend.dragon_bone_block":"Ender Dragon Bone Block",
-    "block.betterend.dragon_bone_slab":"Ender Dragon Bone Slab",
-    "block.betterend.dragon_bone_stairs":"Ender Dragon Bone Stairs",
-    "block.betterend.mossy_dragon_bone":"Mossy Ender Dragon Bone",
-    "entity.betterend.dragonfly":"End Dragonfly",
+    "block.betterend.dragon_bone_block":"末影龙骨块",
+    "block.betterend.dragon_bone_slab":"末影龙骨台阶",
+    "block.betterend.dragon_bone_stairs":"末影龙骨楼梯",
+    "block.betterend.mossy_dragon_bone":"覆苔末影龙骨块",
+    "entity.betterend.dragonfly":"末影蜻蜓",
     "item.betterend.aeternium_forged_plate":"太古合金锻板",
-    "item.betterend.crystalline_sulphur":"Crystalline Sulfur",
-    "item.betterend.spawn_egg_dragonfly":"End Dragonfly Spawn Egg",
+    "item.betterend.crystalline_sulphur":"硫磺结晶",
+    "item.betterend.spawn_egg_dragonfly":"末影蜻蜓刷怪蛋",
     "item.betterend.terminite_forged_plate":"终末合金锻板",
     "item.betterend.thallasium_forged_plate":"末影铁锻板"
 }
