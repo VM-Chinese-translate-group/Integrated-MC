@@ -18,10 +18,10 @@
 			y: -1.5d
 		}
 		{
-			height: 1.45d
+			height: 2.0d
 			image: "imcquests:textures/misc/faq.png"
 			rotation: 0.0d
-			width: 2.5777777777777775d
+			width: 3.5555555555555554d
 			x: 0.5d
 			y: 2.5d
 		}
