@@ -10,7 +10,7 @@
     "subtitles.bosses_of_mass_destruction.comet_prepare":"悚怖女皇：准备发射彗星",
     "subtitles.bosses_of_mass_destruction.comet_shoot":"悚怖女皇：发射彗星",
     "text.autoconfig.bosses_of_mass_destruction.category.Lich":"悚怖女皇",
-    "text.autoconfig.bosses_of_mass_destruction.option.lichConfig.missile.statusEffectId":"Status Effect",
-    "text.autoconfig.bosses_of_mass_destruction.option.lichConfig.missile.statusEffectDuration":"Status Effect Duration",
-    "text.autoconfig.bosses_of_mass_destruction.option.lichConfig.missile.statusEffectPotency":"Status Effect Potency"
+    "text.autoconfig.bosses_of_mass_destruction.option.lichConfig.missile.statusEffectId":"状态效果",
+    "text.autoconfig.bosses_of_mass_destruction.option.lichConfig.missile.statusEffectDuration":"效果持续时长",
+    "text.autoconfig.bosses_of_mass_destruction.option.lichConfig.missile.statusEffectPotency":"效果等级"
 }

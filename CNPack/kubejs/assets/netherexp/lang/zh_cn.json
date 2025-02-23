@@ -1,12 +1,12 @@
 {
-    "advancements.nether.lorekeeper.description":"Obtain every single Wraithing Statue variant",
-    "block.netherexp.cut_necromium_block":"Cut Necromium Block",
-    "block.netherexp.cut_necromium_pillar":"Cut Necromium Pillar",
-    "block.netherexp.cut_necromium_slab":"Cut Necromium Slab",
-    "block.netherexp.cut_necromium_stairs":"Cut Necromium Stairs",
-    "block.netherexp.gargoyle_statue":"Wraithing Statue",
+    "advancements.nether.lorekeeper.description":"获得所有种类的魂缠雕像",
+    "block.netherexp.cut_necromium_block":"切制死灵合金块",
+    "block.netherexp.cut_necromium_pillar":"切制死灵合金柱",
+    "block.netherexp.cut_necromium_slab":"切制死灵合金台阶",
+    "block.netherexp.cut_necromium_stairs":"切制死灵合金楼梯",
+    "block.netherexp.gargoyle_statue":"魂缠雕像",
     "block.netherexp.necromium_grate":"死灵合金格栅",
     "block.netherexp.necromium_plated_block":"死灵合金镶板块",
-    "block.netherexp.soul_ruby_ore":"Soul Ruby Ore",
+    "block.netherexp.soul_ruby_ore":"灵魂红宝石矿石",
     "item.netherexp.necromium_plating":"死灵合金镀层"
 }
