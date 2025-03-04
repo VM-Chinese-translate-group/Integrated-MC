@@ -12,7 +12,7 @@
     "kubejs.ponder.clibano.text_3":"首先按这个样子放置§9磨制暗黑石§r和§9磨制暗黑石砖§r。",
     "kubejs.ponder.clibano.text_4":"然后，留出中间的空格，放置§9磨制暗黑石砖§r和§9炽炉核心§r。",
     "kubejs.ponder.clibano.text_5":"最后，重复第一层的放置方式。",
-    "kubejs.ponder.clibano.text_6":"……然后用§4洁净粉末§r右键点击它。",
+    "kubejs.ponder.clibano.text_6":"……然后用§4洁净粉末§r右击它。",
     "kubejs.ponder.clibano.text_7":"你的§9炽炉§r就这样建造好了！",
     "kubejs.ponder.fire_dragonforge.header":"由火龙提供燃料的锻炉",
     "kubejs.ponder.fire_dragonforge.text_1":"由龙提供能源的锻炉，用于打造龙钢。",
@@ -28,7 +28,7 @@
     "kubejs.ponder.hephaestus.text_4":"然后，围绕中心方块放置§9赫菲斯托斯锻炉核心§r",
     "kubejs.ponder.hephaestus.text_5":"用§9磨制暗黑石§r围住所有这些方块来完成第一层的搭建",
     "kubejs.ponder.hephaestus.text_6":"最后，在中间放置一个§9锻造台§r……",
-    "kubejs.ponder.hephaestus.text_7":"……然后使用§4洁净粉末§r右键点击它",
+    "kubejs.ponder.hephaestus.text_7":"……然后用§4洁净粉末§r右击它。",
     "kubejs.ponder.hephaestus.text_8":"这样你的§9赫菲斯托斯锻炉§r就建造完成了！",
     "kubejs.ponder.ice_dragonforge.header":"由冰龙提供燃料的锻炉",
     "kubejs.ponder.ice_dragonforge.text_1":"由龙提供能源的锻炉，用于打造龙钢。",
@@ -49,6 +49,6 @@
     "kubejs.ponder.obelisk.text_2":"首先，放置一个神秘磨制暗黑石。",
     "kubejs.ponder.obelisk.text_3":"然后，在其上方放置两个§p神秘水晶块§r。",
     "kubejs.ponder.obelisk.text_4":"这就是§b神秘水晶方尖碑§r的多方块结构。",
-    "kubejs.ponder.obelisk.text_5":"用§4洁净之尘§r右键点击它使其成型（这也可以通过机械手完成）",
+    "kubejs.ponder.obelisk.text_5":"用§4洁净之尘§r右击它使其成型（这也可以通过机械手完成）",
     "kubejs.ponder.obelisk.text_6":"现在你可以挖掘它以得到物品形式的方尖碑！"
 }
