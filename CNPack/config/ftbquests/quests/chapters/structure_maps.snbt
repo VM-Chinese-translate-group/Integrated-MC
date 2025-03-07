@@ -159,7 +159,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.structure_maps.quest5.title}"
-			x: 0.5d
+			x: 1.0d
 			y: -5.0d
 		}
 		{
@@ -193,7 +193,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.structure_maps.quest6.title}"
-			x: 0.5d
+			x: 1.0d
 			y: -4.0d
 		}
 		{
@@ -227,7 +227,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.structure_maps.quest7.title}"
-			x: 0.5d
+			x: 1.0d
 			y: -6.0d
 		}
 		{
@@ -267,7 +267,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.structure_maps.quest8.title}"
-			x: -1.5d
+			x: -2.0d
 			y: -6.0d
 		}
 		{
@@ -307,7 +307,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.structure_maps.quest9.title}"
-			x: -0.5d
+			x: 0.0d
 			y: -6.0d
 		}
 		{
@@ -341,7 +341,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.structure_maps.quest10.title}"
-			x: -2.5d
+			x: -3.0d
 			y: -4.0d
 		}
 		{
@@ -375,7 +375,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.structure_maps.quest11.title}"
-			x: -2.5d
+			x: -3.0d
 			y: -5.0d
 		}
 		{
@@ -443,7 +443,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.structure_maps.quest13.title}"
-			x: -2.5d
+			x: -3.0d
 			y: -6.0d
 		}
 		{
@@ -3010,6 +3010,40 @@
 			title: "{ftbquests.chapter.structure_maps.quest90.title}"
 			x: -2.5d
 			y: -10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5C4362FBF4BB8846"]
+			icon: "supplementaries:clock_block"
+			id: "3D432C3BD00D8FF8"
+			rewards: [{
+				id: "26EB483C10AF692A"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						decoration: "target_x"
+						display: {
+							Name: "{\"translate\":\"ftbquests.rewards.clockwork.village.explorer.map\"}"
+						}
+						maxSearchRadius: 100
+						skinKnown: 1b
+						targetStructure: "integrated_villages:clockwork_village"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "4FEB5CA6B0377170"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.structure_maps.quest91.title}"
+			x: -1.0d
+			y: -6.0d
 		}
 	]
 	title: "{ftbquests.chapter.structure_maps.title}"

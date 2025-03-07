@@ -1603,6 +1603,8 @@
 				"{ftbquests.chapter.village_quests.quest28.description7}"
 				"{ftbquests.chapter.village_quests.quest28.description8}"
 				"{ftbquests.chapter.village_quests.quest28.description9}"
+				"{ftbquests.chapter.village_quests.quest28.description10}"
+				"{ftbquests.chapter.village_quests.quest28.description11}"
 			]
 			hide_dependent_lines: true
 			icon: "minecraft:emerald"
@@ -1720,7 +1722,7 @@
 						Count: 1
 						id: "alexscaves:biome_treat"
 						tag: {
-							CaveBiome: "wilderwild:oasis"
+							CaveBiome: "wilderwild:oasis"						
 						}
 					}
 					title: "{ftbquests.chapter.village_quests.quest30.task_+3697771526956326179.title}"

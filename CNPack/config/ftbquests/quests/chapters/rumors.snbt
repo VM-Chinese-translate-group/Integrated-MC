@@ -1748,6 +1748,7 @@
 		}
 		{
 			dependencies: ["4EDB4DAF0FA995ED"]
+			dependency_requirement: "all_started"
 			description: [
 				"{ftbquests.chapter.rumors.quest36.description1}"
 				""

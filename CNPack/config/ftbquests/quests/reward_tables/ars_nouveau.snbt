@@ -38,6 +38,7 @@
 		{ count: 4, item: "ars_nouveau:manipulation_essence" }
 		{ count: 4, item: "ars_nouveau:water_essence" }
 		{ count: 4, item: "ars_elemental:anima_essence" }
+		{ count: 4, item: "kubejs:ice_essence" }
 	]
 	title: "{ftbquests.loot_table_1887718904363554025.title}"
 }

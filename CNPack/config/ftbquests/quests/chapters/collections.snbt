@@ -3668,6 +3668,29 @@
 					item: "bosses_of_mass_destruction:mob_ward"
 					type: "item"
 				}
+				{
+					id: "503CBA58C0B7C822"
+					item: {
+						Count: 1
+						id: "mowziesmobs:earthrend_gauntlet"
+						tag: {
+							Damage: 0
+							GeckoLibID: 1L
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40896490869CB90B"
+					item: {
+						Count: 1
+						id: "mowziesmobs:sculptor_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
 			]
 			title: "{ftbquests.chapter.collections.quest10.title}"
 			x: 0.5d

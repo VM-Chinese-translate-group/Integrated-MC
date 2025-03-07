@@ -436,7 +436,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.tools.quest17.title}"
-			x: 1.0d
+			x: 2.0d
 			y: 2.5d
 		}
 		{
@@ -455,7 +455,7 @@
 				item: "storagedrawers:controller"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.5d
 			y: 3.5d
 		}
 		{
@@ -472,7 +472,7 @@
 				item: "storagedrawers:upgrade_template"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: 3.5d
 		}
 		{
@@ -758,6 +758,32 @@
 			title: "{ftbquests.chapter.tools.quest27.title}"
 			x: -2.5d
 			y: 2.0d
+		}
+		{
+			description: ["{ftbquests.chapter.tools.quest28.description1}"]
+			id: "0AC0E2000C2C3D08"
+			min_required_tasks: 1
+			rewards: [{
+				id: "4546D441ABAB8901"
+				item: "ironchest:iron_chest"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.tools.quest28.subtitle}"
+			tasks: [
+				{
+					id: "133E7D5894653301"
+					item: "ironchest:wood_to_iron_chest_upgrade"
+					type: "item"
+				}
+				{
+					id: "411EC86283594E0D"
+					item: "ironchest:iron_chest"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tools.quest28.title}"
+			x: 0.0d
+			y: 2.5d
 		}
 	]
 	title: "{ftbquests.chapter.tools.title}"

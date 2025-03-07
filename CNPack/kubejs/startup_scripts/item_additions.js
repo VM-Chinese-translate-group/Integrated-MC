@@ -7,5 +7,9 @@ StartupEvents.registry('item', event => {
   event.create('cursium_armor_plate'),
   event.create('terrible_armor_plate'),
   event.create('abyssal_armor_plate'),
-  event.create('draco_arcanus_armor_plate')
+  event.create('draco_arcanus_armor_plate'),
+  event.create('tyr_armor_plate'),
+  event.create('mortem_armor_plate'),
+  event.create('griefer_armor_plate'),
+  event.create('ice_essence')
 })

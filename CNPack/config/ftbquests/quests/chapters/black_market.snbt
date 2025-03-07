@@ -148,6 +148,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				count: 3L
 				id: "5920B8A640EC98AD"
 				item: "iceandfire:sapphire_gem"

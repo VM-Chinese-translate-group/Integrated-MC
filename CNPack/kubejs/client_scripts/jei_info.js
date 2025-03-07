@@ -745,7 +745,12 @@ e.addItem('storagedrawers:controller', [Component.translate('info.storagedrawers
   e.addItem('born_in_chaos_v1:spider_bite_sword', [Component.translate('info.born_in_chaos_v1.spider_bite_sword')]),
 
   e.addItem('ars_additions:enchanting_wixie_cauldron', [Component.translate('info.ars_additions.enchanting_wixie_cauldron')])
-  e.addItem('ars_nouveau:scribes_table', [Component.translate('info.ars_nouveau.scribes_table')])
+  e.addItem('ars_nouveau:scribes_table', [Component.translate('info.ars_nouveau.scribes_table')]),
+  e.addItem('ars_nouveau:frostaya_pod', [Component.translate('info.ars_nouveau.frostaya_pod')]),
+  e.addItem('ars_nouveau:mendosteen_pod', [Component.translate('info.ars_nouveau.mendosteen_pod')]),
+  e.addItem('ars_nouveau:bastion_pod', [Component.translate('info.ars_nouveau.bastion_pod')]),
+  e.addItem('ars_nouveau:bombegranate_pod', [Component.translate('info.ars_nouveau.bombegranate_pod')]),
+  e.addItem('ars_elemental:flashpine_pod', [Component.translate('info.ars_nouveau.flashpine_pod')]),
 
 //Eidolon
   e.addItem('eidolon:reaper_scythe', [Component.translate('info.eidolon.reaper_scythe')]),

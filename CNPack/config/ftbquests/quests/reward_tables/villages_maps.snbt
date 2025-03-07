@@ -8,21 +8,6 @@
 				Count: 1
 				id: "supplementaries:cartographers_quill"
 				tag: {
-					display: {
-						Name: "{\"translate\":\"ftbquests.rewards.bazaar.explorer.map\"}"
-					}
-					maxSearchRadius: 100
-					skinKnown: 1b
-					targetStructure: "idas:bazaar"
-					zoomLevel: 2
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "supplementaries:cartographers_quill"
-				tag: {
 					decoration: "target_x"
 					display: {
 						Name: "{\"translate\":\"ftbquests.rewards.castle.explorer.map\"}"
@@ -190,6 +175,22 @@
 					maxSearchRadius: 100
 					skinKnown: 1b
 					targetStructure: "integrated_villages:marketstead_village"
+					zoomLevel: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "target_x"
+					display: {
+						Name: "{\"translate\":\"ftbquests.rewards.clockwork.village.explorer.map\"}"
+					}
+					maxSearchRadius: 100
+					skinKnown: 1b
+					targetStructure: "integrated_villages:clockwork_village"
 					zoomLevel: 2
 				}
 			}

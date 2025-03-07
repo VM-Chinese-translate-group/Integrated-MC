@@ -141,6 +141,32 @@
 			x: 7.5d
 			y: -0.5d
 		}
+		{
+			dependencies: ["54735992C512A3DD"]
+			icon: {
+				Count: 1
+				id: "alexsmobs:fedora"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "42963ECC905690BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0EF8CFC65BF0E2A1"
+				table_id: 1787598695114971302L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.challenges.quest8.subtitle}"
+			tasks: [{
+				id: "19FDDD687BADC649"
+				title: "{ftbquests.chapter.challenges.quest8.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.challenges.quest8.title}"
+			x: 9.5d
+			y: -0.5d
+		}
 	]
 	title: "{ftbquests.chapter.challenges.title}"
 }

@@ -578,18 +578,11 @@
 			icon: "minecraft:bundle"
 			id: "19858426E2D2C636"
 			optional: true
-			rewards: [
-				{
-					id: "1113A1A5171B14DA"
-					item: "toolbelt:belt"
-					type: "item"
-				}
-				{
-					id: "040EC6B639BD7935"
-					item: "minecraft:bundle"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "040EC6B639BD7935"
+				item: "minecraft:bundle"
+				type: "item"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "143B1CBA8DDB1F87"

@@ -1334,6 +1334,45 @@
 			x: -1.0d
 			y: -4.0d
 		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest43.description1}"
+				""
+				"{ftbquests.chapter.boss_codex.quest43.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "mowziesmobs:earthrend_gauntlet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5A7BBAB95B66F161"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "258AC7F174635157"
+				table_id: 7764861743028037075L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "mowziesmobs:sculptor"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:geomancer_beads"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4B3C73D4CF92BFCE"
+				title: "{ftbquests.chapter.boss_codex.quest43.task_+5421335409299996622.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -5.5d
+		}
 	]
 	title: "{ftbquests.chapter.boss_codex.title}"
 }
