@@ -6,7 +6,7 @@
 	hide_quest_until_deps_complete: true
 	icon: "born_in_chaos_v1:dark_atrium"
 	id: "10030B7FBDC5BD9E"
-	order_index: 2
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
