@@ -14,7 +14,6 @@
 			}
 			weight: 0.2f
 		}
-		{ item: "quark:monster_box", weight: 2.0f }
 		{ count: 3, exclude_from_claim_all: true, item: "spelunkery:rough_diamond", random_bonus: 2 }
 		{ count: 8, item: "minecraft:emerald", random_bonus: 4, weight: 1.2f }
 		{ count: 3, item: "farmersdelight:hamburger", random_bonus: 3 }

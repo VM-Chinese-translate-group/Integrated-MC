@@ -28,7 +28,6 @@
 		{ item: "minecraft:echo_shard", random_bonus: 3 }
 		{ item: "farmersdelight:shepherds_pie_block", random_bonus: 3 }
 		{ item: "farmersdelight:roast_chicken_block", random_bonus: 3 }
-		{ count: 2, item: "supplementaries:antique_ink", random_bonus: 3 }
 		{ item: "quark:diamond_heart" }
 		{ item: "minecraft:netherite_upgrade_smithing_template" }
 		{ item: "quark:smithing_template_rune" }

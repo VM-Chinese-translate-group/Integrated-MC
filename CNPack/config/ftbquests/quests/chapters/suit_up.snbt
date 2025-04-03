@@ -26,7 +26,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "5ABD1AD05F8BEFAF"
-				title: "{ftbquests.chapter.suit_up.quest1.task_6538411716270354351.title}"
+				title: "{ftbquests.chapter.suit_up.quest1.task_+6538411716270354351.title}"
 				type: "checkmark"
 			}]
 			x: -0.5d
@@ -1459,7 +1459,7 @@
 							Damage: 0
 						}
 					}
-					title: "{ftbquests.chapter.suit_up.quest25.task_277653992186885705.title}"
+					title: "{ftbquests.chapter.suit_up.quest25.task_+277653992186885705.title}"
 					type: "item"
 				}
 				{
@@ -2528,7 +2528,7 @@
 							"ftbfiltersystem:filter": "or(item(iceandfire:armor_red_helmet)item(iceandfire:armor_bronze_helmet)item(iceandfire:armor_green_helmet)item(iceandfire:armor_gray_helmet)item(iceandfire:armor_blue_helmet)item(iceandfire:armor_white_helmet)item(iceandfire:armor_sapphire_helmet)item(iceandfire:armor_silver_helmet)item(iceandfire:armor_electric_helmet)item(iceandfire:armor_amythest_helmet)item(iceandfire:armor_copper_helmet)item(iceandfire:armor_black_helmet))"
 						}
 					}
-					title: "{ftbquests.chapter.suit_up.quest62.task_1954260937061547089.title}"
+					title: "{ftbquests.chapter.suit_up.quest62.task_+1954260937061547089.title}"
 					type: "item"
 				}
 				{
@@ -2540,7 +2540,7 @@
 							"ftbfiltersystem:filter": "or(item(iceandfire:armor_red_chestplate)item(iceandfire:armor_bronze_chestplate)item(iceandfire:armor_green_chestplate)item(iceandfire:armor_gray_chestplate)item(iceandfire:armor_blue_chestplate)item(iceandfire:armor_white_chestplate)item(iceandfire:armor_sapphire_chestplate)item(iceandfire:armor_silver_chestplate)item(iceandfire:armor_electric_chestplate)item(iceandfire:armor_amythest_chestplate)item(iceandfire:armor_copper_chestplate)item(iceandfire:armor_black_chestplate))"
 						}
 					}
-					title: "{ftbquests.chapter.suit_up.quest62.task_3139957032254345031.title}"
+					title: "{ftbquests.chapter.suit_up.quest62.task_+3139957032254345031.title}"
 					type: "item"
 				}
 				{
@@ -2552,7 +2552,7 @@
 							"ftbfiltersystem:filter": "or(item(iceandfire:armor_red_leggings)item(iceandfire:armor_bronze_leggings)item(iceandfire:armor_green_leggings)item(iceandfire:armor_gray_leggings)item(iceandfire:armor_blue_leggings)item(iceandfire:armor_white_leggings)item(iceandfire:armor_sapphire_leggings)item(iceandfire:armor_silver_leggings)item(iceandfire:armor_electric_leggings)item(iceandfire:armor_amythest_leggings)item(iceandfire:armor_copper_leggings)item(iceandfire:armor_black_leggings))"
 						}
 					}
-					title: "{ftbquests.chapter.suit_up.quest62.task_8347726842857215052.title}"
+					title: "{ftbquests.chapter.suit_up.quest62.task_+8347726842857215052.title}"
 					type: "item"
 				}
 				{
@@ -2564,7 +2564,7 @@
 							"ftbfiltersystem:filter": "or(item(iceandfire:armor_red_boots)item(iceandfire:armor_bronze_boots)item(iceandfire:armor_green_boots)item(iceandfire:armor_gray_boots)item(iceandfire:armor_blue_boots)item(iceandfire:armor_white_boots)item(iceandfire:armor_sapphire_boots)item(iceandfire:armor_silver_boots)item(iceandfire:armor_electric_boots)item(iceandfire:armor_amythest_boots)item(iceandfire:armor_copper_boots)item(iceandfire:armor_black_boots))"
 						}
 					}
-					title: "{ftbquests.chapter.suit_up.quest62.task_5677506389778448125.title}"
+					title: "{ftbquests.chapter.suit_up.quest62.task_+5677506389778448125.title}"
 					type: "item"
 				}
 			]
@@ -2586,7 +2586,7 @@
 							"ftbfiltersystem:filter": "or(item(iceandfire:tide_blue_helmet)item(iceandfire:tide_bronze_helmet)item(iceandfire:tide_deepblue_helmet)item(iceandfire:tide_green_helmet)item(iceandfire:tide_purple_helmet)item(iceandfire:tide_red_helmet)item(iceandfire:tide_teal_helmet))"
 						}
 					}
-					title: "{ftbquests.chapter.suit_up.quest63.task_4039102904691689094.title}"
+					title: "{ftbquests.chapter.suit_up.quest63.task_+4039102904691689094.title}"
 					type: "item"
 				}
 				{
@@ -2598,7 +2598,7 @@
 							"ftbfiltersystem:filter": "or(item(iceandfire:tide_blue_chestplate)item(iceandfire:tide_bronze_chestplate)item(iceandfire:tide_deepblue_chestplate)item(iceandfire:tide_green_chestplate)item(iceandfire:tide_purple_chestplate)item(iceandfire:tide_red_chestplate)item(iceandfire:tide_teal_chestplate))"
 						}
 					}
-					title: "{ftbquests.chapter.suit_up.quest63.task_5014029351564182752.title}"
+					title: "{ftbquests.chapter.suit_up.quest63.task_+5014029351564182752.title}"
 					type: "item"
 				}
 				{
@@ -2610,7 +2610,7 @@
 							"ftbfiltersystem:filter": "or(item(iceandfire:tide_blue_leggings)item(iceandfire:tide_bronze_leggings)item(iceandfire:tide_deepblue_leggings)item(iceandfire:tide_green_leggings)item(iceandfire:tide_purple_leggings)item(iceandfire:tide_red_leggings)item(iceandfire:tide_teal_leggings))"
 						}
 					}
-					title: "{ftbquests.chapter.suit_up.quest63.task_3849182074973761747.title}"
+					title: "{ftbquests.chapter.suit_up.quest63.task_+3849182074973761747.title}"
 					type: "item"
 				}
 				{
@@ -2622,7 +2622,7 @@
 							"ftbfiltersystem:filter": "or(item(iceandfire:tide_blue_boots)item(iceandfire:tide_bronze_boots)item(iceandfire:tide_deepblue_boots)item(iceandfire:tide_green_boots)item(iceandfire:tide_purple_boots)item(iceandfire:tide_red_boots)item(iceandfire:tide_teal_boots))"
 						}
 					}
-					title: "{ftbquests.chapter.suit_up.quest63.task_5164718215759964284.title}"
+					title: "{ftbquests.chapter.suit_up.quest63.task_+5164718215759964284.title}"
 					type: "item"
 				}
 			]

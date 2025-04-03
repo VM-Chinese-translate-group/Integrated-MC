@@ -1754,9 +1754,11 @@
 				""
 				"{ftbquests.chapter.rumors.quest36.description2}"
 			]
+			hide_details_until_startable: true
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
 			icon: "born_in_chaos_v1:hound_trap"
 			id: "272D8DF7632F5525"
-			invisible: true
 			rewards: [
 				{
 					count: 32
@@ -1771,7 +1773,6 @@
 					type: "random"
 				}
 			]
-			secret: true
 			subtitle: "{ftbquests.chapter.rumors.quest36.subtitle}"
 			tasks: [{
 				consume_items: true
@@ -1783,6 +1784,63 @@
 			title: "{ftbquests.chapter.rumors.quest36.title}"
 			x: -3.0d
 			y: -2.0d
+		}
+		{
+			description: ["{ftbquests.chapter.rumors.quest37.description1}"]
+			hide_until_deps_visible: true
+			icon: "forbidden_arcanus:dark_matter"
+			id: "5F3168963EE4F8E4"
+			invisible: true
+			rewards: [{
+				id: "78D4C86DFD6114BF"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						display: {
+							Name: "{\"translate\":\"ftbquests.rewards.fractured.athenaeum.explorer.map\"}"
+						}
+						maxSearchRadius: 200
+						skinKnown: 1b
+						targetStructure: "integrated_minecraft:fractured_athenaeum"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.rumors.quest37.subtitle}"
+			tasks: [{
+				consume_items: false
+				icon: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						AntiqueInk: 1b
+						author: "Hisakid"
+						display: {
+							Name: "{\"text\":\"Summons\"}"
+						}
+						pages: ["{\"extra\":[{\"text\":\"~~~~~~~~~\\n\"},{\"text\":\"Our citadel is under siege by the Pigkin. \"},{\"text\":\"Please return as soon as possible with as many mineral as you've gathered. Do not use the portals. They are no longer safe. \\n\"},{\"text\":\"The 51st King of Dwargonia, \\n\"},{\"text\":\"§5Karl of the Last Stone\"}],\"text\":\"§r§4§lSummons\\n\"}"]
+						resolved: 1b
+						title: "Journal"
+					}
+				}
+				id: "1F754059ADDAF265"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "nbt(fuzzy:{AntiqueInk:1b,author:\"CraisinLord\",display:{Name:'{\"translate\":\"book.end_city.5.name\"}'}})"
+					}
+				}
+				match_nbt: true
+				only_from_crafting: false
+				title: "{ftbquests.chapter.rumors.quest37.task_+2266788741363987045.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.rumors.quest37.title}"
+			x: -1.5d
+			y: 3.5d
 		}
 	]
 	title: "{ftbquests.chapter.rumors.title}"

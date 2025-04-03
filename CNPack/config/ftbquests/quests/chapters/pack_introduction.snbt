@@ -18,10 +18,10 @@
 			y: -1.5d
 		}
 		{
-			height: 2.0d
+			height: 1.45d
 			image: "imcquests:textures/misc/faq.png"
 			rotation: 0.0d
-			width: 3.5555555555555554d
+			width: 2.5777777777777775d
 			x: 0.5d
 			y: 2.5d
 		}
@@ -309,15 +309,24 @@
 				"{ftbquests.chapter.pack_introduction.quest7.description7}"
 				"{ftbquests.chapter.pack_introduction.quest7.description8}"
 				"{ftbquests.chapter.pack_introduction.quest7.description9}"
-				""
 				"{ftbquests.chapter.pack_introduction.quest7.description10}"
+				""
 				"{ftbquests.chapter.pack_introduction.quest7.description11}"
 				"{ftbquests.chapter.pack_introduction.quest7.description12}"
 				"{ftbquests.chapter.pack_introduction.quest7.description13}"
-				"{@pagebreak}"
 				"{ftbquests.chapter.pack_introduction.quest7.description14}"
-				""
 				"{ftbquests.chapter.pack_introduction.quest7.description15}"
+				"{ftbquests.chapter.pack_introduction.quest7.description16}"
+				""
+				"{ftbquests.chapter.pack_introduction.quest7.description17}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.pack_introduction.quest7.description18}"
+				"{ftbquests.chapter.pack_introduction.quest7.description19}"
+				"{ftbquests.chapter.pack_introduction.quest7.description20}"
+				""
+				"{ftbquests.chapter.pack_introduction.quest7.description21}"
+				""
+				"{ftbquests.chapter.pack_introduction.quest7.description22}"
 			]
 			icon: "supplementaries:key"
 			id: "7F0321F6C37A19B7"
@@ -567,12 +576,13 @@
 				"{ftbquests.chapter.pack_introduction.quest16.description2}"
 				""
 				"{ftbquests.chapter.pack_introduction.quest16.description3}"
-				""
 				"{ftbquests.chapter.pack_introduction.quest16.description4}"
 				""
 				"{ftbquests.chapter.pack_introduction.quest16.description5}"
+				""
 				"{ftbquests.chapter.pack_introduction.quest16.description6}"
 				"{ftbquests.chapter.pack_introduction.quest16.description7}"
+				"{ftbquests.chapter.pack_introduction.quest16.description8}"
 			]
 			disable_toast: true
 			icon: "minecraft:bundle"
@@ -594,6 +604,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["2713C8F59E5454D3"]
 			description: [
 				"{ftbquests.chapter.pack_introduction.quest17.description1}"
 				""
@@ -625,7 +636,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			size: 1.0d
+			size: 1.3d
 			subtitle: "{ftbquests.chapter.pack_introduction.quest17.subtitle}"
 			tasks: [{
 				id: "489D3DAC74C9AB66"
@@ -633,7 +644,7 @@
 			}]
 			title: "{ftbquests.chapter.pack_introduction.quest17.title}"
 			x: -2.0d
-			y: 2.5d
+			y: 2.6d
 		}
 		{
 			description: [
@@ -681,7 +692,7 @@
 				title: "{ftbquests.chapter.pack_introduction.quest20.task_+3955716225458073115.title}"
 				type: "checkmark"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: 4.5d
 		}
 		{
@@ -698,7 +709,7 @@
 				title: "{ftbquests.chapter.pack_introduction.quest21.task_+8816324393533981386.title}"
 				type: "checkmark"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: 4.5d
 		}
 		{
@@ -735,16 +746,18 @@
 				title: "{ftbquests.chapter.pack_introduction.quest24.task_+6915645510567300299.title}"
 				type: "checkmark"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: 4.5d
 		}
 		{
+			can_repeat: false
 			description: [
 				"{ftbquests.chapter.pack_introduction.quest25.description1}"
 				""
 				"{ftbquests.chapter.pack_introduction.quest25.description2}"
 			]
 			id: "339FA351D4D2BDFD"
+			optional: true
 			rewards: [{
 				id: "191A93469A860A65"
 				type: "xp"
@@ -772,6 +785,7 @@
 			y: 4.5d
 		}
 		{
+			can_repeat: true
 			description: ["{ftbquests.chapter.pack_introduction.quest26.description1}"]
 			icon: {
 				Count: 1
@@ -781,6 +795,7 @@
 				}
 			}
 			id: "32BC483761E19582"
+			optional: true
 			repeatable: true
 			rewards: [{
 				id: "2A9FCB1CCD192408"
@@ -800,6 +815,17 @@
 			}]
 			title: "{ftbquests.chapter.pack_introduction.quest26.title}"
 			x: 5.0d
+			y: 4.5d
+		}
+		{
+			description: ["{ftbquests.chapter.pack_introduction.quest27.description1}"]
+			id: "4866658D4A0B889A"
+			tasks: [{
+				id: "18576AE1475E06B6"
+				title: "{ftbquests.chapter.pack_introduction.quest27.task_+1753988095681627830.title}"
+				type: "checkmark"
+			}]
+			x: 2.0d
 			y: 4.5d
 		}
 	]

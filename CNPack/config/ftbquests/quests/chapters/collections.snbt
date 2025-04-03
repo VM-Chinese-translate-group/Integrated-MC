@@ -2161,11 +2161,6 @@
 					type: "item"
 				}
 				{
-					id: "3239330C17A02057"
-					item: "biomemakeover:ghost_town_music_disk"
-					type: "item"
-				}
-				{
 					id: "6C43CC103ECD1D03"
 					item: "biomemakeover:button_mushrooms_music_disk"
 					type: "item"
@@ -2532,6 +2527,60 @@
 				{
 					id: "1F7603B86513D60F"
 					item: "forbidden_arcanus:arcane_dragon_egg"
+					type: "item"
+				}
+				{
+					id: "67C1598E9BCBCB15"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item_tag(iceandfire:dragon_eggs))"
+						}
+					}
+					title: "{ftbquests.chapter.collections.quest7.task_+7476355325445786389.title}"
+					type: "item"
+				}
+				{
+					id: "5150EDD5A8648CDF"
+					item: "minecraft:egg"
+					type: "item"
+				}
+				{
+					id: "01126259BD5DD9A0"
+					item: "environmental:duck_egg"
+					type: "item"
+				}
+				{
+					id: "0DD50904BE6758B7"
+					item: "autumnity:turkey_egg"
+					type: "item"
+				}
+				{
+					id: "245FBD3EB66CF112"
+					item: "cataclysm:abyssal_egg"
+					type: "item"
+				}
+				{
+					id: "7A7E17B5738AF940"
+					item: "legendary_monsters:skeletosaurus_egg"
+					type: "item"
+				}
+				{
+					id: "4A7B27ACB71237AB"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(quark:egg_parrot_red_blue)item(quark:egg_parrot_blue)item(quark:egg_parrot_green)item(quark:egg_parrot_yellow_blue)item(quark:egg_parrot_gray))"
+						}
+					}
+					title: "{ftbquests.chapter.collections.quest7.task_+5366927003701360555.title}"
+					type: "item"
+				}
+				{
+					id: "0A70AEAED8CE1733"
+					item: "iceandfire:rotten_egg"
 					type: "item"
 				}
 			]
@@ -3481,7 +3530,7 @@
 				}
 				{
 					id: "67E2B245E97C5348"
-					item: "brewinandchewin:scarlet_pierogies"
+					item: "brewinandchewin:scarlet_pierogi"
 					type: "item"
 				}
 				{

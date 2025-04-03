@@ -840,6 +840,39 @@
                 "add": false
               }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+              "tag":"{AntiqueInk:1b,
+                pages:[
+                    \"[
+                      {\\\"translate\\\":\\\"book.end_city.5.page.1.1\\\"},
+                      {\\\"translate\\\":\\\"book.end_city.5.page.1.2\\\"}
+                    ]\",
+                    \"[
+                      {\\\"translate\\\":\\\"book.end_city.5.page.2.1\\\"}
+                    ]\",
+                    \"[
+                      {\\\"translate\\\":\\\"book.end_city.5.page.3.1\\\"}
+                    ]\"
+                ],
+                title:\"Caelestis Tome\",
+                author:\"CraisinLord\",
+                display:{Lore:[\"A record from the End\"]}
+              }"},
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "book.end_city.5.name"
+                },
+                "add": false
+              }
+          ]
         }
       ]
     }

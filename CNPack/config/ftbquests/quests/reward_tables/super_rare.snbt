@@ -4,7 +4,7 @@
 	order_index: 14
 	rewards: [
 		{ item: "simplyswords:empowered_remnant" }
-		{ count: 8, item: "minecraft:netherite_scrap" }
+		{ count: 16, item: "minecraft:netherite_scrap", random_bonus: 16 }
 		{ count: 16, item: "minecraft:diamond_block" }
 		{ count: 15, item: "create_enchantment_industry:hyper_experience_bottle" }
 		{ count: 64, item: "create:polished_rose_quartz" }
@@ -14,7 +14,6 @@
 		{ count: 32, item: "minecraft:emerald_block" }
 		{ count: 16, item: "rubinated_nether:ruby_block" }
 		{ count: 32, item: "forbidden_arcanus:deorum_ingot" }
-		{ count: 16, item: "alexsmobs:blood_sac" }
 	]
 	title: "{ftbquests.loot_table_1787598695114971302.title}"
 }

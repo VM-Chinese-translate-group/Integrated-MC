@@ -108,7 +108,6 @@
 		}
 		{
 			dependencies: [
-				"061912F2BD5E566A"
 				"270706E77CB73A69"
 				"1F377BF4EEC8059C"
 				"0055F64FAE7E0B4D"
@@ -160,7 +159,7 @@
 			subtitle: "{ftbquests.chapter.challenges.quest8.subtitle}"
 			tasks: [{
 				id: "19FDDD687BADC649"
-				title: "{ftbquests.chapter.challenges.quest8.title}"
+				title: "{ftbquests.chapter.challenges.quest8.task_+1872896460877317705.title}"
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.challenges.quest8.title}"

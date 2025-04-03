@@ -43,8 +43,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest1.title}"
-			x: -1.5d
-			y: -2.25d
+			x: 5.5d
+			y: -6.5d
 		}
 		{
 			can_repeat: true
@@ -135,7 +135,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest2.title}"
-			x: -2.0d
+			x: 5.5d
 			y: -5.0d
 		}
 		{
@@ -232,8 +232,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest3.title}"
-			x: -1.5d
-			y: -4.0d
+			x: 7.0d
+			y: -5.5d
 		}
 		{
 			can_repeat: true
@@ -265,8 +265,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest4.title}"
-			x: -2.5d
-			y: -4.0d
+			x: 4.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["42D86B3155E50D31"]
@@ -337,8 +337,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest5.title}"
-			x: -3.0d
-			y: -3.0d
+			x: 5.5d
+			y: -8.5d
 		}
 		{
 			can_repeat: true
@@ -371,8 +371,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest6.title}"
-			x: -3.0d
-			y: -5.0d
+			x: 4.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["44792B9C63EA851A"]
@@ -573,8 +573,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest7.title}"
-			x: -4.0d
-			y: -4.0d
+			x: 5.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["135AD7AB9A4A16EF"]
@@ -630,8 +630,8 @@
 				type: "advancement"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest8.title}"
-			x: -5.0d
-			y: -5.0d
+			x: 5.5d
+			y: -11.5d
 		}
 		{
 			can_repeat: true
@@ -655,8 +655,8 @@
 				value: 5L
 			}]
 			title: "{ftbquests.chapter.village_quests.quest9.title}"
-			x: -6.0d
-			y: -6.0d
+			x: 5.5d
+			y: -13.5d
 		}
 		{
 			can_repeat: true
@@ -692,8 +692,8 @@
 				value: 15L
 			}]
 			title: "{ftbquests.chapter.village_quests.quest10.title}"
-			x: -5.0d
-			y: -4.0d
+			x: 4.0d
+			y: -10.5d
 		}
 		{
 			can_repeat: true
@@ -730,8 +730,8 @@
 				value: 5L
 			}]
 			title: "{ftbquests.chapter.village_quests.quest11.title}"
-			x: -4.0d
-			y: -5.0d
+			x: 7.0d
+			y: -10.5d
 		}
 		{
 			dependencies: [
@@ -820,7 +820,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest12.title}"
-			x: -3.5d
+			x: -4.5d
 			y: -2.0d
 		}
 		{
@@ -843,7 +843,7 @@
 			}]
 			title: "{ftbquests.chapter.village_quests.quest13.title}"
 			x: -4.5d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6DA7ACC4B17C7A44"]
@@ -928,7 +928,7 @@
 			]
 			title: "{ftbquests.chapter.village_quests.quest14.title}"
 			x: -5.5d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
 			dependency_requirement: "one_started"
@@ -954,7 +954,7 @@
 				type: "structure"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest15.title}"
-			x: -3.0d
+			x: -4.5d
 			y: -0.75d
 		}
 		{
@@ -1033,8 +1033,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest16.title}"
-			x: -4.5d
-			y: -3.0d
+			x: -3.5d
+			y: -3.5d
 		}
 		{
 			description: [
@@ -1055,8 +1055,8 @@
 				type: "structure"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest17.title}"
-			x: 0.0d
-			y: -3.0d
+			x: -0.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2162E50E99B2C533"]
@@ -1100,8 +1100,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest18.title}"
-			x: -1.0d
-			y: -5.5d
+			x: -1.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["70A554E864E240B3"]
@@ -1149,8 +1149,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest19.title}"
-			x: -1.5d
-			y: -7.0d
+			x: -2.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["216EB46CC6606A91"]
@@ -1230,8 +1230,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest20.title}"
-			x: -2.0d
-			y: -8.5d
+			x: -2.5d
+			y: -9.0d
 		}
 		{
 			can_repeat: true
@@ -1258,8 +1258,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest21.title}"
-			x: -1.5d
-			y: -9.5d
+			x: -2.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["2162E50E99B2C533"]
@@ -1326,8 +1326,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest22.title}"
-			x: 0.0d
-			y: -5.0d
+			x: -0.5d
+			y: -5.5d
 		}
 		{
 			can_repeat: false
@@ -1367,8 +1367,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest23.title}"
-			x: 1.0d
-			y: -5.5d
+			x: 0.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["7BABEC6DB5A067E1"]
@@ -1409,8 +1409,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest24.title}"
-			x: 2.0d
-			y: -8.5d
+			x: 1.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["680B3A5192350707"]
@@ -1490,8 +1490,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest25.title}"
-			x: 0.0d
-			y: -6.5d
+			x: -0.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["55327109F1884DA2"]
@@ -1548,8 +1548,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest26.title}"
-			x: 1.5d
-			y: -7.0d
+			x: 1.0d
+			y: -7.5d
 		}
 		{
 			can_repeat: true
@@ -1587,8 +1587,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest27.title}"
-			x: 1.5d
-			y: -9.5d
+			x: 1.0d
+			y: -10.0d
 		}
 		{
 			description: [
@@ -1604,7 +1604,6 @@
 				"{ftbquests.chapter.village_quests.quest28.description8}"
 				"{ftbquests.chapter.village_quests.quest28.description9}"
 				"{ftbquests.chapter.village_quests.quest28.description10}"
-				"{ftbquests.chapter.village_quests.quest28.description11}"
 			]
 			hide_dependent_lines: true
 			icon: "minecraft:emerald"
@@ -1616,7 +1615,7 @@
 				type: "choice"
 			}]
 			shape: "rsquare"
-			size: 1.2d
+			size: 1.5d
 			subtitle: "{ftbquests.chapter.village_quests.quest28.subtitle}"
 			tasks: [{
 				id: "1622FE6239A56F67"
@@ -1667,7 +1666,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest29.title}"
-			x: -5.5d
+			x: -3.5d
 			y: 0.5d
 		}
 		{
@@ -1722,7 +1721,7 @@
 						Count: 1
 						id: "alexscaves:biome_treat"
 						tag: {
-							CaveBiome: "wilderwild:oasis"						
+							CaveBiome: "wilderwild:oasis"
 						}
 					}
 					title: "{ftbquests.chapter.village_quests.quest30.task_+3697771526956326179.title}"
@@ -1740,8 +1739,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest30.title}"
-			x: -9.0d
-			y: 0.5d
+			x: -5.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["043BF3E32EBA4D01"]
@@ -1794,8 +1793,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest31.title}"
-			x: -7.5d
-			y: 0.5d
+			x: -3.5d
+			y: 2.5d
 		}
 		{
 			can_repeat: true
@@ -1830,8 +1829,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest32.title}"
-			x: -10.5d
-			y: 0.5d
+			x: -5.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -1887,8 +1886,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest33.title}"
-			x: -6.5d
-			y: -0.5d
+			x: -4.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2A59ACA463BB5C05"]
@@ -1936,6 +1935,7 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					count: 32L
 					id: "46B2F0AD9D6C3B23"
 					item: "minecraft:ice"
@@ -1944,7 +1944,7 @@
 			]
 			title: "{ftbquests.chapter.village_quests.quest34.title}"
 			x: -5.5d
-			y: -1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["078BE7E2C6230DC8"]
@@ -1995,8 +1995,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest35.title}"
-			x: -7.5d
-			y: -1.5d
+			x: -7.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["50F2F6D14A979C9F"]
@@ -2080,8 +2080,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest36.title}"
-			x: -7.5d
-			y: -0.5d
+			x: -8.5d
+			y: 1.5d
 		}
 		{
 			can_repeat: true
@@ -2156,8 +2156,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest37.title}"
-			x: -10.0d
-			y: -0.5d
+			x: -7.0d
+			y: 2.5d
 		}
 		{
 			can_repeat: true
@@ -2185,11 +2185,10 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest38.title}"
-			x: -9.0d
-			y: -1.5d
+			x: -9.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["70F08FB0A44B9B94"]
 			description: [
 				"{ftbquests.chapter.village_quests.quest39.description1}"
 				""
@@ -2208,8 +2207,8 @@
 				type: "structure"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest39.title}"
-			x: -0.75d
-			y: 3.0d
+			x: 3.5d
+			y: 3.75d
 		}
 		{
 			description: [
@@ -2236,7 +2235,7 @@
 				type: "structure"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest40.title}"
-			x: 1.0d
+			x: 0.0d
 			y: 3.0d
 		}
 		{
@@ -2252,8 +2251,8 @@
 				type: "structure"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest41.title}"
-			x: 2.25d
-			y: 2.25d
+			x: -5.25d
+			y: 5.25d
 		}
 		{
 			description: [
@@ -2280,8 +2279,8 @@
 				type: "structure"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest42.title}"
-			x: 1.5d
-			y: -2.25d
+			x: 7.5d
+			y: 2.25d
 		}
 		{
 			dependencies: ["2C06457BFE5AE8C0"]
@@ -2324,8 +2323,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest43.title}"
-			x: 3.0d
-			y: -2.5d
+			x: 10.0d
+			y: 2.5d
 		}
 		{
 			can_repeat: false
@@ -2373,8 +2372,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest44.title}"
-			x: 4.5d
-			y: -4.0d
+			x: 11.5d
+			y: 1.0d
 		}
 		{
 			can_repeat: false
@@ -2406,8 +2405,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest45.title}"
-			x: 6.0d
-			y: -3.0d
+			x: 10.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["323B6E2583E9F927"]
@@ -2444,8 +2443,8 @@
 				type: "advancement"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest46.title}"
-			x: 4.5d
-			y: -2.5d
+			x: 11.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2C06457BFE5AE8C0"]
@@ -2480,8 +2479,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest47.title}"
-			x: 2.0d
-			y: -4.0d
+			x: 8.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6C24CC3341B9CD71"]
@@ -2569,8 +2568,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest48.title}"
-			x: 3.5d
-			y: -6.0d
+			x: 8.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["69CB8C1CF0DA3D93"]
@@ -2616,8 +2615,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest49.title}"
-			x: 5.5d
-			y: -7.0d
+			x: 8.0d
+			y: -2.5d
 		}
 		{
 			can_repeat: true
@@ -2651,8 +2650,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest50.title}"
-			x: 6.5d
-			y: -6.0d
+			x: 8.0d
+			y: -4.0d
 		}
 		{
 			description: [
@@ -2673,8 +2672,8 @@
 				type: "structure"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest51.title}"
-			x: 3.0d
-			y: -0.75d
+			x: 4.5d
+			y: 1.25d
 		}
 		{
 			dependencies: ["71CD0F0F9BB78A33"]
@@ -2714,8 +2713,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest52.title}"
-			x: 4.5d
-			y: -1.5d
+			x: 3.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["25977CEF373CE1AB"]
@@ -2764,8 +2763,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest53.title}"
-			x: 5.5d
-			y: -2.0d
+			x: 4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["49C16B63ACC7E080"]
@@ -2799,8 +2798,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest54.title}"
-			x: 6.5d
-			y: -2.0d
+			x: 4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["78D72C75AAB84562"]
@@ -2840,8 +2839,8 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest55.title}"
-			x: 7.5d
-			y: -1.5d
+			x: 3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["71CD0F0F9BB78A33"]
@@ -2902,8 +2901,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest56.title}"
-			x: 5.0d
-			y: -0.5d
+			x: 5.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["65BE046851A681AE"]
@@ -2958,8 +2957,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest57.title}"
-			x: 6.0d
-			y: -0.5d
+			x: 5.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["63431F5DA8E6E44A"]
@@ -3022,8 +3021,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest58.title}"
-			x: 7.0d
-			y: -0.5d
+			x: 5.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -3071,7 +3070,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest59.title}"
-			x: 0.0d
+			x: -1.0d
 			y: 5.0d
 		}
 		{
@@ -3114,7 +3113,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest60.title}"
-			x: 0.0d
+			x: -1.0d
 			y: 6.5d
 		}
 		{
@@ -3147,7 +3146,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest61.title}"
-			x: 0.0d
+			x: -1.0d
 			y: 8.0d
 		}
 		{
@@ -3178,7 +3177,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest62.title}"
-			x: -1.5d
+			x: -2.5d
 			y: 8.0d
 		}
 		{
@@ -3230,8 +3229,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest63.title}"
-			x: 7.5d
-			y: -4.5d
+			x: 11.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4665C398E1FEFC69"]
@@ -3285,8 +3284,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest64.title}"
-			x: 8.0d
-			y: -3.0d
+			x: 10.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["68B2CFCA023AD669"]
@@ -3397,7 +3396,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest65.title}"
-			x: 1.0d
+			x: 0.0d
 			y: 5.5d
 		}
 		{
@@ -3419,7 +3418,7 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest66.title}"
-			x: 1.0d
+			x: 0.0d
 			y: 4.5d
 		}
 		{
@@ -3443,7 +3442,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest67.title}"
-			x: 2.0d
+			x: 1.0d
 			y: 5.0d
 		}
 		{
@@ -3477,7 +3476,7 @@
 				type: "advancement"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest68.title}"
-			x: 2.0d
+			x: 1.0d
 			y: 6.5d
 		}
 		{
@@ -3601,7 +3600,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest69.title}"
-			x: 1.0d
+			x: 0.0d
 			y: 6.5d
 		}
 		{
@@ -3671,7 +3670,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest70.title}"
-			x: 1.0d
+			x: 0.0d
 			y: 7.5d
 		}
 		{
@@ -3748,7 +3747,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest71.title}"
-			x: 2.0d
+			x: 1.0d
 			y: 8.0d
 		}
 		{
@@ -3762,7 +3761,7 @@
 				title: "{ftbquests.chapter.village_quests.quest72.task_+5840229510990728839.title}"
 				type: "checkmark"
 			}]
-			x: 0.5d
+			x: -0.5d
 			y: 11.0d
 		}
 		{
@@ -3776,7 +3775,7 @@
 				title: "{ftbquests.chapter.village_quests.quest73.task_+387643706122680995.title}"
 				type: "checkmark"
 			}]
-			x: 0.5d
+			x: -0.5d
 			y: 10.0d
 		}
 		{
@@ -3790,7 +3789,7 @@
 				title: "{ftbquests.chapter.village_quests.quest74.task_+7050279930087892010.title}"
 				type: "checkmark"
 			}]
-			x: 1.5d
+			x: 0.5d
 			y: 10.0d
 		}
 		{
@@ -3804,7 +3803,7 @@
 				title: "{ftbquests.chapter.village_quests.quest75.task_+8092433256826698667.title}"
 				type: "checkmark"
 			}]
-			x: 1.5d
+			x: 0.5d
 			y: 11.0d
 		}
 		{
@@ -3818,7 +3817,7 @@
 				title: "{ftbquests.chapter.village_quests.quest76.task_+650827683162146393.title}"
 				type: "checkmark"
 			}]
-			x: 1.5d
+			x: 0.5d
 			y: 12.0d
 		}
 		{
@@ -3832,7 +3831,7 @@
 				title: "{ftbquests.chapter.village_quests.quest77.task_+2689926099053436417.title}"
 				type: "checkmark"
 			}]
-			x: 0.5d
+			x: -0.5d
 			y: 12.0d
 		}
 		{
@@ -3846,7 +3845,7 @@
 				title: "{ftbquests.chapter.village_quests.quest78.task_+4326959413666351987.title}"
 				type: "checkmark"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: 13.0d
 		}
 		{
@@ -3874,7 +3873,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest79.title}"
-			x: 3.5d
+			x: 2.5d
 			y: 8.0d
 		}
 		{
@@ -3913,7 +3912,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest80.title}"
-			x: 2.0d
+			x: 1.0d
 			y: 9.0d
 		}
 		{
@@ -3941,7 +3940,7 @@
 				type: "advancement"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest81.title}"
-			x: 0.0d
+			x: -1.0d
 			y: 9.0d
 		}
 		{
@@ -3957,8 +3956,8 @@
 				type: "structure"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest82.title}"
-			x: -2.25d
-			y: 2.25d
+			x: -6.75d
+			y: 6.75d
 		}
 		{
 			dependencies: ["70F08FB0A44B9B94"]
@@ -3973,8 +3972,8 @@
 				type: "structure"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest83.title}"
-			x: -3.0d
-			y: 0.75d
+			x: -6.75d
+			y: 5.25d
 		}
 		{
 			dependencies: ["70F08FB0A44B9B94"]
@@ -3989,8 +3988,8 @@
 				type: "structure"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest84.title}"
-			x: 3.0d
-			y: 0.75d
+			x: -5.25d
+			y: 6.75d
 		}
 		{
 			can_repeat: true
@@ -4026,13 +4025,13 @@
 			shape: "hexagon"
 			tasks: [{
 				consume_items: true
-				count: 32L
+				count: 16L
 				id: "42259BED531F1273"
 				item: "illagerinvasion:illusionary_dust"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest85.title}"
-			x: 1.0d
+			x: 0.0d
 			y: 9.0d
 		}
 		{
@@ -4078,8 +4077,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest86.title}"
-			x: -2.0d
-			y: 3.5d
+			x: 6.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6AAA371BABF988F6"]
@@ -4120,8 +4119,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest87.title}"
-			x: -3.0d
-			y: 6.5d
+			x: 4.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["14D52F6472552559"]
@@ -4162,8 +4161,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest88.title}"
-			x: -4.5d
-			y: 7.5d
+			x: 6.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["5F94DA31EAEFEC00"]
@@ -4202,7 +4201,7 @@
 										CanUpdate: 1b
 										id: "minecraft:chicken"
 									}
-									Name: "鸡"
+									Name: "Chicken"
 									Scale: 0.87719303f
 								}
 							}
@@ -4225,7 +4224,7 @@
 									EntityData: {
 										id: "minecraft:pig"
 									}
-									Name: "猪"
+									Name: "Pig"
 									Scale: 0.6944445f
 								}
 							}
@@ -4251,8 +4250,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest89.title}"
-			x: -3.0d
-			y: 4.5d
+			x: 4.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["075884C5ED718014"]
@@ -4287,8 +4286,8 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest90.title}"
-			x: -4.0d
-			y: 5.5d
+			x: 6.0d
+			y: 8.0d
 		}
 		{
 			can_repeat: true
@@ -4308,14 +4307,15 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
+				consume_items: true
 				count: 5L
 				id: "46ACE410961BAAF2"
 				item: "minecraft:emerald"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest91.title}"
-			x: -3.0d
-			y: 8.5d
+			x: 4.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["5BB9CDDB5CC625A3"]
@@ -4374,8 +4374,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest92.title}"
-			x: -1.0d
-			y: 4.5d
+			x: 5.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1E19811D3170031B"]
@@ -4492,8 +4492,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest93.title}"
-			x: -2.0d
-			y: 5.5d
+			x: 7.0d
+			y: 4.0d
 		}
 		{
 			can_repeat: true
@@ -4524,8 +4524,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest94.title}"
-			x: -2.5d
-			y: 7.5d
+			x: 10.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["36793C32901CF405"]
@@ -4572,8 +4572,24 @@
 				type: "questsadditions:structure"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest95.title}"
-			x: -1.0d
-			y: 6.5d
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["70F08FB0A44B9B94"]
+			id: "0267C07A6B65F055"
+			secret: true
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "26AD75D5B41D0050"
+				structure: "integrated_villages:clockwork_village"
+				title: "{ftbquests.chapter.village_quests.quest96.task_+2787013305122488400.title}"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.village_quests.quest96.title}"
+			x: -4.0d
+			y: 6.0d
 		}
 	]
 	title: "{ftbquests.chapter.village_quests.title}"

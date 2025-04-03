@@ -14,7 +14,7 @@
 		x: -0.95d
 		y: -1.5d
 	}]
-	order_index: 1
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -3044,6 +3044,99 @@
 			title: "{ftbquests.chapter.structure_maps.quest91.title}"
 			x: -1.0d
 			y: -6.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["2B8CF1D521BD6EF2"]
+			hide_dependency_lines: true
+			id: "70F5686BBDDB812E"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				advancement: "integrated_villages:integrated_villages_root"
+				criterion: ""
+				disable_toast: true
+				icon: {
+					Count: 1
+					id: "betterend:aeternium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0632A246DF7DF032"
+				title: ""
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["70F5686BBDDB812E"]
+			icon: "quark:bottled_cloud"
+			id: "318C09F5262353EA"
+			rewards: [{
+				id: "500F3D4A3E8C9DFA"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						decoration: "target_x"
+						display: {
+							Name: "{\"translate\":\"ftbquests.rewards.sky.arena.explorer.map\"}"
+						}
+						maxSearchRadius: 100
+						skinKnown: 1b
+						targetStructure: "skyarena:sky_arena"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "500BDE754F73F0B0"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			title: "Sky Arena"
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["70F5686BBDDB812E"]
+			icon: "quark:permafrost"
+			id: "18DD9F0F1C039C6B"
+			rewards: [{
+				id: "49AD0D46AFA0DF2B"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						decoration: "target_x"
+						display: {
+							Name: "{\"translate\":\"ftbquests.rewards.ice.arena.explorer.map\"}"
+						}
+						maxSearchRadius: 100
+						skinKnown: 1b
+						targetStructure: "skyarena:ice_arena"
+						zoomLevel: 2
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "29818FB168D35B16"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			title: "Ice Arena"
+			x: -2.5d
+			y: 7.5d
 		}
 	]
 	title: "{ftbquests.chapter.structure_maps.title}"

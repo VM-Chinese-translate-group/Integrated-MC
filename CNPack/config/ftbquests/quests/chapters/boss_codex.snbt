@@ -47,6 +47,54 @@
 			x: 21.0d
 			y: -10.5d
 		}
+		{
+			height: 1.5d
+			image: "minecraft:item/diamond_chestplate"
+			rotation: 0.0d
+			width: 1.5d
+			x: -1.0d
+			y: -12.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:item/diamond_chestplate"
+			rotation: 0.0d
+			width: 1.5d
+			x: 4.0d
+			y: -12.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/enchanted_book"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -12.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:item/netherite_chestplate"
+			rotation: 0.0d
+			width: 1.5d
+			x: 10.0d
+			y: -12.0d
+		}
+		{
+			height: 1.5d
+			image: "betterend:item/aeternium_chestplate"
+			rotation: 0.0d
+			width: 1.5d
+			x: 15.5d
+			y: -12.0d
+		}
+		{
+			height: 1.5d
+			image: "iceandfire:item/dragonsteel_fire_chestplate"
+			rotation: 0.0d
+			width: 1.5d
+			x: 21.0d
+			y: -12.0d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -62,9 +110,9 @@
 			}
 			id: "3231857C187C0EE1"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "2C18C6837CE23938"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
@@ -91,9 +139,9 @@
 			icon: "minecraft:wither_skeleton_skull"
 			id: "207657501BD4CDEB"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "6FEA79E8A2155EDC"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
@@ -113,9 +161,9 @@
 			description: ["{ftbquests.chapter.boss_codex.quest3.description1}"]
 			id: "51DA55FEB55D644A"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "31583B95608AF7D1"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
@@ -128,16 +176,16 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 15.5d
+			x: 17.0d
 			y: -5.5d
 		}
 		{
 			description: ["{ftbquests.chapter.boss_codex.quest4.description1}"]
 			id: "0F3AF3760EEF1B76"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "2B090FC26023C73E"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
@@ -162,9 +210,9 @@
 			]
 			id: "748BA2DB0F36CC4C"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "6F6B315ED35B9363"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
@@ -188,9 +236,9 @@
 			]
 			id: "615884269AB07E86"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "56DF38D4EEDBAE86"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
@@ -214,9 +262,9 @@
 			]
 			id: "1B4599B19EBFD1D0"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "6EDA76AD9E48A799"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
@@ -240,9 +288,9 @@
 			]
 			id: "174DA5B7870ACD56"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "3F63BF2B3C053A46"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
@@ -266,9 +314,9 @@
 			]
 			id: "51040727BD2ABC19"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "38040506DB4AE194"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
@@ -287,14 +335,18 @@
 		{
 			description: [
 				"{ftbquests.chapter.boss_codex.quest10.description1}"
-				"{@pagebreak}"
+				""
 				"{ftbquests.chapter.boss_codex.quest10.description2}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest10.description3}"
+				""
+				"{ftbquests.chapter.boss_codex.quest10.description4}"
 			]
 			id: "5C71BF671699BF37"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "49611943B6185785"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
@@ -324,9 +376,9 @@
 			]
 			id: "2AD640E46A4B5685"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "0AFF897E61F191B2"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
@@ -352,9 +404,9 @@
 			]
 			id: "39E27D08343CC1EA"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "07A3A34AEBB74DC4"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
@@ -378,9 +430,9 @@
 			]
 			id: "2BEC97498707196B"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "65F64844BE9A4592"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
@@ -411,9 +463,9 @@
 			}
 			id: "3DA151EFD73220F6"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "62AE85CF7AFD7FAD"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
@@ -436,12 +488,16 @@
 			y: -5.5d
 		}
 		{
-			description: ["{ftbquests.chapter.boss_codex.quest15.description1}"]
+			description: [
+				"{ftbquests.chapter.boss_codex.quest15.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest15.description2}"
+			]
 			id: "385D04475177DDE9"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "5EBC67092F1B41C4"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
@@ -455,7 +511,7 @@
 				value: 1L
 			}]
 			x: 0.5d
-			y: -5.5d
+			y: -4.0d
 		}
 		{
 			description: [
@@ -465,9 +521,9 @@
 			]
 			id: "5BB2644309CFB988"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "069873BEF26BD81A"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
@@ -497,9 +553,9 @@
 			]
 			id: "482E14A0544D2722"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "4A97AA4FFFF683FB"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
@@ -530,9 +586,9 @@
 			icon: "mowzies_cataclysm:wrought_eye"
 			id: "544CD36D12C92902"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "0B783B97772874EE"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
@@ -562,9 +618,9 @@
 			]
 			id: "17D8D6C09A6BB039"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "3C2CA8F891A6BAAC"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
@@ -588,9 +644,9 @@
 			]
 			id: "4A18B3B814D57B69"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "2378A68614AE7AD4"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
@@ -620,9 +676,9 @@
 			]
 			id: "7018999749A4E9FC"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "382AB8D0814135FD"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
@@ -653,9 +709,9 @@
 			icon: "cataclysm:void_eye"
 			id: "7245C47C3CCC10F6"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "0C961E356D24814B"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
@@ -688,13 +744,15 @@
 				"{ftbquests.chapter.boss_codex.quest23.description2}"
 				"{@pagebreak}"
 				"{ftbquests.chapter.boss_codex.quest23.description3}"
+				""
+				"{ftbquests.chapter.boss_codex.quest23.description4}"
 			]
 			icon: "cataclysm:abyssal_sacrifice"
 			id: "3B2840F80C601A0F"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "3D4BE259A4D1AED7"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
@@ -737,15 +795,19 @@
 		{
 			description: [
 				"{ftbquests.chapter.boss_codex.quest24.description1}"
-				"{@pagebreak}"
+				""
 				"{ftbquests.chapter.boss_codex.quest24.description2}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest24.description3}"
+				""
+				"{ftbquests.chapter.boss_codex.quest24.description4}"
 			]
 			icon: "cataclysm:witherite_ingot"
 			id: "66C6A9EFF154999E"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "0C6140F03BFCDD31"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
@@ -782,9 +844,9 @@
 			icon: "cataclysm:remnant_skull"
 			id: "52C9EED9E31E0821"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "72F2B13772D2A6F9"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
@@ -839,9 +901,9 @@
 			}
 			id: "70D116BC58038638"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "3F550B61763BAD0B"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
@@ -882,9 +944,9 @@
 			icon: "cataclysm:cursed_eye"
 			id: "2B5C13373769BEC0"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "6FAC8A7DBF42B8CB"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
@@ -924,9 +986,9 @@
 			]
 			id: "340AEA7194551724"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "560E554861948893"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
@@ -952,9 +1014,9 @@
 			description: ["{ftbquests.chapter.boss_codex.quest29.description1}"]
 			id: "103D3820A6270DC2"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "75FFD4E3237CE3D0"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
@@ -977,12 +1039,14 @@
 				"{ftbquests.chapter.boss_codex.quest30.description2}"
 				"{@pagebreak}"
 				"{ftbquests.chapter.boss_codex.quest30.description3}"
+				""
+				"{ftbquests.chapter.boss_codex.quest30.description4}"
 			]
 			id: "564D225B5F8DB57B"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "27B84A43BB1CC4CE"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
@@ -1012,26 +1076,20 @@
 			]
 			id: "5F3B80A9E670FCEA"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "77D118D29895FFA2"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
 			size: 1.0d
 			tasks: [{
-				entity: "bosses_of_mass_destruction:gauntlet"
-				icon: {
-					Count: 1
-					id: "ftbquests:custom_icon"
-					tag: {
-						Icon: "bosses_of_mass_destruction:item/blazing_eye"
-					}
-				}
-				id: "610299615703415A"
-				title: "{ftbquests.chapter.boss_codex.quest31.task_+6990318214983139674.title}"
-				type: "kill"
-				value: 1L
+				advancement: "bosses_of_mass_destruction:nether/gauntlet_defeat"
+				criterion: ""
+				icon: "bosses_of_mass_destruction:blazing_eye"
+				id: "5536E79A0299811E"
+				title: "{ftbquests.chapter.boss_codex.quest31.task_+6140349790620844318.title}"
+				type: "advancement"
 			}]
 			x: 14.0d
 			y: -8.5d
@@ -1044,26 +1102,20 @@
 			]
 			id: "14BA1AFBE5DA8D59"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "42722162EE01B270"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
 			size: 1.0d
 			tasks: [{
-				entity: "bosses_of_mass_destruction:obsidilith"
-				icon: {
-					Count: 1
-					id: "ftbquests:custom_icon"
-					tag: {
-						Icon: "bosses_of_mass_destruction:item/obsidian_heart"
-					}
-				}
-				id: "1B17EF3F278CDE6B"
-				title: "{ftbquests.chapter.boss_codex.quest32.task_+1952292018013920875.title}"
-				type: "kill"
-				value: 1L
+				advancement: "bosses_of_mass_destruction:end/obsidilith_defeat"
+				criterion: ""
+				icon: "bosses_of_mass_destruction:obsidian_heart"
+				id: "2E12C4864C911C9B"
+				title: "{ftbquests.chapter.boss_codex.quest32.task_+3319931956414717083.title}"
+				type: "advancement"
 			}]
 			x: 15.5d
 			y: -8.5d
@@ -1076,9 +1128,9 @@
 			]
 			id: "614FBA80C927D14C"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "7170FC62CF746F7E"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
@@ -1108,26 +1160,19 @@
 			]
 			id: "0DE14E15D9A336F6"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "123C7A9F59CA844D"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
 			size: 1.0d
 			tasks: [{
-				entity: "iceandfire:hydra"
-				icon: {
-					Count: 1
-					id: "ftbquests:custom_icon"
-					tag: {
-						Icon: "iceandfire:item/hydra_venom"
-					}
-				}
-				id: "75103D0098FD5FF4"
-				title: "{ftbquests.chapter.boss_codex.quest34.task_+8435309174840975348.title}"
-				type: "kill"
-				value: 1L
+				advancement: "iceandfire:iceandfire/kill_hydra"
+				criterion: ""
+				id: "24D93BFFB1DE9DC6"
+				title: "{ftbquests.chapter.boss_codex.quest34.task_+2655219424698473926.title}"
+				type: "advancement"
 			}]
 			x: 3.0d
 			y: -5.5d
@@ -1135,14 +1180,16 @@
 		{
 			description: [
 				"{ftbquests.chapter.boss_codex.quest35.description1}"
-				"{@pagebreak}"
+				""
 				"{ftbquests.chapter.boss_codex.quest35.description2}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest35.description3}"
 			]
 			id: "6AC6B49A1006475A"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "1BFB7420FAB5A45E"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			tasks: [{
@@ -1165,14 +1212,18 @@
 		{
 			description: [
 				"{ftbquests.chapter.boss_codex.quest36.description1}"
-				"{@pagebreak}"
+				""
 				"{ftbquests.chapter.boss_codex.quest36.description2}"
+				""
+				"{ftbquests.chapter.boss_codex.quest36.description3}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest36.description4}"
 			]
 			id: "0BBFE3A82C1D7086"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "185423D16E32EFF1"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			tasks: [{
@@ -1189,14 +1240,18 @@
 		{
 			description: [
 				"{ftbquests.chapter.boss_codex.quest37.description1}"
-				"{@pagebreak}"
+				""
 				"{ftbquests.chapter.boss_codex.quest37.description2}"
+				""
+				"{ftbquests.chapter.boss_codex.quest37.description3}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest37.description4}"
 			]
 			id: "48A8BDBA503F6840"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "0EF9F0E450D30461"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			tasks: [{
@@ -1213,14 +1268,18 @@
 		{
 			description: [
 				"{ftbquests.chapter.boss_codex.quest38.description1}"
-				"{@pagebreak}"
+				""
 				"{ftbquests.chapter.boss_codex.quest38.description2}"
+				""
+				"{ftbquests.chapter.boss_codex.quest38.description3}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest38.description4}"
 			]
 			id: "65B65FE2A989ADC8"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "59B2E56DA8359D0A"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			tasks: [{
@@ -1242,9 +1301,9 @@
 			]
 			id: "0F9318C32E0B74F6"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "38CF798FD106AE97"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			tasks: [{
@@ -1272,9 +1331,9 @@
 			]
 			id: "07238D6DC2A5D89D"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "2195EC00207D143B"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			tasks: [{
@@ -1292,9 +1351,9 @@
 			description: ["{ftbquests.chapter.boss_codex.quest41.description1}"]
 			id: "4C0BA7F1453A9EA8"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "632D17F07C568C16"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			tasks: [{
@@ -1305,16 +1364,16 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -1.0d
-			y: -5.5d
+			x: -2.5d
+			y: -4.0d
 		}
 		{
 			description: ["{ftbquests.chapter.boss_codex.quest42.description1}"]
 			id: "5D245128F6649E1C"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "61829C868D4514AE"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			tasks: [{
@@ -1339,6 +1398,10 @@
 				"{ftbquests.chapter.boss_codex.quest43.description1}"
 				""
 				"{ftbquests.chapter.boss_codex.quest43.description2}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest43.description3}"
+				""
+				"{ftbquests.chapter.boss_codex.quest43.description4}"
 			]
 			icon: {
 				Count: 1
@@ -1349,28 +1412,331 @@
 			}
 			id: "5A7BBAB95B66F161"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "258AC7F174635157"
 				table_id: 7764861743028037075L
+				team_reward: true
 				type: "random"
 			}]
 			shape: "square"
 			size: 1.0d
 			tasks: [{
-				entity: "mowziesmobs:sculptor"
+				advancement: "mowziesmobs:sculptor_challenge"
+				criterion: ""
+				id: "4783E2506D895E96"
+				title: "{ftbquests.chapter.boss_codex.quest43.task_+5153211233704959638.title}"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest44.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest44.description2}"
+			]
+			id: "63303EC4462B785A"
+			rewards: [{
+				id: "732D78284A06CBC4"
+				table_id: 7764861743028037075L
+				team_reward: true
+				type: "random"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:shulker_mimic"
+				icon: "legendary_monsters:large_shulker_shell"
+				id: "3C4C4187D346C4EF"
+				title: "{ftbquests.chapter.boss_codex.quest44.task_+4344919792126706927.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest45.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest45.description2}"
+			]
+			id: "1863CB73604AFD14"
+			rewards: [{
+				id: "6FFAB650D263E34D"
+				table_id: 7764861743028037075L
+				team_reward: true
+				type: "random"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:dark_cloud_golem"
 				icon: {
 					Count: 1
-					id: "mowziesmobs:geomancer_beads"
+					id: "legendary_monsters:wand_of_clouds"
 					tag: {
 						Damage: 0
 					}
 				}
-				id: "4B3C73D4CF92BFCE"
-				title: "{ftbquests.chapter.boss_codex.quest43.task_+5421335409299996622.title}"
+				id: "1B02F33F768A46DB"
+				title: "{ftbquests.chapter.boss_codex.quest45.task_+1946385442874738395.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest46.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest46.description2}"
+			]
+			id: "2D626A2E1004F5C1"
+			rewards: [{
+				id: "6284CE6F9D63C6DE"
+				table_id: 7764861743028037075L
+				team_reward: true
+				type: "random"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:ancient_guardian"
+				icon: "legendary_monsters:chiseled_ancient_dripstone_shard"
+				id: "5E97A82C446B84F4"
+				title: "{ftbquests.chapter.boss_codex.quest46.task_+6816101469128459508.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest47.description1}"
+				""
+				"{ftbquests.chapter.boss_codex.quest47.description2}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest47.description3}"
+			]
+			id: "29798FB8B31D0A24"
+			rewards: [{
+				id: "63859BA49115A124"
+				table_id: 7764861743028037075L
+				team_reward: true
+				type: "random"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:posessed_paladin"
+				icon: {
+					Count: 1
+					id: "legendary_monsters:soul_great_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "41714579462150F1"
+				title: "{ftbquests.chapter.boss_codex.quest47.task_+4715626672003567857.title}"
 				type: "kill"
 				value: 1L
 			}]
 			x: 6.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest48.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest48.description2}"
+			]
+			id: "347630D4CCE688A4"
+			rewards: [{
+				id: "3BDFD734D8C94777"
+				table_id: 7764861743028037075L
+				team_reward: true
+				type: "random"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:withered_abomination"
+				icon: "legendary_monsters:withered_horn"
+				id: "173F9AE552BDB56D"
+				title: "{ftbquests.chapter.boss_codex.quest48.task_+1675227896131466605.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest49.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest49.description2}"
+			]
+			id: "3FC3D70076B6DDF0"
+			rewards: [{
+				id: "6972B84BB5AE9976"
+				table_id: 7764861743028037075L
+				team_reward: true
+				type: "random"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:skeletosaurus"
+				icon: "legendary_monsters:eye_of_bones"
+				id: "474FFFAA53DB135C"
+				title: "{ftbquests.chapter.boss_codex.quest49.task_+5138606806869414748.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest50.description1}"
+				""
+				"{ftbquests.chapter.boss_codex.quest50.description2}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest50.description3}"
+			]
+			id: "5700D385606A5501"
+			rewards: [{
+				id: "6A6849DBCA7AE6C1"
+				table_id: 7764861743028037075L
+				team_reward: true
+				type: "random"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:endersent"
+				icon: "legendary_monsters:chorus_crystal"
+				id: "42CC7E3E0DFE844E"
+				title: "{ftbquests.chapter.boss_codex.quest50.task_+4813360906740073550.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest51.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest51.description2}"
+			]
+			id: "6872565204521CB3"
+			rewards: [{
+				id: "7F62C8D725959FB9"
+				table_id: 7764861743028037075L
+				team_reward: true
+				type: "random"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:overgrown_colossus"
+				icon: "legendary_monsters:eye_of_moss"
+				id: "4A971BF2A7DF3C74"
+				title: "{ftbquests.chapter.boss_codex.quest51.task_+5374795409302436980.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest52.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest52.description2}"
+			]
+			id: "59B33E1B0B1D2080"
+			rewards: [{
+				id: "45F4A3E7586A7B59"
+				table_id: 7764861743028037075L
+				team_reward: true
+				type: "random"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:frostbitten_golem"
+				icon: "legendary_monsters:primal_ice_shard"
+				id: "2F524A1BE59185B9"
+				title: "{ftbquests.chapter.boss_codex.quest52.task_+3409869351548978617.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest53.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest53.description2}"
+			]
+			id: "69955032DAB8E0C0"
+			rewards: [{
+				id: "0862610C33FA6B2E"
+				table_id: 7764861743028037075L
+				team_reward: true
+				type: "random"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:dune_sentinel"
+				icon: "legendary_monsters:crystal_of_sandstorm"
+				id: "233851C3A8D2F847"
+				title: "{ftbquests.chapter.boss_codex.quest53.task_+2537868290816145479.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest54.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest54.description2}"
+			]
+			id: "008EFD5AAD769409"
+			rewards: [{
+				id: "1B0A7F2BFE67D432"
+				table_id: 7764861743028037075L
+				team_reward: true
+				type: "random"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:lava_eater"
+				icon: {
+					Count: 1
+					id: "legendary_monsters:fiery_jaw"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "114AE6BF6D653286"
+				title: "{ftbquests.chapter.boss_codex.quest54.task_+1246061956769854086.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.boss_codex.quest55.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.boss_codex.quest55.description2}"
+			]
+			id: "29D68A5F93C753A1"
+			rewards: [{
+				id: "082AD5A2F4C62B68"
+				table_id: 7764861743028037075L
+				team_reward: true
+				type: "random"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:warped_fungussus"
+				icon: "legendary_monsters:warped_mushroom_cap_part"
+				id: "7119DAC6E57EC84E"
+				title: "{ftbquests.chapter.boss_codex.quest55.task_+8149785548492294222.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
 			y: -5.5d
 		}
 	]

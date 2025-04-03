@@ -6,10 +6,11 @@
 	group: "009BCA07CC6CD4ED"
 	icon: "forbidden_arcanus:elementarium"
 	id: "1F377BF4EEC8059C"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
+			description: [""]
 			id: "66ED443644A36509"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -42,8 +43,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.elemental_magic.quest2.title}"
-			x: 6.0d
-			y: -8.5d
+			x: 6.5d
+			y: -9.0d
 		}
 		{
 			id: "258B0C1AFDE3356B"
@@ -60,8 +61,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.elemental_magic.quest3.title}"
-			x: 1.5d
-			y: -7.0d
+			x: 4.5d
+			y: -3.5d
 		}
 		{
 			id: "33FCB86A2CBB46F5"
@@ -78,8 +79,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.elemental_magic.quest4.title}"
-			x: 6.0d
-			y: -4.5d
+			x: 6.5d
+			y: -4.0d
 		}
 		{
 			id: "0973391F6468F41A"
@@ -96,9 +97,10 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -7.0d
+			y: -7.5d
 		}
 		{
+			description: [""]
 			id: "5F6D18651BEADCF1"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -131,10 +133,11 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.elemental_magic.quest7.title}"
-			x: 3.0d
-			y: -4.5d
+			x: 2.5d
+			y: -4.0d
 		}
 		{
+			description: [""]
 			id: "7B4E7299E8E10B24"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -149,8 +152,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.elemental_magic.quest8.title}"
-			x: 3.0d
-			y: -8.5d
+			x: 2.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["0973391F6468F41A"]
@@ -167,7 +170,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -7.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["48B449DA8B6EB67A"]
@@ -184,8 +187,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.elemental_magic.quest10.title}"
-			x: 2.0d
-			y: -3.5d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["258B0C1AFDE3356B"]
@@ -201,8 +204,8 @@
 				item: "irons_spellbooks:lightning_rune"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -7.5d
+			x: 4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["66ED443644A36509"]
@@ -252,8 +255,8 @@
 				item: "irons_spellbooks:blood_rune"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -9.5d
+			x: 1.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["53A0401F2DC21ECE"]
@@ -269,8 +272,8 @@
 				item: "irons_spellbooks:evocation_rune"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -9.5d
+			x: 7.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["33FCB86A2CBB46F5"]
@@ -286,8 +289,8 @@
 				item: "irons_spellbooks:nature_rune"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -3.5d
+			x: 7.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4AD61E407B7B6161"]
@@ -304,7 +307,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: -8.0d
+			y: -8.5d
 		}
 		{
 			description: [
@@ -343,8 +346,8 @@
 				item: "irons_spellbooks:blood_upgrade_orb"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -10.5d
+			x: 0.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["59820D07B59FB765"]
@@ -394,8 +397,8 @@
 				item: "irons_spellbooks:lightning_upgrade_orb"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -8.0d
+			x: 4.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["69A933EEA7C75D45"]
@@ -412,8 +415,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.elemental_magic.quest23.title}"
-			x: 1.0d
-			y: -2.5d
+			x: 0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6F5AA508443FBF10"]
@@ -429,8 +432,8 @@
 				item: "irons_spellbooks:nature_upgrade_orb"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -2.5d
+			x: 8.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["11D92E6C3BC27889"]
@@ -446,8 +449,8 @@
 				item: "irons_spellbooks:evocation_upgrade_orb"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -10.5d
+			x: 8.5d
+			y: -11.0d
 		}
 		{
 			id: "5B250011DFB045B9"
@@ -510,8 +513,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.elemental_magic.quest26.title}"
-			x: 9.0d
-			y: -1.5d
+			x: 9.5d
+			y: -1.0d
 		}
 		{
 			id: "54715F3C9443121C"
@@ -575,7 +578,7 @@
 			]
 			title: "{ftbquests.chapter.elemental_magic.quest27.title}"
 			x: 12.0d
-			y: -8.5d
+			y: -9.0d
 		}
 		{
 			id: "39617DF055911132"
@@ -638,8 +641,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.elemental_magic.quest28.title}"
-			x: 0.0d
-			y: -11.5d
+			x: -0.5d
+			y: -12.0d
 		}
 		{
 			id: "3AB510909E0A7C7B"
@@ -708,6 +711,7 @@
 		{
 			id: "454B9DFF1C8C8E1F"
 			rewards: [{
+				count: 4
 				id: "0FC6B7EB0A3A3C18"
 				item: "irons_spellbooks:ender_rune"
 				type: "item"
@@ -829,12 +833,13 @@
 				}
 			]
 			title: "{ftbquests.chapter.elemental_magic.quest31.title}"
-			x: 0.0d
-			y: -1.5d
+			x: -0.5d
+			y: -1.0d
 		}
 		{
 			id: "24CE4B05D99F86EC"
 			rewards: [{
+				count: 4
 				id: "20EAFCAEFFA194EC"
 				item: "irons_spellbooks:evocation_rune"
 				type: "item"
@@ -892,8 +897,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.elemental_magic.quest32.title}"
-			x: 9.0d
-			y: -11.5d
+			x: 9.5d
+			y: -12.0d
 		}
 		{
 			id: "00284C781B7D4F8C"
@@ -956,8 +961,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.elemental_magic.quest33.title}"
-			x: -3.0d
-			y: -8.5d
+			x: 4.5d
+			y: 1.0d
 		}
 		{
 			id: "0CFC0A7E3675A8C3"
@@ -1019,8 +1024,8 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
-			y: -9.5d
+			x: 4.0d
+			y: 2.0d
 		}
 		{
 			id: "0D25B7E8C917452F"
@@ -1035,8 +1040,8 @@
 				item: "ice_and_fire_spellbooks:thunderous_dragon_priest_staff"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -8.5d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
 			id: "52C3BA5D46C31645"
@@ -1098,8 +1103,8 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: 2.0d
+			x: -3.5d
+			y: -10.0d
 		}
 		{
 			id: "281A89F791793613"
@@ -1114,8 +1119,8 @@
 				item: "ice_and_fire_spellbooks:silver_dragon_priest_staff"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 2.0d
+			x: -4.0d
+			y: -8.5d
 		}
 		{
 			id: "2A8918EF458AE35F"
@@ -1177,8 +1182,8 @@
 					type: "item"
 				}
 			]
-			x: 13.0d
-			y: -9.5d
+			x: 12.5d
+			y: -10.0d
 		}
 		{
 			id: "751B229C2BB700E8"
@@ -1193,7 +1198,7 @@
 				item: "ice_and_fire_spellbooks:crimson_dragon_priest_staff"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 13.0d
 			y: -8.5d
 		}
 		{
@@ -1252,8 +1257,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: -12.5d
+			x: 10.5d
+			y: -13.0d
 		}
 		{
 			id: "78B14BE0B947E8D1"
@@ -1372,8 +1377,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: -0.5d
+			x: 10.5d
+			y: 0.0d
 		}
 		{
 			id: "43521A65B56C26B4"
@@ -1438,8 +1443,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: -12.5d
+			x: -1.5d
+			y: -13.0d
 		}
 		{
 			description: ["{ftbquests.chapter.elemental_magic.quest45.description1}"]
@@ -1461,8 +1466,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: 2.5d
+			x: -4.5d
+			y: -9.5d
 		}
 		{
 			id: "15056D51FD3463E8"
@@ -1478,8 +1483,8 @@
 				item: "kubejs:ice_essence"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -3.5d
+			x: 1.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["15056D51FD3463E8"]
@@ -1495,8 +1500,8 @@
 				item: "irons_spellbooks:ice_rune"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -2.0d
+			x: 0.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["5824550814894025"]
@@ -1512,8 +1517,8 @@
 				item: "irons_spellbooks:ice_upgrade_orb"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -0.5d
+			x: -1.5d
+			y: -8.5d
 		}
 		{
 			id: "2F7A9BEAC2C0A4F3"
@@ -1576,8 +1581,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.elemental_magic.quest49.title}"
-			x: 4.5d
-			y: 1.0d
+			x: -3.0d
+			y: -9.0d
 		}
 		{
 			id: "0E77FBD03A134BEE"
@@ -1616,8 +1621,48 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: -0.5d
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "7C8DC0AA5FB91733"
+			rewards: [
+				{
+					count: 5
+					id: "137564C2CF425871"
+					item: "irons_spellbooks:rare_ink"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "53CDA75688F85E2D"
+					item: "irons_spellbooks:epic_ink"
+					type: "item"
+				}
+				{
+					id: "393B32FA2E7D0B5B"
+					item: "irons_spellbooks:legendary_ink"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7AB339A73B6A44C1"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:blaze_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -9.5d
 		}
 	]
 	title: "{ftbquests.chapter.elemental_magic.title}"
