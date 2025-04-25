@@ -3,14 +3,14 @@ type = fancymenu_layout
 layout-meta {
   identifier = title_screen
   render_custom_elements_behind_vanilla = true
-  last_edited_time = 1740297847784
+  last_edited_time = 1744884568220
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
   custom_menu_title = Integrated Minecraft
-  [loading_requirement_container_meta:7688c10b-00ab-42ea-814c-99bf9d5c80ba-1740297824851] = [groups:][instances:]
+  [loading_requirement_container_meta:1a9566c6-85a5-4195-9122-9fb9e31c51b1-1744884312660] = [groups:][instances:]
 }
 
 menu_background {
