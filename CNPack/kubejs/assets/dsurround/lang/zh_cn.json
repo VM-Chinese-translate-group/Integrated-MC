@@ -1,8 +1,8 @@
 {
     "dsurround.sound.caption.ice":"冰面：开裂",
-    "dsurround.sound.caption.wind":"风啸声",
+    "dsurround.sound.caption.wind":"风：呼呼作响",
     "dsurround.sound.caption.soulsand":"灵魂：嗤笑",
-    "dsurround.sound.caption.bird":"鸟叫声",
+    "dsurround.sound.caption.bird":"鸟：吱吱喳喳",
     "dsurround.sound.caption.woodpecker":"啄木鸟：啄木",
     "dsurround.sound.caption.raptor":"猛禽：唳叫",
     "dsurround.sound.caption.crow":"乌鸦：嘎嘎叫",
@@ -26,7 +26,7 @@
     "dsurround.sound.caption.bow.pull":"弓：张弦",
     "dsurround.sound.caption.footsteps.water_through":"水花：溅起",
     "dsurround.sound.caption.footsteps.brush_through":"草丛：涌动",
-    "dsurround.sound.caption.footsteps.leaves_through":"枝条：簌簌折压",
+    "dsurround.sound.caption.footsteps.leaves_through":"枝条：噼啪作响",
     "dsurround.sound.caption.footsteps.floor_squeak":"地板：吱呀作响",
     "dsurround.format.TimeOfDay":"第%1$d天，%2$d：%3$s %4$s（%5$s） "
 }

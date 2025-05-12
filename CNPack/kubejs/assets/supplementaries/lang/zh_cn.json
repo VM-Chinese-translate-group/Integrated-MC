@@ -1,5 +1,5 @@
 {
-    "block.supplementaries.pedestal":"石砖展示台",
+    "block.supplementaries.pedestal":"石砖基座",
     "block.supplementaries.awning":"顶篷",
     "block.supplementaries.awning_white":"白色顶篷",
     "block.supplementaries.awning_black":"黑色顶篷",
@@ -17,5 +17,5 @@
     "block.supplementaries.awning_purple":"紫色顶篷",
     "block.supplementaries.awning_red":"红色顶篷",
     "block.supplementaries.awning_yellow":"黄色顶篷",
-    "gui.supplementaries.pedestal":"石砖展示台"
+    "gui.supplementaries.pedestal":"石砖基座"
 }
