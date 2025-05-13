@@ -1,5 +1,5 @@
 {
-    "block.createmetallurgy.molten_void_steel":"熔融死灵",
-    "fluid.createmetallurgy.molten_void_steel":"熔融死灵",
-    "item.createmetallurgy.molten_void_steel_bucket":"熔融死灵桶"
+    "block.createmetallurgy.molten_void_steel":"熔融死灵合金",
+    "fluid.createmetallurgy.molten_void_steel":"熔融死灵合金",
+    "item.createmetallurgy.molten_void_steel_bucket":"熔融死灵合金桶"
 }
