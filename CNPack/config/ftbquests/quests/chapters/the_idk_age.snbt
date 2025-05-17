@@ -213,41 +213,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["6994C60E270CEC43"]
-			description: ["{ftbquests.chapter.the_idk_age.quest9.description1}"]
-			id: "21E744D5170C1579"
-			min_required_tasks: 1
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3C8789DB78534507"
-					table_id: 8944102432905957330L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "39CBC862DDD91704"
-					table_id: 1030506019370660012L
-					type: "random"
-				}
-			]
-			shape: "circle"
-			tasks: [
-				{
-					id: "0D89C3955D927C95"
-					item: "railways:track_switch_andesite"
-					type: "item"
-				}
-				{
-					id: "7FB2A4A076FDFA7D"
-					item: "railways:track_switch_brass"
-					type: "item"
-				}
-			]
-			x: 5.5d
-			y: 3.0d
-		}
-		{
 			dependencies: ["2813DA6EC6E62656"]
 			description: ["{ftbquests.chapter.the_idk_age.quest10.description1}"]
 			id: "669BB287B586995D"
@@ -439,8 +404,8 @@
 				item: "create:schedule"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 6.0d
+			x: 7.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6994C60E270CEC43"]
@@ -466,35 +431,8 @@
 				item: "create:track_signal"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["6994C60E270CEC43"]
-			description: ["{ftbquests.chapter.the_idk_age.quest18.description1}"]
-			id: "0D9301071C02DDEE"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "59346BB594EBAD4E"
-					table_id: 8944102432905957330L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0B7C1F74F0214049"
-					table_id: 1030506019370660012L
-					type: "random"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				id: "5F50BBB06D2DC588"
-				item: "railways:track_coupler"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 4.5d
+			x: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3DD5EBA72E439D1E"]
