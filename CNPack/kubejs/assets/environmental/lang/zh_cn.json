@@ -1,6 +1,6 @@
 {
-    "block.environmental.dirt_brick_slab":"小泥土砖台阶",
-    "block.environmental.dirt_brick_stairs":"小泥土砖楼梯",
-    "block.environmental.dirt_brick_wall":"小泥土砖墙",
-    "block.environmental.dirt_bricks":"小泥土砖块"
+    "block.environmental.dirt_brick_slab":"小块泥土砖台阶",
+    "block.environmental.dirt_brick_stairs":"小块泥土砖楼梯",
+    "block.environmental.dirt_brick_wall":"小块泥土砖墙",
+    "block.environmental.dirt_bricks":"小块泥土砖"
 }
