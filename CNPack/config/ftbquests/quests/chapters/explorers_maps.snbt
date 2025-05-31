@@ -70,7 +70,6 @@
 			hide_dependency_lines: true
 			icon: "quark:cactus_block"
 			id: "72375066092E95D3"
-			optional: true
 			shape: "square"
 			tasks: [{
 				advancement: "integrated_villages:integrated_villages_root"
@@ -224,7 +223,6 @@
 			hide_dependency_lines: true
 			icon: "minecraft:sweet_berries"
 			id: "09600EADF4F3DC69"
-			optional: true
 			shape: "square"
 			tasks: [{
 				advancement: "integrated_villages:integrated_villages_root"
@@ -513,7 +511,6 @@
 			hide_dependency_lines: true
 			icon: "minecraft:jungle_sapling"
 			id: "2DF0C8FC6724145A"
-			optional: true
 			shape: "square"
 			tasks: [{
 				advancement: "integrated_villages:integrated_villages_root"
@@ -590,7 +587,6 @@
 			hide_dependency_lines: true
 			icon: "minecraft:water_bucket"
 			id: "6038D2D0A54E29DF"
-			optional: true
 			shape: "square"
 			tasks: [{
 				advancement: "integrated_villages:integrated_villages_root"
@@ -1135,7 +1131,6 @@
 			hide_dependency_lines: true
 			icon: "rubinated_nether:frosted_ice"
 			id: "2F9EECF98AF13434"
-			optional: true
 			shape: "square"
 			tasks: [{
 				advancement: "integrated_villages:integrated_villages_root"
@@ -1618,7 +1613,6 @@
 			hide_dependency_lines: true
 			icon: "minecraft:glow_lichen"
 			id: "0123F0DD2DB7A203"
-			optional: true
 			shape: "square"
 			tasks: [{
 				advancement: "integrated_villages:integrated_villages_root"
@@ -1870,7 +1864,6 @@
 			hide_dependency_lines: true
 			icon: "regions_unexplored:dark_oak_shrub"
 			id: "5AB9F625410298AE"
-			optional: true
 			shape: "square"
 			tasks: [{
 				advancement: "integrated_villages:integrated_villages_root"
@@ -1918,7 +1911,6 @@
 			hide_dependency_lines: true
 			icon: "environmental:giant_tall_grass"
 			id: "0D47283F9CB3D318"
-			optional: true
 			shape: "square"
 			tasks: [{
 				advancement: "integrated_villages:integrated_villages_root"
@@ -2440,7 +2432,6 @@
 			hide_dependency_lines: true
 			icon: "minecraft:lily_pad"
 			id: "3071D0C26DB4F18F"
-			optional: true
 			progression_mode: "linear"
 			shape: "square"
 			tasks: [{

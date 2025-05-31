@@ -1,0 +1,25 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage_solutions"
+	group: "1D344E867FA1E0AF"
+	icon: "minecraft:chest"
+	id: "53B71A917DB2A7AB"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		description: ["{ftbquests.chapter.storage_solutions.quest1.description1}"]
+		id: "415F16124052EB6C"
+		shape: "gear"
+		size: 2.0d
+		subtitle: "{ftbquests.chapter.storage_solutions.quest1.subtitle}"
+		tasks: [{
+			id: "7B26BCDBA25101F9"
+			title: "{ftbquests.chapter.storage_solutions.quest1.task_+8873987767287218681.title}"
+			type: "checkmark"
+		}]
+		x: 3.5d
+		y: 2.0d
+	}]
+	title: "{ftbquests.chapter.storage_solutions.title}"
+}

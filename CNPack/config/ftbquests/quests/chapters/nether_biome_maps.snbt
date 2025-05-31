@@ -38,7 +38,6 @@
 			hide_dependency_lines: true
 			icon: "betternether:willow_sapling"
 			id: "3C5980F7AEDDD54D"
-			optional: true
 			shape: "square"
 			tasks: [{
 				advancement: "betternether:enter_nether"
@@ -56,7 +55,6 @@
 			dependencies: ["0C629DD47BACD841"]
 			hide_dependency_lines: true
 			id: "01181FAE38B2BA8E"
-			optional: true
 			shape: "square"
 			tasks: [{
 				advancement: "betternether:enter_nether"
@@ -73,7 +71,6 @@
 			dependencies: ["0C629DD47BACD841"]
 			hide_dependency_lines: true
 			id: "051DFA7210E168F8"
-			optional: true
 			shape: "square"
 			tasks: [{
 				advancement: "betternether:enter_nether"
@@ -121,7 +118,6 @@
 			dependencies: ["0C629DD47BACD841"]
 			hide_dependency_lines: true
 			id: "4F86F9D39384295B"
-			optional: true
 			shape: "square"
 			tasks: [{
 				advancement: "betternether:enter_nether"

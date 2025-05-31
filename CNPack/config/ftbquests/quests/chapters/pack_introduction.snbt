@@ -1,5 +1,5 @@
 {
-	autofocus_id: "2713C8F59E5454D3"
+	autofocus_id: "4C840076783D73B9"
 	default_hide_dependency_lines: false
 	default_min_width: 250
 	default_quest_shape: ""
@@ -55,7 +55,7 @@
 			rotation: -90.0d
 			width: 2.0d
 			x: -12.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			height: 3.0d
@@ -63,7 +63,7 @@
 			rotation: 0.0d
 			width: 5.333333333333333d
 			x: -11.5d
-			y: -0.5d
+			y: 0.5d
 		}
 		{
 			height: 3.0d
@@ -71,41 +71,13 @@
 			rotation: 0.0d
 			width: 5.333333333333333d
 			x: -11.5d
-			y: -1.0d
+			y: 0.0d
 		}
 	]
 	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
-		{
-			description: [
-				"{ftbquests.chapter.pack_introduction.quest1.description1}"
-				""
-				"{ftbquests.chapter.pack_introduction.quest1.description2}"
-				""
-				"{ftbquests.chapter.pack_introduction.quest1.description3}"
-			]
-			disable_toast: true
-			icon: "supplementaries:regions_unexplored/sign_post_maple"
-			id: "2713C8F59E5454D3"
-			rewards: [{
-				count: 3
-				id: "0D0CAAB307569F1F"
-				item: "minecraft:bread"
-				type: "item"
-			}]
-			shape: "gear"
-			size: 2.0d
-			subtitle: "{ftbquests.chapter.pack_introduction.quest1.subtitle}"
-			tasks: [{
-				id: "058D02A382D06C87"
-				type: "checkmark"
-			}]
-			title: "{ftbquests.chapter.pack_introduction.quest1.title}"
-			x: -2.0d
-			y: 1.0d
-		}
 		{
 			can_repeat: false
 			description: [
@@ -604,7 +576,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["2713C8F59E5454D3"]
 			description: [
 				"{ftbquests.chapter.pack_introduction.quest17.description1}"
 				""
@@ -636,15 +607,15 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			size: 1.3d
+			size: 2.3d
 			subtitle: "{ftbquests.chapter.pack_introduction.quest17.subtitle}"
 			tasks: [{
 				id: "489D3DAC74C9AB66"
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.pack_introduction.quest17.title}"
-			x: -2.0d
-			y: 2.6d
+			x: -1.9500000000000002d
+			y: 1.9500000000000002d
 		}
 		{
 			description: [
@@ -750,38 +721,37 @@
 			y: 4.5d
 		}
 		{
-			can_repeat: false
+			can_repeat: true
 			description: [
 				"{ftbquests.chapter.pack_introduction.quest25.description1}"
 				""
 				"{ftbquests.chapter.pack_introduction.quest25.description2}"
 			]
+			hide_until_deps_complete: false
+			icon: "alexscaves:cave_book"
 			id: "339FA351D4D2BDFD"
 			optional: true
 			rewards: [{
-				id: "191A93469A860A65"
-				type: "xp"
-				xp: 100
+				id: "25504C06C5ACE4FF"
+				item: "alexscaves:cave_book"
+				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "{ftbquests.chapter.pack_introduction.quest25.subtitle}"
 			tasks: [
 				{
-					id: "158B79BC391255F0"
-					item: "alexscaves:cave_book"
-					type: "item"
+					advancement: "alexscaves:alexscaves/cave_book"
+					criterion: ""
+					id: "27F9A65C75920573"
+					type: "advancement"
 				}
 				{
-					id: "7F78B2ECEC591D41"
-					item: {
-						Count: 1
-						id: "hexerei:book_of_shadows"
-						tag: { }
-					}
-					type: "item"
+					id: "3127E84B62681387"
+					type: "checkmark"
 				}
 			]
 			title: "{ftbquests.chapter.pack_introduction.quest25.title}"
-			x: 6.0d
+			x: 5.5d
 			y: 4.5d
 		}
 		{
@@ -811,10 +781,11 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "797B31C6335BADDD"
+				title: "{ftbquests.chapter.pack_introduction.quest26.title}"
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.pack_introduction.quest26.title}"
-			x: 5.0d
+			x: 4.5d
 			y: 4.5d
 		}
 		{
@@ -826,6 +797,41 @@
 				type: "checkmark"
 			}]
 			x: 2.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["16B12A291E165ECE"]
+			description: [
+				"{ftbquests.chapter.pack_introduction.quest28.description1}"
+				""
+				"{ftbquests.chapter.pack_introduction.quest28.description1}"
+			]
+			hide_until_deps_complete: false
+			icon: {
+				Count: 1
+				id: "hexerei:book_of_shadows"
+				tag: { }
+			}
+			id: "677C2474F5BD8C64"
+			optional: true
+			rewards: [{
+				id: "48B93D8D0AF9A5DF"
+				item: {
+					Count: 1
+					id: "hexerei:book_of_shadows"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "{ftbquests.chapter.pack_introduction.quest28.subtitle}"
+			tasks: [{
+				id: "4CEF3579C34E62EF"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.pack_introduction.quest28.title}"
+			x: 6.5d
 			y: 4.5d
 		}
 	]

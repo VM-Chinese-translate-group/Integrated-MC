@@ -1,0 +1,49 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "coming_soon"
+	group: "22F79693740523BB"
+	id: "45941EB11816979B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{ftbquests.chapter.coming_soon.quest1.description1}"]
+			id: "0CE2E4ABA84D5CF2"
+			shape: "heart"
+			tasks: [{
+				id: "3F800A9BF2380016"
+				title: "{ftbquests.chapter.coming_soon.quest1.task_+4575668886308388886.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.coming_soon.quest1.title}"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			description: ["{ftbquests.chapter.coming_soon.quest2.description1}"]
+			id: "49FB61DAB65D2BEF"
+			shape: "pentagon"
+			tasks: [{
+				id: "7CA47EFEAE607BDC"
+				title: "{ftbquests.chapter.coming_soon.quest2.task_+8981443189195963356.title}"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			description: ["{ftbquests.chapter.coming_soon.quest3.description1}"]
+			id: "68FDFFAE3BE17592"
+			shape: "square"
+			tasks: [{
+				id: "7634FF76B0509E49"
+				title: "{ftbquests.chapter.coming_soon.quest3.task_+8517713680493747785.title}"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+	]
+	title: "{ftbquests.chapter.coming_soon.title}"
+}

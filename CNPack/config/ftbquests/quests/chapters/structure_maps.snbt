@@ -1867,7 +1867,7 @@
 						}
 						maxSearchRadius: 100
 						skinKnown: 1b
-						targetStructure: "eidolon_lab"
+						targetStructure: "eidolon:lab"
 						zoomLevel: 2
 					}
 				}
@@ -3068,7 +3068,7 @@
 				type: "advancement"
 			}]
 			x: -1.0d
-			y: 7.5d
+			y: 6.5d
 		}
 		{
 			can_repeat: true

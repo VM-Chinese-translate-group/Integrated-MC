@@ -1783,59 +1783,6 @@
 			y: -0.5d
 		}
 		{
-			id: "074EEDC5364A5344"
-			subtitle: "{ftbquests.chapter.suit_up.quest31.subtitle}"
-			tasks: [
-				{
-					id: "3024B1C24AA9E2CA"
-					item: {
-						Count: 1
-						id: "minecraft:golden_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "39C4B9C7B40213FF"
-					item: {
-						Count: 1
-						id: "minecraft:golden_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "21F24D5492FC4817"
-					item: {
-						Count: 1
-						id: "minecraft:golden_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "764AB326EE888D8F"
-					item: {
-						Count: 1
-						id: "minecraft:golden_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.suit_up.quest31.title}"
-			x: 5.0d
-			y: 0.0d
-		}
-		{
 			id: "430F86987CE5238E"
 			subtitle: "{ftbquests.chapter.suit_up.quest32.subtitle}"
 			tasks: [
@@ -2500,8 +2447,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: 1.0d
+			x: 5.0d
+			y: 0.0d
 		}
 		{
 			id: "7CFFD768262D0F38"
@@ -2894,6 +2841,59 @@
 			title: "{ftbquests.chapter.suit_up.quest67.title}"
 			x: 1.9115646258503318d
 			y: -2.452380952380949d
+		}
+		{
+			id: "253AB38243617E80"
+			subtitle: "{ftbquests.chapter.suit_up.quest68.subtitle}"
+			tasks: [
+				{
+					id: "53E869C12AB17FD6"
+					item: {
+						Count: 1
+						id: "create:cardboard_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F26A1A8BB3E4E69"
+					item: {
+						Count: 1
+						id: "create:cardboard_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31B65804A62B3C43"
+					item: {
+						Count: 1
+						id: "create:cardboard_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C11F6083DB2EBF4"
+					item: {
+						Count: 1
+						id: "create:cardboard_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.suit_up.quest68.title}"
+			x: 7.5d
+			y: 1.0d
 		}
 	]
 	title: "{ftbquests.chapter.suit_up.title}"
