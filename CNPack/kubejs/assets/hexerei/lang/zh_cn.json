@@ -24,8 +24,8 @@
     "book.hexerei.items_candelabra_1.passage_2":"与以太蜡烛不同，以太烛台不会自行熄灭。你可以将其悬挂到方块的底部或者顶部，挂在锁链上也可以。",
     "book.hexerei.items_animal_fat_1.passage_2":"动物脂肪可以用于制作油脂液，和这本书。用刀杀死动物后可获得动物脂肪。",
     "book.hexerei.items_witch_helmet_1.passage_2":"一顶经典样式的巫师帽子，戴上后能让你与女巫交易，整套穿戴时会给予额外效果。每一件都可以自定义成你自己喜欢的颜色。它们也可以通过命名来获得颜色变化的效果。",
-    "book.hexerei.items_willow_sapling_1.passage_2":"  Sapling used to grow Willow trees. Can be obtained by breaking Willow Leaves.",
-    "book.hexerei.items_mahogany_sapling_1.passage_2":"  Sapling used to grow Mahogany trees. Can be obtained by breaking Mahogany Leaves.",
+    "book.hexerei.items_willow_sapling_1.passage_2":"用于种植柳树的树苗，可通过破坏柳树树叶获得。",
+    "book.hexerei.items_mahogany_sapling_1.passage_2":"用于种植红木树的树苗，可通过破坏红木树叶获得",
     "book.hexerei.items_witch_hazel_sapling_1.passage_2":"  Sapling used to grow With Hazel trees. Can be obtained by breaking Witch Hazel Leaves.",
     "book.hexerei.structures_nature_coven_page_1.passage_2":"  In forests, Nature Covens may be found, though aside from some animals in some huts they are largely unpopulated, for now.",
     "tooltip.hexerei.candle_shift_1":"以太蜡烛可以染上各种各样的颜色"
