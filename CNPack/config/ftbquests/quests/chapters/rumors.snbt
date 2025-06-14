@@ -329,7 +329,7 @@
 					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						"ftbfiltersystem:filter": "nbt(fuzzy:{AntiqueInk:1b,author:\"Hisakid\",title:\"便条\"})"
+						"ftbfiltersystem:filter": "nbt(fuzzy:{AntiqueInk:1b,author:\"Hisakid\",title:\"\u4fbf\u6761\"})"
 					}
 				}
 				match_nbt: true
@@ -1451,7 +1451,7 @@
 					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						"ftbfiltersystem:filter": "nbt(fuzzy:{AntiqueInk:1b,author:\"CraisinLord\",display:{Name:'{\"text\":\"Bramblethorn\"}'}})"
+						"ftbfiltersystem:filter": "nbt(fuzzy:{AntiqueInk:1b,author:\"CraisinLord\",display:{Name:'{\"translate\":\"book.tree_of_wisdom.1.name\"}'}})"
 					}
 				}
 				match_nbt: true
