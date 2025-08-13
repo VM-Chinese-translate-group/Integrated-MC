@@ -1,0 +1,99 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "animal_trainer"
+	group: "22F79693740523BB"
+	icon: "domesticationinnovation:collar_tag"
+	id: "21A111C19A9FD33D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&b饲料槽&r是一种储存方块，动物会自动从中取食。&6只要有足够的食物，动物们便会自行繁殖！&r"]
+			id: "3A0718B4AC66E05F"
+			rewards: [
+				{
+					count: 5
+					id: "212649D072693C8D"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "322EDDB37FEFC0B1"
+					table_id: 1030506019370660012L
+					type: "random"
+				}
+			]
+			subtitle: "自动喂养动物！"
+			tasks: [{
+				id: "0A674BE0D29CEA70"
+				item: "quark:feeding_trough"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&5Integrated Minecraft&r中新增了许多魔咒，其中一些是专门为你的宠物和/或坐骑设计的。要为它们附魔，你必须先将魔咒附到&b项圈&r上，然后对你的宠物右击，它就会戴上这个附魔&b项圈&r。"
+				""
+				"&e注意：除了用于附魔，&b项圈&r也可以充当宠物的命名牌。"
+			]
+			id: "3F349443440FE9E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E8B416678702408"
+				table_id: 5073878219004838248L
+				type: "choice"
+			}]
+			subtitle: "让你的宠物也像你一样OP！"
+			tasks: [{
+				id: "72F4281DAF1E3E1A"
+				item: "domesticationinnovation:collar_tag"
+				type: "item"
+			}]
+			title: "宠物魔咒"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			description: ["&b笼子&r可以捕捉体型足够小的动物。这也许对你开办养殖场很有帮助！"]
+			id: "72E15D3F7E68967C"
+			rewards: [
+				{
+					id: "0A24995FB5983CB1"
+					item: "minecraft:lead"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65768F7C5234D46A"
+					table_id: 1030506019370660012L
+					type: "random"
+				}
+			]
+			subtitle: "捕捉小型生物！"
+			tasks: [{
+				id: "38E64D23E99C02A5"
+				item: "supplementaries:cage"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "066A1D5D53496042"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "07AE969A44BD0EDE"
+				title: "正在制作中"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+	]
+	title: "动物训练家"
+}

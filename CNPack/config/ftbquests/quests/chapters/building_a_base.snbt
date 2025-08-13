@@ -1,0 +1,126 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "building_a_base"
+	group: "22F79693740523BB"
+	id: "76E051A37DBE9FEF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"使用&b抹泥铲&r时，它会从你的快捷栏中随机放置一个方块。"
+				""
+				"&b算盘&r可以计算你右击的方块与当前注视方块之间的距离，最大可测量48格。"
+				""
+				"&b锯木机&r的功能和切石机类似，但它用于加工木头而非石头。可以将原木和木板放入其中。"
+			]
+			id: "34835E9F34DBF9EE"
+			rewards: [
+				{
+					count: 10
+					id: "7235DB24BA4F8EA0"
+					item: "minecraft:polished_deepslate"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "3018722E1842EACD"
+					item: "minecraft:polished_andesite"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "06123AE3129820AA"
+					item: "minecraft:polished_granite"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "38A086DF3031461A"
+					item: "quark:polished_calcite"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "4872C1C985813EEB"
+					item: "minecraft:polished_diorite"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "6A2B760FD16C2495"
+					item: "quark:polished_limestone"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D9D68A879ECAC3C"
+					table_id: 3891788239355830357L
+					type: "choice"
+				}
+			]
+			subtitle: "辅助建筑的工具！"
+			tasks: [
+				{
+					id: "0C816BF917EB69A6"
+					item: "quark:abacus"
+					type: "item"
+				}
+				{
+					id: "4ECDF1B9BC6FE7D7"
+					item: "quark:trowel"
+					type: "item"
+				}
+				{
+					id: "5C37E36126992CA9"
+					item: "sawmill:sawmill"
+					type: "item"
+				}
+			]
+			title: "建筑工具"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&b榔头&r可以让你随心所欲地自定义你的家具！"
+				""
+				"对&b椅子&r使用可切换其靠背样式；对&b展示架&r和&b木展示台&r使用可切换物品旋转；对&b板条箱&r使用则能将其支起或放下。"
+			]
+			id: "6A7B6273BC629C77"
+			rewards: [{
+				id: "0CC98F81EAB4AF60"
+				item: "redeco:oak_chair"
+				type: "item"
+			}]
+			subtitle: "当个木匠！"
+			tasks: [{
+				id: "138E8DAECD491B87"
+				item: {
+					Count: 1
+					id: "redeco:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "6CAFC730EE9E44E9"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0DDB472BDA69501E"
+				title: "仍在制作"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+	]
+	title: "建一个基地"
+}

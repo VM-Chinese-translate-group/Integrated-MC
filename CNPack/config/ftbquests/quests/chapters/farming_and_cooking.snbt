@@ -1,0 +1,949 @@
+{
+	autofocus_id: "40AC761B078A3867"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farming_and_cooking"
+	group: "22F79693740523BB"
+	icon: "solcarrot:food_book"
+	id: "102421ED3C61ABAC"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["当你品尝不同的食物时，你能解锁更高的生命值上限！&6只有超过6点饱和度（3个鸡腿）的食物才会被计入统计，为你提供额外生命值。&r&6每吃10种不同的达标食物&r，你就会获得一颗新的心，直到总生命值（基础加额外）达到20颗心为止。这是你初始生命值的两倍！&e生活调味料：胡萝卜版&r模组的&b食物手册&r会记录你的进度。努力尝遍这个整合包里的所有美食吧！"]
+			id: "1DA9EAE3EFEB572D"
+			rewards: [{
+				id: "0AFCA6F354A560A0"
+				item: "quark:seed_pouch"
+				type: "item"
+			}]
+			subtitle: "通过尝点新食物来增加生命值上限！"
+			tasks: [{
+				id: "36F4C2F6D15015AF"
+				item: "solcarrot:food_book"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&aKnives&r are versatile tools that can be used as weapons, to harvest straw from grass and to obtain extra materials from animals. When used with a &acutting board&r you can really get the most out of your fauna and flora! "
+				""
+				"- &dRight-click&r with an item in your hand to place it on the cutting board "
+				"- Equip your knife, &dright-click&r on the cutting board and see what happens! "
+				""
+				"- You can hold the item in your &doff hand&r and the knife in your &dmain hand&r to make this process much faster."
+				""
+				"Knives aren't the only tool that can be used on the cutting board. Try looking up its uses (&dHover + Press U&r) to see what you can make."
+			]
+			id: "40AC761B078A3867"
+			rewards: [{
+				count: 5
+				id: "72A27C1261A1F0FB"
+				item: "minecraft:chicken"
+				type: "item"
+			}]
+			subtitle: "Process your foods!"
+			tasks: [
+				{
+					id: "2AB6902D2F23C216"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "1A313191C49FF58E"
+					item: {
+						Count: 1
+						id: "farmersdelight:iron_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"This land is full of delicious ingredients just waiting to be turned into culinary delights. Don't settle for boring baked potatoes when you can use the &bCooking Pot&r to make bigger, heartier meals. However, you'll need to &6heat&r the pot somehow and may even need some type of &6kitchenware to hold your freshly cooked food.&r "
+				""
+				"Try as many different foods as you can, it might even make you &astronger&r!"
+				"&7See \"Food Book\" for details. Terms and Conditions may apply.) "
+			]
+			id: "0AB849150BC495EA"
+			rewards: [{
+				count: 5
+				id: "108AAB674D8B8A6B"
+				item: "minecraft:bowl"
+				type: "item"
+			}]
+			subtitle: "Cook bigger and better meals!"
+			tasks: [{
+				id: "4FF586C0A8A799C4"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			description: ["&bNourishing&r food prevent players from losing &bHunger Points&r or &bSaturation&r from sources other than regenerating health for as long as the effect is active!"]
+			id: "5CC2C222ABE01577"
+			rewards: [{
+				count: 5
+				id: "4C22E57E78144F15"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			subtitle: "Eat a food that grants Nourishing!"
+			tasks: [{
+				advancement: "farmersdelight:main/eat_nourishing_food"
+				criterion: ""
+				id: "70088B77D925616C"
+				type: "advancement"
+			}]
+			title: "Nourishing!"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: ["&bComforting&r foods prevent the player from being affected by &bSlowness&r, &bWeakness&r, or &bHunger&r."]
+			id: "1DE4B7FAB6CB9686"
+			rewards: [{
+				count: 5
+				id: "1A2630D3CEA34DAB"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			subtitle: "Eat a food that provides Comforting!"
+			tasks: [{
+				advancement: "farmersdelight:main/eat_comfort_food"
+				criterion: ""
+				id: "5806C474748584CB"
+				type: "advancement"
+			}]
+			title: "Comforting!"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"The &bLunch Basket&r holds up to &66 different types of food&r! Or 6 stacks of one food, if you prefer. Or a mix of both! Point being, if you want to take advantage of the &bFood Book&r to gain more hearts, you may want to consider storing the various foods in a &bLunch Basket&r."
+				""
+				"There are two modes for the &bLunch Basket:&r &6open&r and &6closed&r. In &6Open Mode&r the basket is treated like a food item. Holding down &5r-click&r will let you eat whichever food inside the basket is currently selected. In &6Closed Mode&r, you can insert foods into the basket inside the inventory GUI like you would items into a bundle. When holding down &5r-click&r outside of a GUI, you can scroll through to select which food item is currently selected and will be eaten in &6Open Mode&r."
+			]
+			id: "07530DC1FB7014EB"
+			rewards: [{
+				count: 16
+				id: "5D829B4F2C073554"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			subtitle: "Multiple meals in only one inventory slot!"
+			tasks: [{
+				id: "33B244F635ADD153"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Open: 0b
+							SelectedSlot: 0b
+							Size: 6
+						}
+					}
+					id: "supplementaries:lunch_basket"
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"You can now &dr-click&r to harvest fully-grown crops and the seeds will stay planted! If you harvest using a &bhoe,&r &ethe radius of crops harvested increases as the tier of the &bhoe&e increases. "
+				""
+				"&7Example: An iron hoe will harvest in a 3x3 and a diamond how will harvest in a 5x5."
+			]
+			id: "395667567EB3B4A7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27598660815E5E7B"
+				table_id: 3988860248783105573L
+				type: "choice"
+			}]
+			subtitle: "Easier crop harvesting!"
+			tasks: [{
+				id: "777B0CB0895ABEBD"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(minecraft:hoes)"
+					}
+				}
+				title: "Any Kind of Hoe"
+				type: "item"
+			}]
+			title: "Hoe Harvesters"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			description: ["&bSkillets &rare an easy, albeit slow, method to cook your food. &6Hold the &bSkillet&6 in your main hand and the food you wish to cook in your off hand. &rStand near a heat source (ie. fire, magma block, campfire, etc.) and hold down &5r-click&r to cook. As a bonus, if you're ever in a pinch, take out your &bSkillet&r and wack some enemies with it!"]
+			id: "1FBD8717D0E9B71B"
+			rewards: [{
+				count: 5
+				id: "50DA652BF2F53967"
+				item: "minecraft:chicken"
+				type: "item"
+			}]
+			subtitle: "A weapon or a tool? Why not both!"
+			tasks: [{
+				id: "61BABA3275723A82"
+				item: {
+					Count: 1
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			id: "143B6A713592395E"
+			subtitle: "A good source of heat for your Cooking Pot!"
+			tasks: [{
+				id: "22DCF2910EA318EA"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			id: "0AB62761F2CD4969"
+			rewards: [{
+				count: 3
+				id: "500795E978B182B6"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			subtitle: "Grows in Forests, Flower Forests, and Orchards"
+			tasks: [{
+				id: "79A04868B8C482CF"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "63B8C33C55B4FA31"
+			rewards: [{
+				count: 3
+				id: "61B8886C99FEB45A"
+				item: "minecraft:melon_slice"
+				type: "item"
+			}]
+			subtitle: "Grows in Jungle biomes"
+			tasks: [{
+				id: "0E97B7EF8963617D"
+				item: "minecraft:melon_slice"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.5d
+		}
+		{
+			id: "21C3CE2D88BD33C5"
+			rewards: [{
+				count: 3
+				id: "57F2833E67839A8F"
+				item: "minecraft:sweet_berries"
+				type: "item"
+			}]
+			subtitle: "Grows in Taiga biomes"
+			tasks: [{
+				id: "0D0D95D4B83C39AD"
+				item: "minecraft:sweet_berries"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			id: "166F1905D475015E"
+			rewards: [{
+				count: 3
+				id: "515B74C4A74A4024"
+				item: "minecraft:glow_berries"
+				type: "item"
+			}]
+			subtitle: "Grows in Lush Caves"
+			tasks: [{
+				id: "6CAF44E815A78E82"
+				item: "minecraft:glow_berries"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			description: [""]
+			id: "24F0FEC4FB235053"
+			rewards: [{
+				count: 3
+				id: "3575F694F9F18504"
+				item: "minecraft:chorus_fruit"
+				type: "item"
+			}]
+			subtitle: "Found in the Outer End Islands"
+			tasks: [{
+				id: "5DF7401FC5732F72"
+				item: "minecraft:chorus_fruit"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			id: "6F1C2826E2D5A0E7"
+			rewards: [{
+				count: 3
+				id: "17F3F522D1208FD0"
+				item: "atmospheric:passion_fruit"
+				type: "item"
+			}]
+			subtitle: "Grows in Rainforest biomes"
+			tasks: [{
+				id: "6FC5BBF62414FAA6"
+				item: "atmospheric:passion_fruit"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			id: "4B98C27705B1BF0C"
+			rewards: [{
+				count: 3
+				id: "440689AC58A0F0E9"
+				item: "atmospheric:orange"
+				type: "item"
+			}]
+			subtitle: "Grows in Laurel Forests"
+			tasks: [{
+				id: "2620A3F3FAD0B1BB"
+				item: "atmospheric:orange"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			description: ["*Must surround laurel sapling with 4 oranges to make tree grow with blood oranges"]
+			id: "77446F428268EE38"
+			rewards: [{
+				count: 3
+				id: "05C07518AAD96FDE"
+				item: "atmospheric:blood_orange"
+				type: "item"
+			}]
+			subtitle: "Grows on Laurel Trees in the Nether*"
+			tasks: [{
+				id: "223AA1F999193A9D"
+				item: "atmospheric:blood_orange"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			id: "1CC4F519BA1CC7B7"
+			rewards: [{
+				count: 3
+				id: "7E6186645C5F8184"
+				item: "atmospheric:dragon_fruit"
+				type: "item"
+			}]
+			subtitle: "Grows rarely in Scrublands biomes"
+			tasks: [{
+				id: "397D210BDA9CFA7C"
+				item: "atmospheric:dragon_fruit"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			id: "3E3890ED1CADB3EB"
+			rewards: [{
+				count: 3
+				id: "326EDF4FF158E869"
+				item: "atmospheric:yucca_fruit"
+				type: "item"
+			}]
+			subtitle: "Grows very, very rarely in Desert and Dune biomes"
+			tasks: [{
+				id: "5C2E6CA12D4BD3B2"
+				item: "atmospheric:yucca_fruit"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			id: "2262C96C7725892E"
+			rewards: [{
+				count: 3
+				id: "0B8B0357229D3A11"
+				item: "atmospheric:currant"
+				type: "item"
+			}]
+			subtitle: "Grows in Kousa Forests"
+			tasks: [{
+				id: "597F66B647360C96"
+				item: "atmospheric:currant"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			description: ["*Break cherry leaves to obtain"]
+			id: "6B2486C7467B9456"
+			rewards: [{
+				count: 3
+				id: "03398E5A60A902F3"
+				item: "environmental:cherries"
+				type: "item"
+			}]
+			subtitle: "Grows in Cherry Groves*"
+			tasks: [{
+				id: "683E8DDC79E2C873"
+				item: "environmental:cherries"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			description: ["*Break plum leaves to obtain"]
+			id: "5C66BE73FA51B824"
+			rewards: [{
+				count: 3
+				id: "74BDF2CD85957D7D"
+				item: "environmental:plum"
+				type: "item"
+			}]
+			subtitle: "Grows in Blossom Woods*"
+			tasks: [{
+				id: "22450C9D51E42B5B"
+				item: "environmental:plum"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "10B9FDB41E5C9351"
+			rewards: [{
+				count: 3
+				id: "3FDB5FE154DEB850"
+				item: "upgrade_aquatic:mulberry"
+				type: "item"
+			}]
+			subtitle: "Grows near Rivers"
+			tasks: [{
+				id: "3469739BCBCD4BD3"
+				item: "upgrade_aquatic:mulberry"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			id: "4946377ECD9A0C46"
+			rewards: [{
+				count: 3
+				id: "3A8E9280CB880C27"
+				item: "fruitsdelight:pear"
+				type: "item"
+			}]
+			subtitle: "Grows in Birch Forest biomes"
+			tasks: [{
+				id: "01C08230D4E8369E"
+				item: "fruitsdelight:pear"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "18D585A3AC0867F4"
+			rewards: [{
+				count: 3
+				id: "310E32F520FB080C"
+				item: "fruitsdelight:hawberry"
+				type: "item"
+			}]
+			subtitle: "Grows in Taiga biomes"
+			tasks: [{
+				id: "109EDC7E6AD5D41D"
+				item: "fruitsdelight:hawberry"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			id: "4B1C0A540D6E6E81"
+			rewards: [{
+				count: 3
+				id: "42B6DD99C14C8C58"
+				item: "fruitsdelight:lychee"
+				type: "item"
+			}]
+			subtitle: "Grows in Jungle biomes"
+			tasks: [{
+				id: "322DDBA7C14EAD75"
+				item: "fruitsdelight:lychee"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			id: "6CABDA68499C870E"
+			rewards: [{
+				count: 3
+				id: "276BD942828C4064"
+				item: "fruitsdelight:mango"
+				type: "item"
+			}]
+			subtitle: "Grows in Jungle biomes"
+			tasks: [{
+				id: "19CCF64A0A52E3F5"
+				item: "fruitsdelight:mango"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			description: [""]
+			id: "18595F60520783B2"
+			rewards: [{
+				count: 3
+				id: "68F5027E682BF9FC"
+				item: "fruitsdelight:persimmon"
+				type: "item"
+			}]
+			subtitle: "Grows in Groves and Snowy Taigas"
+			tasks: [{
+				id: "515CCCBF69D28984"
+				item: "fruitsdelight:persimmon"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			id: "3165BA1713BD00CE"
+			rewards: [{
+				count: 3
+				id: "54CF53BBA49D17C5"
+				item: "fruitsdelight:peach"
+				type: "item"
+			}]
+			subtitle: "Grows in Sparse Jungles"
+			tasks: [{
+				id: "4C4E0421896D5829"
+				item: "fruitsdelight:peach"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			id: "6B76A94B6D160E9B"
+			rewards: [{
+				count: 3
+				id: "36CEF06E337352E6"
+				item: "fruitsdelight:mangosteen"
+				type: "item"
+			}]
+			subtitle: "Grows in Jungle and Swamp biomes"
+			tasks: [{
+				id: "29DEF986F76E1547"
+				item: "fruitsdelight:mangosteen"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "076F614F68FB3A80"
+			rewards: [{
+				count: 3
+				id: "09122CC5FAE605D2"
+				item: "fruitsdelight:bayberry"
+				type: "item"
+			}]
+			subtitle: "Grows in Swamp biomes"
+			tasks: [{
+				id: "4552A90B742540F5"
+				item: "fruitsdelight:bayberry"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			id: "0DDF5DFEBDF043F2"
+			rewards: [{
+				count: 3
+				id: "19B451E14F0D6228"
+				item: "fruitsdelight:kiwi"
+				type: "item"
+			}]
+			subtitle: "Grows in Forests and Flower Forests"
+			tasks: [{
+				id: "0F9DD952B4D4C168"
+				item: "fruitsdelight:kiwi"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1005031EC6423853"
+			rewards: [{
+				count: 3
+				id: "1433B5DB9E12DDE7"
+				item: "fruitsdelight:fig"
+				type: "item"
+			}]
+			subtitle: "Grows in Forests and Flower Forests"
+			tasks: [{
+				id: "18BDB123E94BBCF8"
+				item: "fruitsdelight:fig"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			id: "646C8A7AFADDA26F"
+			rewards: [{
+				count: 3
+				id: "4A170FBE83C5E0E4"
+				item: "fruitsdelight:blueberry"
+				type: "item"
+			}]
+			subtitle: "Grows in in Grove, Taiga, Windswept, and Swamp biomes"
+			tasks: [{
+				id: "7C18FD2E3EF3DD89"
+				item: "fruitsdelight:blueberry"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			id: "75CDCBB8E0170C67"
+			rewards: [{
+				count: 3
+				id: "397CBC3E3B5DC4AA"
+				item: "fruitsdelight:lemon"
+				type: "item"
+			}]
+			subtitle: "Grows in Plains"
+			tasks: [{
+				id: "062E40E40B6E0628"
+				item: "fruitsdelight:lemon"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			id: "302E7E931E84E339"
+			rewards: [{
+				count: 3
+				id: "1497E8974FEE8ECF"
+				item: "environmental:cherries"
+				type: "item"
+			}]
+			subtitle: "Grows in Swamp biomes, Jungles, and Dark Forests"
+			tasks: [{
+				id: "3EE176802C4276F7"
+				item: "fruitsdelight:cranberry"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			id: "57F2FE021271E2D1"
+			rewards: [{
+				count: 3
+				id: "4E03A2601F9CD2E5"
+				item: "fruitsdelight:hamimelon_slice"
+				type: "item"
+			}]
+			subtitle: "Grows in Desert biomes"
+			tasks: [{
+				id: "2EE027CF53DBDEB9"
+				item: "fruitsdelight:hamimelon_slice"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.5d
+		}
+		{
+			icon: "fruitsdelight:pineapple"
+			id: "064392755A928688"
+			rewards: [{
+				count: 3
+				id: "483934DE9BEAE476"
+				item: "fruitsdelight:pineapple_slice"
+				type: "item"
+			}]
+			subtitle: "Grows in Beach biomes"
+			tasks: [{
+				id: "58680FE998F975F4"
+				item: "fruitsdelight:pineapple_slice"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			icon: "fruitsdelight:durian_flesh"
+			id: "3DDA2AEFA08F5B0C"
+			rewards: [{
+				count: 3
+				id: "2A8E7C1CCBA8326D"
+				item: "fruitsdelight:durian_flesh"
+				type: "item"
+			}]
+			subtitle: "Grows very, very rarely in Swamp and Jungle biomes"
+			tasks: [{
+				id: "4064214B2199C1F6"
+				item: "fruitsdelight:durian_flesh"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			id: "48185D7916BBA7B2"
+			rewards: [{
+				count: 3
+				id: "4975AED254509AE8"
+				item: "ars_nouveau:sourceberry_bush"
+				type: "item"
+			}]
+			subtitle: "Grows in Taiga biomes and Archwood Forests"
+			tasks: [{
+				id: "4696D1226B4AF242"
+				item: "ars_nouveau:sourceberry_bush"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			id: "1809D5CB5C643CB1"
+			rewards: [{
+				count: 3
+				id: "3004FA52C1335A9F"
+				item: "ars_nouveau:mendosteen_pod"
+				type: "item"
+			}]
+			subtitle: "Grows on Flourishing Archwood Trees"
+			tasks: [{
+				id: "02411CCB9A670CB6"
+				item: "ars_nouveau:mendosteen_pod"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			id: "7A9122F2156D268F"
+			rewards: [{
+				count: 3
+				id: "113C512DA4437985"
+				item: "ars_nouveau:bastion_pod"
+				type: "item"
+			}]
+			subtitle: "Grows on Vexing Archwood Trees"
+			tasks: [{
+				id: "7F1152C3C6DB1E4C"
+				item: "ars_nouveau:bastion_pod"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			id: "3B81BD57741053B3"
+			rewards: [{
+				count: 3
+				id: "25E67D2F48D67BBA"
+				item: "ars_nouveau:frostaya_pod"
+				type: "item"
+			}]
+			subtitle: "Grows on Cascading Archwood Trees"
+			tasks: [{
+				id: "385B5632916A124B"
+				item: "ars_nouveau:frostaya_pod"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.0d
+		}
+		{
+			id: "77950673309A8455"
+			rewards: [{
+				count: 3
+				id: "53095C511FC3B7EA"
+				item: "ars_nouveau:bombegranate_pod"
+				type: "item"
+			}]
+			subtitle: "Grows on Blazing Archwood Trees"
+			tasks: [{
+				id: "4F4A45D16AB7253A"
+				item: "ars_nouveau:bombegranate_pod"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			id: "03B0D1855EB713E1"
+			rewards: [{
+				count: 3
+				id: "47FFFF0517AD53A6"
+				item: "ars_elemental:flashpine_pod"
+				type: "item"
+			}]
+			subtitle: "Grows on Flashing Archwood Trees"
+			tasks: [{
+				id: "2BE78852A6C89877"
+				item: "ars_elemental:flashpine_pod"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			description: ["*Break jungle leaves to obtain"]
+			id: "1E7829D3CF9BF159"
+			rewards: [{
+				count: 3
+				id: "0457C2DCBA444E3F"
+				item: "alexsmobs:banana"
+				type: "item"
+			}]
+			subtitle: "Grows in Jungle biomes*"
+			tasks: [{
+				id: "35382A7F5F558D7C"
+				item: "alexsmobs:banana"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "1D0471702A131A71"
+			rewards: [{
+				count: 3
+				id: "48DF4C768306D1F0"
+				item: "delightful:salmonberries"
+				type: "item"
+			}]
+			subtitle: "Grows in Forest biomes"
+			tasks: [{
+				id: "6AF82E1BBA4949C4"
+				item: "delightful:salmonberries"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			id: "2D62426903438113"
+			rewards: [{
+				count: 3
+				id: "7C44601B11675321"
+				item: "delightful:cantaloupe_slice"
+				type: "item"
+			}]
+			subtitle: "Grows in Beach biomes"
+			tasks: [{
+				id: "0BE1156614DA9D54"
+				item: "delightful:cantaloupe_slice"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.5d
+		}
+		{
+			description: ["*Ashen saplings can be dug up by a sniffer"]
+			id: "7CCBE0074C44F52D"
+			subtitle: "Grows on Ashen Trees*"
+			tasks: [{
+				id: "1B23EA7E266F701F"
+				item: "quark:ancient_fruit"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			id: "6AAC946E63591054"
+			rewards: [{
+				count: 3
+				id: "001B63D55009CBE5"
+				item: "regions_unexplored:hanging_earlight_fruit"
+				type: "item"
+			}]
+			subtitle: "Grows in Blackstone Basins"
+			tasks: [{
+				id: "44C9F9DCE86B2742"
+				item: "regions_unexplored:hanging_earlight_fruit"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			id: "7AF8467DA8E2800C"
+			rewards: [{
+				count: 3
+				id: "56995C4291C3CC4F"
+				item: "regions_unexplored:duskmelon_slice"
+				type: "item"
+			}]
+			subtitle: "Grows in Ancient Deltas"
+			tasks: [{
+				id: "756B40497CB7DF07"
+				item: "regions_unexplored:duskmelon_slice"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.5d
+		}
+	]
+	title: "Farming and Cooking"
+}
