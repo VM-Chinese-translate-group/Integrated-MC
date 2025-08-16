@@ -1,12 +1,12 @@
 {
   "modpack": {
     "name": "Integrated MC",
-    "version": "1.5.5",
+    "version": "1.5.9",
     "translation": {
+      "id": "imc",
       "url": "https://vmct-cn.top/modpacks/imc/",
       "language": "zh_cn",
-      "version": "1.5.5",
-      "updateCheckUrl": "https://gitee.com/Wulian233/vmtu/raw/main/update/imc.txt",
+      "version": "1.5.9",
       "resourcePackName": "VM汉化组模组汉化包1.19及以上"
     }
   }
