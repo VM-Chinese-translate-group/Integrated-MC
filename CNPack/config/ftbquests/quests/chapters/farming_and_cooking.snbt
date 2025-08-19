@@ -28,14 +28,14 @@
 		}
 		{
 			description: [
-				"&aKnives&r are versatile tools that can be used as weapons, to harvest straw from grass and to obtain extra materials from animals. When used with a &acutting board&r you can really get the most out of your fauna and flora! "
+				"&a刀&r是一种多功能工具：它既可以作为武器，也能用来从草中收割草秆，或是从动物身上获取额外的材料。当与&a砧板&r搭配使用时，你就能最大限度地利用各种动植物资源！"
 				""
-				"- &dRight-click&r with an item in your hand to place it on the cutting board "
-				"- Equip your knife, &dright-click&r on the cutting board and see what happens! "
+				"- 手持物品并对&a砧板&r&d右击&r，即可将其放置在上面。"
+				"- 装备你的&a刀&r，然后对&a砧板&r&d右击&r，看看会发生什么！"
 				""
-				"- You can hold the item in your &doff hand&r and the knife in your &dmain hand&r to make this process much faster."
+				"- 你可以&d副手&r持物品&d主手&r持&a刀&r，从而大幅加快这一过程。"
 				""
-				"Knives aren't the only tool that can be used on the cutting board. Try looking up its uses (&dHover + Press U&r) to see what you can make."
+				"并不是只能在&a砧板&r上使用刀。试试查询它的用途（&d光标悬浮其上并按U&r），看看你都能做出些什么。"
 			]
 			id: "40AC761B078A3867"
 			rewards: [{
@@ -44,7 +44,7 @@
 				item: "minecraft:chicken"
 				type: "item"
 			}]
-			subtitle: "Process your foods!"
+			subtitle: "加工你的食物！"
 			tasks: [
 				{
 					id: "2AB6902D2F23C216"
@@ -68,10 +68,10 @@
 		}
 		{
 			description: [
-				"This land is full of delicious ingredients just waiting to be turned into culinary delights. Don't settle for boring baked potatoes when you can use the &bCooking Pot&r to make bigger, heartier meals. However, you'll need to &6heat&r the pot somehow and may even need some type of &6kitchenware to hold your freshly cooked food.&r "
+				"这片土地上遍布着美味的食材，就等着你将它们变成珍馐佳肴。既然可以用&b厨锅&r制作更丰盛、更管饱的大餐，何必满足于单调乏味的烤马铃薯呢？不过，你得想办法给这个锅&6提供热源&r，而且可能还需要某种&6能盛放新鲜出炉食物的厨具。&r"
 				""
-				"Try as many different foods as you can, it might even make you &astronger&r!"
-				"&7See \"Food Book\" for details. Terms and Conditions may apply.) "
+				"尽可能多地尝试不同的食物吧，这甚至可能会让你变得&a强壮&r！"
+				"&7详情请参阅“食物手册”。里面的相关信息可能会有用。"
 			]
 			id: "0AB849150BC495EA"
 			rewards: [{
@@ -80,7 +80,7 @@
 				item: "minecraft:bowl"
 				type: "item"
 			}]
-			subtitle: "Cook bigger and better meals!"
+			subtitle: "制作更丰盛、更美味的大餐！"
 			tasks: [{
 				id: "4FF586C0A8A799C4"
 				item: "farmersdelight:cooking_pot"
@@ -90,7 +90,7 @@
 			y: -2.0d
 		}
 		{
-			description: ["&bNourishing&r food prevent players from losing &bHunger Points&r or &bSaturation&r from sources other than regenerating health for as long as the effect is active!"]
+			description: ["只要&b滋养&r效果存在，它就能阻止玩家的&b饥饿值&r或&b饱和度&r下降，但是因恢复生命值而产生的消耗除外！"]
 			id: "5CC2C222ABE01577"
 			rewards: [{
 				count: 5
@@ -98,19 +98,19 @@
 				item: "minecraft:cooked_beef"
 				type: "item"
 			}]
-			subtitle: "Eat a food that grants Nourishing!"
+			subtitle: "吃下一种能提供滋养效果的食物！"
 			tasks: [{
 				advancement: "farmersdelight:main/eat_nourishing_food"
 				criterion: ""
 				id: "70088B77D925616C"
 				type: "advancement"
 			}]
-			title: "Nourishing!"
+			title: "休养生息！"
 			x: 3.0d
 			y: -1.5d
 		}
 		{
-			description: ["&bComforting&r foods prevent the player from being affected by &bSlowness&r, &bWeakness&r, or &bHunger&r."]
+			description: ["&b舒适效果&r使玩家不受&b缓慢&r、&b虚弱&r和&b饥饿&r效果影响。"]
 			id: "1DE4B7FAB6CB9686"
 			rewards: [{
 				count: 5
@@ -118,22 +118,22 @@
 				item: "minecraft:cooked_beef"
 				type: "item"
 			}]
-			subtitle: "Eat a food that provides Comforting!"
+			subtitle: "吃下一种能提供舒适效果的食物！"
 			tasks: [{
 				advancement: "farmersdelight:main/eat_comfort_food"
 				criterion: ""
 				id: "5806C474748584CB"
 				type: "advancement"
 			}]
-			title: "Comforting!"
+			title: "舒服！"
 			x: 4.0d
 			y: -1.5d
 		}
 		{
 			description: [
-				"The &bLunch Basket&r holds up to &66 different types of food&r! Or 6 stacks of one food, if you prefer. Or a mix of both! Point being, if you want to take advantage of the &bFood Book&r to gain more hearts, you may want to consider storing the various foods in a &bLunch Basket&r."
+				"&b午餐篮&r最多可以容纳&66种不同的食物&r！当然，你要是喜欢，也可以只放6组同一种食物，或者两种方式混搭！总而言之，如果你想利用&b食物手册&r来获得更高生命值，那么用&b午餐篮&r来存放各式各样的食物，或许是个不错的选择。"
 				""
-				"There are two modes for the &bLunch Basket:&r &6open&r and &6closed&r. In &6Open Mode&r the basket is treated like a food item. Holding down &5r-click&r will let you eat whichever food inside the basket is currently selected. In &6Closed Mode&r, you can insert foods into the basket inside the inventory GUI like you would items into a bundle. When holding down &5r-click&r outside of a GUI, you can scroll through to select which food item is currently selected and will be eaten in &6Open Mode&r."
+				"&b午餐篮&r有两种模式：&6打开&r和&6关闭&r。在&6打开模式&r下，篮子本身会被视作一个食物，按住&5右键&r就可以吃掉篮内当前选中的那一份食物。在&6关闭模式&r下，你可以在物品栏界面中将食物放进篮子，就像把东西放进收纳袋里一样。同样在此模式下，当你不在任何界面中时，按住&5右键&r并滚动鼠标滚轮，即可切换篮内食物，以备在&6打开模式&r下食用。"
 			]
 			id: "07530DC1FB7014EB"
 			rewards: [{
@@ -142,7 +142,7 @@
 				item: "minecraft:apple"
 				type: "item"
 			}]
-			subtitle: "Multiple meals in only one inventory slot!"
+			subtitle: "一个格子，多顿大餐！"
 			tasks: [{
 				id: "33B244F635ADD153"
 				item: {
@@ -164,9 +164,9 @@
 		}
 		{
 			description: [
-				"You can now &dr-click&r to harvest fully-grown crops and the seeds will stay planted! If you harvest using a &bhoe,&r &ethe radius of crops harvested increases as the tier of the &bhoe&e increases. "
+				"现在你可以&d右击&r收获完全成熟的作物，并且无需再次播种！如果你使用&b锄头&r来收获，那么&b锄头&e的等级越高，收获的范围也就越大。"
 				""
-				"&7Example: An iron hoe will harvest in a 3x3 and a diamond how will harvest in a 5x5."
+				"&7例如：铁锄可以收获3x3的范围，而钻石锄可以收获5x5的范围。"
 			]
 			id: "395667567EB3B4A7"
 			rewards: [{
@@ -175,7 +175,7 @@
 				table_id: 3988860248783105573L
 				type: "choice"
 			}]
-			subtitle: "Easier crop harvesting!"
+			subtitle: "让作物收获更轻松！"
 			tasks: [{
 				id: "777B0CB0895ABEBD"
 				item: {
@@ -185,7 +185,7 @@
 						"ftbfiltersystem:filter": "item_tag(minecraft:hoes)"
 					}
 				}
-				title: "Any Kind of Hoe"
+				title: "任意锄头"
 				type: "item"
 			}]
 			title: "Hoe Harvesters"
@@ -193,7 +193,7 @@
 			y: -2.0d
 		}
 		{
-			description: ["&bSkillets &rare an easy, albeit slow, method to cook your food. &6Hold the &bSkillet&6 in your main hand and the food you wish to cook in your off hand. &rStand near a heat source (ie. fire, magma block, campfire, etc.) and hold down &5r-click&r to cook. As a bonus, if you're ever in a pinch, take out your &bSkillet&r and wack some enemies with it!"]
+			description: ["b煎锅&r是一种很方便的食物烹饪方式，只不过速度有点慢。&6使用时，需要将&b煎锅&6持于主手，想烹饪的食物放在副手，&r然后靠近热源（例如火、岩浆块、营火等），按住&5右键&r即可。作为一项额外福利，要是你陷入困境，还能掏出&b煎锅&r给敌人来上几下！"]
 			id: "1FBD8717D0E9B71B"
 			rewards: [{
 				count: 5
@@ -201,7 +201,7 @@
 				item: "minecraft:chicken"
 				type: "item"
 			}]
-			subtitle: "A weapon or a tool? Why not both!"
+			subtitle: "武器还是工具？我都要！"
 			tasks: [{
 				id: "61BABA3275723A82"
 				item: {
@@ -218,7 +218,7 @@
 		}
 		{
 			id: "143B6A713592395E"
-			subtitle: "A good source of heat for your Cooking Pot!"
+			subtitle: "厨锅的好热源！"
 			tasks: [{
 				id: "22DCF2910EA318EA"
 				item: "farmersdelight:stove"
@@ -235,7 +235,7 @@
 				item: "minecraft:apple"
 				type: "item"
 			}]
-			subtitle: "Grows in Forests, Flower Forests, and Orchards"
+			subtitle: "生长于树林，繁花森林和果林"
 			tasks: [{
 				id: "79A04868B8C482CF"
 				item: "minecraft:apple"
@@ -252,7 +252,7 @@
 				item: "minecraft:melon_slice"
 				type: "item"
 			}]
-			subtitle: "Grows in Jungle biomes"
+			subtitle: "生长于丛林生物群系"
 			tasks: [{
 				id: "0E97B7EF8963617D"
 				item: "minecraft:melon_slice"
@@ -269,7 +269,7 @@
 				item: "minecraft:sweet_berries"
 				type: "item"
 			}]
-			subtitle: "Grows in Taiga biomes"
+			subtitle: "生长于针叶林生物群系"
 			tasks: [{
 				id: "0D0D95D4B83C39AD"
 				item: "minecraft:sweet_berries"
@@ -286,7 +286,7 @@
 				item: "minecraft:glow_berries"
 				type: "item"
 			}]
-			subtitle: "Grows in Lush Caves"
+			subtitle: "生产于繁茂洞穴"
 			tasks: [{
 				id: "6CAF44E815A78E82"
 				item: "minecraft:glow_berries"
@@ -304,7 +304,7 @@
 				item: "minecraft:chorus_fruit"
 				type: "item"
 			}]
-			subtitle: "Found in the Outer End Islands"
+			subtitle: "可在末地外岛中发现"
 			tasks: [{
 				id: "5DF7401FC5732F72"
 				item: "minecraft:chorus_fruit"
@@ -321,7 +321,7 @@
 				item: "atmospheric:passion_fruit"
 				type: "item"
 			}]
-			subtitle: "Grows in Rainforest biomes"
+			subtitle: "生长于雨林生物群系"
 			tasks: [{
 				id: "6FC5BBF62414FAA6"
 				item: "atmospheric:passion_fruit"
@@ -338,7 +338,7 @@
 				item: "atmospheric:orange"
 				type: "item"
 			}]
-			subtitle: "Grows in Laurel Forests"
+			subtitle: "生长于月桂森林"
 			tasks: [{
 				id: "2620A3F3FAD0B1BB"
 				item: "atmospheric:orange"
@@ -348,7 +348,7 @@
 			y: 2.0d
 		}
 		{
-			description: ["*Must surround laurel sapling with 4 oranges to make tree grow with blood oranges"]
+			description: ["*必须在月桂树苗的周围摆放4个橙子，这样它才能长出血橙。"]
 			id: "77446F428268EE38"
 			rewards: [{
 				count: 3
@@ -356,7 +356,7 @@
 				item: "atmospheric:blood_orange"
 				type: "item"
 			}]
-			subtitle: "Grows on Laurel Trees in the Nether*"
+			subtitle: "生长在下界的月桂树上*"
 			tasks: [{
 				id: "223AA1F999193A9D"
 				item: "atmospheric:blood_orange"
@@ -373,7 +373,7 @@
 				item: "atmospheric:dragon_fruit"
 				type: "item"
 			}]
-			subtitle: "Grows rarely in Scrublands biomes"
+			subtitle: "小概率生长于灌木林地生物群系"
 			tasks: [{
 				id: "397D210BDA9CFA7C"
 				item: "atmospheric:dragon_fruit"
@@ -390,7 +390,7 @@
 				item: "atmospheric:yucca_fruit"
 				type: "item"
 			}]
-			subtitle: "Grows very, very rarely in Desert and Dune biomes"
+			subtitle: "极小概率生长于沙漠和沙丘生物群系"
 			tasks: [{
 				id: "5C2E6CA12D4BD3B2"
 				item: "atmospheric:yucca_fruit"
@@ -407,7 +407,7 @@
 				item: "atmospheric:currant"
 				type: "item"
 			}]
-			subtitle: "Grows in Kousa Forests"
+			subtitle: "生长于梾树树林"
 			tasks: [{
 				id: "597F66B647360C96"
 				item: "atmospheric:currant"
@@ -417,7 +417,7 @@
 			y: -3.5d
 		}
 		{
-			description: ["*Break cherry leaves to obtain"]
+			description: ["*破坏樱花树叶以获得"]
 			id: "6B2486C7467B9456"
 			rewards: [{
 				count: 3
@@ -425,7 +425,7 @@
 				item: "environmental:cherries"
 				type: "item"
 			}]
-			subtitle: "Grows in Cherry Groves*"
+			subtitle: "生长于樱花树林*"
 			tasks: [{
 				id: "683E8DDC79E2C873"
 				item: "environmental:cherries"
@@ -435,7 +435,7 @@
 			y: 0.5d
 		}
 		{
-			description: ["*Break plum leaves to obtain"]
+			description: ["*破坏李树树叶以获得"]
 			id: "5C66BE73FA51B824"
 			rewards: [{
 				count: 3
@@ -443,7 +443,7 @@
 				item: "environmental:plum"
 				type: "item"
 			}]
-			subtitle: "Grows in Blossom Woods*"
+			subtitle: "生长于花木林*"
 			tasks: [{
 				id: "22450C9D51E42B5B"
 				item: "environmental:plum"
@@ -460,7 +460,7 @@
 				item: "upgrade_aquatic:mulberry"
 				type: "item"
 			}]
-			subtitle: "Grows near Rivers"
+			subtitle: "靠近河流生长"
 			tasks: [{
 				id: "3469739BCBCD4BD3"
 				item: "upgrade_aquatic:mulberry"
@@ -477,7 +477,7 @@
 				item: "fruitsdelight:pear"
 				type: "item"
 			}]
-			subtitle: "Grows in Birch Forest biomes"
+			subtitle: "生长于白桦树林生物群系"
 			tasks: [{
 				id: "01C08230D4E8369E"
 				item: "fruitsdelight:pear"
@@ -494,7 +494,7 @@
 				item: "fruitsdelight:hawberry"
 				type: "item"
 			}]
-			subtitle: "Grows in Taiga biomes"
+			subtitle: "生长于针叶林生物群"
 			tasks: [{
 				id: "109EDC7E6AD5D41D"
 				item: "fruitsdelight:hawberry"
@@ -511,7 +511,7 @@
 				item: "fruitsdelight:lychee"
 				type: "item"
 			}]
-			subtitle: "Grows in Jungle biomes"
+			subtitle: "生长于丛林生物群系"
 			tasks: [{
 				id: "322DDBA7C14EAD75"
 				item: "fruitsdelight:lychee"
@@ -528,7 +528,7 @@
 				item: "fruitsdelight:mango"
 				type: "item"
 			}]
-			subtitle: "Grows in Jungle biomes"
+			subtitle: "生长于丛林生物群系"
 			tasks: [{
 				id: "19CCF64A0A52E3F5"
 				item: "fruitsdelight:mango"
@@ -546,7 +546,7 @@
 				item: "fruitsdelight:persimmon"
 				type: "item"
 			}]
-			subtitle: "Grows in Groves and Snowy Taigas"
+			subtitle: "生长于雪林和积雪针叶林生物群系"
 			tasks: [{
 				id: "515CCCBF69D28984"
 				item: "fruitsdelight:persimmon"
@@ -563,7 +563,7 @@
 				item: "fruitsdelight:peach"
 				type: "item"
 			}]
-			subtitle: "Grows in Sparse Jungles"
+			subtitle: "生长于稀疏丛林生物群系"
 			tasks: [{
 				id: "4C4E0421896D5829"
 				item: "fruitsdelight:peach"
@@ -580,7 +580,7 @@
 				item: "fruitsdelight:mangosteen"
 				type: "item"
 			}]
-			subtitle: "Grows in Jungle and Swamp biomes"
+			subtitle: "生长于丛林和沼泽生物群系"
 			tasks: [{
 				id: "29DEF986F76E1547"
 				item: "fruitsdelight:mangosteen"
@@ -597,7 +597,7 @@
 				item: "fruitsdelight:bayberry"
 				type: "item"
 			}]
-			subtitle: "Grows in Swamp biomes"
+			subtitle: "生长于沼泽生物群系"
 			tasks: [{
 				id: "4552A90B742540F5"
 				item: "fruitsdelight:bayberry"
@@ -614,7 +614,7 @@
 				item: "fruitsdelight:kiwi"
 				type: "item"
 			}]
-			subtitle: "Grows in Forests and Flower Forests"
+			subtitle: "生长于森林和繁花森林"
 			tasks: [{
 				id: "0F9DD952B4D4C168"
 				item: "fruitsdelight:kiwi"
@@ -631,7 +631,7 @@
 				item: "fruitsdelight:fig"
 				type: "item"
 			}]
-			subtitle: "Grows in Forests and Flower Forests"
+			subtitle: "生长于森林和繁花森林"
 			tasks: [{
 				id: "18BDB123E94BBCF8"
 				item: "fruitsdelight:fig"
@@ -648,7 +648,7 @@
 				item: "fruitsdelight:blueberry"
 				type: "item"
 			}]
-			subtitle: "Grows in in Grove, Taiga, Windswept, and Swamp biomes"
+			subtitle: "生长于雪林、针叶林、风袭和沼泽生物群系"
 			tasks: [{
 				id: "7C18FD2E3EF3DD89"
 				item: "fruitsdelight:blueberry"
@@ -665,7 +665,7 @@
 				item: "fruitsdelight:lemon"
 				type: "item"
 			}]
-			subtitle: "Grows in Plains"
+			subtitle: "生长于平原"
 			tasks: [{
 				id: "062E40E40B6E0628"
 				item: "fruitsdelight:lemon"
@@ -682,7 +682,7 @@
 				item: "environmental:cherries"
 				type: "item"
 			}]
-			subtitle: "Grows in Swamp biomes, Jungles, and Dark Forests"
+			subtitle: "生长于沼泽、丛林和黑森林"
 			tasks: [{
 				id: "3EE176802C4276F7"
 				item: "fruitsdelight:cranberry"
@@ -699,7 +699,7 @@
 				item: "fruitsdelight:hamimelon_slice"
 				type: "item"
 			}]
-			subtitle: "Grows in Desert biomes"
+			subtitle: "生长于沙漠生物群系"
 			tasks: [{
 				id: "2EE027CF53DBDEB9"
 				item: "fruitsdelight:hamimelon_slice"
@@ -717,7 +717,7 @@
 				item: "fruitsdelight:pineapple_slice"
 				type: "item"
 			}]
-			subtitle: "Grows in Beach biomes"
+			subtitle: "生长于沙滩生物群系"
 			tasks: [{
 				id: "58680FE998F975F4"
 				item: "fruitsdelight:pineapple_slice"
@@ -735,7 +735,7 @@
 				item: "fruitsdelight:durian_flesh"
 				type: "item"
 			}]
-			subtitle: "Grows very, very rarely in Swamp and Jungle biomes"
+			subtitle: "极小概率生成于沼泽和丛林生物群系"
 			tasks: [{
 				id: "4064214B2199C1F6"
 				item: "fruitsdelight:durian_flesh"
@@ -752,7 +752,7 @@
 				item: "ars_nouveau:sourceberry_bush"
 				type: "item"
 			}]
-			subtitle: "Grows in Taiga biomes and Archwood Forests"
+			subtitle: "生长于针叶林和至高木森林"
 			tasks: [{
 				id: "4696D1226B4AF242"
 				item: "ars_nouveau:sourceberry_bush"
@@ -769,7 +769,7 @@
 				item: "ars_nouveau:mendosteen_pod"
 				type: "item"
 			}]
-			subtitle: "Grows on Flourishing Archwood Trees"
+			subtitle: "生长在繁茂至高树上"
 			tasks: [{
 				id: "02411CCB9A670CB6"
 				item: "ars_nouveau:mendosteen_pod"
@@ -786,7 +786,7 @@
 				item: "ars_nouveau:bastion_pod"
 				type: "item"
 			}]
-			subtitle: "Grows on Vexing Archwood Trees"
+			subtitle: "生长在恼人至高树上"
 			tasks: [{
 				id: "7F1152C3C6DB1E4C"
 				item: "ars_nouveau:bastion_pod"
@@ -803,7 +803,7 @@
 				item: "ars_nouveau:frostaya_pod"
 				type: "item"
 			}]
-			subtitle: "Grows on Cascading Archwood Trees"
+			subtitle: "生长在奔流至高树上"
 			tasks: [{
 				id: "385B5632916A124B"
 				item: "ars_nouveau:frostaya_pod"
@@ -820,7 +820,7 @@
 				item: "ars_nouveau:bombegranate_pod"
 				type: "item"
 			}]
-			subtitle: "Grows on Blazing Archwood Trees"
+			subtitle: "生长在烈焰至高树上"
 			tasks: [{
 				id: "4F4A45D16AB7253A"
 				item: "ars_nouveau:bombegranate_pod"
@@ -837,7 +837,7 @@
 				item: "ars_elemental:flashpine_pod"
 				type: "item"
 			}]
-			subtitle: "Grows on Flashing Archwood Trees"
+			subtitle: "生长在闪耀至高树上"
 			tasks: [{
 				id: "2BE78852A6C89877"
 				item: "ars_elemental:flashpine_pod"
@@ -847,7 +847,7 @@
 			y: -5.0d
 		}
 		{
-			description: ["*Break jungle leaves to obtain"]
+			description: ["*破坏丛林树叶以获得"]
 			id: "1E7829D3CF9BF159"
 			rewards: [{
 				count: 3
@@ -855,7 +855,7 @@
 				item: "alexsmobs:banana"
 				type: "item"
 			}]
-			subtitle: "Grows in Jungle biomes*"
+			subtitle: "生长于丛林生物群系*"
 			tasks: [{
 				id: "35382A7F5F558D7C"
 				item: "alexsmobs:banana"
@@ -872,7 +872,7 @@
 				item: "delightful:salmonberries"
 				type: "item"
 			}]
-			subtitle: "Grows in Forest biomes"
+			subtitle: "生长于森林生物群系"
 			tasks: [{
 				id: "6AF82E1BBA4949C4"
 				item: "delightful:salmonberries"
@@ -889,7 +889,7 @@
 				item: "delightful:cantaloupe_slice"
 				type: "item"
 			}]
-			subtitle: "Grows in Beach biomes"
+			subtitle: "生长于沙滩生物群系"
 			tasks: [{
 				id: "0BE1156614DA9D54"
 				item: "delightful:cantaloupe_slice"
@@ -899,9 +899,9 @@
 			y: -3.5d
 		}
 		{
-			description: ["*Ashen saplings can be dug up by a sniffer"]
+			description: ["*苍灰树苗可被嗅探兽挖掘"]
 			id: "7CCBE0074C44F52D"
-			subtitle: "Grows on Ashen Trees*"
+			subtitle: "生长在苍灰树上*"
 			tasks: [{
 				id: "1B23EA7E266F701F"
 				item: "quark:ancient_fruit"
@@ -918,7 +918,7 @@
 				item: "regions_unexplored:hanging_earlight_fruit"
 				type: "item"
 			}]
-			subtitle: "Grows in Blackstone Basins"
+			subtitle: "生长于黑石盆地"
 			tasks: [{
 				id: "44C9F9DCE86B2742"
 				item: "regions_unexplored:hanging_earlight_fruit"
@@ -935,7 +935,7 @@
 				item: "regions_unexplored:duskmelon_slice"
 				type: "item"
 			}]
-			subtitle: "Grows in Ancient Deltas"
+			subtitle: "生长于远古三角洲"
 			tasks: [{
 				id: "756B40497CB7DF07"
 				item: "regions_unexplored:duskmelon_slice"
@@ -945,5 +945,5 @@
 			y: -3.5d
 		}
 	]
-	title: "Farming and Cooking"
+	title: "耕作与烹饪"
 }
