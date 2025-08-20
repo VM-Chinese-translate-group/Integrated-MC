@@ -3,23 +3,263 @@
 	default_quest_shape: ""
 	filename: "storage_solutions"
 	group: "1D344E867FA1E0AF"
-	icon: "minecraft:chest"
 	id: "53B71A917DB2A7AB"
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		description: ["{ftbquests.chapter.storage_solutions.quest1.description1}"]
-		id: "415F16124052EB6C"
-		shape: "gear"
-		size: 2.0d
-		subtitle: "{ftbquests.chapter.storage_solutions.quest1.subtitle}"
-		tasks: [{
-			id: "7B26BCDBA25101F9"
-			title: "{ftbquests.chapter.storage_solutions.quest1.task_+8873987767287218681.title}"
-			type: "checkmark"
-		}]
-		x: 3.5d
-		y: 2.0d
-	}]
+	quests: [		
+			{
+			description: ["你可以直接合成这种箱子，也可以先合成升级部件，再用它右击箱子来完成升级！"]
+			id: "2ED8794FF41FFAF2"
+			min_required_tasks: 1
+			rewards: [{
+				id: "771426C2621BC9DC"
+				item: "ironchest:iron_chest"
+				type: "item"
+			}]
+			subtitle: "开始升级你的箱子吧！"
+			tasks: [
+				{
+					id: "34C412431D848522"
+					item: "ironchest:wood_to_iron_chest_upgrade"
+					type: "item"
+				}
+				{
+					id: "2E1D5FB5C81A2B8E"
+					item: "ironchest:iron_chest"
+					type: "item"
+				}
+			]
+			title: "铁箱子！"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"&b储物抽屉&r可以让玩家在单个方块中存储大量物品。并且&6玩家可以用升级&r提升存储的容量。"
+				""
+				"- &d“右击”&r以存入物品。"
+				"- &d“Shift右击”&r以存入一整组物品。"
+				"- &d“左击”&r以取出物品。"
+				"- &d“Shift左击”&r以取出一整组物品。"
+			]
+			id: "01CE43C88220C4E5"
+			min_required_tasks: 1
+			rewards: [
+				{
+					id: "5B587CDC22E8DBB6"
+					item: "storagedrawers:drawer_key"
+					type: "item"
+				}
+				{
+					id: "7BC39AEA223C696E"
+					item: "storagedrawers:quantify_key"
+					type: "item"
+				}
+				{
+					id: "150BD0AAE1D3A3DA"
+					item: "storagedrawers:shroud_key"
+					type: "item"
+				}
+			]
+			subtitle: "复合存储"
+			tasks: [{
+				consume_items: false
+				id: "6B6F7329A55BFF11"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(storagedrawers:full_drawers)"
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "储物抽屉"
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["01CE43C88220C4E5"]
+			description: ["&b抽屉控制器&r允许多个&b储物抽屉&r连接在一起。存入物品时，只要它们通过其他储物抽屉或者&b控制器拓展&r相连，那就会把它们存放到相关的&b储物抽屉&r中。"]
+			id: "48E0EF1F2751CF84"
+			rewards: [{
+				count: 3
+				id: "07DA82FD45AE4AA9"
+				item: "storagedrawers:iron_storage_upgrade"
+				type: "item"
+			}]
+			subtitle: "Connect multiple Drawers!"
+			tasks: [{
+				id: "4D84C6D8F8180FE0"
+				item: "storagedrawers:controller"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["01CE43C88220C4E5"]
+			description: ["&b升级模板&r是你制作任何&b抽屉升级&r的基础。抽屉升级能够极大地增加&b存储抽屉&r的存储空间，但是需要通过&b动力合成器&r（见“&5机械动力&r”相关章节）来制作。"]
+			id: "5C9F44FEB159AC17"
+			rewards: [{
+				id: "356C98F82F684282"
+				item: "storagedrawers:gold_storage_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D7694F69BD3FF3E"
+				item: "storagedrawers:upgrade_template"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"&b麻布袋&r有9个槽位来容纳物品，在游戏前期你可把它当潜影盒使用。但千万不要太贪婪，因为如果麻布袋携带太多东西，你的移动速度会变慢。"
+				"&7注：麻布袋无法放进背包中。"
+			]
+			id: "433FF7C6C0DB737E"
+			subtitle: "早期游戏的潜影盒！"
+			tasks: [{
+				id: "53DF101D62DBB7BC"
+				item: "supplementaries:sack"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"背包是携带更多物品的好办法。把它们背在背上，然后用&dB&r键打开它们。"
+				""
+				"它们还能装上很多特殊的&b升级组件&r，挑几个你最喜欢的试试！"
+			]
+			id: "315C0F3DA890D9D2"
+			rewards: [{
+				id: "2BA242163EF0E0A9"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			subtitle: "扩大你的物品栏！"
+			tasks: [{
+				id: "44A07882FF88C693"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["315C0F3DA890D9D2"]
+			description: ["可容纳4行物品和2个&b升级&r！"]
+			id: "026063F3AE73F2BD"
+			subtitle: "扩大你的物品栏！"
+			tasks: [{
+				id: "73256B815AD4D84A"
+				item: "sophisticatedbackpacks:copper_backpack"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["026063F3AE73F2BD"]
+			description: ["可容纳5行物品和3个&b升级&r！"]
+			id: "31DB9BD07C46F830"
+			subtitle: "扩大你的物品栏！"
+			tasks: [{
+				id: "1402112109C0E01B"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["31DB9BD07C46F830"]
+			description: ["可容纳6行物品和4个&b升级&r！"]
+			id: "14DFF8E2F8657B3E"
+			subtitle: "扩大你的物品栏！"
+			tasks: [{
+				id: "43C99A8560217F13"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["14DFF8E2F8657B3E"]
+			description: ["可容纳7行物品和5个&b升级&r！"]
+			id: "33F13FAB1384A38C"
+			subtitle: "扩大你的物品栏！"
+			tasks: [{
+				id: "54A93F70CF86E198"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["33F13FAB1384A38C"]
+			description: ["可容纳8行物品和6个&b升级&r！"]
+			id: "7E5E6D13C72F18B0"
+			subtitle: "扩大你的物品栏！"
+			tasks: [{
+				id: "091B8FB37D0F870E"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			id: "1F3478A2758B010B"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "25B692F4A1F3DDDA"
+				title: "仍在制作"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"- 物品栏现在因&eInventorio&r模组而得到了极大的改进！"
+				""
+				"- 你现在有多个额外副手槽！这被称为&b实用腰带&r。你可以设置一个按键绑定（默认&5“鼠标按键4”&r）以滚动切换副手。"
+				""
+				"- 现在，你的物品栏右侧有一列&b工具腰带&r槽位，挖掘方块时会自动使用腰带中的对应工具！&7工具的经验修补魔咒在腰带中同样有效。"
+				"&e注：&a三叉戟&r可以放在&a剑&r对应的槽位中，&c剪刀&r可以放在&c锄&r对应的槽位中。"
+				""
+				"- 新的&b财大气粗&r（Deep Pockets）魔咒可用于护腿。每升一级都会&6增加一行&r物品栏。此外，第一级附魔还会为&b工具腰带&r增加4个额外的槽位。"
+				""
+				"- &b末影箱&r的容量增加了一倍。"
+				"- &b拥有无限魔咒的弓&r不再需要箭。"
+				"- &b不死图腾&r等图腾类物品可以在&b实用腰带&r中生效。"
+			]
+			icon: "minecraft:bundle"
+			id: "0B3E3B6A5D24C13E"
+			rewards: [{
+				id: "1FA9ED1BB2CECE03"
+				item: "minecraft:bundle"
+				type: "item"
+			}]
+			subtitle: "额外物品栏槽位，更实用的副手，还有更多"
+			tasks: [{
+				id: "7EB99878DBD59269"
+				title: "Inventorio"
+				type: "checkmark"
+			}]
+			title: "Inventorio Management"
+			x: 4.0d
+			y: -1.0d
+		}
+	]
 	title: "{ftbquests.chapter.storage_solutions.title}"
 }

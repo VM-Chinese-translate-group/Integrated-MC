@@ -1,5 +1,5 @@
 {
-	autofocus_id: "4C840076783D73B9"
+	autofocus_id: "2713C8F59E5454D3"
 	default_hide_dependency_lines: false
 	default_min_width: 250
 	default_quest_shape: ""
@@ -55,7 +55,7 @@
 			rotation: -90.0d
 			width: 2.0d
 			x: -12.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			height: 3.0d
@@ -63,7 +63,7 @@
 			rotation: 0.0d
 			width: 5.333333333333333d
 			x: -11.5d
-			y: 0.5d
+			y: -0.5d
 		}
 		{
 			height: 3.0d
@@ -71,13 +71,41 @@
 			rotation: 0.0d
 			width: 5.333333333333333d
 			x: -11.5d
-			y: 0.0d
+			y: -1.0d
 		}
 	]
 	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
+		{
+			description: [
+				"&5Integrated Minecraft&6是一款整合包，其核心在于将各种热门的模组整合在一起，以提供更具凝聚力的游戏体验。&r这本任务书旨在引导你上手一些体量较大的模组，并为你指出一些你可能会感兴趣的内容。请继续阅读以了解更多信息！"
+				""
+				"你可能还会注意到，除了本章节外，其他章节都带有一些背景传说故事。你可以随时深入探索这些故事，但如果这不对你的胃口，那么每个章节的&6副标题&r也能让你快速了解其梗概。"
+				""
+				"&b点击下方的任务书图标，以了解更多关于游玩本整合包和完成任务的信息！"
+			]
+			disable_toast: true
+			icon: "supplementaries:regions_unexplored/sign_post_maple"
+			id: "2713C8F59E5454D3"
+			rewards: [{
+				count: 3
+				id: "0D0CAAB307569F1F"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "欢迎游玩Integrated Minecraft"
+			tasks: [{
+				id: "058D02A382D06C87"
+				type: "checkmark"
+			}]
+			title: "点我开始游玩！"
+			x: -2.0d
+			y: 1.0d
+		}
 		{
 			can_repeat: false
 			description: [
@@ -164,7 +192,7 @@
 				title: "{ftbquests.chapter.pack_introduction.quest3.task_+5511206510520305980.title}"
 				type: "checkmark"
 			}]
-			x: -4.5d
+			x: -5.0d
 			y: 3.5d
 		}
 		{
@@ -219,7 +247,7 @@
 				title: "{ftbquests.chapter.pack_introduction.quest5.task_+7625394390672047787.title}"
 				type: "checkmark"
 			}]
-			x: -3.5d
+			x: -4.0d
 			y: 3.5d
 		}
 		{
@@ -542,40 +570,7 @@
 			y: 4.5d
 		}
 		{
-			description: [
-				"{ftbquests.chapter.pack_introduction.quest16.description1}"
-				""
-				"{ftbquests.chapter.pack_introduction.quest16.description2}"
-				""
-				"{ftbquests.chapter.pack_introduction.quest16.description3}"
-				"{ftbquests.chapter.pack_introduction.quest16.description4}"
-				""
-				"{ftbquests.chapter.pack_introduction.quest16.description5}"
-				""
-				"{ftbquests.chapter.pack_introduction.quest16.description6}"
-				"{ftbquests.chapter.pack_introduction.quest16.description7}"
-				"{ftbquests.chapter.pack_introduction.quest16.description8}"
-			]
-			disable_toast: true
-			icon: "minecraft:bundle"
-			id: "19858426E2D2C636"
-			optional: true
-			rewards: [{
-				id: "040EC6B639BD7935"
-				item: "minecraft:bundle"
-				type: "item"
-			}]
-			shape: "pentagon"
-			tasks: [{
-				id: "143B1CBA8DDB1F87"
-				title: "{ftbquests.chapter.pack_introduction.quest16.task_+1457790491953930119.title}"
-				type: "checkmark"
-			}]
-			title: "{ftbquests.chapter.pack_introduction.quest16.title}"
-			x: -5.5d
-			y: 3.5d
-		}
-		{
+			dependencies: ["2713C8F59E5454D3"]
 			description: [
 				"{ftbquests.chapter.pack_introduction.quest17.description1}"
 				""
@@ -607,15 +602,15 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			size: 2.3d
+			size: 1.3d
 			subtitle: "{ftbquests.chapter.pack_introduction.quest17.subtitle}"
 			tasks: [{
 				id: "489D3DAC74C9AB66"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.pack_introduction.quest17.title}"
-			x: -1.9500000000000002d
-			y: 1.9500000000000002d
+			title: "任务"
+			x: -2.0d
+			y: 2.6d
 		}
 		{
 			description: [
@@ -663,7 +658,7 @@
 				title: "{ftbquests.chapter.pack_introduction.quest20.task_+3955716225458073115.title}"
 				type: "checkmark"
 			}]
-			x: -1.0d
+			x: -0.5d
 			y: 4.5d
 		}
 		{
@@ -680,7 +675,7 @@
 				title: "{ftbquests.chapter.pack_introduction.quest21.task_+8816324393533981386.title}"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 4.5d
 		}
 		{
@@ -697,8 +692,6 @@
 		{
 			description: [
 				"{ftbquests.chapter.pack_introduction.quest23.description1}"
-				""
-				"{ftbquests.chapter.pack_introduction.quest23.description2}"
 			]
 			id: "252BFDFCE0877B3C"
 			tasks: [{
@@ -717,7 +710,7 @@
 				title: "{ftbquests.chapter.pack_introduction.quest24.task_+6915645510567300299.title}"
 				type: "checkmark"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: 4.5d
 		}
 		{
@@ -751,7 +744,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.pack_introduction.quest25.title}"
-			x: 5.5d
+			x: 6.0d
 			y: 4.5d
 		}
 		{
@@ -785,53 +778,7 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.pack_introduction.quest26.title}"
-			x: 4.5d
-			y: 4.5d
-		}
-		{
-			description: ["{ftbquests.chapter.pack_introduction.quest27.description1}"]
-			id: "4866658D4A0B889A"
-			tasks: [{
-				id: "18576AE1475E06B6"
-				title: "{ftbquests.chapter.pack_introduction.quest27.task_+1753988095681627830.title}"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: 4.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["16B12A291E165ECE"]
-			description: [
-				"{ftbquests.chapter.pack_introduction.quest28.description1}"
-				""
-				"{ftbquests.chapter.pack_introduction.quest28.description1}"
-			]
-			hide_until_deps_complete: false
-			icon: {
-				Count: 1
-				id: "hexerei:book_of_shadows"
-				tag: { }
-			}
-			id: "677C2474F5BD8C64"
-			optional: true
-			rewards: [{
-				id: "48B93D8D0AF9A5DF"
-				item: {
-					Count: 1
-					id: "hexerei:book_of_shadows"
-					tag: { }
-				}
-				type: "item"
-			}]
-			shape: "rsquare"
-			subtitle: "{ftbquests.chapter.pack_introduction.quest28.subtitle}"
-			tasks: [{
-				id: "4CEF3579C34E62EF"
-				type: "checkmark"
-			}]
-			title: "{ftbquests.chapter.pack_introduction.quest28.title}"
-			x: 6.5d
+			x: 5.0d
 			y: 4.5d
 		}
 	]

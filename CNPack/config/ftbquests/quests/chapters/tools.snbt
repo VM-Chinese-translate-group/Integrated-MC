@@ -10,27 +10,6 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.tools.quest1.description1}"
-				""
-				"{ftbquests.chapter.tools.quest1.description2}"
-			]
-			id: "016934946D35435A"
-			rewards: [{
-				id: "3709C3246E30C613"
-				item: "sophisticatedbackpacks:upgrade_base"
-				type: "item"
-			}]
-			subtitle: "{ftbquests.chapter.tools.quest1.subtitle}"
-			tasks: [{
-				id: "4147C66D93E17BBD"
-				item: "sophisticatedbackpacks:backpack"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -2.0d
-		}
-		{
-			description: [
 				"{ftbquests.chapter.tools.quest2.description1}"
 				""
 				"{ftbquests.chapter.tools.quest2.description2}"
@@ -48,426 +27,8 @@
 				item: "bountiful:bountyboard"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["016934946D35435A"]
-			description: ["{ftbquests.chapter.tools.quest3.description1}"]
-			id: "4304E3AD68B94345"
-			subtitle: "{ftbquests.chapter.tools.quest3.subtitle}"
-			tasks: [{
-				id: "5ADFB5D39D40D9BA"
-				item: "sophisticatedbackpacks:copper_backpack"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["4304E3AD68B94345"]
-			description: ["{ftbquests.chapter.tools.quest4.description1}"]
-			id: "6ADD9600A6172CF7"
-			subtitle: "{ftbquests.chapter.tools.quest4.subtitle}"
-			tasks: [{
-				id: "4CC9CE8A858945AF"
-				item: "sophisticatedbackpacks:iron_backpack"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6ADD9600A6172CF7"]
-			description: ["{ftbquests.chapter.tools.quest5.description1}"]
-			id: "38E11C348CFD8239"
-			subtitle: "{ftbquests.chapter.tools.quest5.subtitle}"
-			tasks: [{
-				id: "12E5D62928DF041C"
-				item: "sophisticatedbackpacks:gold_backpack"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["38E11C348CFD8239"]
-			description: ["{ftbquests.chapter.tools.quest6.description1}"]
-			id: "0A2D086772C35D7E"
-			subtitle: "{ftbquests.chapter.tools.quest6.subtitle}"
-			tasks: [{
-				id: "5C35AC39C9E0BE46"
-				item: "sophisticatedbackpacks:diamond_backpack"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["0A2D086772C35D7E"]
-			description: ["{ftbquests.chapter.tools.quest7.description1}"]
-			id: "5D5B790F573BDDFC"
-			subtitle: "{ftbquests.chapter.tools.quest7.subtitle}"
-			tasks: [{
-				id: "6629A268F6E92863"
-				item: "sophisticatedbackpacks:netherite_backpack"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 3.0d
-		}
-		{
-			description: [
-				"{ftbquests.chapter.tools.quest8.description1}"
-				""
-				"{ftbquests.chapter.tools.quest8.description2}"
-				"{ftbquests.chapter.tools.quest8.description3}"
-				""
-				"{ftbquests.chapter.tools.quest8.description4}"
-				""
-				"{ftbquests.chapter.tools.quest8.description5}"
-			]
-			id: "43754E858501D502"
-			rewards: [{
-				count: 5
-				id: "49F8E5795685718E"
-				item: "minecraft:chicken"
-				type: "item"
-			}]
-			subtitle: "{ftbquests.chapter.tools.quest8.subtitle}"
-			tasks: [
-				{
-					id: "51883C98432E0EC4"
-					item: "farmersdelight:cutting_board"
-					type: "item"
-				}
-				{
-					id: "59897884A294235C"
-					item: {
-						Count: 1
-						id: "farmersdelight:iron_knife"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: 1.0d
-			y: -1.5d
-		}
-		{
-			description: ["{ftbquests.chapter.tools.quest9.description1}"]
-			id: "44F51A6260C8CC34"
-			rewards: [
-				{
-					id: "46017A55A941A74E"
-					item: "minecraft:lead"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6E2664002D3FB739"
-					table_id: 1030506019370660012L
-					type: "random"
-				}
-			]
-			subtitle: "{ftbquests.chapter.tools.quest9.subtitle}"
-			tasks: [{
-				id: "68D1DE691A2C19A1"
-				item: "supplementaries:cage"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -1.0d
-		}
-		{
-			description: [
-				"{ftbquests.chapter.tools.quest10.description1}"
-				""
-				"{ftbquests.chapter.tools.quest10.description2}"
-				""
-				"{ftbquests.chapter.tools.quest10.description3}"
-			]
-			id: "5850D59D0073A81E"
-			rewards: [
-				{
-					count: 10
-					id: "3D9DE40872473001"
-					item: "minecraft:polished_deepslate"
-					type: "item"
-				}
-				{
-					count: 10
-					id: "5F63912951C7E775"
-					item: "minecraft:polished_andesite"
-					type: "item"
-				}
-				{
-					count: 10
-					id: "7B15C8AC9A9356F1"
-					item: "minecraft:polished_granite"
-					type: "item"
-				}
-				{
-					count: 10
-					id: "7DB22CF3EA95500C"
-					item: "quark:polished_calcite"
-					type: "item"
-				}
-				{
-					count: 10
-					id: "6E9A57E125AF7695"
-					item: "minecraft:polished_diorite"
-					type: "item"
-				}
-				{
-					count: 10
-					id: "5BA352ABB8866AB8"
-					item: "quark:polished_limestone"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7B4977E140E9BCD9"
-					table_id: 3891788239355830357L
-					type: "choice"
-				}
-			]
-			subtitle: "{ftbquests.chapter.tools.quest10.subtitle}"
-			tasks: [
-				{
-					id: "49B2DE30022E3DD6"
-					item: "quark:abacus"
-					type: "item"
-				}
-				{
-					id: "4A5FCCF7A30A942D"
-					item: "quark:trowel"
-					type: "item"
-				}
-				{
-					id: "783F086C0AE079D8"
-					item: "sawmill:sawmill"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.tools.quest10.title}"
-			x: 1.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["43754E858501D502"]
-			description: [
-				"{ftbquests.chapter.tools.quest11.description1}"
-				""
-				"{ftbquests.chapter.tools.quest11.description2}"
-			]
-			id: "5342670AA8821220"
-			rewards: [
-				{
-					count: 5
-					id: "77935516A9DE6BB8"
-					item: "minecraft:coal"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "386893FDD7F84EA1"
-					table_id: 1030506019370660012L
-					type: "random"
-				}
-			]
-			tasks: [{
-				id: "16189482214DA712"
-				item: "farmersdelight:cooking_pot"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["5342670AA8821220"]
-			description: ["{ftbquests.chapter.tools.quest12.description1}"]
-			id: "2AA580C449FFFACF"
-			rewards: [
-				{
-					count: 5
-					id: "4EDF5982471A20C9"
-					item: "minecraft:cooked_beef"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5D0709ED4D548AB8"
-					table_id: 9108404116502109620L
-					type: "random"
-				}
-			]
-			subtitle: "{ftbquests.chapter.tools.quest12.subtitle}"
-			tasks: [{
-				advancement: "farmersdelight:main/eat_nourishing_food"
-				criterion: ""
-				id: "2E08CCF691BD23F8"
-				type: "advancement"
-			}]
-			title: "{ftbquests.chapter.tools.quest12.title}"
-			x: 0.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["5342670AA8821220"]
-			description: ["{ftbquests.chapter.tools.quest13.description1}"]
-			id: "1D3D89732504F4A8"
-			rewards: [
-				{
-					count: 5
-					id: "57208ABBF2EFBD0C"
-					item: "minecraft:cooked_beef"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "21DB5E9C595A1A00"
-					table_id: 9108404116502109620L
-					type: "random"
-				}
-			]
-			subtitle: "{ftbquests.chapter.tools.quest13.subtitle}"
-			tasks: [{
-				advancement: "farmersdelight:main/eat_comfort_food"
-				criterion: ""
-				id: "1B50DFD838D27BAD"
-				type: "advancement"
-			}]
-			title: "{ftbquests.chapter.tools.quest13.title}"
-			x: 1.5d
-			y: -3.5d
-		}
-		{
-			description: ["{ftbquests.chapter.tools.quest14.description1}"]
-			id: "3C9FA7F2B8517E28"
-			rewards: [
-				{
-					count: 5
-					id: "5002ED04D314B49C"
-					item: "minecraft:wheat"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1A932FC1A866D8EF"
-					table_id: 1030506019370660012L
-					type: "random"
-				}
-			]
-			subtitle: "{ftbquests.chapter.tools.quest14.subtitle}"
-			tasks: [{
-				id: "41E9537BAFFE06D8"
-				item: "quark:feeding_trough"
-				type: "item"
-			}]
-			x: -2.5d
-			y: 1.0d
-		}
-		{
-			description: ["{ftbquests.chapter.tools.quest15.description1}"]
-			id: "479A621DF64E62EA"
-			rewards: [{
-				id: "613172E9C5CC530C"
-				item: "quark:seed_pouch"
-				type: "item"
-			}]
-			subtitle: "{ftbquests.chapter.tools.quest15.subtitle}"
-			tasks: [{
-				id: "35096574B379FE49"
-				item: "solcarrot:food_book"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			description: [
-				"{ftbquests.chapter.tools.quest16.description1}"
-				""
-				"{ftbquests.chapter.tools.quest16.description2}"
-				"{ftbquests.chapter.tools.quest16.description3}"
-				"{ftbquests.chapter.tools.quest16.description4}"
-				"{ftbquests.chapter.tools.quest16.description5}"
-			]
-			id: "1960B5A8EDED7D73"
-			min_required_tasks: 1
-			rewards: [
-				{
-					id: "5B7DF0F61660F04F"
-					item: "storagedrawers:drawer_key"
-					type: "item"
-				}
-				{
-					id: "31CB4051838B93F3"
-					item: "storagedrawers:quantify_key"
-					type: "item"
-				}
-				{
-					id: "55B3535E80B1BC68"
-					item: "storagedrawers:shroud_key"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.tools.quest16.subtitle}"
-			tasks: [{
-				consume_items: false
-				id: "29B46505F639F2BD"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "item_tag(storagedrawers:full_drawers)"
-					}
-				}
-				match_nbt: false
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.tools.quest16.title}"
-			x: 2.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["1960B5A8EDED7D73"]
-			description: ["{ftbquests.chapter.tools.quest17.description1}"]
-			id: "280398BC0590E878"
-			rewards: [{
-				count: 3
-				id: "28287F1D09885A2B"
-				item: "storagedrawers:iron_storage_upgrade"
-				type: "item"
-			}]
-			subtitle: "{ftbquests.chapter.tools.quest17.subtitle}"
-			tasks: [{
-				id: "0EB82E4269B01C1C"
-				item: "storagedrawers:controller"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["1960B5A8EDED7D73"]
-			description: ["{ftbquests.chapter.tools.quest18.description1}"]
-			id: "2072EFE734B3DB11"
-			rewards: [{
-				id: "403DF0C4356D334F"
-				item: "storagedrawers:gold_storage_upgrade"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5999FC9CE1BD6989"
-				item: "storagedrawers:upgrade_template"
-				type: "item"
-			}]
 			x: 2.5d
-			y: 3.5d
+			y: 0.5d
 		}
 		{
 			description: [
@@ -513,8 +74,8 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: 1.0d
+			x: 1.0d
+			y: -1.0d
 		}
 		{
 			description: ["{ftbquests.chapter.tools.quest20.description1}"]
@@ -541,8 +102,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: 0.0d
+			x: 2.0d
+			y: -1.0d
 		}
 		{
 			description: [
@@ -563,14 +124,11 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			description: [
 				"{ftbquests.chapter.tools.quest22.description1}"
-				""
-				"{ftbquests.chapter.tools.quest22.description2}"
-				"{ftbquests.chapter.tools.quest22.description3}"
 			]
 			id: "405E55B7AF63B20A"
 			rewards: [{
@@ -579,49 +137,15 @@
 				table_id: 1030506019370660012L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.tools.quest22.subtitle}"
-			tasks: [
-				{
-					id: "6E292FDD97D75AA0"
-					item: "upgrade_aquatic:bedroll"
-					type: "item"
-				}
-				{
-					id: "15B6852D4541AB01"
-					item: "supplementaries:sack"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.tools.quest22.title}"
-			x: 3.0d
-			y: 1.0d
-		}
-		{
-			description: [
-				"{ftbquests.chapter.tools.quest23.description1}"
-				""
-				"{ftbquests.chapter.tools.quest23.description2}"
-			]
-			id: "107FDD2B4822C31F"
-			rewards: [{
-				id: "123B6ED05B4880C4"
-				item: "redeco:oak_chair"
-				type: "item"
-			}]
-			subtitle: "{ftbquests.chapter.tools.quest23.subtitle}"
+			subtitle: "宾至如归！"
 			tasks: [{
-				id: "391AF375149BEC48"
-				item: {
-					Count: 1
-					id: "redeco:hammer"
-					tag: {
-						Damage: 0
-					}
-				}
+				id: "6E292FDD97D75AA0"
+				item: "upgrade_aquatic:bedroll"
 				type: "item"
 			}]
+			title: "睡袋"
 			x: 3.0d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			description: [
@@ -685,8 +209,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.tools.quest24.title}"
-			x: -2.5d
-			y: 0.0d
+			x: 3.0d
+			y: -1.0d
 		}
 		{
 			description: [
@@ -716,8 +240,8 @@
 				title: "{ftbquests.chapter.tools.quest25.task_+5713286136846047154.title}"
 				type: "checkmark"
 			}]
-			x: 2.0d
-			y: 1.0d
+			x: 4.0d
+			y: 2.0d
 		}
 		{
 			description: [
@@ -750,57 +274,47 @@
 				}
 			]
 			title: "{ftbquests.chapter.tools.quest26.title}"
-			x: -2.5d
+			x: 1.0d
 			y: 2.0d
 		}
 		{
-			description: ["{ftbquests.chapter.tools.quest27.description1}"]
-			id: "0AC0E2000C2C3D08"
-			min_required_tasks: 1
-			rewards: [{
-				id: "4546D441ABAB8901"
-				item: "ironchest:iron_chest"
-				type: "item"
-			}]
-			subtitle: "{ftbquests.chapter.tools.quest27.subtitle}"
-			tasks: [
-				{
-					id: "133E7D5894653301"
-					item: "ironchest:wood_to_iron_chest_upgrade"
-					type: "item"
-				}
-				{
-					id: "411EC86283594E0D"
-					item: "ironchest:iron_chest"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.tools.quest27.title}"
-			x: 0.0d
-			y: 2.5d
-		}
-		{
-			description: [
-				"{ftbquests.chapter.tools.quest28.description1}"
-				""
-				"{ftbquests.chapter.tools.quest28.description2}"
-			]
-			id: "1E5F0485CDE00C6D"
+			description: ["给斧头附上&b电锯&r魔咒，你就能一次性砍倒一整棵树！破坏树干的任意一节原木，其上方所有相连的部分都会被一并砍下。"]
+			id: "6FC0ACDECC489CF1"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "0CADF2D24AAC151E"
-				table_id: 5073878219004838248L
+				id: "6A4D00503CB02EDD"
+				table_id: 3891788239355830357L
 				type: "choice"
 			}]
-			subtitle: "{ftbquests.chapter.tools.quest28.subtitle}"
 			tasks: [{
-				id: "5B9E07CE94BBDE3A"
-				item: "domesticationinnovation:collar_tag"
+				id: "6B370C759E5B4783"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "apotheosis:chainsaw"
+							lvl: 1s
+						}]
+					}
+				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.tools.quest28.title}"
-			x: 0.0d
-			y: 1.0d
+			title: "砍树"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "15625425098F66D6"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "373FE2D603910786"
+				title: "仍在制作"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -3.5d
 		}
 	]
 	title: "{ftbquests.chapter.tools.title}"

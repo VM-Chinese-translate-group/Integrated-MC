@@ -2415,6 +2415,16 @@
 					item: "caverns_and_chasms:music_disc_epilogue"
 					type: "item"
 				}
+				{
+					id: "26A44753F1B262C3"
+					item: "traveloptics:music_disc_nightwarden"
+					type: "item"
+				}
+				{
+					id: "2F6ED356A016557C"
+					item: "cataclysm:music_disc_scylla"
+					type: "item"
+				}
 			]
 			title: "{ftbquests.chapter.collections.quest6.title}"
 			x: -0.5d

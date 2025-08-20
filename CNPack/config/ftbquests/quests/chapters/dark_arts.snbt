@@ -13,6 +13,8 @@
 				"{ftbquests.chapter.dark_arts.quest1.description1}"
 				""
 				"{ftbquests.chapter.dark_arts.quest1.description2}"
+				""
+				"&6你必须用锻工锤与锻炉以开启每个仪式。"
 				"{@pagebreak}"
 				"{ftbquests.chapter.dark_arts.quest1.description3}"
 				""
@@ -108,6 +110,18 @@
 					count: 8L
 					id: "438B0FCB6CC599E8"
 					item: "forbidden_arcanus:darkstone_pedestal"
+					type: "item"
+				}
+				{
+					id: "5EC4C63EA8D61AC6"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item_tag(forbidden_arcanus:blacksmith_gavel))"
+						}
+					}
+					title: "锻锤"
 					type: "item"
 				}
 			]

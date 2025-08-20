@@ -1,0 +1,14 @@
+{
+	id: "375B47432B64AE25"
+	loot_size: 1
+	order_index: 34
+	rewards: [
+		{ count: 5, item: "minecraft:wheat_seeds" }
+		{ count: 5, item: "minecraft:beetroot_seeds" }
+		{ count: 5, item: "supplementaries:flax_seeds" }
+		{ count: 5, item: "hexerei:sage_seed" }
+		{ count: 5, item: "farmersdelight:cabbage_seeds" }
+		{ count: 5, item: "farmersdelight:tomato_seeds" }
+	]
+	title: "种子"
+}

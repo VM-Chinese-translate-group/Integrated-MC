@@ -773,14 +773,6 @@
 					value: 1L
 				}
 				{
-					entity: "cataclysm:coral_golem"
-					icon: "cataclysm:crystallized_coral"
-					id: "0E0FF072ED4F3EB6"
-					title: "{ftbquests.chapter.boss_codex.quest23.task_+1013292817579982518.title}"
-					type: "kill"
-					value: 1L
-				}
-				{
 					entity: "cataclysm:coralssus"
 					icon: "cataclysm:coral_chunk"
 					id: "6313660024EE6AE0"
@@ -975,8 +967,8 @@
 					value: 1L
 				}
 			]
-			x: 14.0d
-			y: -7.0d
+			x: 21.0d
+			y: -5.5d
 		}
 		{
 			description: [
@@ -1467,7 +1459,8 @@
 				type: "random"
 			}]
 			tasks: [{
-				entity: "legendary_monsters:dark_cloud_golem"
+				advancement: "legendary_monsters:defeat_cloud_golem"
+				criterion: ""
 				icon: {
 					Count: 1
 					id: "legendary_monsters:wand_of_clouds"
@@ -1475,10 +1468,9 @@
 						Damage: 0
 					}
 				}
-				id: "1B02F33F768A46DB"
+				id: "511C4756E6751AAB"
 				title: "{ftbquests.chapter.boss_codex.quest45.task_+1946385442874738395.title}"
-				type: "kill"
-				value: 1L
+				type: "advancement"
 			}]
 			x: 14.0d
 			y: -5.5d
@@ -1675,12 +1667,12 @@
 				type: "random"
 			}]
 			tasks: [{
-				entity: "legendary_monsters:dune_sentinel"
+				advancement: "legendary_monsters:defeat_dune_sentinel"
+				criterion: ""
 				icon: "legendary_monsters:crystal_of_sandstorm"
-				id: "233851C3A8D2F847"
+				id: "36FF72A5D76F06E2"
 				title: "{ftbquests.chapter.boss_codex.quest53.task_+2537868290816145479.title}"
-				type: "kill"
-				value: 1L
+				type: "advancement"
 			}]
 			x: 0.5d
 			y: -5.5d
@@ -1737,6 +1729,69 @@
 				value: 1L
 			}]
 			x: -1.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"关于&5夜巡者&r，我们知之甚少。只知道他曾是一位与世无争的法师，在试图寻找他所失去之人时，不幸被困于混沌的位面夹缝之中。他的身体被妥善保管在&9虚空大教堂&r，或许在那里，你能找到更多关于他的信息，以及与他战斗的线索……"
+				"{@pagebreak}"
+				"夜巡者位于&5末地&r维度的&9虚空大教堂&r中。使用&6虚无之眼&r来定位这座建筑。手持万痛棘刺右击那个幽影般的身影即可将他唤醒。"
+			]
+			id: "3C786EE238E73E80"
+			rewards: [{
+				id: "57518FA9223B4F39"
+				table_id: 7764861743028037075L
+				team_reward: true
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "traveloptics:the_nightwarden"
+				icon: "traveloptics:eye_of_nothingness"
+				id: "40659397CD292AC1"
+				title: "&c★★★★☆ 夜巡者！"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"&3斯库拉&r诞生于沧海与穹空的激烈冲突之间，是这两者的共同产物。她驾驭着水与雷电的力量，摧毁一切胆敢闯入其家园——一座由锚链固定于海面之上、悬浮于空中的&b卫城&r——的入侵者。许多历史学家相信，正是关于&3斯库拉&r的传说，启发了诸如&3科妮莉亚船长&r这样声名狼藉的航海家们踏上征途。"
+				"{@pagebreak}"
+				"斯库拉的锚形武器霆浪锚戟位于&2主世界&r的卫城顶部。用这把锚右击即可将她唤醒。可使用&6沙暴之眼&r来定位卫城。"
+			]
+			icon: "cataclysm:storm_eye"
+			id: "2C68C07B2D834C8C"
+			rewards: [{
+				id: "25094FCF7898FF05"
+				table_id: 7764861743028037075L
+				team_reward: true
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					entity: "cataclysm:scylla"
+					icon: "cataclysm:storm_eye"
+					id: "11187E7D43AD43EC"
+					title: "&4★★★★★ 斯库拉！"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:clawdian"
+					icon: "cataclysm:chitin_claw"
+					id: "29B4F112847EADEA"
+					title: "&7巨钳守卫（小Boss）"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 22.5d
 			y: -5.5d
 		}
 	]
