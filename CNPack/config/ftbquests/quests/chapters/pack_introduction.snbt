@@ -783,9 +783,9 @@
 		}
 		{
 			description: [
-				"Celebrate &6Halloween&r with Integrated Minecraft! To participate in even more festivites, check out the &4Born in Chaos&r mod's wiki! It was originally created to celebrate Halloween. If you succeed in this quest, you will have access to a couple of items usually locked behind further game progression."
+				"{ftbquests.chapter.pack_introduction.quest27.description0}"
 				""
-				"&7NOTE: Quests Additions occasionally causes a crash when the player attempts certain tasks. One such task is used for Carving the Giant Pumpkin. If you do not want to tempt fate, you can skip that task as only 6 out of 7 tasks are required to complete the quest."
+				"{ftbquests.chapter.pack_introduction.quest27.description2}"
 			]
 			icon: "minecraft:carved_pumpkin"
 			id: "39A16FE4611C390A"
@@ -810,27 +810,27 @@
 			]
 			shape: "square"
 			size: 2.0d
-			subtitle: "Trick or Treat!"
+			subtitle: "{ftbquests.chapter.pack_introduction.quest27.subtitle}"
 			tasks: [
 				{
 					icon: "legendary_monsters:eye_of_ghost"
 					id: "6A55B26D89742A35"
 					structure: "idas:haunted_manor"
-					title: "Visit a Haunted (Manor) House"
+					title: "{ftbquests.chapter.pack_introduction.quest27.task0.title}"
 					type: "structure"
 				}
 				{
 					count: 32L
 					id: "2127E4C83A92C731"
 					item: { Count: 32, id: "supplementaries:candy" }
-					title: "Eat Way Too Much Candy"
+					title: "{ftbquests.chapter.pack_introduction.quest27.task1.title}"
 					type: "item"
 				}
 				{
 					id: "29F499D8EC1AF7D0"
 					item: "autumnity:pumpkin_bread"
 					only_from_crafting: true
-					title: "Bake Some Pumpkin Bread"
+					title: "{ftbquests.chapter.pack_introduction.quest27.task2.title}"
 					type: "item"
 				}
 				{
@@ -844,7 +844,7 @@
 					id: "2D5909C51DCC2A6A"
 					observe_type: 5
 					timer: 20L
-					title: "Observe a Witch in her Natural Habitat"
+					title: "{ftbquests.chapter.pack_introduction.quest27.task3.title}"
 					to_observe: "minecraft:witch"
 					type: "observation"
 				}
@@ -852,7 +852,7 @@
 					id: "065A3932E9EADC65"
 					item: "minecraft:jack_o_lantern"
 					only_from_crafting: true
-					title: "Craft a Jack o'Lantern"
+					title: "{ftbquests.chapter.pack_introduction.quest27.task4.title}"
 					type: "item"
 				}
 				{
@@ -869,7 +869,7 @@
 							Damage: 0
 						}
 					}
-					title: "Carve a Giant Pumpkin"
+					title: "{ftbquests.chapter.pack_introduction.quest27.task5.title}"
 					type: "questsadditions:use"
 					value: 4L
 				}
@@ -877,11 +877,11 @@
 					biome: "autumnity:pumpkin_fields"
 					icon: "autumnity:orange_maple_sapling"
 					id: "3350B98C9ADC5F9D"
-					title: "Visit a Pumpkin Patch (Pumpkin Fields Biome)"
+					title: "{ftbquests.chapter.pack_introduction.quest27.task6.title}"
 					type: "biome"
 				}
 			]
-			title: "&6&lLIMITED TIME HALLOWEEN QUEST"
+			title: "{ftbquests.chapter.pack_introduction.quest27.title}"
 			x: -2.0d
 			y: 6.0d
 		}
