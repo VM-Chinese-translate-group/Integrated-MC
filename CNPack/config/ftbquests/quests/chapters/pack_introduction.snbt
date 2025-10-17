@@ -781,6 +781,110 @@
 			x: 5.0d
 			y: 4.5d
 		}
+		{
+			description: [
+				"Celebrate &6Halloween&r with Integrated Minecraft! To participate in even more festivites, check out the &4Born in Chaos&r mod's wiki! It was originally created to celebrate Halloween. If you succeed in this quest, you will have access to a couple of items usually locked behind further game progression."
+				""
+				"&7NOTE: Quests Additions occasionally causes a crash when the player attempts certain tasks. One such task is used for Carving the Giant Pumpkin. If you do not want to tempt fate, you can skip that task as only 6 out of 7 tasks are required to complete the quest."
+			]
+			icon: "minecraft:carved_pumpkin"
+			id: "39A16FE4611C390A"
+			min_required_tasks: 6
+			rewards: [
+				{
+					id: "47A0FE34AAEEA47B"
+					item: "born_in_chaos_v1:bagof_candy"
+					type: "item"
+				}
+				{
+					id: "770A1CE41975B240"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:sweet_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			subtitle: "Trick or Treat!"
+			tasks: [
+				{
+					icon: "legendary_monsters:eye_of_ghost"
+					id: "6A55B26D89742A35"
+					structure: "idas:haunted_manor"
+					title: "Visit a Haunted (Manor) House"
+					type: "structure"
+				}
+				{
+					count: 32L
+					id: "2127E4C83A92C731"
+					item: { Count: 32, id: "supplementaries:candy" }
+					title: "Eat Way Too Much Candy"
+					type: "item"
+				}
+				{
+					id: "29F499D8EC1AF7D0"
+					item: "autumnity:pumpkin_bread"
+					only_from_crafting: true
+					title: "Bake Some Pumpkin Bread"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "hexerei:witch_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2D5909C51DCC2A6A"
+					observe_type: 5
+					timer: 20L
+					title: "Observe a Witch in her Natural Habitat"
+					to_observe: "minecraft:witch"
+					type: "observation"
+				}
+				{
+					id: "065A3932E9EADC65"
+					item: "minecraft:jack_o_lantern"
+					only_from_crafting: true
+					title: "Craft a Jack o'Lantern"
+					type: "item"
+				}
+				{
+					block: "autumnity:large_pumpkin_slice"
+					block_type: 0
+					checkItem: false
+					icon: "minecraft:carved_pumpkin"
+					id: "61C75141501F7BEB"
+					isItemInteraction: false
+					item: {
+						Count: 1
+						id: "minecraft:shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Carve a Giant Pumpkin"
+					type: "questsadditions:use"
+					value: 4L
+				}
+				{
+					biome: "autumnity:pumpkin_fields"
+					icon: "autumnity:orange_maple_sapling"
+					id: "3350B98C9ADC5F9D"
+					title: "Visit a Pumpkin Patch (Pumpkin Fields Biome)"
+					type: "biome"
+				}
+			]
+			title: "&6&lLIMITED TIME HALLOWEEN QUEST"
+			x: -2.0d
+			y: 6.0d
+		}
 	]
 	title: "{ftbquests.chapter.pack_introduction.title}"
 }
