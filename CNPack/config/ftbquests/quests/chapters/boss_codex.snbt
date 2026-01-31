@@ -154,8 +154,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.5d
-			y: -8.5d
+			x: 11.5d
+			y: -4.0d
 		}
 		{
 			description: ["{ftbquests.chapter.boss_codex.quest3.description1}"]
@@ -365,8 +365,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 3.0d
-			y: -7.0d
+			x: 6.0d
+			y: -8.5d
 		}
 		{
 			description: [
@@ -445,7 +445,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 6.0d
+			x: 4.5d
 			y: -7.0d
 		}
 		{
@@ -607,7 +607,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.5d
+			x: 3.0d
 			y: -5.5d
 		}
 		{
@@ -633,7 +633,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.5d
+			x: 3.0d
 			y: -7.0d
 		}
 		{
@@ -1057,7 +1057,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 6.0d
+			x: 4.5d
 			y: -8.5d
 		}
 		{
@@ -1166,8 +1166,8 @@
 				title: "{ftbquests.chapter.boss_codex.quest34.task_+2655219424698473926.title}"
 				type: "advancement"
 			}]
-			x: 3.0d
-			y: -5.5d
+			x: 6.0d
+			y: -7.0d
 		}
 		{
 			description: [
@@ -1418,7 +1418,7 @@
 				title: "{ftbquests.chapter.boss_codex.quest43.task_+5153211233704959638.title}"
 				type: "advancement"
 			}]
-			x: 6.0d
+			x: 4.5d
 			y: -5.5d
 		}
 		{
@@ -1529,7 +1529,7 @@
 				value: 1L
 			}]
 			x: 6.0d
-			y: -4.0d
+			y: -5.5d
 		}
 		{
 			description: [
@@ -1793,6 +1793,34 @@
 			]
 			x: 22.5d
 			y: -5.5d
+		}
+		{
+			description: [
+				"关于&6提洛斯回响&r的记载寥寥无几，只知其生前曾是名为&c原初受火者&r的传奇炼火师。提洛斯生前追求对火焰的极致掌控，坚信烈焰乃是魔法最纯粹的体现。即便肉身湮灭，其意志仍长燃不熄，化作一道强力回响，永世禁锢于他亲手开创的炼狱之中。其狂怒与魔力至今萦绕不散，考验着每一位胆敢挑战烈焰传承的勇士。"
+				""
+				"{@pagebreak}"
+				""
+				"&6提洛斯回响&r蛰伏于深藏在世界极深处的焦土要塞——&c狱火城堡&r。若欲唤醒残响，须登顶堡垒之巅，并在仪式祭坛上使用&6寻魂烬铃&r。唯有经受住烈火焚身之苦的强者，方能平息提洛斯的余响，夺取这位初代火焰大师遗留的珍贵馈赠。"
+			]
+			id: "394E9F83FB77E302"
+			rewards: [{
+				id: "09D03971AEA1EE51"
+				table_id: 7764861743028037075L
+				team_reward: true
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				entity: "irons_spellbooks:fire_boss"
+				icon: "irons_spellbooks:cinderous_soulcaller"
+				id: "20EA6BD76E50C846"
+				title: "&c★★★★☆ 提洛斯回响"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.5d
+			y: -4.0d
 		}
 	]
 	title: "{ftbquests.chapter.boss_codex.title}"
