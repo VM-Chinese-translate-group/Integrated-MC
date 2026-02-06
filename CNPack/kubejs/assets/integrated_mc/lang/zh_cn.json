@@ -2599,7 +2599,7 @@
     "ftbquests.chapter.tools.quest14.description1":"&b饲料槽&r是一种存储方块，动物会自动从中进食。&6若存储有足够多的食物，动物可能会自行繁殖！&r",
     "ftbquests.chapter.tools.quest14.subtitle":"自动喂养动物！",
     "ftbquests.chapter.tools.quest15.description1":"品尝不同的食物能解锁额外的生命值！&6只有恢复饥饿值超过6点（相当于3根鸡腿）的食物才能提供&r额外生命值。&6每品尝10种不同的达标食物&r，你就会获得一颗心，最多可拥有20颗心（包括基础生命和额外生命），这相当于你初始生命值的两倍！&e生活调味料：胡萝卜版&r的&b食物手册&r会追踪你目前的进度。试着把本整合包提供的食物都尝一遍吧！",
-    "ftbquests.chapter.tools.quest15.subtitle":"通过食用未品尝的过食物来获得额外的生命值！",
+    "ftbquests.chapter.tools.quest15.subtitle":"通过食用未品尝过的食物来获得额外的生命值！",
     "ftbquests.chapter.tools.quest16.description1":"&b储物抽屉&r允许玩家在一个方块中存储许多物品。此外，&6它们也可以进行多次升级&r，以大大提高存储容量。",
     "ftbquests.chapter.tools.quest16.description2":"- &d“右击”&r以存放物品。（译注：会直接存放手上的所有物品）",
     "ftbquests.chapter.tools.quest16.description3":"- &d“Shift+右击”&r可存放一整组物品。（译注：并不能，空手Shift右击会抱起整个抽屉）",
