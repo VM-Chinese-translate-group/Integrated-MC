@@ -961,8 +961,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.elemental_magic.quest33.title}"
-			x: 4.5d
-			y: 1.0d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
 			id: "0CFC0A7E3675A8C3"
@@ -1040,8 +1040,8 @@
 				item: "ice_and_fire_spellbooks:thunderous_dragon_priest_staff"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.0d
+			x: 4.5d
+			y: 1.0d
 		}
 		{
 			id: "52C3BA5D46C31645"
@@ -1103,8 +1103,8 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
-			y: -10.0d
+			x: -4.0d
+			y: -8.5d
 		}
 		{
 			id: "281A89F791793613"
@@ -1119,8 +1119,8 @@
 				item: "ice_and_fire_spellbooks:silver_dragon_priest_staff"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -8.5d
+			x: -3.5d
+			y: -10.0d
 		}
 		{
 			id: "2A8918EF458AE35F"
@@ -1182,8 +1182,8 @@
 					type: "item"
 				}
 			]
-			x: 12.5d
-			y: -10.0d
+			x: 13.0d
+			y: -8.5d
 		}
 		{
 			id: "751B229C2BB700E8"
@@ -1198,8 +1198,8 @@
 				item: "ice_and_fire_spellbooks:crimson_dragon_priest_staff"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -8.5d
+			x: 12.5d
+			y: -10.0d
 		}
 		{
 			id: "7FC99D5D2C5C4482"
@@ -1228,7 +1228,7 @@
 					Count: 1
 					id: "irons_spellbooks:evoker_spell_book"
 					tag: {
-						ISB_Spells: {
+						irons_spellbooks:spell_container: {
 							data: [
 								{
 									id: "irons_spellbooks:fang_strike"
@@ -1405,36 +1405,16 @@
 				id: "30BEA46E251DC823"
 				item: {
 					Count: 1
-					id: "irons_spellbooks:necronomicon_spell_book"
+					id: "irons_spellbooks:cursed_doll_spell_book"
 					tag: {
-						ISBEnhance: "irons_spellbooks:raise_dead"
-						ISB_Spells: {
-							data: [
-								{
-									id: "irons_spellbooks:blood_slash"
-									index: 0
-									level: 5
-									locked: 1b
-								}
-								{
-									id: "irons_spellbooks:blood_step"
-									index: 1
-									level: 5
-									locked: 1b
-								}
-								{
-									id: "irons_spellbooks:ray_of_siphoning"
-									index: 2
-									level: 5
-									locked: 1b
-								}
-								{
-									id: "irons_spellbooks:blaze_storm"
-									index: 3
-									level: 5
-									locked: 1b
-								}
-							]
+						"irons_spellbooks:affinity_data": {
+							bonuses: {
+								"irons_spellbooks:blood_slash": 1
+								"irons_spellbooks:blood_step": 1
+							}
+						}
+						"irons_spellbooks:spell_container": {
+							data: [ ]
 							maxSpells: 10
 							mustEquip: 1b
 							spellWheel: 1b
@@ -1447,16 +1427,34 @@
 			y: -13.0d
 		}
 		{
-			description: ["{ftbquests.chapter.elemental_magic.quest45.description1}"]
+description: [""]
 			id: "796534C3C2618DC5"
-			subtitle: "{ftbquests.chapter.elemental_magic.quest45.subtitle}"
+			rewards: [
+				{
+					count: 5
+					id: "36618E7F1B207A4B"
+					item: "irons_spellbooks:rare_ink"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7BBD1E32EECA46D7"
+					item: "irons_spellbooks:epic_ink"
+					type: "item"
+				}
+				{
+					id: "762B97D325BD6725"
+					item: "irons_spellbooks:legendary_ink"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0EA887AAAC9FDE9E"
 				item: {
 					Count: 1
-					id: "ice_and_fire_spellbooks:dragonmancers_oathbook"
+					id: "irons_spellbooks:ice_spell_book"
 					tag: {
-						ISB_Spells: {
+						"irons_spellbooks:spell_container": {
 							data: [ ]
 							maxSpells: 12
 							mustEquip: 1b
@@ -1663,6 +1661,47 @@
 			}]
 			x: 13.5d
 			y: -9.5d
+		}
+		{
+			description: [""]
+			id: "3A0D503B3D415FF1"
+			rewards: [
+				{
+					count: 5
+					id: "5FF9D3415F5B0A6A"
+					item: "irons_spellbooks:rare_ink"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "38E535EDC6CB0B5A"
+					item: "irons_spellbooks:epic_ink"
+					type: "item"
+				}
+				{
+					id: "24424F7BA1C1C211"
+					item: "irons_spellbooks:legendary_ink"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "78EEA82C9105FF68"
+				item: {
+					Count: 1
+					id: "traveloptics:the_diamantic_archive"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
 		}
 	]
 	title: "{ftbquests.chapter.elemental_magic.title}"

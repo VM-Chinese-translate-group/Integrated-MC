@@ -615,7 +615,7 @@
 					tag: {
 						RepairCost: 0
 						display: {
-							Name: "{\"text\":\"A Child's Gift\"}"
+							Name: "{\"text\":\"一个孩子的礼物\"}"
 						}
 					}
 				}
@@ -636,11 +636,17 @@
 		{
 			can_repeat: true
 			dependencies: ["3DCE077F2537A980"]
+			description: [
+				"你击退袭击者的英勇事迹早已传遍四方村庄。"
+				""
+				"&7消耗5级经验即可获得3分钟的村庄英雄 II 效果。此效果无法叠加，建议勿一次性投入大量经验连续兑换。"
+			]
 			icon: "minecraft:emerald"
 			id: "01EBD437B2203CA4"
 			optional: true
 			rewards: [{
-				command: "/effect give @p minecraft:hero_of_the_village 500"
+				command: "/effect give @s minecraft:hero_of_the_village 180 1"
+				exclude_from_claim_all: true
 				icon: "minecraft:emerald"
 				id: "5DC888DAE5316F6E"
 				title: "{ftbquests.chapter.village_quests.quest9.reward_6757801714598899566.title}"
@@ -656,7 +662,7 @@
 			}]
 			title: "{ftbquests.chapter.village_quests.quest9.title}"
 			x: 5.5d
-			y: -13.5d
+			y: -13.0d
 		}
 		{
 			can_repeat: true
@@ -820,8 +826,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest12.title}"
-			x: -4.5d
-			y: -2.0d
+			x: -6.5d
+			y: -0.75d
 		}
 		{
 			description: [
@@ -842,8 +848,8 @@
 				type: "structure"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest13.title}"
-			x: -4.5d
-			y: -3.0d
+			x: -8.5d
+			y: -0.75d
 		}
 		{
 			dependencies: ["6DA7ACC4B17C7A44"]
@@ -927,8 +933,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest14.title}"
-			x: -5.5d
-			y: -3.5d
+			x: -9.0d
+			y: -2.0d
 		}
 		{
 			dependency_requirement: "one_started"
@@ -1033,8 +1039,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest16.title}"
-			x: -3.5d
-			y: -3.5d
+			x: -9.0d
+			y: 0.5d
 		}
 		{
 			description: [
@@ -1056,7 +1062,7 @@
 			}]
 			title: "{ftbquests.chapter.village_quests.quest17.title}"
 			x: -0.5d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2162E50E99B2C533"]
@@ -1130,7 +1136,6 @@
 					type: "choice"
 				}
 			]
-			shape: "square"
 			subtitle: "{ftbquests.chapter.village_quests.quest19.subtitle}"
 			tasks: [
 				{
@@ -1529,7 +1534,6 @@
 					xp_levels: 5
 				}
 			]
-			shape: "square"
 			subtitle: "{ftbquests.chapter.village_quests.quest26.subtitle}"
 			tasks: [
 				{
@@ -1680,6 +1684,7 @@
 				""
 				"{ftbquests.chapter.village_quests.quest30.description4}"
 			]
+			hide_until_deps_complete: false
 			icon: "ars_nouveau:water_essence"
 			id: "30DFA334B31B28CF"
 			rewards: [
@@ -1706,7 +1711,6 @@
 					type: "random"
 				}
 			]
-			shape: "square"
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.village_quests.quest30.subtitle}"
 			tasks: [
@@ -1716,24 +1720,21 @@
 					type: "item"
 				}
 				{
-					id: "33511F9CB4C91D23"
-					item: {
-						Count: 1
-						id: "alexscaves:biome_treat"
-						tag: {
-							CaveBiome: "wilderwild:oasis"
-						}
-					}
-					title: "{ftbquests.chapter.village_quests.quest30.task_+3697771526956326179.title}"
-					type: "item"
-				}
-				{
 					id: "5CCA8097C47AC108"
 					item: "minecraft:water_bucket"
 					type: "item"
 				}
 				{
-					id: "230D7326641895B4"
+					id: "2FB8B68A4BED830F"
+					item: {
+						Count: 1
+						id: "alexscaves:biome_treat"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "42F1854EA3444D95"
 					title: "{ftbquests.chapter.village_quests.quest30.task_+2525801574750000564.title}"
 					type: "checkmark"
 				}
@@ -2035,7 +2036,7 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "circle"
 			subtitle: "{ftbquests.chapter.village_quests.quest36.subtitle}"
 			tasks: [
 				{
@@ -2207,8 +2208,8 @@
 				type: "structure"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest39.title}"
-			x: 3.5d
-			y: 3.75d
+			x: -2.25d
+			y: -1.5d
 		}
 		{
 			description: [
@@ -2235,15 +2236,15 @@
 				type: "structure"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest40.title}"
-			x: 0.0d
-			y: 3.0d
+			x: -2.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["70F08FB0A44B9B94"]
 			id: "76B79195000014B1"
 			secret: true
 			shape: "diamond"
-			size: 1.5d
+			size: 1.5d			
+			subtitle: "熙熙攘攘的贸易枢纽，工匠、农夫及各方人士云集于此。"
 			tasks: [{
 				id: "77B252BD639B5AFD"
 				structure: "integrated_villages:mediterranean_village"
@@ -2251,8 +2252,8 @@
 				type: "structure"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest41.title}"
-			x: -5.25d
-			y: 5.25d
+			x: 2.25d
+			y: 2.25d
 		}
 		{
 			description: [
@@ -3070,8 +3071,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest59.title}"
-			x: -1.0d
-			y: 5.0d
+			x: -3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6449C6A7A5AB1BCA"]
@@ -3113,8 +3114,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest60.title}"
-			x: -1.0d
-			y: 6.5d
+			x: -3.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["365871124C0A4C2D"]
@@ -3146,8 +3147,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest61.title}"
-			x: -1.0d
-			y: 8.0d
+			x: -3.0d
+			y: 9.0d
 		}
 		{
 			can_repeat: true
@@ -3177,8 +3178,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest62.title}"
-			x: -2.5d
-			y: 8.0d
+			x: -4.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["4665C398E1FEFC69"]
@@ -3396,8 +3397,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest65.title}"
-			x: 0.0d
-			y: 5.5d
+			x: -2.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["54BED0E8315B4352"]
@@ -3418,8 +3419,8 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest66.title}"
-			x: 0.0d
-			y: 4.5d
+			x: -2.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -3442,8 +3443,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest67.title}"
-			x: 1.0d
-			y: 5.0d
+			x: -1.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0ED1F398AAC94813"]
@@ -3476,8 +3477,8 @@
 				type: "advancement"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest68.title}"
-			x: 1.0d
-			y: 6.5d
+			x: -1.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["1B4CF8A3B65B17EB"]
@@ -3600,8 +3601,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest69.title}"
-			x: 0.0d
-			y: 6.5d
+			x: -2.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["7E508B292B8F29F5"]
@@ -3670,8 +3671,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest70.title}"
-			x: 0.0d
-			y: 7.5d
+			x: -2.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["2951C43CB2CC87B9"]
@@ -3747,8 +3748,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest71.title}"
-			x: 1.0d
-			y: 8.0d
+			x: -1.0d
+			y: 9.0d
 		}
 		{
 			description: ["{ftbquests.chapter.village_quests.quest72.description1}"]
@@ -3761,8 +3762,8 @@
 				title: "{ftbquests.chapter.village_quests.quest72.task_+5840229510990728839.title}"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: 11.0d
+			x: -2.5d
+			y: 12.0d
 		}
 		{
 			description: ["{ftbquests.chapter.village_quests.quest73.description1}"]
@@ -3775,8 +3776,8 @@
 				title: "{ftbquests.chapter.village_quests.quest73.task_+387643706122680995.title}"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: 10.0d
+			x: -2.5d
+			y: 11.0d
 		}
 		{
 			description: ["{ftbquests.chapter.village_quests.quest74.description1}"]
@@ -3789,8 +3790,8 @@
 				title: "{ftbquests.chapter.village_quests.quest74.task_+7050279930087892010.title}"
 				type: "checkmark"
 			}]
-			x: 0.5d
-			y: 10.0d
+			x: -1.5d
+			y: 11.0d
 		}
 		{
 			description: ["{ftbquests.chapter.village_quests.quest75.description1}"]
@@ -3803,8 +3804,8 @@
 				title: "{ftbquests.chapter.village_quests.quest75.task_+8092433256826698667.title}"
 				type: "checkmark"
 			}]
-			x: 0.5d
-			y: 11.0d
+			x: -1.5d
+			y: 12.0d
 		}
 		{
 			description: ["{ftbquests.chapter.village_quests.quest76.description1}"]
@@ -3817,8 +3818,8 @@
 				title: "{ftbquests.chapter.village_quests.quest76.task_+650827683162146393.title}"
 				type: "checkmark"
 			}]
-			x: 0.5d
-			y: 12.0d
+			x: -1.5d
+			y: 13.0d
 		}
 		{
 			description: ["{ftbquests.chapter.village_quests.quest77.description1}"]
@@ -3831,8 +3832,8 @@
 				title: "{ftbquests.chapter.village_quests.quest77.task_+2689926099053436417.title}"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: 12.0d
+			x: -2.5d
+			y: 13.0d
 		}
 		{
 			description: ["{ftbquests.chapter.village_quests.quest78.description1}"]
@@ -3845,8 +3846,8 @@
 				title: "{ftbquests.chapter.village_quests.quest78.task_+4326959413666351987.title}"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 13.0d
+			x: -2.0d
+			y: 14.0d
 		}
 		{
 			can_repeat: true
@@ -3873,8 +3874,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest79.title}"
-			x: 2.5d
-			y: 8.0d
+			x: 0.5d
+			y: 9.0d
 		}
 		{
 			can_repeat: true
@@ -3912,8 +3913,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest80.title}"
-			x: 1.0d
-			y: 9.0d
+			x: -1.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["739967C9DA90AF30"]
@@ -3940,8 +3941,8 @@
 				type: "advancement"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest81.title}"
-			x: -1.0d
-			y: 9.0d
+			x: -3.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["70F08FB0A44B9B94"]
@@ -3972,8 +3973,8 @@
 				type: "structure"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest83.title}"
-			x: -6.75d
-			y: 5.25d
+			x: -5.25d
+			y: 6.75d
 		}
 		{
 			dependencies: ["70F08FB0A44B9B94"]
@@ -3988,8 +3989,8 @@
 				type: "structure"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest84.title}"
-			x: -5.25d
-			y: 6.75d
+			x: -6.75d
+			y: 5.25d
 		}
 		{
 			can_repeat: true
@@ -4031,8 +4032,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest85.title}"
-			x: 0.0d
-			y: 9.0d
+			x: -2.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["5BB9CDDB5CC625A3"]
@@ -4077,53 +4078,11 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest86.title}"
-			x: 6.0d
-			y: 6.0d
+			x: -4.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["6AAA371BABF988F6"]
-			description: [
-				"{ftbquests.chapter.village_quests.quest87.description1}"
-				""
-				"{ftbquests.chapter.village_quests.quest87.description2}"
-			]
-			icon: {
-				Count: 1
-				id: "iceandfire:deathworm_gauntlet_yellow"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "14D52F6472552559"
-			shape: "gear"
-			subtitle: "{ftbquests.chapter.village_quests.quest87.subtitle}"
-			tasks: [
-				{
-					id: "79794458849E5ABB"
-					structure: "integrated_minecraft:deathworm_pit"
-					title: "{ftbquests.chapter.village_quests.quest87.task_+8753102497744050875.title}"
-					type: "structure"
-				}
-				{
-					entity: "iceandfire:deathworm"
-					icon: {
-						Count: 1
-						id: "iceandfire:deathworm_gauntlet_yellow"
-						tag: {
-							Damage: 0
-						}
-					}
-					id: "71FC779E8B19E5EB"
-					type: "kill"
-					value: 5L
-				}
-			]
-			title: "{ftbquests.chapter.village_quests.quest87.title}"
-			x: 4.5d
-			y: 9.0d
-		}
-		{
-			dependencies: ["14D52F6472552559"]
+			dependencies: ["54D7532C8C194FDB"]
 			description: [
 				"{ftbquests.chapter.village_quests.quest88.description1}"
 				""
@@ -4161,8 +4120,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest88.title}"
-			x: 6.0d
-			y: 10.0d
+			x: -7.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["5F94DA31EAEFEC00"]
@@ -4250,8 +4209,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest89.title}"
-			x: 4.5d
-			y: 7.0d
+			x: -5.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["075884C5ED718014"]
@@ -4286,8 +4245,8 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest90.title}"
-			x: 6.0d
-			y: 8.0d
+			x: -7.0d
+			y: -4.0d
 		}
 		{
 			can_repeat: true
@@ -4314,8 +4273,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest91.title}"
-			x: 4.5d
-			y: 11.0d
+			x: -6.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5BB9CDDB5CC625A3"]
@@ -4374,8 +4333,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest92.title}"
-			x: 5.5d
-			y: 3.5d
+			x: -2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1E19811D3170031B"]
@@ -4492,8 +4451,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.village_quests.quest93.title}"
-			x: 7.0d
-			y: 4.0d
+			x: -3.0d
+			y: -4.5d
 		}
 		{
 			can_repeat: true
@@ -4524,8 +4483,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest94.title}"
-			x: 10.0d
-			y: 5.0d
+			x: -5.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["36793C32901CF405"]
@@ -4553,27 +4512,36 @@
 				""
 				"{ftbquests.chapter.village_quests.quest95.image0}"
 			]
+			icon: "domesticationinnovation:pet_bed_magenta"
 			id: "1B7C5F7C97E82D22"
+			min_required_tasks: 1
 			rewards: [{
 				id: "326D54DA2273F42D"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
 			subtitle: "{ftbquests.chapter.village_quests.quest95.subtitle}"
-			tasks: [{
-				hasCustomPicture: false
-				icon: "domesticationinnovation:pet_bed_magenta"
-				id: "2BE6931A51A948A3"
-				ignoreState: true
-				layer: false
-				name: "Cat_Tower"
-				rightclick: false
-				title: "{ftbquests.chapter.village_quests.quest95.task_+3163377529522833571.title}"
-				type: "questsadditions:structure"
-			}]
+			tasks: [
+				{
+					hasCustomPicture: false
+					icon: "domesticationinnovation:pet_bed_magenta"
+					id: "2BE6931A51A948A3"
+					ignoreState: true
+					layer: false
+					name: "Cat_Tower"
+					rightclick: false
+					title: "{ftbquests.chapter.village_quests.quest95.task_+3163377529522833571.title}"
+					type: "questsadditions:structure"
+				}
+				{
+					id: "08BF35BB8EFCFC5D"
+					title: "如果结构目标未生效，点我"
+					type: "checkmark"
+				}
+			]
 			title: "{ftbquests.chapter.village_quests.quest95.title}"
-			x: 8.5d
-			y: 4.5d
+			x: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["70F08FB0A44B9B94"]
@@ -4588,8 +4556,426 @@
 				type: "structure"
 			}]
 			title: "{ftbquests.chapter.village_quests.quest96.title}"
-			x: -4.0d
-			y: 6.0d
+			x: -5.25d
+			y: 5.25d
+		}
+		{
+			dependencies: ["6AAA371BABF988F6"]
+			description: [
+				"你谨慎地靠近&6死亡蠕虫&r的巢穴。乍看之下，这不过是地表的一个巨型深坑。但半掩于黄沙中的森森巨骨却无声地警告着你：绝不可轻敌。"
+				""
+				"清剿&e死亡蠕虫坑&r时，你察觉到它们的舌头是打造强力武器的绝佳材料。你决定设法获取一条带回村庄。若能拥有&e死亡蠕虫打造的武器&r，村民们定能高枕无忧。"
+			]
+			icon: {
+				Count: 1
+				id: "iceandfire:deathworm_gauntlet_yellow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "54D7532C8C194FDB"
+			shape: "gear"
+			subtitle: "潜藏于黄沙之下"
+			tasks: [
+				{
+					id: "05A098CED4AB7F11"
+					structure: "integrated_minecraft:deathworm_pit"
+					title: "Find the Deathworm Pit"
+					type: "structure"
+				}
+				{
+					entity: "iceandfire:deathworm"
+					icon: {
+						Count: 1
+						id: "iceandfire:deathworm_gauntlet_yellow"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "53928F9BD8282FFE"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "沙丘之灾 IV"
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["76B79195000014B1"]
+			description: [
+				"&b“不！给我回来！等等！！！你绝不能这么做！”&r"
+				""
+				"刚踏入村庄，你便听见阵阵叫喊，于是循声找去。只见一名神情崩溃的村民正大口喘着粗气。他抬起头看向你。&b“&3*喘*&b噢，你好。我没注意到你&3*喘*&b在这儿。&3*喘 喘*&b你来得&3*喘*&b真不是&3*喘*&b时候。稍等一下。”&r他慢慢平复了呼吸，这才继续开口。"
+				""
+				"&b“后续对话待补充……”&r"
+			]
+			id: "594E89FCA0DF3702"
+			invisible: true
+			shape: "gear"
+			subtitle: "诅咒那些邪恶的马戏团小丑"
+			tasks: [
+				{
+					entity: "caverns_and_chasms:mime"
+					id: "5A521CF85C8FF9ED"
+					type: "kill"
+					value: 5L
+				}
+				{
+					count: 64L
+					id: "5998FCCDD2A4B74C"
+					item: { Count: 64, id: "minecraft:bedrock" }
+					type: "item"
+				}
+			]
+			title: "喧闹看客 I"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["594E89FCA0DF3702"]
+			id: "7BDBFDBC01099699"
+			subtitle: "诅咒那些邪恶的马戏团小丑"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "0BA9F579E95CCA87"
+				item: "alexsmobs:acacia_blossom"
+				type: "item"
+			}]
+			title: "喧闹看客 II"
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7BDBFDBC01099699"]
+			id: "48C6DCADF98174C1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45178DAEA25A1747"
+				table_id: 7165092178448993633L
+				type: "choice"
+			}]
+			subtitle: "诅咒那些邪恶的马戏团小丑"
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/tame_elephant"
+				criterion: ""
+				id: "34F63D064670D6C4"
+				title: "Tame your own Elephant!"
+				type: "advancement"
+			}]
+			title: "喧闹看客 III"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["76B79195000014B1"]
+			id: "4355B4301B89FDB6"
+			invisible: true
+			subtitle: "12 + 1 = 一打。对吧？"
+			tasks: [
+				{
+					block: "minecraft:wheat"
+					block_type: 0
+					icon: "minecraft:wheat_seeds"
+					id: "58DBAEF074AC1EF2"
+					replace: false
+					replaced: "minecraft:air"
+					title: "种植20颗小麦种子"
+					type: "questsadditions:place"
+					value: 20L
+				}
+				{
+					count: 64L
+					id: "070289709CB596BF"
+					item: { Count: 64, id: "minecraft:bedrock" }
+					type: "item"
+				}
+			]
+			title: "面包师的一打 I"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4355B4301B89FDB6"]
+			id: "596F7D56D313AD41"
+			subtitle: "12 + 1 = 一打。对吧？"
+			tasks: [{
+				count: 20L
+				id: "116024FDCCFD27D2"
+				item: "minecraft:wheat"
+				title: "Harvest 20 Wheat"
+				type: "item"
+			}]
+			title: "面包师的一打 II"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["596F7D56D313AD41"]
+			hide_until_deps_complete: true
+			id: "3F7A470ABE1AFEFB"
+			subtitle: "12 + 1 = 一打。对吧？"
+			tasks: [
+				{
+					id: "042332A6F35BA23D"
+					item: "create:millstone"
+					type: "item"
+				}
+				{
+					id: "2EAF1836E403FC61"
+					item: "create:wheat_flour"
+					type: "item"
+				}
+			]
+			title: "面包师的一打 III"
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3F7A470ABE1AFEFB"]
+			id: "367B7C4619695C3B"
+			subtitle: "12 + 1 = 一打。对吧？"
+			tasks: [{
+				id: "6E2E16A303F44D60"
+				item: "create:dough"
+				type: "item"
+			}]
+			title: "面包师的一打 IV"
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["367B7C4619695C3B"]
+			id: "1146325F82E0CCD3"
+			rewards: [
+				{
+					count: 10
+					id: "7FE7536848092ADD"
+					item: "farmersdelight:pie_crust"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "138EF68C5FF7D673"
+					item: "farmersdelight:milk_bottle"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "6FE12C355D8309AA"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+			]
+			subtitle: "12 + 1 = 一打。对吧？"
+			tasks: [
+				{
+					id: "0BED6D99845481F1"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					id: "192CD9D6AE359D3F"
+					item: "autumnity:pumpkin_bread"
+					type: "item"
+				}
+				{
+					id: "5EF2C352977334C8"
+					item: "delightful:cantaloupe_bread"
+					type: "item"
+				}
+			]
+			title: "面包师的一打 V"
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["186902AFB716A5B6"]
+			icon: "alexsmobs:emu_feather"
+			id: "1ECD399E9FB952EC"
+			rewards: [
+				{
+					id: "253BEB0BD9B64FD3"
+					item: {
+						Count: 1
+						id: "mowziesmobs:blowgun"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "15752E0D328F3342"
+					item: "mowziesmobs:dart"
+					type: "item"
+				}
+			]
+			subtitle: "哈库纳·玛塔塔！"
+			tasks: [
+				{
+					id: "48466DD8FFBFCD16"
+					item: "alexsmobs:emu_feather"
+					title: "收集一根鸸鹋羽毛"
+					type: "item"
+				}
+				{
+					id: "6AA39AE11E74E688"
+					item: "minecraft:feather"
+					title: "收集一根普通羽毛"
+					type: "item"
+				}
+				{
+					id: "06E6F46F8F4068AD"
+					item: {
+						Count: 1
+						id: "mowziesmobs:spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "生生不息 II"
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1ECD399E9FB952EC"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "mowziesmobs:umvuthana_mask_fury"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "440BA26FFCE876E1"
+			rewards: [
+				{
+					id: "35FE9B20B9D50A02"
+					item: {
+						Count: 1
+						id: "supplementaries:cartographers_quill"
+						tag: {
+							decoration: "target_x"
+							display: {
+								Name: "{\"translate\":\"ftbquests.rewards.umvuthana.grove.explorer.map\"}"
+							}
+							maxSearchRadius: 250
+							skinKnown: 1b
+							targetStructure: "mowziesmobs:umvuthana_grove"
+							zoomLevel: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19853F516CA36EF5"
+					table_id: 8038635349536589326L
+					type: "choice"
+				}
+			]
+			shape: "gear"
+			subtitle: "哈库纳·玛塔塔！!"
+			tasks: [{
+				entity: "mowziesmobs:umvuthana"
+				id: "15B7C05D010D9928"
+				title: "击杀10只烈阳鸟"
+				type: "kill"
+				value: 10L
+			}]
+			title: "生生不息 III"
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["440BA26FFCE876E1"]
+			description: ["“乌姆纳塔是乌姆纳塔族的尊神。他以强有力的铁拳——不，应该是铁翼，统治着整片稀树草原。”"]
+			id: "1EE489DE2DEF23E1"
+			optional: true
+			rewards: [{
+				id: "49C590E7198647AD"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "gear"
+			subtitle: "哈库纳·玛塔塔！!"
+			tasks: [{
+				advancement: "mowziesmobs:kill_umvuthi"
+				criterion: ""
+				id: "5E064A518BE9D410"
+				title: "击杀乌姆纳塔，太阳神鸟"
+				type: "advancement"
+			}]
+			title: "生生不息 IV"
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1146325F82E0CCD3"]
+			id: "0FBB8DFE83277C68"
+			min_required_tasks: 1
+			optional: true
+			rewards: [{
+				auto: "disabled"
+				command: "/effect give @s farmersdelight:nourishment 300"
+				id: "21E6A954F256D3D2"
+				title: "完全滋养"
+				type: "command"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 32L
+					id: "585E592E356293F9"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "04A7E068C673DD2E"
+					item: "create:dough"
+					type: "item"
+				}
+			]
+			title: "交易：用面包或面团换取滋养"
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"48C6DCADF98174C1"
+				"596F7D56D313AD41"
+			]
+			hide_details_until_startable: true
+			id: "186902AFB716A5B6"
+			subtitle: "哈库纳·玛塔塔！!"
+			tasks: [{
+				advancement: "integrated_minecraft:quests/emu"
+				criterion: ""
+				id: "14D9A5FC9FFF0DC9"
+				title: "繁殖一对鸸鹋"
+				type: "advancement"
+			}]
+			title: "生生不息 I"
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			id: "5691037E792CD528"
+			tasks: [{
+				id: "7FB804E4F9E62729"
+				nbt: { }
+				type: "questsadditions:playernbt"
+			}]
+			x: 5.5d
+			y: 19.0d
 		}
 	]
 	title: "{ftbquests.chapter.village_quests.title}"

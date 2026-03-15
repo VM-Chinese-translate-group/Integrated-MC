@@ -30,8 +30,8 @@
 				}
 			]
 			title: "铁箱子！"
-			x: 2.0d
-			y: -0.5d
+			x: 5.5d
+			y: -1.5d
 		}
 		{
 			description: [
@@ -76,8 +76,8 @@
 				type: "item"
 			}]
 			title: "储物抽屉"
-			x: 4.0d
-			y: 0.5d
+			x: 7.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["01CE43C88220C4E5"]
@@ -95,8 +95,8 @@
 				item: "storagedrawers:controller"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 1.5d
+			x: 6.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["01CE43C88220C4E5"]
@@ -112,8 +112,8 @@
 				item: "storagedrawers:upgrade_template"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 1.5d
+			x: 7.5d
+			y: 0.5d
 		}
 		{
 			description: [
@@ -127,8 +127,8 @@
 				item: "supplementaries:sack"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -0.5d
+			x: 4.0d
+			y: 0.5d
 		}
 		{
 			description: [
@@ -217,18 +217,6 @@
 			y: -2.5d
 		}
 		{
-			id: "1F3478A2758B010B"
-			shape: "gear"
-			size: 1.5d
-			tasks: [{
-				id: "25B692F4A1F3DDDA"
-				title: "仍在制作"
-				type: "checkmark"
-			}]
-			x: 4.0d
-			y: -5.0d
-		}
-		{
 			description: [
 				"- 物品栏现在因&eInventorio&r模组而得到了极大的改进！"
 				""
@@ -259,6 +247,65 @@
 			title: "Inventorio Management"
 			x: 4.0d
 			y: -1.0d
+		}
+		{
+			description: ["将&b存储终端&r放置在存储容器侧面即可访问其内部物品。此外，任何与初始容器相连的存储容器，均可通过该终端一并访问。相连方式包括与初始容器相邻、与相邻容器相邻、与相邻容器的相邻容器相邻……好吧，你大概懂我意思了。"]
+			id: "3AC274E30545CA04"
+			subtitle: "海量存储访问"
+			tasks: [{
+				id: "37946E6C32903750"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3AC274E30545CA04"]
+			id: "74F1AE88482898A6"
+			subtitle: "海量存储访问，现在还支持合成！"
+			tasks: [{
+				id: "4109EE7EFFE6645C"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3AC274E30545CA04"]
+			description: ["可在最远16格处访问&b存储终端&r！此设备也可装备至饰品栏，并通过快捷键直接打开。"]
+			id: "0024073A760ACD0B"
+			subtitle: "范围扩展"
+			tasks: [{
+				id: "306F95A058E82844"
+				item: "toms_storage:ts.wireless_terminal"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"&b线缆&r与&b线缆连接器&r可在存储容器与存储终端之间延伸铺设，将各设备互连以构建海量存储网络。"
+				"&7注意：使用线缆连接时，部分存储容器（尤其是模组容器）偶尔会发生故障并吞没物品。请自行承担风险。"
+			]
+			id: "015DD68607C866AC"
+			subtitle: "连接海量存储"
+			tasks: [
+				{
+					id: "38355DFA79441083"
+					item: "toms_storage:ts.inventory_cable"
+					type: "item"
+				}
+				{
+					id: "3A0B3366817ABB4F"
+					item: "toms_storage:ts.inventory_cable_connector"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -1.5d
 		}
 	]
 	title: "{ftbquests.chapter.storage_solutions.title}"

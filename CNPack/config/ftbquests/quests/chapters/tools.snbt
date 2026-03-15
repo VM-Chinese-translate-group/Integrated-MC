@@ -304,18 +304,6 @@
 			x: 4.0d
 			y: -1.0d
 		}
-		{
-			id: "15625425098F66D6"
-			shape: "gear"
-			size: 1.5d
-			tasks: [{
-				id: "373FE2D603910786"
-				title: "仍在制作"
-				type: "checkmark"
-			}]
-			x: 2.5d
-			y: -3.5d
-		}
 	]
 	title: "{ftbquests.chapter.tools.title}"
 }

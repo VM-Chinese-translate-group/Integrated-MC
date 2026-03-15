@@ -82,18 +82,6 @@
 			x: 5.0d
 			y: 0.0d
 		}
-		{
-			id: "066A1D5D53496042"
-			shape: "gear"
-			size: 1.5d
-			tasks: [{
-				id: "07AE969A44BD0EDE"
-				title: "正在制作中"
-				type: "checkmark"
-			}]
-			x: 3.5d
-			y: -2.0d
-		}
 	]
 	title: "动物训练家"
 }

@@ -527,8 +527,8 @@
 					type: "item"
 				}
 				{
-					id: "68B0B2FCECBE99EE"
-					item: "createmetallurgy:glassed_foundry_lid"
+					id: "18B828EDC81FD9A2"
+					item: "createmetallurgy:foundry_lid"
 					type: "item"
 				}
 			]

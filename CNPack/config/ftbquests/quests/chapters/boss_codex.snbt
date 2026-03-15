@@ -154,7 +154,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 11.5d
+			x: 6.0d
 			y: -4.0d
 		}
 		{
@@ -365,8 +365,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 6.0d
-			y: -8.5d
+			x: 3.0d
+			y: -7.0d
 		}
 		{
 			description: [
@@ -418,9 +418,8 @@
 				title: "{ftbquests.chapter.boss_codex.quest12.task_+230090229046086464.title}"
 				type: "kill"
 				value: 1L
-			}]
-			x: 21.0d
-			y: -7.0d
+			}]			x: 14.0d
+			y: -4.0d
 		}
 		{
 			description: [
@@ -445,8 +444,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.5d
-			y: -7.0d
+			x: 6.0d
+			y: -8.5d
 		}
 		{
 			description: [
@@ -607,7 +606,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 3.0d
+			x: 4.5d
 			y: -5.5d
 		}
 		{
@@ -633,7 +632,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 3.0d
+			x: 4.5d
 			y: -7.0d
 		}
 		{
@@ -1166,8 +1165,8 @@
 				title: "{ftbquests.chapter.boss_codex.quest34.task_+2655219424698473926.title}"
 				type: "advancement"
 			}]
-			x: 6.0d
-			y: -7.0d
+			x: 3.0d
+			y: -5.5d
 		}
 		{
 			description: [
@@ -1418,8 +1417,8 @@
 				title: "{ftbquests.chapter.boss_codex.quest43.task_+5153211233704959638.title}"
 				type: "advancement"
 			}]
-			x: 4.5d
-			y: -5.5d
+			x: 6.0d
+			y: -7.0d
 		}
 		{
 			description: [
@@ -1750,12 +1749,12 @@
 				entity: "traveloptics:the_nightwarden"
 				icon: "traveloptics:eye_of_nothingness"
 				id: "40659397CD292AC1"
-				title: "&c★★★★☆ 夜巡者！"
+				title: "&4★★★★★ 夜巡者！"
 				type: "kill"
 				value: 1L
 			}]
-			x: 14.0d
-			y: -4.0d
+			x: 21.0d
+			y: -7.0d
 		}
 		{
 			description: [

@@ -4,7 +4,7 @@
 	filename: "building_a_base"
 	group: "22F79693740523BB"
 	id: "76E051A37DBE9FEF"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -108,18 +108,6 @@
 			}]
 			x: 2.0d
 			y: 0.0d
-		}
-		{
-			id: "6CAFC730EE9E44E9"
-			shape: "gear"
-			size: 1.5d
-			tasks: [{
-				id: "0DDB472BDA69501E"
-				title: "仍在制作"
-				type: "checkmark"
-			}]
-			x: 1.0d
-			y: -2.0d
 		}
 	]
 	title: "建一个基地"

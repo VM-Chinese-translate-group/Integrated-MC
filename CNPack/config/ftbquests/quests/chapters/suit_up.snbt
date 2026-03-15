@@ -1545,7 +1545,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.suit_up.quest26.title}"
-			x: -1.0d
+			x: -2.0d
 			y: -6.5d
 		}
 		{
@@ -1666,7 +1666,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.suit_up.quest28.title}"
-			x: 0.0d
+			x: -1.0d
 			y: -6.5d
 		}
 		{
@@ -2894,6 +2894,171 @@
 			title: "{ftbquests.chapter.suit_up.quest68.title}"
 			x: 7.5d
 			y: 1.0d
+		}
+		{
+			id: "3FD44295355BD49B"
+			shape: "octagon"
+			subtitle: "风暴飞升技能。水系与雷电流派加成"
+			tasks: [
+				{
+					id: "5B215E5571AF175B"
+					item: {
+						Count: 1
+						id: "traveloptics:riptide_sovereign_hat"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "61015FD8BF2BB846"
+					item: {
+						Count: 1
+						id: "traveloptics:riptide_sovereign_fincloak"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08EB018DECAD5822"
+					item: {
+						Count: 1
+						id: "traveloptics:riptide_sovereign_leggings"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "349B9E3FAA79A6F4"
+					item: {
+						Count: 1
+						id: "traveloptics:riptide_sovereign_boots"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "激流君王战甲"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			id: "32A412608013191D"
+			shape: "octagon"
+			subtitle: "夜落统御技能。远古巫术与鲜血流派加成"
+			tasks: [
+				{
+					id: "01332C6E16E5FEED"
+					item: {
+						Count: 1
+						id: "traveloptics:forlorn_harbinger_hood"
+						tag: {
+							PerkData: [
+								{
+									Slot: "arsthreadexpansion:slot_1"
+									Tier: 3
+								}
+								{
+									Slot: "arsthreadexpansion:slot_2"
+									Tier: 2
+								}
+								{
+									Slot: "arsthreadexpansion:slot_3"
+									Tier: 1
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5079EF2267E6DB43"
+					item: {
+						Count: 1
+						id: "traveloptics:forlorn_harbinger_robe"
+						tag: {
+							PerkData: [
+								{
+									Slot: "arsthreadexpansion:slot_1"
+									Tier: 3
+								}
+								{
+									Slot: "arsthreadexpansion:slot_2"
+									Tier: 1
+								}
+								{
+									Slot: "arsthreadexpansion:slot_3"
+									Tier: 1
+								}
+							]
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3062CE58EFFC0512"
+					item: {
+						Count: 1
+						id: "traveloptics:forlorn_harbinger_leggings"
+						tag: {
+							PerkData: [
+								{
+									Slot: "arsthreadexpansion:slot_1"
+									Tier: 2
+								}
+								{
+									Slot: "arsthreadexpansion:slot_2"
+									Tier: 2
+								}
+								{
+									Slot: "arsthreadexpansion:slot_3"
+									Tier: 1
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0717CA94F67DCB4E"
+					item: {
+						Count: 1
+						id: "traveloptics:forlorn_harbinger_boots"
+						tag: {
+							PerkData: [
+								{
+									Slot: "arsthreadexpansion:slot_1"
+									Tier: 2
+								}
+								{
+									Slot: "arsthreadexpansion:slot_2"
+									Tier: 1
+								}
+								{
+									Slot: "arsthreadexpansion:slot_3"
+									Tier: 1
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "异寂先兆盔甲"
+			x: 1.0d
+			y: -6.5d
 		}
 	]
 	title: "{ftbquests.chapter.suit_up.title}"

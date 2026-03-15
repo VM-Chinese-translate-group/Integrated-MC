@@ -1018,7 +1018,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["14D52F6472552559"]
 			description: [""]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true

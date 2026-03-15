@@ -107,7 +107,7 @@
 				consume_items: true
 				count: 3L
 				id: "7944C5603905DCF1"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.nether_biome_maps.quest5.title}"
@@ -154,7 +154,7 @@
 				consume_items: true
 				count: 3L
 				id: "3183F6C6E7E8F6EB"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.nether_biome_maps.quest7.title}"
@@ -185,7 +185,7 @@
 				consume_items: true
 				count: 3L
 				id: "52F8892791C758B4"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.nether_biome_maps.quest8.title}"
@@ -216,7 +216,7 @@
 				consume_items: true
 				count: 3L
 				id: "77E8CDA9C52B5FE0"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.nether_biome_maps.quest9.title}"
@@ -247,7 +247,7 @@
 				consume_items: true
 				count: 3L
 				id: "1AE6C17F5A6A6587"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.nether_biome_maps.quest10.title}"
@@ -278,7 +278,7 @@
 				consume_items: true
 				count: 3L
 				id: "26D64A8A6455CC69"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.nether_biome_maps.quest11.title}"
@@ -309,7 +309,7 @@
 				consume_items: true
 				count: 3L
 				id: "3502C07252937F4A"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.nether_biome_maps.quest12.title}"
@@ -340,7 +340,7 @@
 				consume_items: true
 				count: 3L
 				id: "0729C1BDCFAF10B8"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.nether_biome_maps.quest13.title}"
@@ -371,7 +371,7 @@
 				consume_items: true
 				count: 3L
 				id: "25FFC4DD92A4DF33"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.nether_biome_maps.quest14.title}"
@@ -402,7 +402,7 @@
 				consume_items: true
 				count: 3L
 				id: "26E3869A772D565E"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.nether_biome_maps.quest15.title}"
@@ -433,7 +433,7 @@
 				consume_items: true
 				count: 3L
 				id: "57B88F9005277461"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.nether_biome_maps.quest16.title}"
@@ -464,7 +464,7 @@
 				consume_items: true
 				count: 3L
 				id: "73CCACA90609E1F0"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.nether_biome_maps.quest17.title}"
@@ -495,7 +495,7 @@
 				consume_items: true
 				count: 3L
 				id: "7003F9499F2A1BED"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.nether_biome_maps.quest18.title}"
@@ -526,7 +526,7 @@
 				consume_items: true
 				count: 3L
 				id: "79CE1349F68567C3"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.nether_biome_maps.quest19.title}"
@@ -557,7 +557,7 @@
 				consume_items: true
 				count: 3L
 				id: "02C872BB88B440B4"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.nether_biome_maps.quest20.title}"
@@ -588,7 +588,7 @@
 				consume_items: true
 				count: 3L
 				id: "39FD25F5BB8CAD14"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.nether_biome_maps.quest21.title}"
@@ -619,7 +619,7 @@
 				consume_items: true
 				count: 3L
 				id: "7C164847831F674B"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.nether_biome_maps.quest22.title}"
@@ -650,7 +650,7 @@
 				consume_items: true
 				count: 3L
 				id: "1D9761836C8D5DF7"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.nether_biome_maps.quest23.title}"
@@ -681,7 +681,7 @@
 				consume_items: true
 				count: 3L
 				id: "42389EC31DFBAD19"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.nether_biome_maps.quest24.title}"
@@ -712,7 +712,7 @@
 				consume_items: true
 				count: 3L
 				id: "11FD3228E812C9DA"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.nether_biome_maps.quest25.title}"
@@ -743,7 +743,7 @@
 				consume_items: true
 				count: 3L
 				id: "403C45E5E6CD3C72"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.nether_biome_maps.quest26.title}"
@@ -774,7 +774,7 @@
 				consume_items: true
 				count: 3L
 				id: "71D752E20C52FF40"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.nether_biome_maps.quest27.title}"
@@ -805,7 +805,7 @@
 				consume_items: true
 				count: 3L
 				id: "05319E72DA6D91B2"
-				item: { Count: 3, id: "rubinated_nether:ruby" }
+				item: "rubinated_nether:ruby"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.nether_biome_maps.quest28.title}"
